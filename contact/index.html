@@ -25,7 +25,74 @@
         rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
     <style>
-        /* ... */
+        .contact-form {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--color-bg);
+            padding: 60px;
+            border-radius: 16px;
+            border: 1px solid var(--color-border);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .form-note {
+            font-size: 0.8rem;
+            color: var(--color-text-muted);
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .contact-form {
+                padding: 30px 15px;
+            }
+        }
+
+        /* Googleフォームのiframeスタイル */
+        .google-form-wrapper {
+            width: 100%;
+            min-height: 1600px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .google-form-wrapper iframe {
+            width: 100%;
+            max-width: 700px;
+            height: 1600px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .google-form-wrapper {
+                min-height: 1800px;
+            }
+
+            .google-form-wrapper iframe {
+                height: 1800px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .google-form-wrapper {
+                min-height: 2000px;
+            }
+
+            .google-form-wrapper iframe {
+                height: 2000px;
+            }
+        }
+
+        @media (max-width: 375px) {
+            .google-form-wrapper {
+                min-height: 2800px;
+            }
+
+            .google-form-wrapper iframe {
+                height: 2800px;
+            }
+        }
     </style>
 </head>
 
