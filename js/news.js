@@ -97,7 +97,7 @@ function createNewsItem(item) {
 
     return `
         <li class="news__item">
-            <a href="news_detail.html?id=${item.id}" class="news__link">
+            <a href="/news/detail/?id=${item.id}" class="news__link">
                 <div class="news__meta">
                     <time class="news__date" datetime="${item.date}">${formatDate(item.date)}</time>
                     <span class="news__tag">${categoryName}</span>
@@ -129,7 +129,8 @@ async function renderNews(containerId, limit) {
 
         // Hide "View All" button if on index page and no news
         const moreLink = document.querySelector('.news__more');
-        if (moreLink && window.location.pathname.endsWith('index.html')) {
+        const path = window.location.pathname;
+        if (moreLink && (path === '/' || path === '/index.html')) {
             moreLink.style.display = 'none';
         }
         return;
@@ -168,7 +169,7 @@ async function renderNewsDetail(containerId) {
     const id = urlParams.get('id');
 
     if (!id) {
-        window.location.href = 'news.html';
+        window.location.href = '/news/';
         return;
     }
 
@@ -198,12 +199,13 @@ async function renderNewsDetail(containerId) {
 // Initialize based on page
 document.addEventListener('DOMContentLoaded', () => {
     const path = window.location.pathname;
+    const normalizedPath = path.replace(/\/index\.html$/, '').replace(/\/$/, '');
 
-    if (path.endsWith('index.html') || path === '/' || path.endsWith('/')) {
+    if (normalizedPath === '') {
         renderNews('news-container', 3);
-    } else if (path.endsWith('news.html')) {
+    } else if (normalizedPath === '/news') {
         renderNews('news-container', 20);
-    } else if (path.endsWith('news_detail.html')) {
+    } else if (normalizedPath === '/news/detail') {
         renderNewsDetail('news-detail-container');
     }
 });
