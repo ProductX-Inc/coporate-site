@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - ProductX</title>
+    <meta name="description" content="ProductXへのお問い合わせ。">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+
+    <!-- OGP -->
+    <meta property="og:title" content="Contact - ProductX">
+    <meta property="og:description" content="ProductXへのお問い合わせ。お気軽にご連絡ください。">
+    <meta property="og:image" content="images/ogp.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ProductX">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .contact-form {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--color-bg);
+            padding: 60px;
+            border-radius: 16px;
+            border: 1px solid var(--color-border);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .form-group {
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+            color: var(--color-text-muted);
+        }
+
+        .form-control {
+            width: 100%;
+            background: var(--color-bg-alt);
+            border: 1px solid var(--color-border);
+            padding: 15px;
+            color: var(--color-text);
+            font-size: 1rem;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--color-accent);
+            background: var(--color-bg);
+            box-shadow: 0 0 0 3px rgba(88, 86, 214, 0.1);
+        }
+
+        textarea.form-control {
+            height: 200px;
+            resize: vertical;
+        }
+
+        .form-submit {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .form-note {
+            font-size: 0.8rem;
+            color: var(--color-text-muted);
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .contact-form {
+                padding: 30px;
+            }
+        }
+
+        /* Googleフォームのiframeスタイル */
+        .google-form-wrapper {
+            width: 100%;
+            min-height: 1600px;
+        }
+
+        .google-form-wrapper iframe {
+            width: 100%;
+            max-width: 700px;
+            height: 1600px;
+            border: none;
+            border-radius: 8px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .google-form-wrapper iframe {
+                height: 1800px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .google-form-wrapper iframe {
+                height: 2000px;
+            }
+        }
+
+        @media (max-width: 375px) {
+            .google-form-wrapper iframe {
+                height: 2800px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="header__logo">
+            <img src="images/logo.png" alt="ProductX">
+        </a>
+        <button class="header__hamburger" id="js-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a href="about.html">Mission</a></li>
+                <li class="header__item"><a href="services.html">Services</a></li>
+                <li class="header__item"><a href="news.html">News</a></li>
+                <li class="header__item"><a href="contact.html" class="btn btn--primary">Start</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="page-header">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="container">
+                <h1 class="page-title reveal-text">Contact</h1>
+                <p class="reveal-text">Let's build the future together.</p>
+            </div>
+        </div>
+
+        <section class="section">
+            <div class="container">
+                <div class="contact-form reveal-text">
+                    <!-- Googleフォーム埋め込み -->
+                    <div class="google-form-wrapper">
+                        <iframe
+                            src="https://docs.google.com/forms/d/e/1FAIpQLSfDZZkOq4FjTnrtwvZInn-lvfjrAkNoQxTZ_WhFMtLLDTcN9Q/viewform?embedded=true"
+                            width="700" height="1600" frameborder="0" marginheight="0"
+                            marginwidth="0">読み込んでいます…</iframe>
+                    </div>
+                    <p class="form-note">
+                        お問い合わせ内容は、<a href="privacy.html" style="text-decoration: underline;">プライバシーポリシー</a>に基づき管理いたします。
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__cta">
+                <h2 class="footer__cta-title">Ready to unleash potential?</h2>
+                <a href="contact.html" class="btn btn--primary btn--large">Start</a>
+            </div>
+
+            <div class="footer__bottom">
+                <a href="index.html" class="footer__logo">ProductX</a>
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li><a href="about.html">Mission</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="footer__legal">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+                <p class="footer__copyright">&copy; 2025 ProductX Inc.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

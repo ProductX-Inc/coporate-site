@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KV Pattern Gallery - ProductX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-accent: #5856D6;
+            --color-accent-secondary: #AF52DE;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: #000;
+            color: #fff;
+        }
+
+        .pattern-section {
+            height: 100vh;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 5px solid #fff;
+        }
+
+        .label {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            z-index: 100;
+        }
+
+        .hero-mock {
+            z-index: 10;
+            text-align: center;
+        }
+
+        .hero-title {
+            font-size: 4rem;
+            font-weight: 700;
+            margin: 0;
+            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-sub {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        /* --- Pattern 1: Aurora (Gradient Mesh) --- */
+        #p1 {
+            background: #0f0c29;
+        }
+
+        #p1 .bg {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background:
+                radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
+                radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
+                radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
+        }
+
+        #p1-orb1,
+        #p1-orb2,
+        #p1-orb3 {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.6;
+            animation: floatAurora 10s ease-in-out infinite;
+        }
+
+        #p1-orb1 {
+            width: 600px;
+            height: 600px;
+            background: #5856D6;
+            top: -100px;
+            left: -100px;
+        }
+
+        #p1-orb2 {
+            width: 500px;
+            height: 500px;
+            background: #AF52DE;
+            bottom: -100px;
+            right: -100px;
+            animation-delay: -2s;
+        }
+
+        #p1-orb3 {
+            width: 400px;
+            height: 400px;
+            background: #4A48DE;
+            top: 30%;
+            left: 40%;
+            animation-delay: -5s;
+        }
+
+        @keyframes floatAurora {
+
+            0%,
+            100% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            33% {
+                transform: translate(50px, -50px) scale(1.1);
+            }
+
+            66% {
+                transform: translate(-20px, 20px) scale(0.9);
+            }
+        }
+
+        /* --- Pattern 2: Cyber Grid --- */
+        #p2 {
+            background-color: #050510;
+            background-image:
+                linear-gradient(rgba(88, 86, 214, 0.2) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(88, 86, 214, 0.2) 1px, transparent 1px);
+            background-size: 50px 50px;
+            perspective: 500px;
+        }
+
+        #p2::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle, transparent 20%, #050510 90%);
+        }
+
+        .grid-plane {
+            position: absolute;
+            top: 50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: inherit;
+            transform: rotateX(60deg);
+            animation: gridMove 5s linear infinite;
+        }
+
+        @keyframes gridMove {
+            from {
+                background-position: 0 0;
+            }
+
+            to {
+                background-position: 0 50px;
+            }
+        }
+
+        /* --- Pattern 3: Tech Particles --- */
+        #p3 {
+            background: #1a1a2e;
+        }
+
+        .particle {
+            position: absolute;
+            border-radius: 50%;
+            background: #fff;
+            opacity: 0.3;
+            animation: twinkle 4s infinite ease-in-out;
+        }
+
+        #p3 svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        @keyframes twinkle {
+
+            0%,
+            100% {
+                opacity: 0.2;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.8;
+                transform: scale(1.5);
+            }
+        }
+
+        /* --- Pattern 4: Abstract Waves --- */
+        #p4 {
+            background: #0F0F1A;
+        }
+
+        .wave {
+            position: absolute;
+            left: 0;
+            width: 200%;
+            height: 100%;
+            background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg"><path fill="%235856D6" fill-opacity="0.3" d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+            background-repeat: no-repeat;
+            background-size: 50% 100%;
+            bottom: -50px;
+            animation: waveFlow 15s linear infinite;
+        }
+
+        .wave:nth-child(1) {
+            opacity: 0.3;
+            bottom: 0;
+            animation-duration: 20s;
+        }
+
+        .wave:nth-child(2) {
+            opacity: 0.5;
+            bottom: -20px;
+            animation-duration: 15s;
+            filter: hue-rotate(40deg);
+        }
+
+        .wave:nth-child(3) {
+            opacity: 0.2;
+            bottom: -40px;
+            animation-duration: 10s;
+            filter: hue-rotate(90deg);
+        }
+
+        @keyframes waveFlow {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        /* --- Pattern 5: Glassmorphism / Bokeh --- */
+        #p5 {
+            background: #f8f9ff;
+            color: #1a1a2e;
+        }
+
+        #p5 .hero-title {
+            color: #1a1a2e;
+            text-shadow: none;
+        }
+
+        .shape {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(60px);
+            animation: floatShape 20s infinite alternate;
+        }
+
+        .s1 {
+            width: 400px;
+            height: 400px;
+            background: #696CFF;
+            top: -50px;
+            left: -50px;
+            opacity: 0.4;
+        }
+
+        .s2 {
+            width: 500px;
+            height: 500px;
+            background: #AF52DE;
+            bottom: -100px;
+            right: -50px;
+            opacity: 0.3;
+            animation-delay: -5s;
+        }
+
+        .s3 {
+            width: 300px;
+            height: 300px;
+            background: #5856D6;
+            top: 40%;
+            left: 40%;
+            opacity: 0.2;
+            animation-delay: -10s;
+        }
+
+        #p5::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(10px);
+            z-index: 1;
+        }
+
+        #p5 .hero-mock {
+            z-index: 2;
+            position: relative;
+        }
+
+        @keyframes floatShape {
+            from {
+                transform: translate(0, 0) rotate(0deg);
+            }
+
+            to {
+                transform: translate(40px, 40px) rotate(20deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Pattern 1: Aurora -->
+    <section id="p1" class="pattern-section">
+        <div class="label">Pattern 1: Aurora Mesh</div>
+        <div class="bg">
+            <div id="p1-orb1"></div>
+            <div id="p1-orb2"></div>
+            <div id="p1-orb3"></div>
+        </div>
+        <div class="hero-mock">
+            <h1 class="hero-title">ProductX</h1>
+            <p class="hero-sub">We are the future builders.</p>
+        </div>
+    </section>
+
+    <!-- Pattern 2: Cyber Grid -->
+    <section id="p2" class="pattern-section">
+        <div class="label">Pattern 2: Cyber Grid</div>
+        <div class="grid-plane"></div>
+        <div class="hero-mock">
+            <h1 class="hero-title">ProductX</h1>
+            <p class="hero-sub">We are the future builders.</p>
+        </div>
+    </section>
+
+    <!-- Pattern 3: Tech Particles -->
+    <section id="p3" class="pattern-section">
+        <div class="label">Pattern 3: Tech Particles</div>
+        <div class="particle" style="top:20%; left:20%; width:10px; height:10px;"></div>
+        <div class="particle" style="top:70%; left:80%; width:15px; height:15px; animation-delay:1s;"></div>
+        <div class="particle" style="top:40%; left:60%; width:8px; height:8px; animation-delay:2s;"></div>
+        <div class="particle" style="top:80%; left:30%; width:12px; height:12px; animation-delay:0.5s;"></div>
+        <div class="particle" style="top:15%; left:90%; width:6px; height:6px; animation-delay:1.5s;"></div>
+        <svg>
+            <line x1="20%" y1="20%" x2="60%" y2="40%" stroke="#5856D6" stroke-width="1" opacity="0.2" />
+            <line x1="60%" y1="40%" x2="80%" y2="70%" stroke="#5856D6" stroke-width="1" opacity="0.2" />
+            <line x1="30%" y1="80%" x2="80%" y2="70%" stroke="#5856D6" stroke-width="1" opacity="0.2" />
+        </svg>
+        <div class="hero-mock">
+            <h1 class="hero-title">ProductX</h1>
+            <p class="hero-sub">We are the future builders.</p>
+        </div>
+    </section>
+
+    <!-- Pattern 4: Abstract Waves -->
+    <section id="p4" class="pattern-section">
+        <div class="label">Pattern 4: Digital Waves</div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="hero-mock">
+            <h1 class="hero-title">ProductX</h1>
+            <p class="hero-sub">We are the future builders.</p>
+        </div>
+    </section>
+
+    <!-- Pattern 5: Glassmorphism -->
+    <section id="p5" class="pattern-section">
+        <div class="label">Pattern 5: Glassmorphism</div>
+        <div class="shape s1"></div>
+        <div class="shape s2"></div>
+        <div class="shape s3"></div>
+        <div class="hero-mock">
+            <h1 class="hero-title">ProductX</h1>
+            <p class="hero-sub">We are the future builders.</p>
+        </div>
+    </section>
+
+</body>
+
+</html>

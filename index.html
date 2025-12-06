@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProductX - Unleash Potential</title>
+    <meta name="description" content="プロダクトで未来を創造し、あらゆる可能性を解き放つ。株式会社ProductXのコーポレートサイトです。">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+
+    <!-- OGP -->
+    <meta property="og:title" content="ProductX - Unleash Potential, Create the Future">
+    <meta property="og:description" content="プロダクトで未来を創造し、あらゆる可能性を解き放つ。革新的なプロダクト開発を通じて、社会に新たな価値を提供します。">
+    <meta property="og:image" content="images/ogp.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ProductX">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ProductX - Unleash Potential, Create the Future">
+    <meta name="twitter:description" content="プロダクトで未来を創造し、あらゆる可能性を解き放つ。革新的なプロダクト開発を通じて、社会に新たな価値を提供します。">
+    <meta name="twitter:image" content="images/ogp.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="header__logo">
+            <img src="images/logo.png" alt="ProductX">
+        </a>
+        <button class="header__hamburger" id="js-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a href="about.html">Mission</a></li>
+                <li class="header__item"><a href="services.html">Services</a></li>
+                <li class="header__item"><a href="news.html">News</a></li>
+                <li class="header__item"><a href="contact.html" class="btn btn--primary">Start</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    <span class="hero__title-line">Unleash Potential,</span>
+                    <span class="hero__title-line">Create the Future.</span>
+                </h1>
+                <p class="hero__subtitle">プロダクトで未来を創造し、あらゆる可能性を解き放つ。</p>
+            </div>
+            <div class="hero__scroll">
+                <span class="hero__scroll-text">Scroll</span>
+                <div class="hero__scroll-line"></div>
+            </div>
+        </section>
+
+        <section id="mission" class="section mission">
+            <div class="container">
+                <div class="mission__content">
+                    <h2 class="section-title">Mission</h2>
+                    <div class="mission__icon" style="display: none;">
+                        <img src="images/icon_innovation.png" alt="Innovation">
+                    </div>
+                    <p class="mission__text">
+                        <span class="reveal-text">Products that</span><br>
+                        <span class="reveal-text">build futures.</span>
+                    </p>
+                    <a href="about.html" class="btn btn--secondary">View Mission</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section services">
+            <div class="container">
+                <h2 class="section-title">Services</h2>
+                <div class="services__grid">
+                    <article class="service-card">
+                        <div class="service-card__content">
+                            <div class="service-card__icon" style="display: none;">
+                                <img src="images/icon_growth.png" alt="Growth">
+                            </div>
+                            <h3 class="service-card__title">Partner Growth</h3>
+                            <p class="service-card__desc">Client Work</p>
+                            <p class="service-card__detail">大手出身のクリエイターによる、<br>企画からグロースまでの一気通貫支援。</p>
+                            <a href="services.html#partner" class="arrow-link">View Details</a>
+                        </div>
+                        <div class="service-card__bg"></div>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-card__content">
+                            <div class="service-card__icon" style="display: none;">
+                                <img src="images/icon_product.png" alt="Product">
+                            </div>
+                            <h3 class="service-card__title">Original Product</h3>
+                            <p class="service-card__desc">In-House</p>
+                            <p class="service-card__detail">自社開発のコンシューマー向けサービス。<br>Coming Soon...</p>
+                            <span class="coming-soon-badge">Coming Soon</span>
+                        </div>
+                        <div class="service-card__bg"></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="news" class="section news">
+            <div class="container">
+                <div class="news__wrapper">
+                    <h2 class="section-title">News</h2>
+                    <div class="news__wrapper" id="news-container">
+                        <p class="news__empty">Loading...</p>
+                    </div>
+                    <div class="news__more">
+                        <a href="news.html" class="arrow-link">View All News</a>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__cta">
+                <h2 class="footer__cta-title">Ready to unleash potential?</h2>
+                <a href="contact.html" class="btn btn--primary btn--large">Start</a>
+            </div>
+
+            <div class="footer__bottom">
+                <a href="index.html" class="footer__logo">ProductX</a>
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li><a href="about.html">Mission</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="footer__legal">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+                <p class="footer__copyright">&copy; 2025 ProductX Inc.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/news.js"></script>
+</body>
+
+</html>
