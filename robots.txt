@@ -1,0 +1,8 @@
+# Robots.txt for ProductX
+# https://productx.jp
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://productx.jp/sitemap.xml
