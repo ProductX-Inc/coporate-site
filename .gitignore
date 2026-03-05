@@ -15,3 +15,8 @@ Thumbs.db
 # Sensitive files
 .env
 .env.local
+
+# v2 dev artifacts (ビルド成果物はルートにコピーするため除外しない)
+v2/.next/
+v2/node_modules/
+v2/out/

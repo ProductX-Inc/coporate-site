@@ -1,0 +1,22 @@
+{
+    "name": "ProductX",
+    "short_name": "ProductX",
+    "description": "株式会社ProductXの企業サイト",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0a0a14",
+    "theme_color": "#696CFF",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/images/favicon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/favicon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
