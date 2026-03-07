@@ -11,15 +11,15 @@ import { fadeUp } from "@/lib/animations";
 const faqItems = [
     {
         q: { ja: "開発だけでなく、企画・戦略から相談できますか？", en: "Can we consult on strategy and planning, not just development?" },
-        a: { ja: "もちろんです。ProductXの強みは上流のプロダクト戦略から実装・グロースまで一気通貫で支援できることです。「何を作るべきか」の段階からご相談いただけます。", en: "Absolutely. Our strength lies in end-to-end support from upstream product strategy to implementation and growth. You can consult with us from the 'what to build' stage." },
+        a: { ja: "もちろんです。ProductXの強みは上流のプロダクト戦略から実装・グロースまで一気通貫で支援できることです。「何を作るべきか」の段階からご相談いただけます。", en: "Absolutely. ProductX's strength lies in end-to-end support from upstream product strategy to implementation and growth. You can consult with us from the 'what to build' stage." },
     },
     {
         q: { ja: "AI DXは技術的な知識がなくても依頼できますか？", en: "Can we request AI DX services without technical knowledge?" },
-        a: { ja: "はい、技術的な知識は不要です。課題のヒアリングから最適なAIソリューションのご提案まで、わかりやすくご説明しながら進めます。", en: "Yes, no technical knowledge is required. We guide you through the entire process, from understanding your challenges to proposing optimal AI solutions." },
+        a: { ja: "はい、技術的な知識は不要です。課題のヒアリングから最適なAIソリューションのご提案まで、わかりやすくご説明しながら進めます。「AIで何ができるか分からない」という段階でもお気軽にご相談ください。", en: "Yes, no technical knowledge is required. We guide you through the entire process, from understanding your challenges to proposing optimal AI solutions. Feel free to reach out even if you're unsure what AI can do for you." },
     },
     {
         q: { ja: "リモートでの対応は可能ですか？", en: "Do you support remote work?" },
-        a: { ja: "はい、フルリモートでの対応が可能です。オンラインミーティングやチャットツールを活用し、場所を問わずスムーズなコミュニケーションを実現します。", en: "Yes, we fully support remote collaboration. We leverage online meetings and chat tools for seamless communication regardless of location." },
+        a: { ja: "はい、フルリモートでの対応が可能です。オンラインミーティングやチャットツールを活用し、場所を問わずスムーズなコミュニケーションを実現します。必要に応じて対面でのミーティングも対応いたします。", en: "Yes, we fully support remote collaboration. We leverage online meetings and chat tools for seamless communication regardless of location. In-person meetings are also available when needed." },
     },
 ];
 

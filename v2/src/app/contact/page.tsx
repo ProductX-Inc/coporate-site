@@ -23,7 +23,7 @@ export default function ContactPage() {
         { id: "website", label: t("contact.website"), type: "url", required: false },
         { id: "email", label: t("contact.email"), type: "email", required: true },
         { id: "emailConfirm", label: t("contact.emailConfirm"), type: "email", required: true },
-        { id: "phone", label: t("contact.phone"), type: "tel", required: true },
+        { id: "phone", label: t("contact.phone"), type: "tel", required: false },
     ];
 
     if (submitted) {

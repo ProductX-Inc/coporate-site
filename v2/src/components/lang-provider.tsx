@@ -43,7 +43,7 @@ const translations: Record<string, Record<Locale, string>> = {
     "craft.title": { ja: "Services", en: "Services" },
     "craft.pg.label": { ja: "Client Work", en: "Client Work" },
     "craft.pg.title": { ja: "Partner Growth", en: "Partner Growth" },
-    "craft.pg.desc": { ja: "大手IT企業出身のクリエイターによる、企画からグロースまでの一気通貫支援。プロダクト戦略・UI/UXデザイン・開発・テスト・リリース後の成長支援まで。", en: "End-to-end product development support by elite creators from leading IT companies, from strategy and design to development, testing, and post-launch growth." },
+    "craft.pg.desc": { ja: "実績豊富なクリエイターによる、企画からグロースまでのフルサポート。プロダクト戦略・UI/UXデザイン・開発・テスト・リリース後の成長支援まで。", en: "End-to-end product development support by elite creators from leading IT companies, from strategy and design to development, testing, and post-launch growth." },
     "craft.pg.link": { ja: "View Details", en: "View Details" },
     "craft.ai.label": { ja: "Consulting", en: "Consulting" },
     "craft.ai.title": { ja: "AI DX", en: "AI DX" },
@@ -60,7 +60,7 @@ const translations: Record<string, Record<Locale, string>> = {
 
     // ===== Invite Section =====
     "invite.title": { ja: "Build the future,\ntogether.", en: "Build the future,\ntogether." },
-    "invite.sub": { ja: "プロジェクトのご相談、お気軽にどうぞ。", en: "Let's discuss your next project." },
+    "invite.sub": { ja: "プロジェクトのご相談をお待ちしています。", en: "Let's discuss your next project." },
     "invite.cta": { ja: "Start a Project", en: "Start a Project" },
     "invite.copyright": { ja: "© 2026 ProductX Inc.", en: "© 2026 ProductX Inc." },
 
@@ -103,9 +103,9 @@ const translations: Record<string, Record<Locale, string>> = {
     "services.label": { ja: "Services", en: "Services" },
     "services.title": { ja: "3つの事業で、可能性を解き放つ。", en: "Three pillars to unleash potential." },
     "services.desc": { ja: "プロダクト開発・AI DX・自社プロダクトの3本柱で、お客様と社会に価値を届けます。", en: "Delivering value through product development, AI DX, and original products." },
-    "services.pg.desc": { ja: "大手IT企業出身のエリートクリエイター集団による、プロダクト開発・グロース支援。企画・要件定義からUI/UXデザイン、開発・テスト、リリース後の成長支援まで、ワンチームで一気通貫の支援を提供します。", en: "End-to-end product development and growth support by an elite team of creators from leading IT companies. From planning and requirements to UI/UX design, development, testing, and post-launch growth support." },
+    "services.pg.desc": { ja: "業界トップクラスの実績を持つクリエイター集団による、プロダクト開発・グロース支援。企画・要件定義からUI/UXデザイン、開発・テスト、リリース後の成長支援まで、ワンチームでシームレスに伴走します。", en: "End-to-end product development and growth support by an elite team of creators from leading IT companies. From planning and requirements to UI/UX design, development, testing, and post-launch growth support." },
     "services.pg.f1.title": { ja: "高品質なプロダクト提供", en: "High-Quality Products" },
-    "services.pg.f1.desc": { ja: "大手IT企業所属・出身のクリエイターによる、エンタープライズ品質のプロダクト開発を提供します。", en: "Enterprise-quality product development by creators from leading IT companies." },
+    "services.pg.f1.desc": { ja: "トップ企業で経験を積んだクリエイターによる、エンタープライズ品質のプロダクト開発を提供します。", en: "Enterprise-quality product development by creators from leading IT companies." },
     "services.pg.f2.title": { ja: "上流から下流まで一気通貫", en: "End-to-End Support" },
     "services.pg.f2.desc": { ja: "ただの開発ではなく、上流のプロダクト設計からリリース後のグロースまで、ワンチームで伴走します。", en: "Not just development — from upstream product design to post-launch growth, we work as one team." },
     "services.pg.f3.title": { ja: "実績に基づくナレッジ活用", en: "Experience-Driven Knowledge" },
@@ -120,7 +120,7 @@ const translations: Record<string, Record<Locale, string>> = {
     "services.ai.f3.desc": { ja: "顧客向けにシステムやワークフローを開発・納品する（例：自動化エンジン、チャットボット）", en: "Developing and delivering systems and workflows (e.g., automation engines, chatbots)" },
     "services.ai.offerings": { ja: "AI業務代行,AI活用環境構築,AIシステム開発,AI研修・ワークショップ", en: "AI Task Execution,AI Environment Setup,AI System Development,AI Training & Workshops" },
     "services.op.desc": { ja: "自社開発のコンシューマー向けサービス。ProductXが培った技術力とプロダクト思考を注ぎ込み、世の中に新しい価値を創出します。", en: "Consumer-facing services built in-house. Pouring our technical expertise and product thinking into creating new value for the world." },
-    "services.cta": { ja: "プロジェクトのご相談はお気軽に", en: "Let's discuss your project" },
+    "services.cta": { ja: "プロジェクトのご相談はこちらから", en: "Let's discuss your project" },
     "services.cta.btn": { ja: "お問い合わせ", en: "Contact Us" },
     "services.scope": { ja: "対応領域", en: "Scope" },
 
@@ -158,11 +158,20 @@ const translations: Record<string, Record<Locale, string>> = {
 
     // ===== Footer =====
     "footer.copyright": { ja: "© 2026 ProductX Inc.", en: "© 2026 ProductX Inc." },
-    "footer.privacy": { ja: "Privacy Policy", en: "Privacy Policy" },
-    "footer.terms": { ja: "Terms", en: "Terms" },
+    "footer.privacy": { ja: "プライバシーポリシー", en: "Privacy Policy" },
+    "footer.terms": { ja: "利用規約", en: "Terms" },
 
     // ===== Common =====
     "common.lang.toggle": { ja: "EN", en: "JP" },
+
+    // ===== 404 Page =====
+    "notfound.title": { ja: "Page Not Found", en: "Page Not Found" },
+    "notfound.desc": { ja: "お探しのページは見つかりませんでした。\nURLが正しいかご確認ください。", en: "The page you're looking for could not be found.\nPlease check the URL." },
+    "notfound.home": { ja: "ホームに戻る", en: "Back to Home" },
+    "notfound.back": { ja: "前のページへ", en: "Go Back" },
+
+    // ===== Privacy / Terms Common =====
+    "legal.toc": { ja: "目次", en: "Table of Contents" },
 };
 
 export function LangProvider({ children }: { children: ReactNode }) {

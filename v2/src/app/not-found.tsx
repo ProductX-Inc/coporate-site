@@ -3,8 +3,11 @@
 import Link from "next/link";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { useLang } from "@/components/lang-provider";
 
 export default function NotFound() {
+    const { t } = useLang();
+
     return (
         <>
             <Header />
@@ -37,12 +40,10 @@ export default function NotFound() {
                     </h1>
 
                     <h2 className="text-xl md:text-2xl font-bold text-white mb-3">
-                        Page Not Found
+                        {t("notfound.title")}
                     </h2>
-                    <p className="text-white/50 text-sm md:text-base mb-10 max-w-md mx-auto">
-                        お探しのページは見つかりませんでした。
-                        <br />
-                        URLが正しいかご確認ください。
+                    <p className="text-white/50 text-sm md:text-base mb-10 max-w-md mx-auto whitespace-pre-line">
+                        {t("notfound.desc")}
                     </p>
 
                     <div className="flex items-center justify-center gap-4">
@@ -50,13 +51,13 @@ export default function NotFound() {
                             href="/"
                             className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[var(--color-brand-active)] text-white font-semibold text-sm hover:bg-[var(--color-brand)] transition-colors duration-300 shadow-lg"
                         >
-                            ホームに戻る
+                            {t("notfound.home")}
                         </Link>
                         <button
                             onClick={() => typeof window !== "undefined" && window.history.back()}
                             className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-white/20 text-white/80 font-semibold text-sm hover:bg-white/10 transition-colors duration-300"
                         >
-                            前のページへ
+                            {t("notfound.back")}
                         </button>
                     </div>
                 </div>

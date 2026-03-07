@@ -185,7 +185,7 @@ export default function ServicesPage() {
                                                 initial="hidden" whileInView="visible" viewport={{ once: true }}
                                                 custom={3} variants={fadeUp}
                                             >
-                                                <span className="text-sm italic tracking-wide">and more...</span>
+                                                <span className="text-sm italic tracking-wide">{locale === "ja" ? "その他多数" : "and more..."}</span>
                                             </motion.div>
                                         </div>
                                     </motion.div>

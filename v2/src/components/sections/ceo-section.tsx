@@ -12,7 +12,7 @@ export function CeoSection() {
     const { t, locale } = useLang();
 
     const quote = locale === "ja"
-        ? "「本当に価値あるプロダクトとは何か」——この問いと向き合い続けることが、ProductXの原点です。課題の発見から解決まで一気通貫で伴走し、プロダクトを通じてクライアントの事業を成長させること。そして、AIの力で企業の変革を加速させること。それが私たちの使命です。"
+        ? "「本当に価値あるプロダクトとは何か」——この問いと向き合い続けることが、ProductXの原点です。課題の発見から解決まで、上流から下流までワンチームで伴走し、プロダクトを通じてクライアントの事業を成長させること。そして、AIの力で企業の変革を加速させること。それが私たちの使命です。"
         : "\"What does a truly valuable product look like?\" — Continuously confronting this question is the origin of ProductX. Our mission is to partner end-to-end from problem discovery to solution, growing our clients' businesses through products and accelerating transformation with the power of AI.";
 
     return (

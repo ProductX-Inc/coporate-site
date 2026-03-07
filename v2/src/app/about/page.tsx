@@ -228,7 +228,7 @@ export default function AboutPage() {
                                 initial="hidden" whileInView="visible" viewport={{ once: true }}
                                 custom={1.2} variants={fadeUp}
                             >
-                                <span className="text-sm font-medium">and more...</span>
+                                <span className="text-sm font-medium">{locale === "ja" ? "その他多数" : "and more..."}</span>
                             </motion.div>
                         </div>
                     </div>
