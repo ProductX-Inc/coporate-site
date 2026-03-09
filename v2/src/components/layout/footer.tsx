@@ -16,6 +16,7 @@ export function Footer() {
                         {[
                             { href: "/about", key: "nav.about" },
                             { href: "/services", key: "nav.services" },
+                            { href: "/articles", key: "nav.articles" },
                             { href: "/resources", label: "Resources" },
                             { href: "/news", key: "nav.news" },
                             { href: "/partner", key: "nav.partner" },

@@ -58,7 +58,7 @@ export function ProofSection() {
                                 whileHover={{ y: -4 }}
                             >
                                 <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[var(--color-brand-gold)]/60 via-[var(--color-brand)]/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400" />
-                                <span className="text-[56px] font-bold text-foreground/5 absolute top-4 right-4 leading-none select-none">
+                                <span className="text-[56px] font-bold text-foreground/[0.08] absolute top-4 right-4 leading-none select-none">
                                     {String(i + 1).padStart(2, "0")}
                                 </span>
                                 <div className="w-10 h-10 rounded-lg bg-[var(--color-brand)]/10 flex items-center justify-center mb-4">

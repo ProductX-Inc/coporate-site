@@ -387,7 +387,7 @@ function SlideContent({ slide, locale }: { slide: SlideData; locale: Locale }) {
 /* ── Shared slide wrappers ── */
 function DarkSlide({ children, className = "" }: { children: React.ReactNode; className?: string }) {
     return (
-        <div className={`w-full h-full bg-[var(--color-brand-dark)] text-white p-8 md:p-12 flex flex-col justify-center relative overflow-hidden ${className}`}>
+        <div className={`w-full h-full bg-[var(--color-brand-dark)] text-white p-4 md:p-12 flex flex-col justify-center relative overflow-hidden ${className}`}>
             <div className="absolute inset-0 opacity-[0.03]" style={{
                 backgroundImage: "radial-gradient(circle, rgba(255,255,255,0.8) 1px, transparent 1px)",
                 backgroundSize: "28px 28px",
@@ -485,16 +485,16 @@ function SlideStrengths({ locale }: { locale: Locale }) {
         <DarkSlide>
             <p className="text-xs font-medium tracking-[0.15em] uppercase text-[var(--color-brand)] mb-3">STRENGTHS</p>
             <h2 className="text-xl md:text-2xl font-bold mb-6">{ja ? "ProductXの4つの強み" : "Four Key Strengths"}</h2>
-            <motion.div className="grid grid-cols-2 gap-3 max-w-2xl" variants={stagger} initial="hidden" animate="visible">
+            <motion.div className="grid grid-cols-2 gap-2 md:gap-3 max-w-2xl" variants={stagger} initial="hidden" animate="visible">
                 {strengths.map((s) => {
                     const Icon = s.icon;
                     return (
-                        <motion.div key={l(locale, s.title)} className="p-4 rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm" variants={fadeIn}>
-                            <div className="w-8 h-8 rounded-lg bg-[var(--color-brand)]/20 flex items-center justify-center mb-3">
-                                <Icon size={16} className="text-[var(--color-brand)]" />
+                        <motion.div key={l(locale, s.title)} className="p-2 md:p-4 rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm" variants={fadeIn}>
+                            <div className="w-6 h-6 md:w-8 md:h-8 rounded-lg bg-[var(--color-brand)]/20 flex items-center justify-center mb-1 md:mb-3">
+                                <Icon size={14} className="text-[var(--color-brand)]" />
                             </div>
-                            <h3 className="text-sm font-bold mb-1">{l(locale, s.title)}</h3>
-                            <p className="text-[11px] text-white/50 leading-relaxed">{l(locale, s.desc)}</p>
+                            <h3 className="text-[11px] md:text-sm font-bold mb-0.5 md:mb-1">{l(locale, s.title)}</h3>
+                            <p className="text-[9px] md:text-[11px] text-white/50 leading-relaxed">{l(locale, s.desc)}</p>
                         </motion.div>
                     );
                 })}
@@ -524,9 +524,9 @@ function SlideStats({ locale }: { locale: Locale }) {
 
 function SlideSectionBreak({ slide, gradient, locale }: { slide: SlideData; gradient: string; locale: Locale }) {
     return (
-        <div className={`w-full h-full bg-gradient-to-br ${gradient} flex flex-col items-center justify-center p-8 text-center`}>
+        <div className={`w-full h-full bg-gradient-to-br ${gradient} flex flex-col items-center justify-center p-4 md:p-8 text-center`}>
             <motion.h2
-                className="text-4xl md:text-6xl font-bold text-white mb-4"
+                className="text-3xl md:text-6xl font-bold text-white mb-4"
                 initial={{ filter: "blur(10px)", opacity: 0 }}
                 animate={{ filter: "blur(0px)", opacity: 1 }}
                 transition={{ duration: 0.6 }}
@@ -535,7 +535,7 @@ function SlideSectionBreak({ slide, gradient, locale }: { slide: SlideData; grad
             </motion.h2>
             {slide.subtitle && (
                 <motion.p
-                    className="text-lg md:text-xl text-white/70 max-w-xl"
+                    className="text-base md:text-xl text-white/70 max-w-xl"
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.3 }}
@@ -553,16 +553,16 @@ function SlidePGStrengths({ locale }: { locale: Locale }) {
         <DarkSlide>
             <p className="text-xs font-medium tracking-[0.15em] uppercase text-[var(--color-brand)] mb-3">WHY US</p>
             <h2 className="text-xl md:text-2xl font-bold mb-6">{ja ? "3つの強み" : "Three Core Strengths"}</h2>
-            <motion.div className="grid grid-cols-3 gap-4" variants={stagger} initial="hidden" animate="visible">
+            <motion.div className="grid grid-cols-3 gap-2 md:gap-4" variants={stagger} initial="hidden" animate="visible">
                 {pgStrengths.map((s) => {
                     const Icon = s.icon;
                     return (
-                        <motion.div key={l(locale, s.title)} className="p-4 rounded-xl border border-white/10 bg-white/5" variants={fadeIn}>
-                            <div className="w-8 h-8 rounded-lg bg-[#6366f1]/20 flex items-center justify-center mb-3">
-                                <Icon size={16} className="text-[#a78bfa]" />
+                        <motion.div key={l(locale, s.title)} className="p-2 md:p-4 rounded-xl border border-white/10 bg-white/5" variants={fadeIn}>
+                            <div className="w-6 h-6 md:w-8 md:h-8 rounded-lg bg-[#6366f1]/20 flex items-center justify-center mb-1 md:mb-3">
+                                <Icon size={14} className="text-[#a78bfa]" />
                             </div>
-                            <h3 className="text-sm font-bold mb-1">{l(locale, s.title)}</h3>
-                            <p className="text-[11px] text-white/50 leading-relaxed">{l(locale, s.desc)}</p>
+                            <h3 className="text-[11px] md:text-sm font-bold mb-0.5 md:mb-1">{l(locale, s.title)}</h3>
+                            <p className="text-[9px] md:text-[11px] text-white/50 leading-relaxed">{l(locale, s.desc)}</p>
                         </motion.div>
                     );
                 })}
@@ -577,9 +577,9 @@ function SlidePGServices({ locale }: { locale: Locale }) {
         <DarkSlide>
             <p className="text-xs font-medium tracking-[0.15em] uppercase text-[var(--color-brand)] mb-3">SERVICES</p>
             <h2 className="text-xl md:text-2xl font-bold mb-6">{ja ? "サービスカタログ" : "Service Catalog"}</h2>
-            <motion.div className="grid grid-cols-3 gap-4" variants={stagger} initial="hidden" animate="visible">
+            <motion.div className="grid grid-cols-3 gap-2 md:gap-4" variants={stagger} initial="hidden" animate="visible">
                 {pgServices.map((cat) => (
-                    <motion.div key={l(locale, cat.cat)} className="p-4 rounded-xl border border-white/10 bg-white/5" variants={fadeIn}>
+                    <motion.div key={l(locale, cat.cat)} className="p-2 md:p-4 rounded-xl border border-white/10 bg-white/5" variants={fadeIn}>
                         <h3 className="text-xs font-bold text-[#a78bfa] uppercase tracking-wider mb-3">{l(locale, cat.cat)}</h3>
                         <ul className="space-y-1.5">
                             {cat.items.map((item) => (
@@ -602,10 +602,10 @@ function SlidePGPricing({ locale }: { locale: Locale }) {
         <DarkSlide>
             <p className="text-xs font-medium tracking-[0.15em] uppercase text-[var(--color-brand)] mb-3">PRICING</p>
             <h2 className="text-xl md:text-2xl font-bold mb-6">{ja ? "料金体系" : "Pricing"}</h2>
-            <motion.div className="grid grid-cols-3 gap-4" variants={stagger} initial="hidden" animate="visible">
+            <motion.div className="grid grid-cols-3 gap-2 md:gap-4" variants={stagger} initial="hidden" animate="visible">
                 {pgPlans.map((plan) => (
                     <motion.div key={l(locale, plan.name)}
-                        className={`p-5 rounded-xl border ${plan.recommended ? "border-[var(--color-brand)] bg-[var(--color-brand)]/5 scale-[1.02]" : "border-white/10 bg-white/5"}`}
+                        className={`p-3 md:p-5 rounded-xl border ${plan.recommended ? "border-[var(--color-brand)] bg-[var(--color-brand)]/5 scale-[1.02]" : "border-white/10 bg-white/5"}`}
                         variants={fadeIn}>
                         {plan.recommended && <span className="text-[9px] font-bold text-[var(--color-brand-gold)] uppercase tracking-wider">Recommended</span>}
                         <h3 className="text-sm font-bold mt-1">{l(locale, plan.name)}</h3>
@@ -672,14 +672,14 @@ function SlideServiceMap({ locale }: { locale: Locale }) {
             <p className="text-xs font-medium tracking-[0.15em] uppercase text-[#10b981] mb-3">APPROACH</p>
             <h2 className="text-xl md:text-2xl font-bold mb-6">{ja ? "サービスマップ" : "Service Map"}</h2>
             <div className="space-y-3">
-                <div className="grid grid-cols-4 gap-2">
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
                     <div />
                     {aiApproaches.map((a) => (
                         <div key={l(locale, a.label)} className="text-center text-xs font-bold text-[#10b981]">{l(locale, a.label)}</div>
                     ))}
                 </div>
                 {levels.map((lv, i) => (
-                    <motion.div key={lv.name} className="grid grid-cols-4 gap-2" initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: i * 0.1 + 0.3 }}>
+                    <motion.div key={lv.name} className="grid grid-cols-2 sm:grid-cols-4 gap-2" initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: i * 0.1 + 0.3 }}>
                         <div className="text-xs font-semibold text-white/80 flex items-center">{lv.name}</div>
                         {aiApproaches.map((a, j) => (
                             <div key={j} className="h-10 rounded-lg border border-white/10 bg-white/5 flex items-center justify-center">
@@ -699,10 +699,10 @@ function SlideAIPricing({ locale }: { locale: Locale }) {
         <DarkSlide>
             <p className="text-xs font-medium tracking-[0.15em] uppercase text-[#10b981] mb-3">PRICING</p>
             <h2 className="text-xl md:text-2xl font-bold mb-6">{ja ? "料金体系 + 補助金" : "Pricing & Subsidies"}</h2>
-            <motion.div className="grid grid-cols-3 gap-4 mb-6" variants={stagger} initial="hidden" animate="visible">
+            <motion.div className="grid grid-cols-3 gap-2 md:gap-4 mb-3 md:mb-6" variants={stagger} initial="hidden" animate="visible">
                 {aiPlans.map((plan) => (
                     <motion.div key={l(locale, plan.name)}
-                        className={`p-5 rounded-xl border ${plan.recommended ? "border-[#10b981] bg-[#10b981]/5 scale-[1.02]" : "border-white/10 bg-white/5"}`}
+                        className={`p-3 md:p-5 rounded-xl border ${plan.recommended ? "border-[#10b981] bg-[#10b981]/5 scale-[1.02]" : "border-white/10 bg-white/5"}`}
                         variants={fadeIn}>
                         {plan.recommended && <span className="text-[9px] font-bold text-[var(--color-brand-gold)] uppercase tracking-wider">Recommended</span>}
                         <div className="flex items-center gap-2 mt-1">
@@ -729,11 +729,11 @@ function SlideIndustryUC({ locale }: { locale: Locale }) {
         <DarkSlide>
             <p className="text-xs font-medium tracking-[0.15em] uppercase text-[#10b981] mb-3">USE CASES</p>
             <h2 className="text-xl md:text-2xl font-bold mb-6">{ja ? "業界別ユースケース" : "Industry Use Cases"}</h2>
-            <motion.div className="grid grid-cols-3 gap-3" variants={stagger} initial="hidden" animate="visible">
+            <motion.div className="grid grid-cols-3 gap-2 md:gap-3" variants={stagger} initial="hidden" animate="visible">
                 {aiIndustryUC.map((uc) => {
                     const Icon = uc.icon;
                     return (
-                        <motion.div key={l(locale, uc.industry)} className="p-4 rounded-xl border border-white/10 bg-white/5" variants={fadeIn}>
+                        <motion.div key={l(locale, uc.industry)} className="p-2 md:p-4 rounded-xl border border-white/10 bg-white/5" variants={fadeIn}>
                             <Icon size={16} className="text-[#10b981] mb-2" />
                             <h3 className="text-xs font-bold mb-1">{l(locale, uc.industry)}</h3>
                             <p className="text-[10px] text-white/50">{l(locale, uc.uc)}</p>
@@ -751,8 +751,8 @@ function SlideCaseStudy({ locale }: { locale: Locale }) {
         <DarkSlide>
             <p className="text-xs font-medium tracking-[0.15em] uppercase text-[var(--color-brand-gold)] mb-3">CASE STUDY</p>
             <h2 className="text-xl md:text-2xl font-bold mb-6">{ja ? "導入事例" : "Case Studies"}</h2>
-            <motion.div className="grid grid-cols-2 gap-4" variants={stagger} initial="hidden" animate="visible">
-                <motion.div className="p-5 rounded-xl border border-white/10 bg-white/5" variants={fadeIn}>
+            <motion.div className="grid grid-cols-2 gap-2 md:gap-4" variants={stagger} initial="hidden" animate="visible">
+                <motion.div className="p-3 md:p-5 rounded-xl border border-white/10 bg-white/5" variants={fadeIn}>
                     <p className="text-[10px] text-white/40 uppercase tracking-wider mb-2">{ja ? "Partner Growth 事例" : "Partner Growth Case"}</p>
                     <h3 className="text-sm font-bold mb-3">{ja ? "ライブ配信アプリ開発" : "Live Streaming App"}</h3>
                     <div className="flex gap-4">
@@ -767,7 +767,7 @@ function SlideCaseStudy({ locale }: { locale: Locale }) {
                         </div>
                     </div>
                 </motion.div>
-                <motion.div className="p-5 rounded-xl border border-white/10 bg-white/5" variants={fadeIn}>
+                <motion.div className="p-3 md:p-5 rounded-xl border border-white/10 bg-white/5" variants={fadeIn}>
                     <p className="text-[10px] text-white/40 uppercase tracking-wider mb-2">{ja ? "AI DX 事例" : "AI DX Case"}</p>
                     <h3 className="text-sm font-bold mb-3">{ja ? "問い合わせ対応の自動化" : "Customer Support Automation"}</h3>
                     <div className="flex gap-4">
@@ -793,16 +793,16 @@ function SlideSecurity({ locale }: { locale: Locale }) {
         <DarkSlide>
             <p className="text-xs font-medium tracking-[0.15em] uppercase text-[var(--color-brand-gold)] mb-3">SECURITY</p>
             <h2 className="text-xl md:text-2xl font-bold mb-6">{ja ? "セキュリティ・安心の取り組み" : "Security & Trust"}</h2>
-            <motion.div className="grid grid-cols-3 gap-4" variants={stagger} initial="hidden" animate="visible">
+            <motion.div className="grid grid-cols-3 gap-2 md:gap-4" variants={stagger} initial="hidden" animate="visible">
                 {securityItems.map((item) => {
                     const Icon = item.icon;
                     return (
-                        <motion.div key={l(locale, item.title)} className="p-5 rounded-xl border border-white/10 bg-white/5" variants={fadeIn}>
-                            <div className="w-10 h-10 rounded-lg bg-[var(--color-brand-gold)]/10 flex items-center justify-center mb-3">
-                                <Icon size={18} className="text-[var(--color-brand-gold)]" />
+                        <motion.div key={l(locale, item.title)} className="p-2 md:p-5 rounded-xl border border-white/10 bg-white/5" variants={fadeIn}>
+                            <div className="w-7 h-7 md:w-10 md:h-10 rounded-lg bg-[var(--color-brand-gold)]/10 flex items-center justify-center mb-1 md:mb-3">
+                                <Icon size={14} className="text-[var(--color-brand-gold)]" />
                             </div>
-                            <h3 className="text-sm font-bold mb-1">{l(locale, item.title)}</h3>
-                            <p className="text-[11px] text-white/50 leading-relaxed">{l(locale, item.desc)}</p>
+                            <h3 className="text-[11px] md:text-sm font-bold mb-0.5 md:mb-1">{l(locale, item.title)}</h3>
+                            <p className="text-[9px] md:text-[11px] text-white/50 leading-relaxed">{l(locale, item.desc)}</p>
                         </motion.div>
                     );
                 })}
@@ -814,7 +814,7 @@ function SlideSecurity({ locale }: { locale: Locale }) {
 function SlideCTA({ locale }: { locale: Locale }) {
     const ja = locale === "ja";
     return (
-        <div className="w-full h-full bg-[var(--color-brand-dark)] text-white flex flex-col items-center justify-center p-8 text-center relative overflow-hidden">
+        <div className="w-full h-full bg-[var(--color-brand-dark)] text-white flex flex-col items-center justify-center p-4 md:p-8 text-center relative overflow-hidden">
             {/* Gold glow background */}
             <div className="absolute inset-0" style={{
                 background: "radial-gradient(ellipse at center, rgba(254,198,101,0.08) 0%, transparent 60%)",

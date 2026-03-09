@@ -196,7 +196,7 @@ const translations: Record<string, Record<Locale, string>> = {
 
     // ===== Articles Section =====
     "articles.label": { ja: "ARTICLES", en: "ARTICLES" },
-    "articles.title": { ja: "Insights & Knowledge", en: "Insights & Knowledge" },
+    "articles.title": { ja: "記事 & ナレッジ", en: "Insights & Knowledge" },
     "articles.desc": { ja: "プロダクト開発・AI DXに関する最新のナレッジをお届けします。", en: "Latest insights on product development and AI DX." },
     "articles.viewAll": { ja: "すべての記事を見る", en: "View All Articles" },
     "articles.preparing": { ja: "記事を準備中です。お楽しみに！", en: "Articles coming soon. Stay tuned!" },

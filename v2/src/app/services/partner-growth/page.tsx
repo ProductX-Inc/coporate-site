@@ -123,9 +123,9 @@ const trackRecords: { icon: typeof Monitor; title: I18n }[] = [
 ];
 
 const plans = [
-    { name: { ja: "スポット — 単発支援", en: "Spot — One-Time Support" }, price: { ja: "50〜300万円 / 件", en: "¥500K-3M / project" }, desc: { ja: "特定の機能開発やUI/UXリデザインなど、スコープが明確な案件に最適。短期集中で成果を出します。", en: "Ideal for well-scoped projects like feature development or UI redesign. Focused, short-term delivery." }, color: "border-emerald-500/40", badge: "bg-emerald-500/15 text-emerald-500" },
+    { name: { ja: "スポット — 単発支援", en: "Spot — One-Time Support" }, price: { ja: "50〜300万円 / 件", en: "¥500K-3M / project" }, desc: { ja: "特定の機能開発やUI/UXリデザインなど、スコープが明確な案件に最適。短期集中で成果を出します。", en: "Ideal for well-scoped projects like feature development or UI redesign. Focused, short-term delivery." }, color: "border-[var(--color-brand)]/30", badge: "bg-[var(--color-brand)]/10 text-[var(--color-brand)]" },
     { name: { ja: "月額 — 準委任契約", en: "Monthly — Retainer" }, price: { ja: "月額80〜200万円", en: "¥800K-2M/month" }, desc: { ja: "プロダクトの継続的な改善・グロースに最適。ワンチームとして伴走し、柔軟なリソース配分で対応します。", en: "Ideal for continuous product improvement. We work as your team with flexible resource allocation." }, popular: true, color: "border-[var(--color-brand)]/60", badge: "bg-[var(--color-brand)]/15 text-[var(--color-brand)]" },
-    { name: { ja: "固定 — 請負契約", en: "Fixed — Contract" }, price: { ja: "300〜2,000万円〜", en: "¥3M-20M+" }, desc: { ja: "新規プロダクトの企画〜リリースなど、大規模な案件に対応。マイルストーン管理で進行を可視化します。", en: "For large-scale projects from planning to launch. Milestone-based progress management for full visibility." }, color: "border-violet-500/40", badge: "bg-violet-500/15 text-violet-500" },
+    { name: { ja: "固定 — 請負契約", en: "Fixed — Contract" }, price: { ja: "300〜2,000万円〜", en: "¥3M-20M+" }, desc: { ja: "新規プロダクトの企画〜リリースなど、大規模な案件に対応。マイルストーン管理で進行を可視化します。", en: "For large-scale projects from planning to launch. Milestone-based progress management for full visibility." }, color: "border-[var(--color-brand-active)]/50", badge: "bg-[var(--color-brand-active)]/15 text-[var(--color-brand-active)]" },
 ];
 
 const journeySteps = [
