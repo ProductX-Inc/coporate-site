@@ -148,14 +148,16 @@
 }
 
 /* ===== Gradient Text ===== */
-.gradient-text {
-  background: linear-gradient(135deg, var(--color-brand-active) 0%, var(--color-brand) 50%, oklch(0.7 0.15 85) 100%) !important;
-  background-size: 200% 200% !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  background-clip: text !important;
-  color: transparent !important;
-  animation: gradient-shift 6s ease-in-out infinite;
+@layer utilities {
+  .gradient-text {
+    background: linear-gradient(135deg, var(--color-brand-active) 0%, var(--color-brand) 50%, oklch(0.7 0.15 85) 100%);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    animation: gradient-shift 6s ease-in-out infinite;
+  }
 }
 
 .gradient-text-subtle {
