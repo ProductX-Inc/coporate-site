@@ -17,6 +17,7 @@ const navItems = [
         children: [
             { href: "/services", labelJa: "サービス概要", labelEn: "Overview" },
             { href: "/services/ai-dx", labelJa: "AI DX", labelEn: "AI DX" },
+            { href: "/services/partner-growth", labelJa: "Partner Growth", labelEn: "Partner Growth" },
         ],
     },
     { href: "/articles", key: "nav.articles" },
