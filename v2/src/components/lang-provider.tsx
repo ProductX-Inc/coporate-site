@@ -17,6 +17,7 @@ const translations: Record<string, Record<Locale, string>> = {
     // ===== Header / Nav =====
     "nav.about": { ja: "About", en: "About" },
     "nav.services": { ja: "Services", en: "Services" },
+    "nav.articles": { ja: "Articles", en: "Articles" },
     "nav.news": { ja: "News", en: "News" },
     "nav.contact": { ja: "Contact", en: "Contact" },
 

@@ -13,6 +13,7 @@ import { useLang } from "@/components/lang-provider";
 const navItems = [
     { href: "/about", key: "nav.about" },
     { href: "/services", key: "nav.services" },
+    { href: "/articles", key: "nav.articles" },
     { href: "/news", key: "nav.news" },
 ];
 
