@@ -157,12 +157,7 @@ const competitors = [
     { name: { ja: "他のDX支援業者", en: "Other DX Firms" }, weakness: { ja: "AI専門性が低い", en: "Low AI expertise" }, advantage: { ja: "ProductXのAI技術の深さ＋実物を見せる体験設計", en: "Deep AI expertise + experience-driven demo approach" } },
 ];
 
-const upsellSteps = [
-    { label: { ja: "無料サンプル", en: "Free Sample" }, sub: { ja: "0円", en: "¥0" } },
-    { label: { ja: "🟢 梅", en: "🟢 Basic" }, sub: { ja: "月3〜10万", en: "¥30-100K/mo" } },
-    { label: { ja: "🟡 竹", en: "🟡 Standard" }, sub: { ja: "月5〜15万", en: "¥50-150K/mo" } },
-    { label: { ja: "🔴 松", en: "🔴 Premium" }, sub: { ja: "100〜500万", en: "¥1-5M" } },
-];
+
 
 const faqs: { q: I18n; a: I18n }[] = [
     { q: { ja: "AI DXは技術的な知識がなくても依頼できますか？", en: "Can we request AI DX services without technical knowledge?" }, a: { ja: "はい、技術的な知識は不要です。課題のヒアリングから最適なAIソリューションのご提案まで、わかりやすくご説明しながら進めます。", en: "Yes, no technical knowledge is required. We guide you through the entire process." } },
@@ -394,18 +389,6 @@ export default function AiDxPage() {
                         </div>
 
 
-                        {/* Upsell flow */}
-                        <motion.div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-sm" {...MOTION_VIEW} custom={5}>
-                            {upsellSteps.map((step, i, arr) => (
-                                <span key={i} className="flex items-center gap-2 sm:gap-4">
-                                    <span className="text-center">
-                                        <span className="font-semibold block">{l(locale, step.label)}</span>
-                                        <span className="text-xs text-muted-foreground">{l(locale, step.sub)}</span>
-                                    </span>
-                                    {i < arr.length - 1 && <ArrowRight size={14} className="text-muted-foreground/50" />}
-                                </span>
-                            ))}
-                        </motion.div>
                     </div>
                 </section>
 
