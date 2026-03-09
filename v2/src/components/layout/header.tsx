@@ -78,44 +78,31 @@ export function Header() {
 
                     {/* Desktop Nav */}
                     <nav className="hidden md:flex items-center gap-7" aria-label="メインナビゲーション">
-                        {navItems.map((item) => (
-                            "children" in item && item.children ? (
-                                <div key={item.href} className="relative group/dropdown">
-                                    <Link
-                                        href={item.href}
-                                        className={`text-sm font-medium transition-colors relative ${useWhiteText
-                                            ? "text-white/80 hover:text-white"
-                                            : "text-foreground/80 hover:text-foreground"
-                                            }`}
-                                    >
-                                        {t(item.key)}
-                                        <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-gradient-to-r from-[var(--color-brand)] to-[var(--color-brand-active)] transition-all duration-300 group-hover/dropdown:w-full rounded-full" />
-                                    </Link>
-                                    <div className="absolute top-full left-1/2 -translate-x-1/2 pt-3 opacity-0 pointer-events-none group-hover/dropdown:opacity-100 group-hover/dropdown:pointer-events-auto transition-all duration-200">
-                                        <div className="min-w-[180px] rounded-xl border border-border bg-background/90 dark:bg-card/90 backdrop-blur-2xl shadow-xl p-1.5">
-                                            {item.children.map((child) => (
-                                                <Link key={child.href} href={child.href}
-                                                    className="block px-4 py-2.5 text-sm font-medium rounded-lg text-foreground/70 hover:text-foreground hover:bg-foreground/5 transition-colors">
-                                                    {locale === "ja" ? child.labelJa : child.labelEn}
-                                                </Link>
-                                            ))}
+                        {navItems.map((item) => {
+                            const navLinkCls = `text-sm font-medium transition-colors relative ${useWhiteText ? "text-white/80 hover:text-white" : "text-foreground/80 hover:text-foreground"}`;
+                            const underline = <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-gradient-to-r from-[var(--color-brand)] to-[var(--color-brand-active)] transition-all duration-300 group-hover:w-full group-hover/dropdown:w-full rounded-full" />;
+
+                            if ("children" in item && item.children) {
+                                return (
+                                    <div key={item.href} className="relative group/dropdown">
+                                        <Link href={item.href} className={navLinkCls}>{t(item.key)}{underline}</Link>
+                                        <div className="absolute top-full left-1/2 -translate-x-1/2 pt-3 opacity-0 pointer-events-none group-hover/dropdown:opacity-100 group-hover/dropdown:pointer-events-auto transition-all duration-200">
+                                            <div className="min-w-[180px] rounded-xl border border-border bg-background/90 dark:bg-card/90 backdrop-blur-2xl shadow-xl p-1.5">
+                                                {item.children.map((child) => (
+                                                    <Link key={child.href} href={child.href}
+                                                        className="block px-4 py-2.5 text-sm font-medium rounded-lg text-foreground/70 hover:text-foreground hover:bg-foreground/5 transition-colors">
+                                                        {locale === "ja" ? child.labelJa : child.labelEn}
+                                                    </Link>
+                                                ))}
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            ) : (
-                                <Link
-                                    key={item.href}
-                                    href={item.href}
-                                    className={`text-sm font-medium transition-colors relative group ${useWhiteText
-                                        ? "text-white/80 hover:text-white"
-                                        : "text-foreground/80 hover:text-foreground"
-                                        }`}
-                                >
-                                    {t(item.key)}
-                                    <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-gradient-to-r from-[var(--color-brand)] to-[var(--color-brand-active)] transition-all duration-300 group-hover:w-full rounded-full" />
-                                </Link>
-                            )
-                        ))}
+                                );
+                            }
+                            return (
+                                <Link key={item.href} href={item.href} className={`${navLinkCls} group`}>{t(item.key)}{underline}</Link>
+                            );
+                        })}
                         <Link href="/contact">
                             <Button size="sm" className="rounded-full bg-[var(--color-brand-active)] hover:bg-[var(--color-brand)] text-white shadow-md hover:shadow-[0_8px_30px_rgba(105,108,255,0.35),0_0_40px_rgba(254,198,101,0.12)] hover:-translate-y-0.5 transition-all duration-300">
                                 {t("nav.contact")}

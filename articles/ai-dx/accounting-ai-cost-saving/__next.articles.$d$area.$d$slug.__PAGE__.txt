@@ -1,19 +1,17 @@
 1:"$Sreact.fragment"
-2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
 4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 5:"$Sreact.suspense"
-3:T890,<h2>はじめに</h2>
+3:T965,<h2>はじめに</h2>
 <p>経理業務のAI活用は、単なる「効率化」を超えた<strong>コスト削減のインパクト</strong>を持っています。この記事では、具体的な数字で投資対効果を整理します。</p>
 <blockquote>📩 御社の経理DXのROI試算は<a href="/contact">無料相談</a>でお受けしています。</blockquote>
 <h2>コスト削減の3つの柱</h2>
 <h3>1. 直接的な工数削減</h3>
-| 業務 | 月間工数（現状） | AI活用後 | 削減量 |
-|---|---|---|---|
-| 請求書処理 | 15時間 | 3時間 | 12時間 |
-| 仕訳作業 | 10時間 | 2時間 | 8時間 |
-| 照合作業 | 8時間 | 1時間 | 7時間 |
-| レポート作成 | 5時間 | 1時間 | 4時間 |
-| <strong>合計</strong> | <strong>38時間</strong> | <strong>7時間</strong> | <strong>31時間</strong> |
+<table><thead><tr><th>業務</th><th>月間工数（現状）</th><th>AI活用後</th><th>削減量</th></tr></thead><tbody><tr><td>請求書処理</td><td>15時間</td><td>3時間</td><td>12時間</td></tr>
+<tr><td>仕訳作業</td><td>10時間</td><td>2時間</td><td>8時間</td></tr>
+<tr><td>照合作業</td><td>8時間</td><td>1時間</td><td>7時間</td></tr>
+<tr><td>レポート作成</td><td>5時間</td><td>1時間</td><td>4時間</td></tr>
+<tr><td><strong>合計</strong></td><td><strong>38時間</strong></td><td><strong>7時間</strong></td><td><strong>31時間</strong></td></tr></tbody></table>
 <p>時給3,500円換算で<strong>月約10.8万円、年約130万円のコスト削減</strong>。</p>
 <h3>2. エラーコスト削減</h3>
 手作業による入力ミス、仕訳ミス、照合漏れ。これらのエラーの発見・修正にかかるコストと、場合によっては発生する過払い・請求漏れの損失。年間で<strong>数十万円規模</strong>の「見えないコスト」が削減できます。
@@ -24,7 +22,7 @@
 <blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/accounting-month-end-hell">経理部門の「月末地獄」を終わらせるAI活用の可能性</a></blockquote>
 <h2>まとめ</h2>
 <p>経理のAI活用は、コスト削減効果が明確で、ROIの試算がしやすい領域です。</p>
-<p>---</p>
+<hr/>
 <p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
-<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"accounting-ai-cost-saving","title":"経理のAI活用で年間コストを削減する考え方","description":"経理業務のAI活用による年間コスト削減効果を試算し、投資判断の考え方を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理","コスト削減","AI活用"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"accounting-month-end-hell","title":"経理部門の「月末地獄」を終わらせるAI活用の可能性","description":"経理の月末作業（請求書処理・仕訳・照合）を圧迫する構造的原因と、AI効率化の可能性を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理","月末作業","AI活用"],"author":"ProductX"},{"slug":"ask-someone-culture","title":"社内の「あの人に聞かないと分からない」を撲滅する方法","description":"業務知識の属人化を解消し、AIナレッジベースで「誰でも分かる」組織にする考え方を解説します。","date":"2026-03-09","category":"backoffice","tags":["属人化","ナレッジ共有","AI活用"],"author":"ProductX"},{"slug":"backoffice-dx-roi","title":"バックオフィスDXの投資対効果と判断基準","description":"バックオフィスDXの各領域のROIを分析し、中小企業が投資判断する際の基準を整理します。","date":"2026-03-09","category":"backoffice","tags":["バックオフィスDX","ROI","投資判断"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"NAGk4sLYYFyKQV5DEXrbF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"accounting-ai-cost-saving","title":"経理のAI活用で年間コストを削減する考え方","description":"経理業務のAI活用による年間コスト削減効果を試算し、投資判断の考え方を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理","コスト削減","AI活用"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"accounting-month-end-hell","title":"経理部門の「月末地獄」を終わらせるAI活用の可能性","description":"経理の月末作業（請求書処理・仕訳・照合）を圧迫する構造的原因と、AI効率化の可能性を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理","月末作業","AI活用"],"author":"ProductX"},{"slug":"ask-someone-culture","title":"社内の「あの人に聞かないと分からない」を撲滅する方法","description":"業務知識の属人化を解消し、AIナレッジベースで「誰でも分かる」組織にする考え方を解説します。","date":"2026-03-09","category":"backoffice","tags":["属人化","ナレッジ共有","AI活用"],"author":"ProductX"},{"slug":"backoffice-dx-roi","title":"バックオフィスDXの投資対効果と判断基準","description":"バックオフィスDXの各領域のROIを分析し、中小企業が投資判断する際の基準を整理します。","date":"2026-03-09","category":"backoffice","tags":["バックオフィスDX","ROI","投資判断"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
 6:null

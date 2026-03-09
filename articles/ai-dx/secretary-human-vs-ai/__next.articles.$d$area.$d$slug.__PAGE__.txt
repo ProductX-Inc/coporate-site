@@ -1,8 +1,8 @@
 1:"$Sreact.fragment"
-2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
 7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 8:"$Sreact.suspense"
-3:Tf70,<h2>はじめに</h2>
+3:Tf6b,<h2>はじめに</h2>
 <p>経営者や管理職の「忙しすぎる問題」を解決する手段として、<strong>オンライン秘書サービス</strong>と<strong>AI秘書</strong>が注目されています。</p>
 <p>どちらも「業務の代行」という点では共通していますが、得意領域は大きく異なります。この記事では両者を比較し、御社にとって最適な選択肢を考えるための材料を提供します。</p>
 <h2>人間のオンライン秘書</h2>
@@ -48,11 +48,11 @@
 <blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/ai-secretary-boundaries">AI秘書に任せられる業務・任せてはいけない業務</a></blockquote>
 <h2>まとめ</h2>
 <p>御社の規模・業務内容・予算に応じて、最適な組み合わせは異なります。</p>
-<p>---</p>
+<hr/>
 <p>📩 <strong>御社に最適な方法を一緒に探しませんか？</strong></p>
 <p>ProductXでは、AI DXに関する無料相談を承っています。</p>
-<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"secretary-human-vs-ai","title":"オンライン秘書サービス比較｜人間 vs AI、どちらを選ぶ？","description":"人間のオンライン秘書とAI秘書を比較。それぞれの強みと弱みを整理し、最適な選択の判断軸を提示します。","date":"2026-03-09","category":"sales","tags":["オンライン秘書","AI秘書","比較"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-roleplay-sales","title":"AI営業ロープレの実力｜新人教育はここまで変わる","description":"AI営業ロープレの仕組みと従来の研修手法との違いを比較。新人教育の効率と質を両立させるアプローチを解説。","date":"2026-03-09","category":"sales","tags":["営業ロープレ","新人教育","AI活用"],"author":"ProductX"},{"slug":"ai-sales-forecast","title":"AI売上予測の実力と導入判断のポイント","description":"AI売上予測の精度・限界・必要データ量を整理し、中小企業が導入を判断するための考え方を解説します。","date":"2026-03-09","category":"sales","tags":["AI売上予測","導入判断","中小企業"],"author":"ProductX"},{"slug":"ai-secretary-boundaries","title":"AI秘書に任せられる業務・任せてはいけない業務","description":"AI秘書の得意領域と限界を整理。経営者がAI秘書を最大限活用するための業務の切り分け方を解説します。","date":"2026-03-09","category":"sales","tags":["AI秘書","業務切り分け","経営効率化"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"NAGk4sLYYFyKQV5DEXrbF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"secretary-human-vs-ai","title":"オンライン秘書サービス比較｜人間 vs AI、どちらを選ぶ？","description":"人間のオンライン秘書とAI秘書を比較。それぞれの強みと弱みを整理し、最適な選択の判断軸を提示します。","date":"2026-03-09","category":"sales","tags":["オンライン秘書","AI秘書","比較"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-roleplay-sales","title":"AI営業ロープレの実力｜新人教育はここまで変わる","description":"AI営業ロープレの仕組みと従来の研修手法との違いを比較。新人教育の効率と質を両立させるアプローチを解説。","date":"2026-03-09","category":"sales","tags":["営業ロープレ","新人教育","AI活用"],"author":"ProductX"},{"slug":"ai-sales-forecast","title":"AI売上予測の実力と導入判断のポイント","description":"AI売上予測の精度・限界・必要データ量を整理し、中小企業が導入を判断するための考え方を解説します。","date":"2026-03-09","category":"sales","tags":["AI売上予測","導入判断","中小企業"],"author":"ProductX"},{"slug":"ai-secretary-boundaries","title":"AI秘書に任せられる業務・任せてはいけない業務","description":"AI秘書の得意領域と限界を整理。経営者がAI秘書を最大限活用するための業務の切り分け方を解説します。","date":"2026-03-09","category":"sales","tags":["AI秘書","業務切り分け","経営効率化"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
 4:["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}]
-5:["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]
 6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
 9:null

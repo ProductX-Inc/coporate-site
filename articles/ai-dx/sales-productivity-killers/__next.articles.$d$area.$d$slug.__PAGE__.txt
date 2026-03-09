@@ -1,8 +1,8 @@
 1:"$Sreact.fragment"
-2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
 7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 8:"$Sreact.suspense"
-3:T1345,<h2>はじめに</h2>
+3:T1340,<h2>はじめに</h2>
 <p>「営業を増やしたいが採用できない」「一人あたりの売上が伸びない」——中小企業の経営者にとって、営業チームの生産性は永遠の課題です。</p>
 <p>しかし、多くの場合、問題は「人が足りない」ことではありません。<strong>既存メンバーの時間が、売上に直結しない業務に吸い取られている</strong>ことこそが本質的な課題です。</p>
 <p>この記事では、中小企業の営業チームに共通する「5つの生産性キラー」を特定し、その構造的な原因を掘り下げます。</p>
@@ -37,10 +37,10 @@
 <h2>まとめ：生産性の改善は「頑張る」ではなく「仕組みを変える」</h2>
 <p>営業の生産性を上げるために必要なのは、「もっと頑張れ」ではありません。<strong>業務の仕組みそのものを見直す</strong>ことです。</p>
 <p>まずは自社の営業チームが、上記5つのうちどの課題を抱えているかを確認してみてください。</p>
-<p>---</p>
+<hr/>
 <p>📩 ProductXでは、AI DXに関する無料相談を承っています。「うちの営業チームにAIは使えるのか？」という疑問からお気軽にどうぞ。</p>
-<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"sales-productivity-killers","title":"中小企業の営業チームが抱える5つの生産性キラー","description":"中小企業の営業組織に共通する生産性低下の原因5つを分析。限られたリソースで最大の成果を出す考え方を解説。","date":"2026-03-09","category":"sales","tags":["営業生産性","中小企業","組織課題"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-roleplay-sales","title":"AI営業ロープレの実力｜新人教育はここまで変わる","description":"AI営業ロープレの仕組みと従来の研修手法との違いを比較。新人教育の効率と質を両立させるアプローチを解説。","date":"2026-03-09","category":"sales","tags":["営業ロープレ","新人教育","AI活用"],"author":"ProductX"},{"slug":"ai-sales-forecast","title":"AI売上予測の実力と導入判断のポイント","description":"AI売上予測の精度・限界・必要データ量を整理し、中小企業が導入を判断するための考え方を解説します。","date":"2026-03-09","category":"sales","tags":["AI売上予測","導入判断","中小企業"],"author":"ProductX"},{"slug":"ai-secretary-boundaries","title":"AI秘書に任せられる業務・任せてはいけない業務","description":"AI秘書の得意領域と限界を整理。経営者がAI秘書を最大限活用するための業務の切り分け方を解説します。","date":"2026-03-09","category":"sales","tags":["AI秘書","業務切り分け","経営効率化"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"NAGk4sLYYFyKQV5DEXrbF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"sales-productivity-killers","title":"中小企業の営業チームが抱える5つの生産性キラー","description":"中小企業の営業組織に共通する生産性低下の原因5つを分析。限られたリソースで最大の成果を出す考え方を解説。","date":"2026-03-09","category":"sales","tags":["営業生産性","中小企業","組織課題"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-roleplay-sales","title":"AI営業ロープレの実力｜新人教育はここまで変わる","description":"AI営業ロープレの仕組みと従来の研修手法との違いを比較。新人教育の効率と質を両立させるアプローチを解説。","date":"2026-03-09","category":"sales","tags":["営業ロープレ","新人教育","AI活用"],"author":"ProductX"},{"slug":"ai-sales-forecast","title":"AI売上予測の実力と導入判断のポイント","description":"AI売上予測の精度・限界・必要データ量を整理し、中小企業が導入を判断するための考え方を解説します。","date":"2026-03-09","category":"sales","tags":["AI売上予測","導入判断","中小企業"],"author":"ProductX"},{"slug":"ai-secretary-boundaries","title":"AI秘書に任せられる業務・任せてはいけない業務","description":"AI秘書の得意領域と限界を整理。経営者がAI秘書を最大限活用するための業務の切り分け方を解説します。","date":"2026-03-09","category":"sales","tags":["AI秘書","業務切り分け","経営効率化"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
 4:["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}]
-5:["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]
 6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
 9:null

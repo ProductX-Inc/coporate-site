@@ -82,6 +82,16 @@ function tableToHtml(block: string): string {
 /** Lightweight Markdown → HTML converter */
 export function markdownToHtml(md: string): string {
     let html = md;
+
+    // Pre-process: ensure table blocks are separated by blank lines
+    // This handles cases where a table follows a heading without a blank line
+    html = html.replace(/^(#{2,3} .+)\n(\|.+)/gm, '$1\n\n$2');
+    // Also ensure blank line after a table before next content
+    html = html.replace(/(\|[^\n]+)\n([^|\n])/gm, '$1\n\n$2');
+
+    // Horizontal rules
+    html = html.replace(/^---$/gm, '<hr/>');
+
     // Images — must run before other inline transforms
     html = html.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" loading="lazy" />');
     // Headings
@@ -92,6 +102,8 @@ export function markdownToHtml(md: string): string {
     html = html.replace(/\*(.+?)\*/g, "<em>$1</em>");
     // Links
     html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+    // Checkbox-style lists (✅ ❌ ⚠️)
+    html = html.replace(/^- (✅|❌|⚠️) (.+)$/gm, "<li>$1 $2</li>");
     // Lists
     html = html.replace(/^- (.+)$/gm, "<li>$1</li>");
     html = html.replace(/(<li>.*<\/li>\n?)+/g, (m) => `<ul>${m}</ul>`);
@@ -104,9 +116,30 @@ export function markdownToHtml(md: string): string {
             const t = block.trim();
             if (!t) return "";
             // Pass through known block elements
-            if (/^<(h|ul|ol|blockquote|li|img|table)/.test(t)) return t;
+            if (/^<(h|ul|ol|blockquote|li|img|table|hr)/.test(t)) return t;
             // Detect Markdown tables (lines starting with |)
             if (/^\|/.test(t)) return tableToHtml(t);
+            // Handle blocks that contain mixed content (e.g., heading followed by table lines)
+            if (t.includes('\n') && t.split('\n').some(line => /^\|/.test(line))) {
+                const lines = t.split('\n');
+                const parts: string[] = [];
+                let tableLines: string[] = [];
+                for (const line of lines) {
+                    if (/^\|/.test(line)) {
+                        tableLines.push(line);
+                    } else {
+                        if (tableLines.length > 0) {
+                            parts.push(tableToHtml(tableLines.join('\n')));
+                            tableLines = [];
+                        }
+                        parts.push(line);
+                    }
+                }
+                if (tableLines.length > 0) {
+                    parts.push(tableToHtml(tableLines.join('\n')));
+                }
+                return parts.join('\n');
+            }
             return `<p>${t.replace(/\n/g, "<br/>")}</p>`;
         })
         .join("\n");

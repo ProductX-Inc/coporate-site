@@ -1,8 +1,8 @@
 1:"$Sreact.fragment"
-2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
 6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-3:T1137,<h2>はじめに</h2>
+3:T1132,<h2>はじめに</h2>
 <p>「たくさん電話をかけているのに、なかなかアポが取れない」——その原因はリストの質にあるかもしれません。</p>
 <p>営業リストの質は、成約率に直結します。100社に電話して1件のアポが取れるリストと、20社に電話して3件取れるリスト。<strong>後者の方が圧倒的に生産性が高い</strong>のは明白です。</p>
 <p>この記事では、AIを活用して営業リストの質を劇的に向上させる考え方を解説します。</p>
@@ -37,10 +37,10 @@
 <blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/sales-list-automation">営業アタックリスト作成を自動化する方法</a> / <a href="/articles/ai-dx/sales-dx-roi">営業DXの費用対効果</a></blockquote>
 <h2>まとめ</h2>
 <p>営業リストの質は、「どれだけ労力をかけるか」ではなく「どれだけデータを活かせるか」で決まる時代です。</p>
-<p>---</p>
+<hr/>
 <p>📩 <strong>導入を検討中の方へ</strong></p>
 <p>ProductXでは、AI DXの無料個別相談を承っています。御社の営業データに合わせた具体的なご提案をいたします。</p>
-<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"sales-list-quality","title":"営業リストの質を劇的に上げるAI活用の考え方","description":"質の高い営業リストを作るためのAI活用アプローチを概念レベルで解説。成約率を高めるリスト設計の考え方とは。","date":"2026-03-09","category":"sales","tags":["営業リスト","AI活用","成約率"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-roleplay-sales","title":"AI営業ロープレの実力｜新人教育はここまで変わる","description":"AI営業ロープレの仕組みと従来の研修手法との違いを比較。新人教育の効率と質を両立させるアプローチを解説。","date":"2026-03-09","category":"sales","tags":["営業ロープレ","新人教育","AI活用"],"author":"ProductX"},{"slug":"ai-sales-forecast","title":"AI売上予測の実力と導入判断のポイント","description":"AI売上予測の精度・限界・必要データ量を整理し、中小企業が導入を判断するための考え方を解説します。","date":"2026-03-09","category":"sales","tags":["AI売上予測","導入判断","中小企業"],"author":"ProductX"},{"slug":"ai-secretary-boundaries","title":"AI秘書に任せられる業務・任せてはいけない業務","description":"AI秘書の得意領域と限界を整理。経営者がAI秘書を最大限活用するための業務の切り分け方を解説します。","date":"2026-03-09","category":"sales","tags":["AI秘書","業務切り分け","経営効率化"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],"$L4"],"$L5"]}],"loading":null,"isPartial":false}
-4:["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"NAGk4sLYYFyKQV5DEXrbF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"sales-list-quality","title":"営業リストの質を劇的に上げるAI活用の考え方","description":"質の高い営業リストを作るためのAI活用アプローチを概念レベルで解説。成約率を高めるリスト設計の考え方とは。","date":"2026-03-09","category":"sales","tags":["営業リスト","AI活用","成約率"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-roleplay-sales","title":"AI営業ロープレの実力｜新人教育はここまで変わる","description":"AI営業ロープレの仕組みと従来の研修手法との違いを比較。新人教育の効率と質を両立させるアプローチを解説。","date":"2026-03-09","category":"sales","tags":["営業ロープレ","新人教育","AI活用"],"author":"ProductX"},{"slug":"ai-sales-forecast","title":"AI売上予測の実力と導入判断のポイント","description":"AI売上予測の精度・限界・必要データ量を整理し、中小企業が導入を判断するための考え方を解説します。","date":"2026-03-09","category":"sales","tags":["AI売上予測","導入判断","中小企業"],"author":"ProductX"},{"slug":"ai-secretary-boundaries","title":"AI秘書に任せられる業務・任せてはいけない業務","description":"AI秘書の得意領域と限界を整理。経営者がAI秘書を最大限活用するための業務の切り分け方を解説します。","date":"2026-03-09","category":"sales","tags":["AI秘書","業務切り分け","経営効率化"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],"$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
