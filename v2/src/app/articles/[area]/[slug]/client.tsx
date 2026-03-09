@@ -8,17 +8,16 @@ import { Footer } from "@/components/layout/footer";
 import { Badge } from "@/components/ui/badge";
 import { useLang } from "@/components/lang-provider";
 import { fadeUp } from "@/lib/animations";
-import { categoryColors } from "@/lib/articles-constants";
+import { categoryColors, categoryLabels } from "@/lib/articles-constants";
 import type { Article, ArticleMeta, ServiceAreaInfo } from "@/lib/articles-constants";
 
 interface Props {
     article: Article;
     relatedArticles: ArticleMeta[];
-    categoryLabels: Record<string, { ja: string; en: string }>;
     area: ServiceAreaInfo;
 }
 
-export function ArticleDetailClient({ article, relatedArticles, categoryLabels, area }: Props) {
+export function ArticleDetailClient({ article, relatedArticles, area }: Props) {
     const { t, locale } = useLang();
 
     return (

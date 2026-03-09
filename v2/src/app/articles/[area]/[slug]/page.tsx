@@ -1,4 +1,4 @@
-import { getAllArticles, getArticleBySlug, markdownToHtml, categoryLabels, serviceAreas, isValidArea } from "@/lib/articles";
+import { getAllArticles, getArticleBySlug, markdownToHtml, serviceAreas, isValidArea } from "@/lib/articles";
 import { ArticleDetailClient } from "./client";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -42,7 +42,6 @@ export default async function ArticleDetailPage({ params }: { params: Promise<{ 
         <ArticleDetailClient
             article={{ ...article, content: markdownToHtml(article.content) }}
             relatedArticles={related}
-            categoryLabels={categoryLabels}
             area={serviceAreas.find((a) => a.key === area)!}
         />
     );

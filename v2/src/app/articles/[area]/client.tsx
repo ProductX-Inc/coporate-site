@@ -8,22 +8,32 @@ import { Footer } from "@/components/layout/footer";
 import { PageHero } from "@/components/shared/page-hero";
 import { Badge } from "@/components/ui/badge";
 import { useLang } from "@/components/lang-provider";
-import { categoryColors } from "@/lib/articles-constants";
+import { categoryColors, categoryLabels } from "@/lib/articles-constants";
 import type { ArticleMeta, ServiceAreaInfo } from "@/lib/articles-constants";
 
 interface Props {
     area: ServiceAreaInfo;
     articles: ArticleMeta[];
-    categoryLabels: Record<string, { ja: string; en: string }>;
 }
 
-export function AreaArticlesClient({ area, articles, categoryLabels }: Props) {
+export function AreaArticlesClient({ area, articles }: Props) {
     const { t, locale } = useLang();
     const [activeCategory, setActiveCategory] = useState("all");
 
     const relevantCategories = useMemo(
         () => Object.keys(categoryLabels).filter((cat) => articles.some((a) => a.category === cat)),
-        [articles, categoryLabels]
+        [articles]
+    );
+
+    const categoryCounts = useMemo(
+        () => {
+            const counts: Record<string, number> = {};
+            for (const a of articles) {
+                counts[a.category] = (counts[a.category] || 0) + 1;
+            }
+            return counts;
+        },
+        [articles]
     );
 
     const filtered = useMemo(
@@ -64,7 +74,7 @@ export function AreaArticlesClient({ area, articles, categoryLabels }: Props) {
                                         key={cat}
                                         active={activeCategory === cat}
                                         onClick={() => setActiveCategory(cat)}
-                                        label={`${categoryLabels[cat]?.[locale] || cat} (${articles.filter((a) => a.category === cat).length})`}
+                                        label={`${categoryLabels[cat]?.[locale] || cat} (${categoryCounts[cat] || 0})`}
                                     />
                                 ))}
                             </div>

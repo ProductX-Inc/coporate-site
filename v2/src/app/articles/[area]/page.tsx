@@ -1,4 +1,4 @@
-import { getAllArticles, serviceAreas, categoryLabels, isValidArea } from "@/lib/articles";
+import { getAllArticles, serviceAreas, isValidArea } from "@/lib/articles";
 import { AreaArticlesClient } from "./client";
 import { notFound } from "next/navigation";
 
@@ -24,7 +24,6 @@ export default async function AreaArticlesPage({ params }: { params: Promise<{ a
         <AreaArticlesClient
             area={serviceAreas.find((a) => a.key === area)!}
             articles={getAllArticles(area)}
-            categoryLabels={categoryLabels}
         />
     );
 }
