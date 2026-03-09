@@ -51,6 +51,7 @@ export interface Article extends ArticleMeta {
 }
 
 export const categoryLabels: Record<string, { ja: string; en: string }> = {
+    "ceo-column": { ja: "CEO Column", en: "CEO Column" },
     sales: { ja: "営業・セールス", en: "Sales" },
     marketing: { ja: "マーケティング・広報", en: "Marketing" },
     backoffice: { ja: "バックオフィス・管理", en: "Back Office" },
@@ -63,6 +64,7 @@ export const categoryLabels: Record<string, { ja: string; en: string }> = {
 };
 
 export const categoryColors: Record<string, string> = {
+    "ceo-column": "bg-[#FEC665]/15 text-[#FEC665] border-[#FEC665]/30",
     sales: "bg-blue-500/10 text-blue-400 border-blue-500/20",
     marketing: "bg-purple-500/10 text-purple-400 border-purple-500/20",
     backoffice: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",

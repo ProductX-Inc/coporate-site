@@ -69,6 +69,7 @@ export function InviteSection() {
                             {[
                                 { href: "/about", key: "nav.about" },
                                 { href: "/services", key: "nav.services" },
+                                { href: "/resources", label: "Resources" },
                                 { href: "/news", key: "nav.news" },
                                 { href: "/partner", key: "nav.partner" },
                                 { href: "/contact", key: "nav.contact" },
@@ -78,7 +79,7 @@ export function InviteSection() {
                                     href={item.href}
                                     className="text-white/50 hover:text-white/80 text-sm transition-colors"
                                 >
-                                    {t(item.key)}
+                                    {"key" in item && item.key ? t(item.key) : item.label}
                                 </Link>
                             ))}
                         </nav>

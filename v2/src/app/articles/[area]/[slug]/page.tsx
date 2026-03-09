@@ -14,15 +14,17 @@ export async function generateMetadata({ params }: { params: Promise<{ area: str
     if (!isValidArea(area)) return { title: "記事が見つかりません" };
     const article = getArticleBySlug(area, slug);
     if (!article) return { title: "記事が見つかりません" };
+    const isCeoColumn = article.category === "ceo-column";
     return {
-        title: article.title,
+        title: isCeoColumn ? `${article.title} | ProductX CEO` : article.title,
         description: article.description,
         openGraph: {
-            title: article.title,
+            title: isCeoColumn ? `${article.title} | ProductX CEO` : article.title,
             description: article.description,
             type: "article",
             publishedTime: article.date,
             tags: article.tags,
+            ...(isCeoColumn && { authors: ["上野健太 / ProductX CEO"] }),
         },
     };
 }

@@ -5,6 +5,8 @@ import { GlobalEffects } from "@/components/ui/global-effects";
 import { AiChatbot } from "@/components/ui/ai-chatbot";
 import "./globals.css";
 
+const GA_ID = "G-958FQBMXHB";
+
 export const metadata: Metadata = {
   title: {
     default: "ProductX - Unleash Potential",
@@ -75,6 +77,8 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="#696CFF" />
         <meta name="google-site-verification" content="317UNan5UrUQVsmkdwwrteFnJAWBFx0ZHT8pSC2DvHY" />
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
+        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA_ID}')` }} />
       </head>
       <body>
         <script

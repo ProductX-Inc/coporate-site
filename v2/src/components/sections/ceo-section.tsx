@@ -68,12 +68,20 @@ export function CeoSection() {
                                 {quote}
                             </p>
                         </div>
-                        <Link
-                            href="/about"
-                            className="inline-flex items-center gap-1.5 mt-6 text-sm font-medium text-[var(--color-brand-active)] dark:text-[var(--color-brand)] hover:underline underline-offset-4"
-                        >
-                            {locale === "ja" ? "詳しく見る" : "Read More"} <ArrowRight size={14} />
-                        </Link>
+                        <div className="flex flex-col sm:flex-row gap-4 mt-6">
+                            <Link
+                                href="/about"
+                                className="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--color-brand-active)] dark:text-[var(--color-brand)] hover:underline underline-offset-4"
+                            >
+                                {locale === "ja" ? "詳しく見る" : "Read More"} <ArrowRight size={14} />
+                            </Link>
+                            <Link
+                                href="/articles/ai-dx/ceo-future-of-ai"
+                                className="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--color-brand-gold)] hover:underline underline-offset-4"
+                            >
+                                {locale === "ja" ? "最新の寄稿を読む" : "Read Latest Column"} <ArrowRight size={14} />
+                            </Link>
+                        </div>
                     </motion.div>
                 </div>
             </div>

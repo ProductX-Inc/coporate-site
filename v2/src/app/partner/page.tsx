@@ -314,6 +314,35 @@ export default function PartnerPage() {
 
                 <GradientDivider />
 
+                {/* Resources Banner */}
+                <Section bg={BG_B}>
+                    <motion.div className="mx-auto max-w-[800px] px-6" {...MV} custom={0}>
+                        <div className="p-6 md:p-8 rounded-2xl border border-[var(--color-brand)]/20 bg-card relative overflow-hidden">
+                            <div className="absolute inset-0 bg-gradient-to-r from-[var(--color-brand)]/5 to-transparent" />
+                            <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
+                                <div>
+                                    <p className="text-xs font-medium tracking-[0.15em] uppercase text-[var(--color-brand)] mb-2">RESOURCES</p>
+                                    <h3 className="text-lg font-bold mb-1">
+                                        {l(locale, { ja: "営業資料をご活用ください", en: "Use Our Sales Deck" })}
+                                    </h3>
+                                    <p className="text-sm text-muted-foreground">
+                                        {l(locale, { ja: "パートナー様はこのURLをそのまま顧客紹介にご利用いただけます。", en: "Partners can share this URL directly with potential clients." })}
+                                    </p>
+                                </div>
+                                <Link
+                                    href="/resources/company-deck"
+                                    className="shrink-0 inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[var(--color-brand-active)] hover:bg-[var(--color-brand)] text-white text-sm font-semibold shadow-md hover:shadow-[0_8px_30px_rgba(105,108,255,0.35)] hover:-translate-y-0.5 transition-all duration-300"
+                                >
+                                    {l(locale, { ja: "資料を見る", en: "View Deck" })}
+                                    <ArrowRight size={16} />
+                                </Link>
+                            </div>
+                        </div>
+                    </motion.div>
+                </Section>
+
+                <GradientDivider />
+
                 {/* CTA */}
                 <section className="py-24 md:py-32 bg-background">
                     <div className="mx-auto max-w-[800px] px-6 text-center">

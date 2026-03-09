@@ -21,6 +21,7 @@ const navItems = [
             { href: "/tools/ai-simulator", labelJa: "AI効果シミュレーター", labelEn: "AI Impact Simulator" },
             { href: "/tools/estimate", labelJa: "開発費用シミュレーター", labelEn: "Cost Estimator" },
             { href: "/case-studies", labelJa: "導入事例", labelEn: "Case Studies" },
+            { href: "/resources", labelJa: "資料ダウンロード", labelEn: "Resources" },
         ],
     },
     { href: "/articles", key: "nav.articles" },
