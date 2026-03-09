@@ -7,15 +7,18 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { PageHero } from "@/components/shared/page-hero";
 import { Button } from "@/components/ui/button";
-import { Send, CheckCircle } from "lucide-react";
+import { Send, CheckCircle, Loader2, AlertCircle } from "lucide-react";
 import { useLang } from "@/components/lang-provider";
 import { fadeUp } from "@/lib/animations";
 
-
+// ── GAS WebApp URL（デプロイ後に差し替え） ──────────────────
+const GAS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbz-syMRu_TztsT1jwBTMM_dZNi9gJF8CH0j-2n1OuICxormuJqgXzO2Zrgt6-k7heOu7g/exec";
 
 export default function ContactPage() {
     const { t } = useLang();
     const [submitted, setSubmitted] = useState(false);
+    const [submitting, setSubmitting] = useState(false);
+    const [error, setError] = useState<string | null>(null);
 
     const fields = [
         { id: "name", label: t("contact.name"), type: "text", required: true },
@@ -25,6 +28,49 @@ export default function ContactPage() {
         { id: "emailConfirm", label: t("contact.emailConfirm"), type: "email", required: true },
         { id: "phone", label: t("contact.phone"), type: "tel", required: false },
     ];
+
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        setError(null);
+
+        const form = e.currentTarget;
+        const formData = new FormData(form);
+        const data: Record<string, string> = {};
+        formData.forEach((v, k) => { data[k] = v.toString(); });
+
+        // メール確認バリデーション
+        if (data.email !== data.emailConfirm) {
+            setError(t("contact.error.emailMismatch"));
+            return;
+        }
+
+        setSubmitting(true);
+
+        try {
+            const res = await fetch(GAS_WEBAPP_URL, {
+                method: "POST",
+                body: JSON.stringify({
+                    name: data.name,
+                    company: data.company,
+                    website: data.website || "",
+                    email: data.email,
+                    phone: data.phone || "",
+                    message: data.message,
+                }),
+            });
+
+            if (!res.ok) {
+                throw new Error(`Server error: ${res.status}`);
+            }
+
+            setSubmitted(true);
+        } catch (err) {
+            console.error("Form submission error:", err);
+            setError(t("contact.error.network"));
+        } finally {
+            setSubmitting(false);
+        }
+    };
 
     if (submitted) {
         return (
@@ -69,8 +115,19 @@ export default function ContactPage() {
                             <motion.form
                                 className="space-y-6"
                                 initial="hidden" animate="visible"
-                                onSubmit={(e) => { e.preventDefault(); setSubmitted(true); }}
+                                onSubmit={handleSubmit}
                             >
+                                {error && (
+                                    <motion.div
+                                        className="flex items-start gap-3 p-4 rounded-lg border border-destructive/50 bg-destructive/5 text-destructive text-sm"
+                                        initial={{ opacity: 0, y: -8 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                    >
+                                        <AlertCircle size={18} className="mt-0.5 shrink-0" />
+                                        <p>{error}</p>
+                                    </motion.div>
+                                )}
+
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                     {fields.map((f, i) => (
                                         <motion.div key={f.id} custom={i} variants={fadeUp}>
@@ -84,7 +141,8 @@ export default function ContactPage() {
                                                 name={f.id}
                                                 type={f.type}
                                                 required={f.required}
-                                                className="w-full h-11 px-4 rounded-lg border border-input bg-background text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring transition-colors"
+                                                disabled={submitting}
+                                                className="w-full h-11 px-4 rounded-lg border border-input bg-background text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                                             />
                                         </motion.div>
                                     ))}
@@ -99,7 +157,8 @@ export default function ContactPage() {
                                         name="message"
                                         rows={6}
                                         required
-                                        className="w-full px-4 py-3 rounded-lg border border-input bg-background text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring transition-colors resize-none"
+                                        disabled={submitting}
+                                        className="w-full px-4 py-3 rounded-lg border border-input bg-background text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring transition-colors resize-none disabled:opacity-50 disabled:cursor-not-allowed"
                                     />
                                 </motion.div>
 
@@ -107,9 +166,14 @@ export default function ContactPage() {
                                     <Button
                                         type="submit"
                                         size="lg"
-                                        className="w-full md:w-auto rounded-full bg-[var(--color-brand-active)] hover:bg-[var(--color-brand)] text-white font-semibold shadow-lg hover:shadow-[0_10px_40px_rgba(105,108,255,0.35),0_0_60px_rgba(254,198,101,0.15)] h-12 text-base px-12 transition-all"
+                                        disabled={submitting}
+                                        className="w-full md:w-auto rounded-full bg-[var(--color-brand-active)] hover:bg-[var(--color-brand)] text-white font-semibold shadow-lg hover:shadow-[0_10px_40px_rgba(105,108,255,0.35),0_0_60px_rgba(254,198,101,0.15)] h-12 text-base px-12 transition-all disabled:opacity-60"
                                     >
-                                        <Send size={16} className="mr-2" /> {t("contact.submit")}
+                                        {submitting ? (
+                                            <><Loader2 size={16} className="mr-2 animate-spin" /> {t("contact.submitting")}</>
+                                        ) : (
+                                            <><Send size={16} className="mr-2" /> {t("contact.submit")}</>
+                                        )}
                                     </Button>
                                 </motion.div>
                             </motion.form>
