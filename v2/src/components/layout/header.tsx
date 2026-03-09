@@ -20,7 +20,7 @@ const navItems = [
             { href: "/services/ai-dx", labelJa: "AI DX", labelEn: "AI DX" },
             { href: "/tools/ai-simulator", labelJa: "AI効果シミュレーター", labelEn: "AI Impact Simulator" },
             { href: "/tools/estimate", labelJa: "開発費用シミュレーター", labelEn: "Cost Estimator" },
-            { href: "/case-studies", labelJa: "導入事例", labelEn: "Case Studies" },
+            // { href: "/case-studies", labelJa: "導入事例", labelEn: "Case Studies" },
             { href: "/resources", labelJa: "資料ダウンロード", labelEn: "Resources" },
         ],
     },

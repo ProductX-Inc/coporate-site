@@ -21,6 +21,7 @@ const translations: Record<string, Record<Locale, string>> = {
     "nav.news": { ja: "News", en: "News" },
     "nav.contact": { ja: "Contact", en: "Contact" },
     "nav.partner": { ja: "Partner", en: "Partner" },
+    "nav.resources": { ja: "Resources", en: "Resources" },
 
     // ===== Hero Section =====
     "hero.title": { ja: "Unleash Potential.", en: "Unleash Potential." },
@@ -168,6 +169,12 @@ const translations: Record<string, Record<Locale, string>> = {
     "contact.thanks.title": { ja: "送信完了", en: "Message Sent" },
     "contact.thanks.body": { ja: "お問い合わせありがとうございます。\n内容を確認の上、2営業日以内にご連絡いたします。", en: "Thank you for your inquiry.\nWe will review your message and respond within 2 business days." },
     "contact.thanks.back": { ja: "トップに戻る", en: "Back to Home" },
+    "contact.info.email.label": { ja: "メール", en: "Email" },
+    "contact.info.email.value": { ja: "info@productx.jp", en: "info@productx.jp" },
+    "contact.info.address.label": { ja: "所在地", en: "Location" },
+    "contact.info.address.value": { ja: "東京都渋谷区渋谷2-19-15\n宮益坂ビルディング609", en: "2-19-15 Shibuya, Shibuya-ku, Tokyo\nMiyamasaka Building 609" },
+    "contact.info.hours.label": { ja: "営業時間", en: "Business Hours" },
+    "contact.info.hours.value": { ja: "平日 10:00 - 19:00", en: "Weekdays 10:00 - 19:00" },
 
     // ===== Privacy Page =====
     "privacy.label": { ja: "LEGAL", en: "LEGAL" },

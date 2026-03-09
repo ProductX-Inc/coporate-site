@@ -180,26 +180,28 @@ export default function ContactPage() {
                         </div>
 
                         {/* Company Info */}
-                        <motion.div
-                            className="mt-12 pt-8 border-t border-border/50"
-                            initial="hidden" animate="visible"
-                            custom={fields.length + 2} variants={fadeUp}
-                        >
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
-                                <div>
-                                    <p className="font-semibold mb-1">メール</p>
-                                    <p className="text-muted-foreground">info@productx.jp</p>
+                        <div className="max-w-[800px]">
+                            <motion.div
+                                className="mt-12 pt-8 border-t border-border/50"
+                                initial="hidden" whileInView="visible" viewport={{ once: true }}
+                                custom={0} variants={fadeUp}
+                            >
+                                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
+                                    <div>
+                                        <p className="font-semibold mb-1">{t("contact.info.email.label")}</p>
+                                        <p className="text-muted-foreground">{t("contact.info.email.value")}</p>
+                                    </div>
+                                    <div>
+                                        <p className="font-semibold mb-1">{t("contact.info.address.label")}</p>
+                                        <p className="text-muted-foreground whitespace-pre-line">{t("contact.info.address.value")}</p>
+                                    </div>
+                                    <div>
+                                        <p className="font-semibold mb-1">{t("contact.info.hours.label")}</p>
+                                        <p className="text-muted-foreground">{t("contact.info.hours.value")}</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <p className="font-semibold mb-1">所在地</p>
-                                    <p className="text-muted-foreground">東京都渋谷区渋谷2-19-15<br />宮益坂ビルディング609</p>
-                                </div>
-                                <div>
-                                    <p className="font-semibold mb-1">営業時間</p>
-                                    <p className="text-muted-foreground">平日 10:00 - 19:00</p>
-                                </div>
-                            </div>
-                        </motion.div>
+                            </motion.div>
+                        </div>
                     </div>
                 </section>
             </main>

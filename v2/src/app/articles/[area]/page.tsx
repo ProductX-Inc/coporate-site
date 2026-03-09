@@ -13,6 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ area: str
     return {
         title: `${info.label.ja} Articles`,
         description: info.description.ja,
+        alternates: { canonical: `https://productx.jp/articles/${area}` },
     };
 }
 

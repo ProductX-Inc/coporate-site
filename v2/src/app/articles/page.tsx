@@ -5,6 +5,7 @@ export const metadata = {
     title: "Articles",
     description:
         "ProductXが発信するAI DX・プロダクト開発に関する記事。業務効率化から導入戦略まで、実践的なナレッジをお届けします。",
+    alternates: { canonical: "https://productx.jp/articles" },
 };
 
 export default function ArticlesLandingPage() {

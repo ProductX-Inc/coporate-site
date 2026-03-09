@@ -137,10 +137,16 @@ const categories = [
     { icon: Code, label: { ja: "AI Engineering — 開発", en: "AI Engineering" }, count: "6", desc: { ja: "カスタムシステムやワークフローを開発・納品", en: "Develop and deliver custom systems" }, color: "text-violet-400", bg: "bg-violet-500/10" },
 ];
 
+const PLAN_STYLES = {
+    basic: { color: "border-[var(--color-brand)]/30", badge: "bg-[var(--color-brand)]/10 text-[var(--color-brand)]" },
+    popular: { color: "border-[var(--color-brand)]/60", badge: "bg-[var(--color-brand)]/15 text-[var(--color-brand)]" },
+    premium: { color: "border-[var(--color-brand-active)]/50", badge: "bg-[var(--color-brand-active)]/15 text-[var(--color-brand-active)]" },
+};
+
 const plans = [
-    { name: { ja: "梅 — スポット代行", en: "Basic — Spot Execution" }, price: { ja: "5〜30万円 / 件", en: "¥50K-300K / project" }, desc: { ja: "ProductXがAIを使って業務を代行し成果物を納品。まずは「AIの凄さ」を実感。", en: "We execute tasks with AI and deliver results. Experience the power of AI first-hand." }, color: "border-[var(--color-brand)]/30", badge: "bg-[var(--color-brand)]/10 text-[var(--color-brand)]" },
-    { name: { ja: "竹 — 導入パッケージ", en: "Standard — Integration Package" }, price: { ja: "初期20〜80万 + 月額5〜15万", en: "¥200K-800K + ¥50K-150K/mo" }, desc: { ja: "顧客社内にAI活用環境を構築。仕組み化して定着させるストック型の本命プラン。", en: "Build AI environments in-house. A subscription-based plan for lasting transformation." }, popular: true, color: "border-[var(--color-brand)]/60", badge: "bg-[var(--color-brand)]/15 text-[var(--color-brand)]" },
-    { name: { ja: "松 — カスタム開発", en: "Premium — Custom Development" }, price: { ja: "100〜500万円〜", en: "¥1M-5M+" }, desc: { ja: "業務の深部に入り込むカスタムシステムやワークフローを開発。", en: "Custom systems and workflows that transform core business operations." }, color: "border-[var(--color-brand-active)]/50", badge: "bg-[var(--color-brand-active)]/15 text-[var(--color-brand-active)]" },
+    { name: { ja: "梅 — スポット代行", en: "Basic — Spot Execution" }, price: { ja: "5〜30万円 / 件", en: "¥50K-300K / project" }, desc: { ja: "ProductXがAIを使って業務を代行し成果物を納品。まずは「AIの凄さ」を実感。", en: "We execute tasks with AI and deliver results. Experience the power of AI first-hand." }, popular: false, ...PLAN_STYLES.basic },
+    { name: { ja: "竹 — 導入パッケージ", en: "Standard — Integration Package" }, price: { ja: "初期20〜80万 + 月額5〜15万", en: "¥200K-800K + ¥50K-150K/mo" }, desc: { ja: "顧客社内にAI活用環境を構築。仕組み化して定着させるストック型の本命プラン。", en: "Build AI environments in-house. A subscription-based plan for lasting transformation." }, popular: true, ...PLAN_STYLES.popular },
+    { name: { ja: "松 — カスタム開発", en: "Premium — Custom Development" }, price: { ja: "100〜500万円〜", en: "¥1M-5M+" }, desc: { ja: "業務の深部に入り込むカスタムシステムやワークフローを開発。", en: "Custom systems and workflows that transform core business operations." }, popular: false, ...PLAN_STYLES.premium },
 ];
 
 const journeySteps = [

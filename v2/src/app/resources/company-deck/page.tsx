@@ -235,9 +235,8 @@ export default function CompanyDeckPage() {
                             style={{ background: "radial-gradient(ellipse at center, transparent 60%, oklch(0.05 0 0 / 0.6) 100%)" }} />
                     )}
 
-                    {/* Slide container */}
-                    <div className={`relative w-full overflow-hidden rounded-2xl ${isFullscreen ? "rounded-none" : "border border-border shadow-xl"}`}
-                        style={{ aspectRatio: "16/9" }}
+                    {/* Slide container — 3:4 on mobile, 16:9 on md+ */}
+                    <div className={`relative w-full overflow-hidden rounded-2xl aspect-[3/4] md:aspect-[16/9] ${isFullscreen ? "rounded-none !aspect-[16/9]" : "border border-border shadow-xl"}`}
                     >
                         <AnimatePresence mode="wait" custom={direction}>
                             <motion.div
@@ -387,7 +386,7 @@ function SlideContent({ slide, locale }: { slide: SlideData; locale: Locale }) {
 /* ── Shared slide wrappers ── */
 function DarkSlide({ children, className = "" }: { children: React.ReactNode; className?: string }) {
     return (
-        <div className={`w-full h-full bg-[var(--color-brand-dark)] text-white p-4 md:p-12 flex flex-col justify-center relative overflow-hidden ${className}`}>
+        <div className={`w-full h-full bg-[var(--color-brand-dark)] text-white p-4 md:p-12 flex flex-col justify-start md:justify-center relative overflow-hidden overflow-y-auto ${className}`}>
             <div className="absolute inset-0 opacity-[0.03]" style={{
                 backgroundImage: "radial-gradient(circle, rgba(255,255,255,0.8) 1px, transparent 1px)",
                 backgroundSize: "28px 28px",
@@ -402,7 +401,7 @@ function DarkSlide({ children, className = "" }: { children: React.ReactNode; cl
 function SlideCover({ locale }: { locale: Locale }) {
     const ja = locale === "ja";
     return (
-        <div className="w-full h-full relative flex flex-col items-center justify-center overflow-hidden"
+        <div className="w-full h-full relative flex flex-col items-center justify-start md:justify-center overflow-hidden overflow-y-auto pt-8 md:pt-0"
             style={{ background: "linear-gradient(135deg, var(--color-brand-dark) 0%, #2a1a4e 40%, var(--color-brand-dark) 100%)" }}>
             {/* Aurora orbs */}
             <motion.div className="absolute -top-[20%] -left-[10%] w-[400px] h-[400px] rounded-full opacity-30"
@@ -524,7 +523,7 @@ function SlideStats({ locale }: { locale: Locale }) {
 
 function SlideSectionBreak({ slide, gradient, locale }: { slide: SlideData; gradient: string; locale: Locale }) {
     return (
-        <div className={`w-full h-full bg-gradient-to-br ${gradient} flex flex-col items-center justify-center p-4 md:p-8 text-center`}>
+        <div className={`w-full h-full bg-gradient-to-br ${gradient} flex flex-col items-center justify-start md:justify-center p-4 md:p-8 text-center overflow-y-auto pt-8 md:pt-8`}>
             <motion.h2
                 className="text-3xl md:text-6xl font-bold text-white mb-4"
                 initial={{ filter: "blur(10px)", opacity: 0 }}
@@ -814,7 +813,7 @@ function SlideSecurity({ locale }: { locale: Locale }) {
 function SlideCTA({ locale }: { locale: Locale }) {
     const ja = locale === "ja";
     return (
-        <div className="w-full h-full bg-[var(--color-brand-dark)] text-white flex flex-col items-center justify-center p-4 md:p-8 text-center relative overflow-hidden">
+        <div className="w-full h-full bg-[var(--color-brand-dark)] text-white flex flex-col items-center justify-start md:justify-center p-4 md:p-8 text-center relative overflow-hidden overflow-y-auto pt-8 md:pt-8">
             {/* Gold glow background */}
             <div className="absolute inset-0" style={{
                 background: "radial-gradient(ellipse at center, rgba(254,198,101,0.08) 0%, transparent 60%)",
