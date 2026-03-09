@@ -1,0 +1,25 @@
+1:"$Sreact.fragment"
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T72f,<h2>はじめに</h2>
+<p>コンテンツ制作のコストは中小企業にとって大きな課題です。外部ライターへの委託費は1記事あたり<strong>3万〜10万円</strong>が相場。月10本で30〜100万円のコストになります。</p>
+<p>AIライターを活用した場合、このコスト構造は大きく変わります。</p>
+<h2>コスト比較</h2>
+<table><thead><tr><th>項目</th><th>外部ライター</th><th>AI + 社内編集</th></tr></thead><tbody><tr><td>1記事あたりのコスト</td><td>3万〜10万円</td><td>5,000円〜1万円</td></tr>
+<tr><td>月10本のコスト</td><td>30〜100万円</td><td>5〜10万円</td></tr>
+<tr><td>納品までの時間</td><td>1〜2週間</td><td>即日〜翌日</td></tr>
+<tr><td>修正対応</td><td>追加費用・時間</td><td>即座に可能</td></tr>
+<tr><td>品質の上限</td><td>◎（プロの文章力）</td><td>○（編集力に依存）</td></tr>
+<tr><td>専門性</td><td>△（業界知識に限界）</td><td>○（社内知見を反映可）</td></tr></tbody></table>
+<h2>最適な使い分け</h2>
+<ul><li><strong>AI + 社内編集向き</strong>: SEO記事、ブログ更新、SNS投稿、メルマガ</li>
+<li><strong>外部ライター向き</strong>: ブランディング記事、インタビュー、ホワイトペーパー</li>
+</ul>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/seo-article-ai-framework">SEO記事を月30本ペースで出すためのAI活用フレームワーク</a></blockquote>
+<h2>まとめ</h2>
+<p>「AI or 外部ライター」ではなく「AI for 量 × 外部ライター for 質」の使い分けが最適です。</p>
+<p>---</p>
+<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"ai-writer-vs-external","title":"AIライターvs外部ライター｜中小企業のコンテンツ制作コスト比較","description":"記事制作をAIで内製化する場合と外部ライターに委託する場合のコスト・品質比較を解説します。","date":"2026-03-09","category":"marketing","tags":["ライター","コスト比較","コンテンツ制作"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ab-test-ai-creative","title":"A/BテストとAIクリエイティブの組み合わせ方","description":"広告A/BテストにAIクリエイティブ生成を組み合わせる考え方とアプローチを概念レベルで解説します。","date":"2026-03-09","category":"marketing","tags":["A/Bテスト","AIクリエイティブ","広告最適化"],"author":"ProductX"},{"slug":"ad-optimization-engine","title":"広告運用のAI最適化エンジン｜中小企業にも使える考え方","description":"広告運用のAI最適化エンジンの仕組みと中小企業での活用可能性を概念レベルで解説します。","date":"2026-03-09","category":"marketing","tags":["広告最適化","AIエンジン","中小企業"],"author":"ProductX"},{"slug":"ad-report-automation-roi","title":"広告レポート作成にかかる時間をAIで削減する方法","description":"広告運用レポートの手作業を分析し、AIで作成時間を大幅に削減するアプローチを解説します。","date":"2026-03-09","category":"marketing","tags":["広告レポート","自動化","ROI"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

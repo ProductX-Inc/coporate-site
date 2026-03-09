@@ -70,7 +70,7 @@ export function CraftSection() {
                             <h3 className="text-2xl md:text-3xl font-bold mb-4">{t("craft.ai.title")}</h3>
                             <p className="text-white/80 leading-relaxed max-w-lg text-sm">{t("craft.ai.desc")}</p>
                         </div>
-                        <Link href="/services" className="relative z-10 inline-flex items-center gap-2 text-sm font-semibold text-white hover:gap-3 transition-all mt-6 self-start">
+                        <Link href="/services/ai-dx" className="relative z-10 inline-flex items-center gap-2 text-sm font-semibold text-white hover:gap-3 transition-all mt-6 self-start">
                             {t("craft.ai.link")} <ArrowRight size={16} />
                         </Link>
                     </motion.div>

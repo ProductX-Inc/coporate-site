@@ -1,0 +1,38 @@
+1:"$Sreact.fragment"
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Te20,<h2>はじめに</h2>
+<p>AI秘書への期待が高まる一方で、「AIに何を任せて良いのか分からない」という声も多く聞かれます。</p>
+<p>重要なのは、AIは<strong>万能ではない</strong>ということ。任せるべき業務と人間が担うべき業務の切り分けを正しく行うことが、AI秘書活用の成否を分けます。</p>
+<h2>AI秘書に任せられる業務</h2>
+<h3>◎ 定型的なスケジュール調整</h3>
+空き時間の確認、候補日の提示、カレンダーへの登録、リマインド送信。ルールベースで処理可能な業務はAIの最も得意とする領域です。
+<h3>◎ 情報収集と要約</h3>
+指定キーワードのニュース収集、長文メールの要約、会議資料のサマリ作成。大量の情報を構造化する作業はAIが圧倒的に速いです。
+<h3>◎ 定型メールの下書き生成</h3>
+お礼メール、アポイント確認、定期報告の下書き。パターン化された文面はAIが瞬時に生成できます。
+<h3>○ データの集計・レポート作成</h3>
+売上データの集計、KPIレポートの作成、グラフの生成。データ処理はAIの得意分野ですが、分析の「解釈」は人間が行う必要があります。
+<h2>AI秘書に任せてはいけない業務</h2>
+<h3>✕ 最終的な意思決定</h3>
+投資判断、人事評価、取引先の選定——これらは経営者の判断が必須です。AIは判断の材料を揃えることはできますが、<strong>判断そのものは人間の領域</strong>です。
+<h3>✕ 機密情報の取り扱い判断</h3>
+どの情報を誰に共有すべきかの判断には、組織の文脈や人間関係の理解が必要です。
+<h3>✕ 感情的な配慮が必要なコミュニケーション</h3>
+クレーム対応、社員への個人的なフィードバック、微妙なニュアンスの交渉。人間関係の機微を読むことはAIにはできません。
+<h2>切り分けの考え方</h2>
+<table><thead><tr><th>業務の性質</th><th>判断</th><th>理由</th></tr></thead><tbody><tr><td>ルールで処理可能</td><td>✅ AIに任せる</td><td>パターン化された繰り返し業務</td></tr>
+<tr><td>データ処理が中心</td><td>✅ AIに任せる</td><td>速度と正確性でAIが優位</td></tr>
+<tr><td>判断が必要</td><td>⚠️ AIが材料を準備+人間が判断</td><td>AIは補助的役割</td></tr>
+<tr><td>感情的配慮が必要</td><td>❌ 人間が対応</td><td>共感と文脈理解が必要</td></tr></tbody></table>
+<h2>専門家に任せるべきポイント</h2>
+<p>AI秘書の「何を任せるか」の設計は概念的には理解しやすいですが、<strong>実際の業務フローへの組み込みには専門的な知見が必要</strong>です。特に自社固有のワークフローに最適化した設計は、経験豊富なパートナーと共に進めることで効果が最大化します。</p>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/ai-secretary-for-executives">経営者の「時間がない」を解決するAI秘書という選択肢</a></blockquote>
+<h2>まとめ</h2>
+<p>AI秘書を最大限活用するコツは、「AIに何ができるか」ではなく<strong>「人間が何に集中すべきか」</strong>から考えることです。</p>
+<p>---</p>
+<p>📩 <strong>導入を検討中の方へ</strong></p>
+<p>ProductXでは、AI DXの無料個別相談を承っています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"ai-secretary-boundaries","title":"AI秘書に任せられる業務・任せてはいけない業務","description":"AI秘書の得意領域と限界を整理。経営者がAI秘書を最大限活用するための業務の切り分け方を解説します。","date":"2026-03-09","category":"sales","tags":["AI秘書","業務切り分け","経営効率化"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-roleplay-sales","title":"AI営業ロープレの実力｜新人教育はここまで変わる","description":"AI営業ロープレの仕組みと従来の研修手法との違いを比較。新人教育の効率と質を両立させるアプローチを解説。","date":"2026-03-09","category":"sales","tags":["営業ロープレ","新人教育","AI活用"],"author":"ProductX"},{"slug":"ai-sales-forecast","title":"AI売上予測の実力と導入判断のポイント","description":"AI売上予測の精度・限界・必要データ量を整理し、中小企業が導入を判断するための考え方を解説します。","date":"2026-03-09","category":"sales","tags":["AI売上予測","導入判断","中小企業"],"author":"ProductX"},{"slug":"ai-secretary-for-executives","title":"経営者の「時間がない」を解決するAI秘書という選択肢","description":"多忙な経営者の時間を取り戻すAI秘書の可能性を解説。スケジュール管理から情報整理まで、AIが担える領域とは。","date":"2026-03-09","category":"sales","tags":["AI秘書","経営者","時間管理"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

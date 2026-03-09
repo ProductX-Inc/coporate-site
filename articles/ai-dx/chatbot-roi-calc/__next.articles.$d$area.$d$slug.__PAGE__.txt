@@ -1,0 +1,34 @@
+1:"$Sreact.fragment"
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T8d5,<h2>はじめに</h2>
+<p>チャットボット導入を検討する際、「費用に見合う効果があるのか」は最も重要な問いです。問い合わせ削減効果と顧客満足度の両面からROIを試算します。</p>
+<blockquote>📩 御社の場合のROI試算は<a href="/contact">無料相談</a>でお受けしています。</blockquote>
+<h2>ROI試算モデル</h2>
+<h3>前提条件</h3>
+<ul><li>月間問い合わせ件数：500件</li>
+<li>1件あたりの対応コスト：800円（人件費+通信費）</li>
+<li>チャットボット自動対応率：60%（導入半年後）</li>
+<li>チャットボット月額コスト：5万円</li>
+</ul>
+<h3>試算結果</h3>
+<table><thead><tr><th>項目</th><th>数値</th></tr></thead><tbody><tr><td>月間問い合わせコスト（現状）</td><td>40万円</td></tr>
+<tr><td>チャットボット自動対応</td><td>300件（60%）</td></tr>
+<tr><td>人間対応</td><td>200件（40%）</td></tr>
+<tr><td>月間コスト（導入後）</td><td>16万円 + 5万円 = <strong>21万円</strong></td></tr>
+<tr><td><strong>月間削減額</strong></td><td><strong>19万円</strong></td></tr>
+<tr><td><strong>年間ROI</strong></td><td><strong>228万円</strong></td></tr></tbody></table>
+<h2>副次的な効果</h2>
+<ul><li><strong>24時間対応</strong>によるES（顧客体験）向上</li>
+<li>問い合わせデータの<strong>蓄積と分析</strong></li>
+<li>CSスタッフの<strong>バーンアウト防止</strong></li>
+</ul>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/chatbot-5-steps">AIチャットボット導入の5ステップと成功条件</a> / <a href="/articles/ai-dx/cs-80-percent-automatable">カスタマーサポートの問い合わせ対応、8割は自動化できる</a></blockquote>
+<h2>まとめ</h2>
+<p>チャットボットのROIは、問い合わせ件数が多いほど高くなります。月100件以上の問い合わせがある企業は検討の価値があります。</p>
+<p>---</p>
+<p>📩 <strong>御社の場合のROIを無料で試算します</strong></p>
+<p>ProductXでは、AI DXに関する無料のROI試算サービスを提供しています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"chatbot-roi-calc","title":"チャットボット導入のROI試算｜問い合わせ削減×顧客満足度","description":"チャットボット導入のROIを問い合わせ削減と顧客満足度の両面から試算し、投資判断の材料を提供します。","date":"2026-03-09","category":"dx-strategy","tags":["チャットボット","ROI","問い合わせ削減"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-dx-without-engineers","title":"エンジニアがいなくてもAI DXは始められる","description":"社内にエンジニアがいない中小企業でもAI DXを始められる現実的なアプローチを解説します。","date":"2026-03-09","category":"dx-strategy","tags":["AI DX","ノンエンジニア","導入方法"],"author":"ProductX"},{"slug":"ai-introduction-steps","title":"AI DX導入の最初のステップ｜何から始めるべきか","description":"AI DX導入を検討する中小企業が最初に取るべきステップを、段階的に解説します。","date":"2026-03-09","category":"dx-strategy","tags":["AI導入","最初のステップ","中小企業"],"author":"ProductX"},{"slug":"chatbot-5-steps","title":"AIチャットボット導入の5ステップと成功条件","description":"AIチャットボットの導入を成功させるための5つのステップと、失敗を避けるためのポイントを解説します。","date":"2026-03-09","category":"dx-strategy","tags":["チャットボット","導入ステップ","成功条件"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

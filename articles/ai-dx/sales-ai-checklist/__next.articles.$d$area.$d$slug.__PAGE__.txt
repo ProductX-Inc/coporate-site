@@ -1,0 +1,51 @@
+1:"$Sreact.fragment"
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:Te54,<h2>はじめに</h2>
+<p>「営業にAIを入れたい」と漠然と考えている経営者は多いですが、<strong>「今のタイミングで入れるべきかどうか」</strong>を判断する明確な基準を持っている方は少数です。</p>
+<p>この記事では、営業チームへのAI導入を検討する際に使える<strong>10項目のチェックリスト</strong>を提供します。</p>
+<blockquote>📩 チェック結果を基にしたROI試算は<a href="/contact">無料相談</a>でお受けしています。</blockquote>
+<h2>導入判断チェックリスト</h2>
+<h3>組織の準備度（5項目）</h3>
+<ul><li>✅ <strong>営業チームが3名以上</strong>いる</li>
+<li>✅ CRMまたはSFAを<strong>既に利用している</strong></li>
+<li>✅ 過去<strong>2年以上の受注データ</strong>が蓄積されている</li>
+<li>✅ 経営層がAI DX推進に<strong>前向き</strong>である</li>
+<li>✅ AI導入の<strong>責任者</strong>を明確にできる</li>
+</ul>
+<h3>課題の深刻度（5項目）</h3>
+<ul><li>✅ リスト作成や報告書に<strong>月20時間以上</strong>費やしている</li>
+<li>✅ トップセールスと他メンバーの<strong>成績差が2倍以上</strong></li>
+<li>✅ 新人が一人前になるまでに<strong>1年以上</strong>かかっている</li>
+<li>✅ 見込み客のフォロー漏れが<strong>頻繁に発生</strong>している</li>
+<li>✅ 売上予測の精度が<strong>±20%以上ブレる</strong></li>
+</ul>
+<h2>判断の目安</h2>
+<table><thead><tr><th>チェック数</th><th>判断</th></tr></thead><tbody><tr><td>8〜10個</td><td>◎ 今すぐ導入を検討すべき</td></tr>
+<tr><td>5〜7個</td><td>○ 特定の業務から試験導入を推奨</td></tr>
+<tr><td>3〜4個</td><td>△ まずはデータ整備から着手</td></tr>
+<tr><td>0〜2個</td><td>✕ 時期尚早（まずは基盤づくりを）</td></tr></tbody></table>
+<h2>チェック数が少ない場合</h2>
+<p>チェック数が少なくても落胆する必要はありません。<strong>AI導入の前にやるべきこと</strong>が明確になったと捉えてください：</p>
+<ul><li>CRMの導入・データ蓄積を始める</li>
+<li>営業プロセスの可視化を行う</li>
+<li>経営層のDXリテラシーを向上させる</li>
+</ul>
+これらの基盤づくりは、<strong>将来のAI導入のROIを大幅に高める</strong>投資です。
+<h2>簡易ROI試算方法</h2>
+<p>チェック数が5以上の場合、以下の簡易計算でROIの目安を算出できます：</p>
+<li><strong>削減可能工数</strong> = リスト作成 + 提案書作成 + 報告書の月間工数の合計</li>
+<li><strong>工数の金額換算</strong> = 削減可能工数 × 時給（目安3,000〜5,000円）</li>
+<li><strong>年間削減額</strong> = 月間削減額 × 12ヶ月</li>
+<li><strong>ROI</strong> = (年間削減額 − AI年間コスト) ÷ AI初期投資 × 100%</li>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/sales-dx-roi">営業DXの費用対効果｜どの業務から始めるべきか</a> / <a href="/articles/ai-dx/sme-sales-dx-pitfalls">なぜ中小企業の営業DXは失敗するのか？</a></blockquote>
+<h2>まとめ</h2>
+<p>AI導入の判断は「感覚」ではなく「チェックリスト」で行いましょう。</p>
+<p>---</p>
+<p>📩 <strong>チェック結果をもとにしたROI試算を無料で提供します</strong></p>
+<p>ProductXでは、AI DXに関する無料のROI試算サービスを提供しています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"sales-ai-checklist","title":"営業チームにAIを導入する際の判断チェックリスト","description":"営業チームへのAI導入を判断するための10項目のチェックリストと、投資対効果の簡易評価方法を提供します。","date":"2026-03-09","category":"sales","tags":["AI導入","チェックリスト","投資判断"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-roleplay-sales","title":"AI営業ロープレの実力｜新人教育はここまで変わる","description":"AI営業ロープレの仕組みと従来の研修手法との違いを比較。新人教育の効率と質を両立させるアプローチを解説。","date":"2026-03-09","category":"sales","tags":["営業ロープレ","新人教育","AI活用"],"author":"ProductX"},{"slug":"ai-sales-forecast","title":"AI売上予測の実力と導入判断のポイント","description":"AI売上予測の精度・限界・必要データ量を整理し、中小企業が導入を判断するための考え方を解説します。","date":"2026-03-09","category":"sales","tags":["AI売上予測","導入判断","中小企業"],"author":"ProductX"},{"slug":"ai-secretary-boundaries","title":"AI秘書に任せられる業務・任せてはいけない業務","description":"AI秘書の得意領域と限界を整理。経営者がAI秘書を最大限活用するための業務の切り分け方を解説します。","date":"2026-03-09","category":"sales","tags":["AI秘書","業務切り分け","経営効率化"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],"$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

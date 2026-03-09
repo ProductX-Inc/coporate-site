@@ -1,0 +1,31 @@
+1:"$Sreact.fragment"
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tb00,<h2>はじめに</h2>
+<p>マーケティングDXに取り組もうとしても、「SEO？SNS？広告？メルマガ？」と選択肢が多すぎて迷ってしまう——中小企業の担当者に共通する悩みです。</p>
+<p>限られた予算と人員の中で最大の成果を出すには、<strong>ROIの高い領域から優先的に着手する</strong>のが原則です。</p>
+<blockquote>📩 御社のマーケティングDXのROI試算は<a href="/contact">無料相談</a>でお受けしています。</blockquote>
+<h2>マーケティングDXのROIマップ</h2>
+<table><thead><tr><th>領域</th><th>導入しやすさ</th><th>期待ROI</th><th>推奨優先度</th></tr></thead><tbody><tr><td>レポート自動化</td><td>◎</td><td>○</td><td>★★★（まず最初に）</td></tr>
+<tr><td>SEOコンテンツのAI活用</td><td>◎</td><td>◎</td><td>★★★</td></tr>
+<tr><td>SNS運用の効率化</td><td>○</td><td>○</td><td>★★☆</td></tr>
+<tr><td>メルマガのパーソナライズ</td><td>○</td><td>◎</td><td>★★☆</td></tr>
+<tr><td>広告クリエイティブのAI化</td><td>△</td><td>◎</td><td>★☆☆</td></tr>
+<tr><td>VoC分析の自動化</td><td>△</td><td>◎</td><td>★☆☆</td></tr></tbody></table>
+<h2>最初に取り組むべきは「レポート自動化」と「SEOコンテンツ」</h2>
+<p><strong>レポート自動化</strong>は最も導入ハードルが低く、即座に工数削減効果が出ます。解放された時間をクリエイティブな施策に充てることで、マーケティング全体の質が向上します。</p>
+<p><strong>SEOコンテンツのAI活用</strong>は中長期的なリターンが大きく、コンテンツ資産として蓄積されていくため、早期に始めるほど効果が累積します。</p>
+<h2>費用対効果の考え方</h2>
+<p>マーケティングDXのROIは「コスト削減」と「売上増加」の2軸で評価します：</p>
+<ul><li><strong>コスト削減</strong>: レポート作成、画像制作、競合調査等の工数削減</li>
+<li><strong>売上増加</strong>: コンテンツ増加によるリード獲得、メルマガ最適化による商談増加</li>
+</ul>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/marketing-time-waste">中小企業のマーケティング担当者が最も時間を浪費する業務</a></blockquote>
+<h2>まとめ</h2>
+<p>マーケティングDXは「全部やる」のではなく「最もROIの高い領域から段階的に」が成功の鍵です。</p>
+<p>---</p>
+<p>📩 <strong>御社の場合の優先順位を一緒に考えます</strong></p>
+<p>ProductXでは、AI DXに関する無料相談を承っています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"marketing-dx-priority","title":"マーケティングDXの優先順位｜最初に手をつけるべき領域","description":"マーケティングDXの各領域のROIを分析し、中小企業が最初に取り組むべき領域の判断基準を解説します。","date":"2026-03-09","category":"marketing","tags":["マーケティングDX","優先順位","ROI"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ab-test-ai-creative","title":"A/BテストとAIクリエイティブの組み合わせ方","description":"広告A/BテストにAIクリエイティブ生成を組み合わせる考え方とアプローチを概念レベルで解説します。","date":"2026-03-09","category":"marketing","tags":["A/Bテスト","AIクリエイティブ","広告最適化"],"author":"ProductX"},{"slug":"ad-optimization-engine","title":"広告運用のAI最適化エンジン｜中小企業にも使える考え方","description":"広告運用のAI最適化エンジンの仕組みと中小企業での活用可能性を概念レベルで解説します。","date":"2026-03-09","category":"marketing","tags":["広告最適化","AIエンジン","中小企業"],"author":"ProductX"},{"slug":"ad-report-automation-roi","title":"広告レポート作成にかかる時間をAIで削減する方法","description":"広告運用レポートの手作業を分析し、AIで作成時間を大幅に削減するアプローチを解説します。","date":"2026-03-09","category":"marketing","tags":["広告レポート","自動化","ROI"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

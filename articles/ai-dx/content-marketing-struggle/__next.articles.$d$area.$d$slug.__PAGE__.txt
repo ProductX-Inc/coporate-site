@@ -1,0 +1,28 @@
+1:"$Sreact.fragment"
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tb8a,<h2>はじめに</h2>
+<p>「コンテンツマーケティングが大事なのは分かっている。でも続かない」——中小企業のマーケ担当者から最も多く聞く本音です。</p>
+<p>ブログ、SNS、メルマガ。始めた当初は意気込んでいたものの、3ヶ月もすれば更新頻度が落ち、半年後にはほぼ停止。この<strong>「コンテンツマーケ挫折」のパターン</strong>は驚くほど共通しています。</p>
+<h2>続かない3つの構造的原因</h2>
+<h3>原因1：「本業の片手間」でやっている</h3>
+<p>中小企業ではコンテンツ作成を<strong>専任でなく兼任</strong>で行っているケースがほとんどです。忙しい時期は当然後回しになり、結果として不定期な更新しかできません。</p>
+<h3>原因2：ネタが尽きる</h3>
+<p>「もう書くことがない」というネタ切れは、<strong>コンテンツ戦略の不在</strong>が原因です。戦略なしに「思いついた時に思いついたテーマ」で書いていれば、すぐにネタは枯渇します。</p>
+<h3>原因3：効果が見えない</h3>
+<p>記事を書いてもPVが増えない、リードに繋がらない。<strong>効果が見えないからモチベーションが続かない</strong>——これは「正しい効果測定の仕組みがない」ことが原因です。</p>
+<h2>AIで変わるコンテンツ制作の持続性</h2>
+<p>AIを活用することで、コンテンツマーケの「続かない問題」に構造的にアプローチできます。</p>
+<ul><li><strong>ネタの自動提案</strong>: 検索トレンド・競合コンテンツ・自社データからAIがテーマを提案</li>
+<li><strong>下書きの自動生成</strong>: 指定したテーマでAIが記事の下書きを生成（人間が編集・仕上げ）</li>
+<li><strong>SEO最適化の自動チェック</strong>: キーワード密度、見出し構造、内部リンクの最適化を自動提案</li>
+</ul>
+ただし重要なのは、<strong>AIが生成した下書きをそのまま公開しない</strong>こと。AIの役割は「ゼロから書く負荷を減らす」ことであり、最終的な品質は人間の編集力で決まります。
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/sns-update-stops">SNS更新が止まる会社に共通する3つの理由</a> / <a href="/articles/ai-dx/want-to-publish-no-time">「発信したいけど時間がない」を根本解決する方法</a></blockquote>
+<h2>まとめ</h2>
+<p>コンテンツマーケが続かないのは「やる気の問題」ではなく「仕組みの問題」です。まずは「なぜ止まったのか」を振り返ることから始めましょう。</p>
+<p>---</p>
+<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"content-marketing-struggle","title":"コンテンツマーケティングが続かない中小企業の本音","description":"中小企業のコンテンツマーケが続かない3つの構造的原因と、AIで継続を実現する考え方を解説します。","date":"2026-03-09","category":"marketing","tags":["コンテンツマーケティング","継続","中小企業"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ab-test-ai-creative","title":"A/BテストとAIクリエイティブの組み合わせ方","description":"広告A/BテストにAIクリエイティブ生成を組み合わせる考え方とアプローチを概念レベルで解説します。","date":"2026-03-09","category":"marketing","tags":["A/Bテスト","AIクリエイティブ","広告最適化"],"author":"ProductX"},{"slug":"ad-optimization-engine","title":"広告運用のAI最適化エンジン｜中小企業にも使える考え方","description":"広告運用のAI最適化エンジンの仕組みと中小企業での活用可能性を概念レベルで解説します。","date":"2026-03-09","category":"marketing","tags":["広告最適化","AIエンジン","中小企業"],"author":"ProductX"},{"slug":"ad-report-automation-roi","title":"広告レポート作成にかかる時間をAIで削減する方法","description":"広告運用レポートの手作業を分析し、AIで作成時間を大幅に削減するアプローチを解説します。","date":"2026-03-09","category":"marketing","tags":["広告レポート","自動化","ROI"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

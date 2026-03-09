@@ -1,0 +1,28 @@
+1:"$Sreact.fragment"
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T840,<h2>はじめに</h2>
+<p>会議が終わった後の議事録作成。「誰が書くか」で揉め、「記憶が新鮮なうちに」と急いで書き、しかし翌週にはその議事録を<strong>誰も読み返さない</strong>——この非生産的なサイクルに覚えはありませんか？</p>
+<h2>手作業の議事録が抱える3つの問題</h2>
+<h3>問題1：作成に時間がかかる</h3>
+1時間の会議の議事録を書くのに<strong>30分〜1時間</strong>。会議が多い週は、議事録作成だけで丸半日が潰れることも。
+<h3>問題2：品質にばらつきがある</h3>
+誰が書くかによって詳しさ、正確さ、構成が異なります。<strong>重要な決定事項が漏れることも</strong>。
+<h3>問題3：活用されない</h3>
+苦労して作った議事録が、フォルダに保存されて二度と開かれない。<strong>「作ること」が目的化</strong>しています。
+<h2>AI議事録が変えること</h2>
+<ul><li>会議の音声を<strong>リアルタイムで文字起こし</strong></li>
+<li>発言者の<strong>自動識別</strong></li>
+<li>決定事項・アクションアイテムの<strong>自動抽出</strong></li>
+<li>要約の<strong>自動生成</strong></li>
+<li>過去の議事録との<strong>横断検索</strong></li>
+</ul>
+AIは「議事録を書く作業」をなくすだけでなく、<strong>「会議で決まったことが確実に実行される」仕組み</strong>を支えます。
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/meeting-minutes-ai-steps">AI議事録自動化の導入ステップと成功のコツ</a> / <a href="/articles/ai-dx/meeting-minutes-tools">AI議事録ツールの選び方</a></blockquote>
+<h2>まとめ</h2>
+<p>議事録作成は「人間がやるべき仕事」ではなくなっています。まずは1つの定例会議からAI議事録を試してみてください。</p>
+<p>---</p>
+<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"meeting-minutes-manual","title":"会議後の議事録作成、まだ手作業でやっていませんか？","description":"議事録の手作業作成が抱える非効率と、AI自動化で解決できる可能性を解説します。","date":"2026-03-09","category":"backoffice","tags":["議事録","会議","AI自動化"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"accounting-ai-cost-saving","title":"経理のAI活用で年間コストを削減する考え方","description":"経理業務のAI活用による年間コスト削減効果を試算し、投資判断の考え方を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理","コスト削減","AI活用"],"author":"ProductX"},{"slug":"accounting-month-end-hell","title":"経理部門の「月末地獄」を終わらせるAI活用の可能性","description":"経理の月末作業（請求書処理・仕訳・照合）を圧迫する構造的原因と、AI効率化の可能性を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理","月末作業","AI活用"],"author":"ProductX"},{"slug":"ask-someone-culture","title":"社内の「あの人に聞かないと分からない」を撲滅する方法","description":"業務知識の属人化を解消し、AIナレッジベースで「誰でも分かる」組織にする考え方を解説します。","date":"2026-03-09","category":"backoffice","tags":["属人化","ナレッジ共有","AI活用"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

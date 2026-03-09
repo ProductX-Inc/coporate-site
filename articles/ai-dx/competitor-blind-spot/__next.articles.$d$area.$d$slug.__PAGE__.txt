@@ -1,0 +1,29 @@
+1:"$Sreact.fragment"
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T8c9,<h2>はじめに</h2>
+<p>競合が新サービスを出していた。価格改定していた。大きなキャンペーンを打っていた——それに気づいたのは、<strong>自社の顧客から教えられた時</strong>。</p>
+<p>こうした「後手に回る」状況は、中小企業で頻繁に起きています。なぜ競合の動きに気づけないのでしょうか。</p>
+<h2>気づけない企業の3つの共通点</h2>
+<h3>1. 競合チェックが「イベント駆動」</h3>
+新しい案件が入った時、年に1回の戦略会議の前——競合チェックが<strong>特定のタイミングにしか行われない</strong>。その間の変化は完全に見逃します。
+<h3>2. 誰の仕事か決まっていない</h3>
+「競合チェックをしなければ」と全員が思っているが、<strong>明確な担当と頻度が設定されていない</strong>。結果として誰もやっていない。
+<h3>3. 手作業で限界がある</h3>
+10社の競合のWebサイト、SNS、ニュースリリースを毎日チェックするのは、<strong>物理的に不可能</strong>。やろうとしても続きません。
+<h2>AI自動モニタリングで解決</h2>
+<p>AIによる競合モニタリングは、<strong>24時間365日、自動で競合の動向を監視</strong>し続けます：</p>
+<ul><li>Webサイトの価格変更を即時検知</li>
+<li>新サービス・新機能の追加をアラート</li>
+<li>採用情報の変化から戦略転換を推測</li>
+<li>SNSのキャンペーン開始を通知</li>
+</ul>
+人間は<strong>週1回のサマリレポートを確認するだけ</strong>で、常に最新の競合状況を把握できます。
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/competitor-analysis-ai">AIで競合分析を自動化する発想とそのメリット</a></blockquote>
+<h2>まとめ</h2>
+<p>競合の動向を見逃すリスクは、「仕組み」で回避できます。まずは最も重要な3社の動向チェックの自動化から始めてみてください。</p>
+<p>---</p>
+<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"competitor-blind-spot","title":"競合が値上げしたのに気づかない会社の共通点","description":"競合の動向を見落とす企業に共通する3つの特徴と、AIモニタリングで解決するアプローチを解説します。","date":"2026-03-09","category":"marketing","tags":["競合モニタリング","価格戦略","AI活用"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ab-test-ai-creative","title":"A/BテストとAIクリエイティブの組み合わせ方","description":"広告A/BテストにAIクリエイティブ生成を組み合わせる考え方とアプローチを概念レベルで解説します。","date":"2026-03-09","category":"marketing","tags":["A/Bテスト","AIクリエイティブ","広告最適化"],"author":"ProductX"},{"slug":"ad-optimization-engine","title":"広告運用のAI最適化エンジン｜中小企業にも使える考え方","description":"広告運用のAI最適化エンジンの仕組みと中小企業での活用可能性を概念レベルで解説します。","date":"2026-03-09","category":"marketing","tags":["広告最適化","AIエンジン","中小企業"],"author":"ProductX"},{"slug":"ad-report-automation-roi","title":"広告レポート作成にかかる時間をAIで削減する方法","description":"広告運用レポートの手作業を分析し、AIで作成時間を大幅に削減するアプローチを解説します。","date":"2026-03-09","category":"marketing","tags":["広告レポート","自動化","ROI"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

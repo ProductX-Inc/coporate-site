@@ -1,0 +1,59 @@
+1:"$Sreact.fragment"
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+3:T125e,<h2>はじめに</h2>
+<p>営業リストの作成方法を見直そうとした時、多くの企業が迷うのが<strong>「外注すべきか、AIを活用すべきか」</strong>という選択です。</p>
+<p>この記事では、営業リスト作成にかかる費用を具体的に比較し、投資対効果を正しく評価するための考え方を整理します。</p>
+<blockquote>📩 今すぐROI試算をご希望の方は<a href="/contact">無料相談</a>からお問い合わせください。</blockquote>
+<h2>コスト比較：3つの方法</h2>
+<h3>手作業（自社の営業担当が作成）</h3>
+<ul><li><strong>直接コスト</strong>: 人件費のみ（時給×工数）</li>
+<li><strong>隠れたコスト</strong>: 営業担当者が「売ること」に使えなかった時間分の機会損失</li>
+<li><strong>目安</strong>: 100社のリスト作成に4〜8時間 → 時給3,000円換算で<strong>1.2万〜2.4万円相当</strong></li>
+</ul>
+<h3>外注（リスト作成サービス）</h3>
+<ul><li><strong>直接コスト</strong>: 1リストあたり3万〜10万円（情報量・精度による）</li>
+<li><strong>追加コスト</strong>: 修正依頼や追加条件の変更で都度費用が発生</li>
+<li><strong>目安</strong>: 月間500社のリスト → <strong>月額15万〜50万円</strong></li>
+</ul>
+<h3>AI活用</h3>
+<ul><li><strong>初期コスト</strong>: 業務設計・データ整備に一定の投資（規模により異なる）</li>
+<li><strong>ランニングコスト</strong>: ツール費用として月額数万円程度</li>
+<li><strong>目安</strong>: 導入後は月間1,000社以上のリスト作成でも<strong>月額3万〜10万円</strong></li>
+</ul>
+<h2>費用対効果を正しく測る3つの軸</h2>
+<h3>1. 直接的なコスト削減</h3>
+<p>外注費やリスト作成の工数がどれだけ減るかを算出します。</p>
+<ul><li><strong>計算式</strong>: (従来の月額コスト) − (AI活用後のコスト) = 月額削減額</li>
+<li>削減額 × 12ヶ月 = 年間ROI</li>
+</ul>
+<h3>2. 時間の再配分による売上増</h3>
+<p>リスト作成から解放された営業担当者が、その時間で<strong>追加の商談</strong>を行えるようになります。</p>
+<p>たとえば、月に20時間をリスト作成に使っていた担当者が、その20時間を商談に振り向けた場合、月2〜3件の追加商談が可能に。BtoBの平均単価を考えると、<strong>年間数百万円の売上増加ポテンシャル</strong>があります。</p>
+<h3>3. リスト品質向上による成約率改善</h3>
+<p>AI活用リストは、過去の成約データに基づく優先順位付けにより、<strong>アポ率・成約率の向上</strong>が期待できます。仮にアポ率が1.5倍になれば、同じ活動量でも1.5倍の売上機会が生まれます。</p>
+<h2>よくある試算ミス</h2>
+<ul><li>❌ <strong>AIのツール費用だけで判断する</strong>: 工数削減・売上増加を考慮しないと正しいROIは出ない</li>
+<li>❌ <strong>効果を過大に見積もる</strong>: AI導入直後から100%の効果は出ない。立ち上げ期間（1〜2ヶ月）を加味する</li>
+<li>❌ <strong>データ整備コストを無視する</strong>: 既存データのクレンジングに一定の工数が必要</li>
+</ul>
+<h2>判断チェックリスト</h2>
+<p>以下の質問に「はい」が多いほど、AI活用のROIが高くなります：</p>
+<ul><li>✅ 営業リスト作成に月20時間以上使っている</li>
+<li>✅ リスト作成の外注に月10万円以上払っている</li>
+<li>✅ 過去2年以上の受注データがCRMに蓄積されている</li>
+<li>✅ 営業チームが3名以上いる</li>
+<li>✅ アポ率を改善したいという課題がある</li>
+</ul>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/sales-list-automation">営業アタックリスト作成を自動化する方法</a> / <a href="/articles/ai-dx/sales-dx-roi">営業DXの費用対効果｜どの業務から始めるべきか</a></blockquote>
+<h2>まとめ</h2>
+<p>営業リスト作成のコスト最適化は、単なるコスト削減ではなく<strong>「営業チームの時間を高付加価値業務に再配分する」</strong>という投資です。正確なROI試算には、御社の業務データの分析が不可欠です。</p>
+<p>---</p>
+<p>📩 <strong>御社の場合のROIを無料で試算します</strong></p>
+<p>ProductXでは、AI DXに関する無料のROI試算サービスを提供しています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"sales-list-cost","title":"営業リスト作成の外注 vs AI代行｜コスト比較と選び方","description":"営業リスト作成を外注する場合とAI活用する場合のコストを比較。投資対効果の正しい評価方法を解説します。","date":"2026-03-09","category":"sales","tags":["営業リスト","コスト比較","ROI"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-roleplay-sales","title":"AI営業ロープレの実力｜新人教育はここまで変わる","description":"AI営業ロープレの仕組みと従来の研修手法との違いを比較。新人教育の効率と質を両立させるアプローチを解説。","date":"2026-03-09","category":"sales","tags":["営業ロープレ","新人教育","AI活用"],"author":"ProductX"},{"slug":"ai-sales-forecast","title":"AI売上予測の実力と導入判断のポイント","description":"AI売上予測の精度・限界・必要データ量を整理し、中小企業が導入を判断するための考え方を解説します。","date":"2026-03-09","category":"sales","tags":["AI売上予測","導入判断","中小企業"],"author":"ProductX"},{"slug":"ai-secretary-boundaries","title":"AI秘書に任せられる業務・任せてはいけない業務","description":"AI秘書の得意領域と限界を整理。経営者がAI秘書を最大限活用するための業務の切り分け方を解説します。","date":"2026-03-09","category":"sales","tags":["AI秘書","業務切り分け","経営効率化"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

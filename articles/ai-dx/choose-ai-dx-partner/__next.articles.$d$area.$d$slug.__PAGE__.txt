@@ -1,0 +1,25 @@
+1:"$Sreact.fragment"
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T7ad,<h2>はじめに</h2>
+<p>AI DXを進める際、「パートナー選び」は成功を左右する最も重要な判断の一つです。従来のSI（システムインテグレーション）の受託開発とは異なる視点で選ぶ必要があります。</p>
+<h2>受託開発とAI DXパートナーの違い</h2>
+<table><thead><tr><th>項目</th><th>受託開発会社</th><th>AI DXパートナー</th></tr></thead><tbody><tr><td>関係性</td><td>発注者 → 受託者</td><td>共創パートナー</td></tr>
+<tr><td>成果物</td><td>仕様通りのシステム</td><td>業務課題の解決</td></tr>
+<tr><td>プロセス</td><td>要件定義→開発→納品</td><td>探索→PoC→改善のサイクル</td></tr>
+<tr><td>KPI</td><td>納期と品質</td><td>ビジネスKPIの達成</td></tr>
+<tr><td>進め方</td><td>ウォーターフォール</td><td>アジャイル</td></tr></tbody></table>
+<h2>パートナー選びの5つの判断軸</h2>
+<li><strong>業務理解力</strong>: 技術だけでなくビジネス課題を理解しているか</li>
+<li><strong>小さく始める姿勢</strong>: 最初からフルスコープを提案しないか</li>
+<li><strong>成果へのコミットメント</strong>: 納品で終わらず効果まで伴走するか</li>
+<li><strong>実績</strong>: 類似案件や中小企業での導入実績があるか</li>
+<li><strong>コミュニケーション</strong>: 技術を分かりやすく説明できるか</li>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/cost-of-doing-nothing">「AI導入を見送る」ことのコスト｜機会損失の正体</a></blockquote>
+<h2>まとめ</h2>
+<p>AI DXパートナーは「システムを作る会社」ではなく「課題を一緒に解決する仲間」です。</p>
+<p>---</p>
+<p>📩 <strong>ProductXはAI DXパートナーとして御社を支援します</strong></p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"choose-ai-dx-partner","title":"AI DXパートナーの選び方｜受託開発との違いと判断軸","description":"AI DXを支援するパートナーの選び方を、従来の受託開発との違いを踏まえて解説します。","date":"2026-03-09","category":"trend","tags":["AI DXパートナー","選び方","受託開発"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-security-minimum","title":"AIとセキュリティ｜中小企業が最低限押さえるべきリスク管理","description":"AI導入時に中小企業が最低限押さえるべきセキュリティリスクと対策をチェックリスト形式で解説します。","date":"2026-03-09","category":"trend","tags":["AIセキュリティ","リスク管理","中小企業"],"author":"ProductX"},{"slug":"chatgpt-company-governance","title":"ChatGPTを会社で使う際の注意点とガバナンス設計","description":"企業でChatGPTを業務利用する際のリスクと、適切なガバナンス設計の考え方を解説します。","date":"2026-03-09","category":"trend","tags":["ChatGPT","ガバナンス","セキュリティ"],"author":"ProductX"},{"slug":"cost-of-doing-nothing","title":"「AI導入を見送る」ことのコスト｜機会損失の正体","description":"AI導入を先送りにし続けることで生じる機会損失を、具体的な数字と事例で可視化します。","date":"2026-03-09","category":"trend","tags":["AI導入","機会損失","コスト"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

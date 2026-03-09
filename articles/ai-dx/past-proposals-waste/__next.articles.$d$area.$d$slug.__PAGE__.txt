@@ -1,0 +1,34 @@
+1:"$Sreact.fragment"
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tb80,<h2>はじめに</h2>
+<p>御社のサーバーには、過去何年分もの提案書が眠っていませんか？</p>
+<p>その一つひとつには、<strong>案件の背景、顧客の課題、提案のロジック、見積もりの考え方</strong>——営業のノウハウが詰まっています。しかし多くの場合、これらは<strong>検索もされず、活用もされず、ただストレージを占有する「肥やし」</strong>になっています。</p>
+<h2>なぜ過去の提案書は活用されないのか</h2>
+<h3>問題1：探せない</h3>
+ファイル名が「提案書_○○社_v3_final_最終版(2).pptx」のようになっていて、<strong>案件や業界での検索ができない</strong>。必要な提案書を探すのに30分以上かかることも。
+<h3>問題2：見つけても使えない</h3>
+数年前の情報が古いまま。数字は変わり、サービス内容も変わり、<strong>「参考にならない」と判断される</strong>。
+<h3>問題3：共有されていない</h3>
+作成した担当者のローカルフォルダにしか存在せず、<strong>他のメンバーがアクセスできない</strong>。
+<h2>過去の提案書は「組織の財産」</h2>
+<p>しかし、過去の提案書に詰まった知見は本来<strong>組織にとって最も価値のあるナレッジ</strong>です。</p>
+<ul><li>成約した提案書のパターン → <strong>勝ちパターンの型化</strong></li>
+<li>失注した提案書の分析 → <strong>改善ポイントの特定</strong></li>
+<li>業界別の提案パターン → <strong>新人教育の教材</strong></li>
+</ul>
+<h2>AIが変える提案書ナレッジの活用</h2>
+<p>AIを活用すれば、過去の提案書を<strong>構造化して検索・分析・再利用</strong>できるようになります：</p>
+<ul><li>自然言語で「製造業向けのDX提案書を探して」と検索</li>
+<li>成約案件の提案構成パターンを自動分析</li>
+<li>新しい提案書の下書きを過去データベースから自動生成</li>
+</ul>
+ただし、この仕組みを構築するには、<strong>データの整理・構造化・AIとの連携設計</strong>という技術的な工程が必要です。
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/sales-proposal-ai">AIで営業提案書を作成する時代｜3つの原則</a> / <a href="/articles/ai-dx/sales-knowledge-ai">営業ナレッジをAIで「全社の武器」に変える方法</a></blockquote>
+<h2>まとめ</h2>
+<p>過去の提案書は、適切に活用すれば営業チームの最大の武器になります。まずは「サーバーに何本の提案書があるか」を数えることから始めてみてください。</p>
+<p>---</p>
+<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"past-proposals-waste","title":"過去の提案書、サーバーの肥やしになっていませんか？","description":"サーバーに眠る過去の提案書をAIで再活用する発想と、営業ナレッジの資産化について解説します。","date":"2026-03-09","category":"sales","tags":["提案書","ナレッジ資産","業務効率化"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-roleplay-sales","title":"AI営業ロープレの実力｜新人教育はここまで変わる","description":"AI営業ロープレの仕組みと従来の研修手法との違いを比較。新人教育の効率と質を両立させるアプローチを解説。","date":"2026-03-09","category":"sales","tags":["営業ロープレ","新人教育","AI活用"],"author":"ProductX"},{"slug":"ai-sales-forecast","title":"AI売上予測の実力と導入判断のポイント","description":"AI売上予測の精度・限界・必要データ量を整理し、中小企業が導入を判断するための考え方を解説します。","date":"2026-03-09","category":"sales","tags":["AI売上予測","導入判断","中小企業"],"author":"ProductX"},{"slug":"ai-secretary-boundaries","title":"AI秘書に任せられる業務・任せてはいけない業務","description":"AI秘書の得意領域と限界を整理。経営者がAI秘書を最大限活用するための業務の切り分け方を解説します。","date":"2026-03-09","category":"sales","tags":["AI秘書","業務切り分け","経営効率化"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

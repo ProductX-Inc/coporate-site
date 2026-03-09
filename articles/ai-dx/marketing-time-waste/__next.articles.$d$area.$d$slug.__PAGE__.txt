@@ -1,0 +1,33 @@
+1:"$Sreact.fragment"
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Td20,<h2>はじめに</h2>
+<p>中小企業のマーケティング担当者は、多くの場合<strong>1人または少数のチーム</strong>で広範な業務をカバーしています。SNS運用、広告管理、コンテンツ作成、データ分析、イベント企画…やるべきことは山積みです。</p>
+<p>しかし、時間を使っている業務のすべてが<strong>「本当にマーケターがやるべき仕事」</strong>でしょうか？</p>
+<h2>時間浪費ランキング</h2>
+<h3>1位：レポート作成（週3〜5時間）</h3>
+<p>Google Analytics、広告管理画面、SNSの数値をExcelに転記して報告書を作る。<strong>データの集計とグラフ作成</strong>に膨大な時間が消費されています。</p>
+<h3>2位：画像・バナー制作（週2〜4時間）</h3>
+<p>SNS投稿用の画像、広告バナー、ブログのアイキャッチ。デザインの専門スキルがないまま苦労して作っている担当者は多いです。</p>
+<h3>3位：競合調査（週2〜3時間）</h3>
+<p>競合のWebサイト、SNS、広告出稿状況のチェック。<strong>定期的にやるべきだが定型化しにくい</strong>ため、毎回手作業になりがちです。</p>
+<h3>4位：メール配信の準備（週2〜3時間）</h3>
+<p>メルマガの原稿作成、セグメント設定、テスト送信、配信後の分析。<strong>準備工程が多い</strong>割にクリエイティブに使える時間は少ないです。</p>
+<h3>5位：問い合わせ対応の下準備（週1〜2時間）</h3>
+<p>営業からの「この見込み客の情報を調べて」「このデータをまとめて」への対応。<strong>本来マーケの仕事ではない</strong>のに流れ着いてくる業務。</p>
+<h2>AIで解放できる時間</h2>
+<table><thead><tr><th>業務</th><th>現状の工数/週</th><th>AI活用後</th><th>削減率</th></tr></thead><tbody><tr><td>レポート作成</td><td>4時間</td><td>0.5時間</td><td><strong>87%</strong></td></tr>
+<tr><td>画像制作</td><td>3時間</td><td>1時間</td><td><strong>67%</strong></td></tr>
+<tr><td>競合調査</td><td>2.5時間</td><td>0.5時間</td><td><strong>80%</strong></td></tr>
+<tr><td>メール配信準備</td><td>2.5時間</td><td>1時間</td><td><strong>60%</strong></td></tr>
+<tr><td>下準備対応</td><td>1.5時間</td><td>0.5時間</td><td><strong>67%</strong></td></tr>
+<tr><td><strong>合計</strong></td><td><strong>13.5時間</strong></td><td><strong>3.5時間</strong></td><td><strong>74%</strong></td></tr></tbody></table>
+<p><strong>週10時間</strong>が解放されれば、その時間を<strong>戦略立案、クリエイティブな企画、顧客インサイトの深掘り</strong>——マーケターが本来やるべき仕事に充てられます。</p>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/marketing-dx-priority">マーケティングDXの優先順位｜最初に手をつけるべき領域</a></blockquote>
+<h2>まとめ</h2>
+<p>「忙しい」のは仕方がないことではありません。「何に忙しいのか」を可視化することが、改善の第一歩です。</p>
+<p>---</p>
+<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"marketing-time-waste","title":"中小企業のマーケティング担当者が最も時間を浪費する業務","description":"マーケ担当者の時間を奪う業務を可視化し、AIで解放できる時間の大きさを示します。","date":"2026-03-09","category":"marketing","tags":["マーケティング","時間浪費","業務効率化"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ab-test-ai-creative","title":"A/BテストとAIクリエイティブの組み合わせ方","description":"広告A/BテストにAIクリエイティブ生成を組み合わせる考え方とアプローチを概念レベルで解説します。","date":"2026-03-09","category":"marketing","tags":["A/Bテスト","AIクリエイティブ","広告最適化"],"author":"ProductX"},{"slug":"ad-optimization-engine","title":"広告運用のAI最適化エンジン｜中小企業にも使える考え方","description":"広告運用のAI最適化エンジンの仕組みと中小企業での活用可能性を概念レベルで解説します。","date":"2026-03-09","category":"marketing","tags":["広告最適化","AIエンジン","中小企業"],"author":"ProductX"},{"slug":"ad-report-automation-roi","title":"広告レポート作成にかかる時間をAIで削減する方法","description":"広告運用レポートの手作業を分析し、AIで作成時間を大幅に削減するアプローチを解説します。","date":"2026-03-09","category":"marketing","tags":["広告レポート","自動化","ROI"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

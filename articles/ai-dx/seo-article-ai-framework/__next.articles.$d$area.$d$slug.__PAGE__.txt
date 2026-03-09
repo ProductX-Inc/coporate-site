@@ -1,0 +1,38 @@
+1:"$Sreact.fragment"
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Td8f,<h2>はじめに</h2>
+<p>SEO対策において記事の量は重要な要素です。しかし、品質を維持しながら月30本のペースで記事を出すことは、少人数のチームには非現実的——従来はそう考えられていました。</p>
+<p>AIを正しく活用すれば、<strong>品質を犠牲にせず</strong>大量のSEO記事を生産できる可能性があります。</p>
+<h2>月30本を実現する5ステップフレームワーク</h2>
+<h3>ステップ1：キーワード戦略の設計（月1回）</h3>
+<p>AIがサジェストワード・検索ボリューム・競合サイトの対策状況を分析し、<strong>月間のターゲットキーワードリスト</strong>を自動生成。人間がビジネス目標と照合して最終決定します。</p>
+<h3>ステップ2：記事構成の自動生成（1記事2〜3分）</h3>
+<p>キーワードに基づいてAIが見出し構成・想定読者・記事の狙いを自動生成。人間は構成案を確認・修正するだけです。</p>
+<h3>ステップ3：下書きの自動生成（1記事5〜10分）</h3>
+<p>AIが構成に基づいて本文の下書きを生成。この段階では<strong>70%の完成度</strong>を目標とし、残りは人間が仕上げます。</p>
+<h3>ステップ4：人間による編集・仕上げ（1記事15〜20分）</h3>
+<p>AIの下書きに対して、<strong>自社固有の知見、具体的な事例、トーンの調整</strong>を人間が追加。ここが記事の差別化ポイントになります。</p>
+<h3>ステップ5：SEOチェックと公開（1記事5分）</h3>
+<p>AIがキーワード密度、内部リンク、メタ情報の最適化を自動チェック。人間は最終確認後に公開します。</p>
+<h2>1記事あたりの所要時間</h2>
+<table><thead><tr><th>工程</th><th>従来</th><th>AI活用</th></tr></thead><tbody><tr><td>キーワード選定</td><td>30分</td><td>5分</td></tr>
+<tr><td>構成作成</td><td>45分</td><td>3分</td></tr>
+<tr><td>本文執筆</td><td>3時間</td><td>10分</td></tr>
+<tr><td>編集</td><td>30分</td><td>20分</td></tr>
+<tr><td>SEOチェック</td><td>20分</td><td>5分</td></tr>
+<tr><td><strong>合計</strong></td><td><strong>約5時間</strong></td><td><strong>約43分</strong></td></tr></tbody></table>
+<p>月30本 × 43分 = <strong>約21.5時間/月</strong>。1人のマーケターが週5時間を記事制作に充てれば実現可能な数字です。</p>
+<h2>注意すべきポイント</h2>
+<ul><li>❌ <strong>AIの下書きをそのまま公開しない</strong>: Google は低品質なAI生成コンテンツを検出する仕組みを強化中</li>
+<li>✅ <strong>人間の知見で差別化</strong>: 自社ならではの視点や事例を必ず追加する</li>
+<li>✅ <strong>E-E-A-T を意識</strong>: 経験（Experience）、専門性（Expertise）、権威性（Authoritativeness）、信頼性（Trustworthiness）</li>
+</ul>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/want-to-publish-no-time">「発信したいけど時間がない」を根本解決する方法</a></blockquote>
+<h2>まとめ</h2>
+<p>AIは「記事を書いてくれるツール」ではなく「記事作成の生産性を劇的に上げる仕組み」です。</p>
+<p>---</p>
+<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"seo-article-ai-framework","title":"SEO記事を月30本ペースで出すためのAI活用フレームワーク","description":"AIを活用してSEO記事の生産性を劇的に向上させるフレームワークを概念レベルで解説します。","date":"2026-03-09","category":"marketing","tags":["SEO","記事量産","AI活用"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ab-test-ai-creative","title":"A/BテストとAIクリエイティブの組み合わせ方","description":"広告A/BテストにAIクリエイティブ生成を組み合わせる考え方とアプローチを概念レベルで解説します。","date":"2026-03-09","category":"marketing","tags":["A/Bテスト","AIクリエイティブ","広告最適化"],"author":"ProductX"},{"slug":"ad-optimization-engine","title":"広告運用のAI最適化エンジン｜中小企業にも使える考え方","description":"広告運用のAI最適化エンジンの仕組みと中小企業での活用可能性を概念レベルで解説します。","date":"2026-03-09","category":"marketing","tags":["広告最適化","AIエンジン","中小企業"],"author":"ProductX"},{"slug":"ad-report-automation-roi","title":"広告レポート作成にかかる時間をAIで削減する方法","description":"広告運用レポートの手作業を分析し、AIで作成時間を大幅に削減するアプローチを解説します。","date":"2026-03-09","category":"marketing","tags":["広告レポート","自動化","ROI"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

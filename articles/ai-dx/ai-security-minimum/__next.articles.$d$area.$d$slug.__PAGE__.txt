@@ -1,0 +1,35 @@
+1:"$Sreact.fragment"
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T9ff,<h2>はじめに</h2>
+<p>AI導入は業務効率化の大きなチャンスですが、<strong>セキュリティリスクを無視</strong>して進めると重大な問題を引き起こす可能性があります。</p>
+<p>中小企業が<strong>最低限押さえるべき</strong>AI関連のセキュリティリスクと対策を整理します。</p>
+<h2>4つの主要リスク</h2>
+<h3>1. データ漏洩リスク</h3>
+AIに入力したデータが外部に流出するリスク。特に<strong>無料のAIサービスは学習データとして利用される可能性</strong>があります。
+<p><strong>対策</strong>: Enterprise版やAPI版を利用し、データの取り扱いポリシーを確認する。</p>
+<h3>2. 出力の信頼性リスク</h3>
+AIが生成した情報に誤りがある「ハルシネーション」のリスク。<strong>誤った情報に基づく意思決定は損害を招く</strong>可能性があります。
+<p><strong>対策</strong>: AI出力は必ず人間がファクトチェック。重要な判断にはAI出力だけに依存しない。</p>
+<h3>3. プライバシーリスク</h3>
+顧客の個人情報をAIに入力することで、<strong>個人情報保護法に抵触する</strong>リスク。
+<p><strong>対策</strong>: 個人情報の匿名化、入力データの制限ルールを策定する。</p>
+<h3>4. 依存リスク</h3>
+特定のAIサービスに過度に依存し、<strong>サービス停止時に業務が止まる</strong>リスク。
+<p><strong>対策</strong>: 代替手段を常に用意しておく。クリティカルな業務は人間でも対応できる体制を維持。</p>
+<h2>セキュリティチェックリスト</h2>
+<ul><li>✅ AI利用ポリシーを策定したか</li>
+<li>✅ 入力してよい情報・ダメな情報を明確にしたか</li>
+<li>✅ Enterprise版/API版を利用しているか</li>
+<li>✅ 出力のファクトチェック体制があるか</li>
+<li>✅ 個人情報の取り扱いルールがあるか</li>
+<li>✅ サービス停止時の代替手段があるか</li>
+</ul>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/chatgpt-company-governance">ChatGPTを会社で使う際の注意点とガバナンス設計</a></blockquote>
+<h2>まとめ</h2>
+<p>セキュリティ対策は「導入後」ではなく「導入前」に設計してください。</p>
+<p>---</p>
+<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"ai-security-minimum","title":"AIとセキュリティ｜中小企業が最低限押さえるべきリスク管理","description":"AI導入時に中小企業が最低限押さえるべきセキュリティリスクと対策をチェックリスト形式で解説します。","date":"2026-03-09","category":"trend","tags":["AIセキュリティ","リスク管理","中小企業"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"chatgpt-company-governance","title":"ChatGPTを会社で使う際の注意点とガバナンス設計","description":"企業でChatGPTを業務利用する際のリスクと、適切なガバナンス設計の考え方を解説します。","date":"2026-03-09","category":"trend","tags":["ChatGPT","ガバナンス","セキュリティ"],"author":"ProductX"},{"slug":"choose-ai-dx-partner","title":"AI DXパートナーの選び方｜受託開発との違いと判断軸","description":"AI DXを支援するパートナーの選び方を、従来の受託開発との違いを踏まえて解説します。","date":"2026-03-09","category":"trend","tags":["AI DXパートナー","選び方","受託開発"],"author":"ProductX"},{"slug":"cost-of-doing-nothing","title":"「AI導入を見送る」ことのコスト｜機会損失の正体","description":"AI導入を先送りにし続けることで生じる機会損失を、具体的な数字と事例で可視化します。","date":"2026-03-09","category":"trend","tags":["AI導入","機会損失","コスト"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

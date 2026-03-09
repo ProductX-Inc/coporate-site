@@ -1,0 +1,26 @@
+1:"$Sreact.fragment"
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/d8d4a5a0da6a7798.js"],"ArticleDetailClient"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T852,<h2>はじめに</h2>
+<p>AI議事録の導入を検討する際、「本当に投資に見合うのか」は最も重要な問いです。具体的な数字でROIを整理します。</p>
+<blockquote>📩 御社の場合のROI試算は<a href="/contact">無料相談</a>でお受けしています。</blockquote>
+<h2>現状コストの試算</h2>
+<p>仮定：月20回の会議、1回あたり1時間の会議<br/><ul><li>議事録作成：30分/回 × 20回 = <strong>月10時間</strong></li><br/><li>時給3,500円 × 10時間 = <strong>月35,000円</strong></li><br/><li>年間 <strong>42万円</strong> の人件費</li><br/></ul><br/><h2>AI導入後のコスト</h2></p>
+<ul><li>AIツール月額：<strong>1万〜3万円</strong></li>
+<li>人間のチェック工数：5分/回 × 20回 = <strong>約1.7時間/月</strong></li>
+<li>チェック人件費：約6,000円/月</li>
+<li>月間コスト：<strong>16,000〜36,000円</strong></li>
+</ul>
+<h2>ROI計算</h2>
+<table><thead><tr><th>項目</th><th>金額</th></tr></thead><tbody><tr><td>年間削減額（人件費）</td><td>42万円</td></tr>
+<tr><td>年間AI費用</td><td>19万〜43万円</td></tr>
+<tr><td><strong>年間純利益</strong></td><td><strong>−1万〜23万円</strong></td></tr></tbody></table>
+<p>ROIは使い方次第。<strong>会議数が多いほど効果が大きく</strong>、月30回以上の会議がある企業では確実にプラスになります。</p>
+<p>さらに、数値に表れない効果として：<br/><ul><li>議事録品質の<strong>安定化</strong></li><br/><li>決定事項の<strong>漏れ防止</strong></li><br/><li>過去会議の<strong>横断検索</strong>が可能に</li><br/></ul><br/><blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/meeting-minutes-tools">AI議事録ツールの選び方</a></blockquote></p>
+<h2>まとめ</h2>
+<p>議事録自動化のROIは、会議の頻度と参加者の工数で大きく変わります。</p>
+<p>---</p>
+<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"da5v8pyc3_h9tsj5jGA7K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"meeting-minutes-roi","title":"議事録自動化の費用対効果を数字で理解する","description":"AI議事録自動化の投資対効果を具体的な数字で試算し、導入判断の材料を提供します。","date":"2026-03-09","category":"backoffice","tags":["議事録自動化","費用対効果","ROI"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"accounting-ai-cost-saving","title":"経理のAI活用で年間コストを削減する考え方","description":"経理業務のAI活用による年間コスト削減効果を試算し、投資判断の考え方を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理","コスト削減","AI活用"],"author":"ProductX"},{"slug":"accounting-month-end-hell","title":"経理部門の「月末地獄」を終わらせるAI活用の可能性","description":"経理の月末作業（請求書処理・仕訳・照合）を圧迫する構造的原因と、AI効率化の可能性を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理","月末作業","AI活用"],"author":"ProductX"},{"slug":"ask-someone-culture","title":"社内の「あの人に聞かないと分からない」を撲滅する方法","description":"業務知識の属人化を解消し、AIナレッジベースで「誰でも分かる」組織にする考え方を解説します。","date":"2026-03-09","category":"backoffice","tags":["属人化","ナレッジ共有","AI活用"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/d8d4a5a0da6a7798.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null
