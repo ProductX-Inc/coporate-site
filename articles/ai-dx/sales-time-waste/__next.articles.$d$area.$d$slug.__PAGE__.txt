@@ -1,8 +1,9 @@
 1:"$Sreact.fragment"
-2:I[2024,["/_next/static/chunks/1e0a18af7db781bb.js","/_next/static/chunks/3dc073bd7faba003.js","/_next/static/chunks/ff7be75a3203897d.js","/_next/static/chunks/d91b331233d05ebe.js"],"ArticleDetailClient"]
+2:I[2024,["/_next/static/chunks/e7c882b546e94d62.js","/_next/static/chunks/d4f6dc837e37e946.js","/_next/static/chunks/241fc54396993ddb.js","/_next/static/chunks/2be095d106abb6b7.js"],"ArticleDetailClient"]
 7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 8:"$Sreact.suspense"
-3:T206e,<h2>はじめに</h2>
+3:T210b,<h2>はじめに</h2>
+<img src="/articles/ai-dx/images/sales-ai-hero.webp" alt="営業時間分析" loading="lazy" />
 <p>「うちの営業は頑張っている。でも売上が伸びない」——こんな悩みを持つ経営者は少なくありません。</p>
 <p>営業マンは毎日忙しく動いています。しかし、その動きの中身を分解してみると、<strong>「売る」以外の業務に大半の時間を費やしている</strong>ことに気づきます。</p>
 <p>ある調査によれば、BtoB営業担当者が実際に商談や提案に使っている時間は、1日の業務時間のうち<strong>わずか35%</strong>。残りの65%は、売上に直接つながらない事務作業や移動に消えています。</p>
@@ -52,15 +53,15 @@
 <li><strong>提案書のAI支援</strong>: 最も高度だが、効果も大きい</li>
 <h2>専門家に任せるべきポイント</h2>
 <p>営業業務のAI化には、CRMとの連携設計、AIへの過去データの学習、業務フローの再設計が必要です。<strong>「どのツールを入れるか」ではなく「どの業務をどう変えるか」</strong>から設計することが成功の鍵です。</p>
-<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/sales-productivity-killers">中小企業の営業チームが抱える5つの生産性キラー</a> / <a href="/articles/ai-dx/sales-dx-roi">営業DXの費用対効果｜どの業務から始めるべきか</a> / <a href="/articles/ai-dx/sales-ai-checklist">営業チームにAIを導入する際の判断チェックリスト</a></blockquote>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/sales-productivity-killers">中小企業の営業チームが抱える5つの生産性キラー</a> / <a href="/articles/ai-dx/sales-dx-roi">営業DXの費用対効果｜どの業務から始めるべきか</a> / <a href="/articles/ai-dx/sales-ai-checklist">営業チームにAIを導入する際の判断チェックリスト</a> / <a href="/articles/ai-dx/what-is-ai-dx">AI DXとは？</a></blockquote>
 <h2>まとめ</h2>
 <p>営業マンが「売る」以外に使っている時間は、1日約5時間。そのうち2.4時間はAIで取り戻せる可能性があります。</p>
 <p>重要なのは、<strong>「営業マンの努力が足りない」のではなく、「仕組みが非効率を生んでいる」</strong>ということ。仕組みを変えれば、同じメンバーのまま業績を大幅に改善できます。</p>
 <hr/>
 <p>📩 <strong>営業チームの時間分析を無料で行います</strong></p>
 <p>ProductXでは、御社の営業チームの時間配分を分析し、AI活用による改善ポイントを特定する無料コンサルティングを実施しています。</p>
-<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"eGemitYi1duOdw0vNRg5g","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"sales-time-waste","title":"営業マンが「売る」以外に費やしている時間の正体","description":"営業担当者の業務時間の内訳を分析し、AIで解決できる非効率を明らかにします。生産性向上のヒントをお届け。","date":"2026-03-09","category":"sales","tags":["営業効率化","時間管理","AI活用"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-roleplay-sales","title":"AIロールプレイで営業力を鍛える！実践トレーニング法","description":"AIをロールプレイ相手にした営業トレーニングの方法。場数を踏まずにスキルを向上させる手法を解説。","date":"2026-03-09","category":"sales","tags":["ロールプレイ","AIトレーニング","営業スキル"],"author":"ProductX"},{"slug":"ai-sales-forecast","title":"AI売上予測はどこまで当たるのか？導入前に知るべきこと","description":"AI売上予測の精度・限界・導入条件を客観的に解説。過度な期待を排し、現実的な活用法を提案します。","date":"2026-03-09","category":"sales","tags":["AI売上予測","精度","導入検討"],"author":"ProductX"},{"slug":"ai-secretary-boundaries","title":"AI秘書の「できること」と「任せてはいけないこと」の境界線","description":"AI秘書の能力範囲を明確にし、任せるべき業務と人間が判断すべき業務の境界線を実践的に解説します。","date":"2026-03-09","category":"sales","tags":["AI秘書","業務範囲","リスク管理"],"author":"ProductX"}],"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
-4:["$","script","script-0",{"src":"/_next/static/chunks/ff7be75a3203897d.js","async":true}]
-5:["$","script","script-1",{"src":"/_next/static/chunks/d91b331233d05ebe.js","async":true}]
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"_wN-2A3Y9Pu7lwQhcEAlu","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"sales-time-waste","title":"営業マンが「売る」以外に費やしている時間の正体","description":"営業担当者の業務時間の内訳を分析し、AIで解決できる非効率を明らかにします。生産性向上のヒントをお届け。","date":"2026-03-09","category":"sales","tags":["営業効率化","時間管理","AI活用"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-roleplay-sales","title":"AIロールプレイで営業力を鍛える！実践トレーニング法","description":"AIをロールプレイ相手にした営業トレーニングの方法。場数を踏まずにスキルを向上させる手法を解説。","date":"2026-03-09","category":"sales","tags":["ロールプレイ","AIトレーニング","営業スキル"],"author":"ProductX"},{"slug":"ai-sales-forecast","title":"AI売上予測はどこまで当たるのか？導入前に知るべきこと","description":"AI売上予測の精度・限界・導入条件を客観的に解説。過度な期待を排し、現実的な活用法を提案します。","date":"2026-03-09","category":"sales","tags":["AI売上予測","精度","導入検討"],"author":"ProductX"},{"slug":"ai-secretary-boundaries","title":"AI秘書の「できること」と「任せてはいけないこと」の境界線","description":"AI秘書の能力範囲を明確にし、任せるべき業務と人間が判断すべき業務の境界線を実践的に解説します。","date":"2026-03-09","category":"sales","tags":["AI秘書","業務範囲","リスク管理"],"author":"ProductX"}],"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/_next/static/chunks/241fc54396993ddb.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/2be095d106abb6b7.js","async":true}]
 6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
 9:null

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "@/components/theme-provider";
 import { LangProvider } from "@/components/lang-provider";
 import { GlobalEffects } from "@/components/ui/global-effects";
+import { AiChatbot } from "@/components/ui/ai-chatbot";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -95,6 +96,7 @@ export default function RootLayout({
             <GlobalEffects>
               {children}
             </GlobalEffects>
+            <AiChatbot />
           </LangProvider>
         </ThemeProvider>
       </body>
