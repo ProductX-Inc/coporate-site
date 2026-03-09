@@ -11,6 +11,8 @@ author: "ProductX"
 
 ## はじめに
 
+![営業時間分析](/articles/ai-dx/images/sales-ai-hero.webp)
+
 「うちの営業は頑張っている。でも売上が伸びない」——こんな悩みを持つ経営者は少なくありません。
 
 営業マンは毎日忙しく動いています。しかし、その動きの中身を分解してみると、**「売る」以外の業務に大半の時間を費やしている**ことに気づきます。
@@ -104,7 +106,7 @@ CRMのデータや通話ログからAIが日報を自動生成。営業マンは
 
 営業業務のAI化には、CRMとの連携設計、AIへの過去データの学習、業務フローの再設計が必要です。**「どのツールを入れるか」ではなく「どの業務をどう変えるか」**から設計することが成功の鍵です。
 
-> 💡 **関連記事**: [中小企業の営業チームが抱える5つの生産性キラー](/articles/ai-dx/sales-productivity-killers) / [営業DXの費用対効果｜どの業務から始めるべきか](/articles/ai-dx/sales-dx-roi) / [営業チームにAIを導入する際の判断チェックリスト](/articles/ai-dx/sales-ai-checklist)
+> 💡 **関連記事**: [中小企業の営業チームが抱える5つの生産性キラー](/articles/ai-dx/sales-productivity-killers) / [営業DXの費用対効果｜どの業務から始めるべきか](/articles/ai-dx/sales-dx-roi) / [営業チームにAIを導入する際の判断チェックリスト](/articles/ai-dx/sales-ai-checklist) / [AI DXとは？](/articles/ai-dx/what-is-ai-dx)
 
 ## まとめ
 

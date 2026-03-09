@@ -18,10 +18,14 @@ const navItems = [
             { href: "/services", labelJa: "サービス概要", labelEn: "Overview" },
             { href: "/services/partner-growth", labelJa: "Partner Growth", labelEn: "Partner Growth" },
             { href: "/services/ai-dx", labelJa: "AI DX", labelEn: "AI DX" },
+            { href: "/tools/ai-simulator", labelJa: "AI効果シミュレーター", labelEn: "AI Impact Simulator" },
+            { href: "/tools/estimate", labelJa: "開発費用シミュレーター", labelEn: "Cost Estimator" },
+            { href: "/case-studies", labelJa: "導入事例", labelEn: "Case Studies" },
         ],
     },
     { href: "/articles", key: "nav.articles" },
     { href: "/news", key: "nav.news" },
+    { href: "/partner", key: "nav.partner" },
 ];
 
 export function Header() {

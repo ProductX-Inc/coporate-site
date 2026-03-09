@@ -70,6 +70,7 @@ export function InviteSection() {
                                 { href: "/about", key: "nav.about" },
                                 { href: "/services", key: "nav.services" },
                                 { href: "/news", key: "nav.news" },
+                                { href: "/partner", key: "nav.partner" },
                                 { href: "/contact", key: "nav.contact" },
                             ].map((item) => (
                                 <Link

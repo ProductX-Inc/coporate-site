@@ -1,66 +1,93 @@
 1:"$Sreact.fragment"
-2:I[27423,["/_next/static/chunks/5db8a9a0bcc8f307.js","/_next/static/chunks/17cb6e905260b6d1.js"],"ThemeProvider"]
-3:I[67657,["/_next/static/chunks/5db8a9a0bcc8f307.js","/_next/static/chunks/17cb6e905260b6d1.js"],"LangProvider"]
-4:I[39417,["/_next/static/chunks/5db8a9a0bcc8f307.js","/_next/static/chunks/17cb6e905260b6d1.js"],"GlobalEffects"]
+2:I[27423,["/_next/static/chunks/1e0a18af7db781bb.js","/_next/static/chunks/3dc073bd7faba003.js"],"ThemeProvider"]
+3:I[67657,["/_next/static/chunks/1e0a18af7db781bb.js","/_next/static/chunks/3dc073bd7faba003.js"],"LangProvider"]
+4:I[39417,["/_next/static/chunks/1e0a18af7db781bb.js","/_next/static/chunks/3dc073bd7faba003.js"],"GlobalEffects"]
 5:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
 6:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
-7:I[29306,["/_next/static/chunks/5db8a9a0bcc8f307.js","/_next/static/chunks/17cb6e905260b6d1.js","/_next/static/chunks/d48290ec4685b833.js","/_next/static/chunks/175e8f6009e6f5b2.js"],"default"]
+7:I[29306,["/_next/static/chunks/1e0a18af7db781bb.js","/_next/static/chunks/3dc073bd7faba003.js","/_next/static/chunks/d48290ec4685b833.js","/_next/static/chunks/d91b331233d05ebe.js"],"default"]
 9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 a:"$Sreact.suspense"
 c:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
 e:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
 10:I[68027,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
-:HL["/_next/static/chunks/1a720890c7d3b836.css","style"]
-0:{"P":null,"b":"1BgHmcjdIYunxVrjx45w-","c":["","articles","ai-dx","past-proposals-waste"],"q":"","i":false,"f":[[["",{"children":["articles",{"children":[["area","ai-dx","d"],{"children":[["slug","past-proposals-waste","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1a720890c7d3b836.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/5db8a9a0bcc8f307.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/17cb6e905260b6d1.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#696CFF"}],["$","meta",null,{"name":"google-site-verification","content":"317UNan5UrUQVsmkdwwrteFnJAWBFx0ZHT8pSC2DvHY"}]]}],["$","body",null,{"children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"name\":\"株式会社ProductX\",\"alternateName\":\"ProductX Inc.\",\"url\":\"https://productx.jp\",\"logo\":\"https://productx.jp/images/logo.png\",\"description\":\"大手IT企業出身のエリートクリエイター集団によるプロダクト開発・DX支援会社\",\"foundingDate\":\"2025-03-14\",\"sameAs\":[]},{\"@type\":\"WebSite\",\"name\":\"ProductX\",\"url\":\"https://productx.jp\",\"inLanguage\":[\"ja\",\"en\"]}]}"}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js')}"}}],["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L7",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/_next/static/chunks/ff7be75a3203897d.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/175e8f6009e6f5b2.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},[["$","div","l",{"className":"fixed inset-0 z-[200] flex items-center justify-center bg-background","children":["$","div",null,{"className":"flex flex-col items-center gap-6","children":[["$","div",null,{"className":"relative","children":[["$","div",null,{"className":"w-12 h-12 rounded-2xl bg-gradient-to-br from-[var(--color-brand-active)] to-[var(--color-brand)] animate-pulse"}],["$","div",null,{"className":"absolute inset-0 w-12 h-12 rounded-2xl bg-gradient-to-br from-[var(--color-brand-active)] to-[var(--color-brand)] animate-ping opacity-20"}]]}],["$","div",null,{"className":"flex flex-col items-center gap-2","children":[["$","div",null,{"className":"h-2 w-32 rounded-full bg-muted animate-pulse"}],["$","div",null,{"className":"h-2 w-20 rounded-full bg-muted animate-pulse delay-75"}]]}]]}]}],[],[]],false,false],["$","$1","h",{"children":[null,["$","$Lc",null,{"children":"$Ld"}],["$","div",null,{"hidden":true,"children":["$","$Le",null,{"children":["$","$a",null,{"name":"Next.Metadata","children":"$Lf"}]}]}],null]}],false]],"m":"$undefined","G":["$10",[]],"S":true}
-11:I[2024,["/_next/static/chunks/5db8a9a0bcc8f307.js","/_next/static/chunks/17cb6e905260b6d1.js","/_next/static/chunks/ff7be75a3203897d.js","/_next/static/chunks/175e8f6009e6f5b2.js"],"ArticleDetailClient"]
-12:T149e,<h2>はじめに</h2>
+:HL["/_next/static/chunks/00694b8bf36fd70d.css","style"]
+0:{"P":null,"b":"eGemitYi1duOdw0vNRg5g","c":["","articles","ai-dx","past-proposals-waste"],"q":"","i":false,"f":[[["",{"children":["articles",{"children":[["area","ai-dx","d"],{"children":[["slug","past-proposals-waste","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/00694b8bf36fd70d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/1e0a18af7db781bb.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/3dc073bd7faba003.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#696CFF"}],["$","meta",null,{"name":"google-site-verification","content":"317UNan5UrUQVsmkdwwrteFnJAWBFx0ZHT8pSC2DvHY"}]]}],["$","body",null,{"children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"name\":\"株式会社ProductX\",\"alternateName\":\"ProductX Inc.\",\"url\":\"https://productx.jp\",\"logo\":\"https://productx.jp/images/logo.png\",\"description\":\"大手IT企業出身のエリートクリエイター集団によるプロダクト開発・DX支援会社\",\"foundingDate\":\"2025-03-14\",\"sameAs\":[]},{\"@type\":\"WebSite\",\"name\":\"ProductX\",\"url\":\"https://productx.jp\",\"inLanguage\":[\"ja\",\"en\"]}]}"}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js')}"}}],["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L7",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/_next/static/chunks/ff7be75a3203897d.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/d91b331233d05ebe.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},[["$","div","l",{"className":"fixed inset-0 z-[200] flex items-center justify-center bg-background","children":["$","div",null,{"className":"flex flex-col items-center gap-6","children":[["$","div",null,{"className":"relative","children":[["$","div",null,{"className":"w-12 h-12 rounded-2xl bg-gradient-to-br from-[var(--color-brand-active)] to-[var(--color-brand)] animate-pulse"}],["$","div",null,{"className":"absolute inset-0 w-12 h-12 rounded-2xl bg-gradient-to-br from-[var(--color-brand-active)] to-[var(--color-brand)] animate-ping opacity-20"}]]}],["$","div",null,{"className":"flex flex-col items-center gap-2","children":[["$","div",null,{"className":"h-2 w-32 rounded-full bg-muted animate-pulse"}],["$","div",null,{"className":"h-2 w-20 rounded-full bg-muted animate-pulse delay-75"}]]}]]}]}],[],[]],false,false],["$","$1","h",{"children":[null,["$","$Lc",null,{"children":"$Ld"}],["$","div",null,{"hidden":true,"children":["$","$Le",null,{"children":["$","$a",null,{"name":"Next.Metadata","children":"$Lf"}]}]}],null]}],false]],"m":"$undefined","G":["$10",[]],"S":true}
+11:I[2024,["/_next/static/chunks/1e0a18af7db781bb.js","/_next/static/chunks/3dc073bd7faba003.js","/_next/static/chunks/ff7be75a3203897d.js","/_next/static/chunks/d91b331233d05ebe.js"],"ArticleDetailClient"]
+12:T24ef,<h2>はじめに</h2>
 <img src="/articles/ai-dx/images/team-knowledge-hero.webp" alt="ナレッジ活用" loading="lazy" />
 <p>御社には、過去3年間で何件の提案書が作成されましたか？50件？100件？200件？</p>
-<p>その提案書は今、どこにありますか？<strong>担当者のPC、共有ドライブの奥底、退職者のGoogleアカウント</strong>——多くの場合、作成された瞬間から「死蔵」されています。</p>
-<p>過去の提案書は、<strong>会社の知的資産として最も価値が高い</strong>データの一つです。何百時間もかけて作られた提案書には、顧客理解、課題分析、ソリューション設計、価格設計のエッセンスが凝縮されています。AIを使えば、この「眠れる資産」を組織の武器に変えられます。</p>
-<h2>過去の提案書の隠れた価値</h2>
-<h3>顧客理解のデータベース</h3>
-<p>提案書には「どの業界のどんな企業が、どんな課題を持ち、どんなソリューションを求めていたか」の情報が詰まっています。これは<strong>マーケティングリサーチで何百万円もかけて得る情報</strong>に匹敵。</p>
-<h3>成約パターンの宝庫</h3>
-<p>成約した提案書と失注した提案書を比較すれば、<strong>「何が成約を決定づけたか」</strong>のパターンが見えてきます。価格設計？事例の選び方？課題の捉え方？</p>
-<h3>新人教育の最強教材</h3>
-<p>「先輩はどんな提案をしていたか」を学ぶ最良の教材は、<strong>過去の提案書そのもの</strong>。特に成約した提案書は、そのまま「お手本」として使えます。</p>
-<h2>AIでの再活用3つのアプローチ</h2>
-<h3>アプローチ1：提案書検索AIの構築</h3>
-<p>過去の提案書をすべてAIに読み込ませ、<strong>自然言語で検索できるナレッジベース</strong>を構築。</p>
-<ul><li>「製造業向けの業務効率化の提案書ある？」→ 3件ヒット</li>
-<li>「年商10億以上の小売業への提案で成約したものは？」→ 2件ヒット</li>
-<li>「RPA導入の提案で使える事例は？」→ 5件ヒット</li>
-</ul>
-<h3>アプローチ2：成約パターンの自動分析</h3>
-<p>AIが全提案書を分析し、<strong>成約/失注のパターンを自動抽出</strong>。</p>
-<table><thead><tr><th>分析項目</th><th>成約提案書の特徴</th><th>失注提案書の特徴</th></tr></thead><tbody><tr><td>ページ数</td><td>15〜20ページ</td><td>30ページ以上（多すぎ）</td></tr>
-<tr><td>課題記述の割合</td><td>全体の30%</td><td>全体の10%</td></tr>
-<tr><td>事例の数</td><td>2〜3件</td><td>0〜1件</td></tr>
-<tr><td>ROI試算</td><td>あり</td><td>なし</td></tr>
-<tr><td>価格提示の方法</td><td>松竹梅3パターン</td><td>1パターンのみ</td></tr></tbody></table>
-<h3>アプローチ3：新規提案書の下書き自動生成</h3>
-<p>新しい案件の情報（業界、企業規模、課題）を入力すると、<strong>過去の類似案件の提案書をベースに下書きを自動生成</strong>。アプローチ1と2の成果を活用し、「成約しやすいパターン」に基づいた提案書を短時間で作成。</p>
+<p>その提案書は今どこにありますか？<strong>担当者のローカルPC、共有ドライブの奥底、退職者のアカウント</strong>——多くの場合、作成された瞬間から「死蔵」されています。</p>
+<p>過去の提案書は、<strong>会社の知的資産として最も価値が高いデータ</strong>の一つです。数百時間かけて作られた提案書には、顧客理解、課題分析、ソリューション設計、価格設計のエッセンスが凝縮されています。</p>
+<p>AIを使えば、この「眠れる資産」を<strong>組織全体の武器</strong>に変えることが可能です。</p>
+<h2>「死蔵」されている本当のコスト</h2>
+<h3>毎回ゼロから作る非効率</h3>
+<p>新しい案件が来るたび、営業担当者は提案書を<strong>ゼロから作成</strong>しています。しかし実は、過去に似たような案件の提案書が社内のどこかに存在しているケースが<strong>70%以上</strong>。</p>
+<table><thead><tr><th>現状の問題</th><th>コスト</th></tr></thead><tbody><tr><td>提案書を毎回ゼロから作成</td><td>5〜8時間/件</td></tr>
+<tr><td>「似た案件の提案書」を探す時間</td><td>1〜3時間/件（見つからないことも多い）</td></tr>
+<tr><td>退職者のナレッジ喪失</td><td>取り返しがつかない</td></tr>
+<tr><td>新人への引き継ぎ不足</td><td>独り立ちまでに6〜12ヶ月</td></tr></tbody></table>
+<p>年間50件の提案書を作成する企業なら、<strong>年間250〜400時間が「車輪の再発明」</strong>に消えています。</p>
+<h3>成約パターンの暗黙知化</h3>
+<p>「ベテランの○○さんは受注率が高い」——それは○○さんが過去の経験から<strong>成約しやすい提案のパターン</strong>を暗黙的に把握しているから。この暗黙知は、○○さんが退職したら<strong>会社から消えます</strong>。</p>
+<h2>過去の提案書に眠る3つの価値</h2>
+<h3>価値1: 顧客理解のデータベース</h3>
+<p>提案書には「どの業界のどんな企業が、どんな課題を持ち、どんなソリューションを求めていたか」の情報が詰まっています。</p>
+<p>これは<strong>マーケティングリサーチ会社に何百万円も払って得る情報</strong>と同等。しかもリアルな商談に基づいたデータであり、汎用的な市場調査よりも遥かに実用的です。</p>
+<h3>価値2: 成約パターンの宝庫</h3>
+<p>成約した提案書と失注した提案書を比較すれば、<strong>「何が成約を決定づけたか」</strong>のパターンが浮かび上がります。</p>
+<table><thead><tr><th>分析項目</th><th>成約提案書の特徴</th><th>失注提案書の特徴</th></tr></thead><tbody><tr><td>ページ数</td><td>15〜20ページ（適度な量）</td><td>30ページ以上（多すぎて読まれない）</td></tr>
+<tr><td>課題記述の割合</td><td>全体の30%（顧客理解を示す）</td><td>全体の10%（自社製品の説明が多い）</td></tr>
+<tr><td>導入事例の数</td><td>2〜3件（具体的で信頼性がある）</td><td>0〜1件（信頼性に欠ける）</td></tr>
+<tr><td>ROI試算の有無</td><td>あり（投資判断の根拠を提供）</td><td>なし（「良いものです」で終わる）</td></tr>
+<tr><td>価格提示</td><td>松竹梅の3パターン（選択肢を提示）</td><td>1パターンのみ（Yes/Noの二択）</td></tr>
+<tr><td>カスタマイズ度</td><td>顧客名・業界に合わせた具体例</td><td>汎用的な事例のみ</td></tr></tbody></table>
+<h3>価値3: 新人教育の最強教材</h3>
+<p>「先輩はどんな提案をしていたか」を学ぶ最良の教材は、<strong>過去の提案書そのもの</strong>。教科書的な営業研修よりも、実際の成約事例の方が100倍実践的です。</p>
+<h2>AIでの再活用——3つのアプローチ</h2>
+<h3>アプローチ1: 提案書検索AIの構築</h3>
+<p>過去の提案書をすべてAIに読み込ませ、<strong>自然言語で検索できるナレッジベース</strong>を構築します。</p>
+<strong>検索の例</strong>:
+<table><thead><tr><th>質問</th><th>AIの回答</th></tr></thead><tbody><tr><td>「製造業向けの業務効率化の提案書ある？」</td><td>3件ヒット（A社、B社、C社の提案書を表示）</td></tr>
+<tr><td>「年商10億以上の小売業への提案で成約したものは？」</td><td>2件ヒット（受注率、提案のポイントも表示）</td></tr>
+<tr><td>「RPA導入の提案で使える事例ページは？」</td><td>5件の提案書から該当ページを抽出</td></tr>
+<tr><td>「コンペで勝った提案書の共通点は？」</td><td>分析結果を自動生成</td></tr></tbody></table>
+<p><strong>従来との違い</strong>: ファイル名やフォルダ構造に依存した検索から、<strong>内容ベースの意味検索</strong>に進化。「あの提案書どこだっけ？」が一瞬で解決。</p>
+<h3>アプローチ2: 成約パターンの自動分析</h3>
+<p>AIが全提案書を分析し、<strong>成約/失注のパターンを自動で抽出</strong>します。</p>
+<p><strong>分析レポートの例</strong>:</p>
+<blockquote><strong>成約パターン分析レポート</strong></blockquote>
+<blockquote>- 成約率が高い提案書の特徴: 課題記述が30%以上、ROI試算あり、事例2件以上</blockquote>
+<blockquote>- 失注の主要因: 価格提示が1パターンのみ（成約率-40%）、事例ゼロ（成約率-55%）</blockquote>
+<blockquote>- 推奨: 全提案書にROI試算と松竹梅の価格パターンを含める</blockquote>
+<h3>アプローチ3: 新規提案書の下書き自動生成</h3>
+<p>新しい案件の基本情報を入力すると、<strong>過去の類似案件の提案書をベースに下書きを自動生成</strong>。</p>
+<table><thead><tr><th>入力する情報</th><th>AIの出力</th></tr></thead><tbody><tr><td>業界: 製造業</td><td>製造業向けの課題記述テンプレート</td></tr>
+<tr><td>企業規模: 年商50億円</td><td>同規模の成約事例を自動挿入</td></tr>
+<tr><td>課題: 品質検査の効率化</td><td>関連ソリューションの提案構成</td></tr>
+<tr><td>予算感: 500万円</td><td>松竹梅の価格パターンを自動設計</td></tr></tbody></table>
+<p><strong>結果</strong>: 提案書の作成時間が<strong>5〜8時間 → 1〜2時間</strong>に短縮。しかも成約パターンに基づいた「勝てる構成」で自動生成。</p>
 <h2>導入効果の試算</h2>
-<table><thead><tr><th>項目</th><th>Before</th><th>After</th></tr></thead><tbody><tr><td>提案書作成時間</td><td>5〜8時間/件</td><td>1〜2時間/件</td></tr>
-<tr><td>新人が適切な事例を見つけるまで</td><td>2〜3時間</td><td>5分</td></tr>
-<tr><td>過去データの活用率</td><td>5%以下</td><td>80%以上</td></tr>
-<tr><td>提案書の品質ばらつき</td><td>大きい</td><td>小さい（底上げ）</td></tr></tbody></table>
+<table><thead><tr><th>項目</th><th>Before</th><th>After</th><th>改善率</th></tr></thead><tbody><tr><td>提案書作成時間</td><td>5〜8時間/件</td><td>1〜2時間/件</td><td><strong>70〜75%短縮</strong></td></tr>
+<tr><td>新人が事例を見つけるまで</td><td>2〜3時間</td><td>5分</td><td><strong>97%短縮</strong></td></tr>
+<tr><td>過去データの活用率</td><td>5%以下</td><td>80%以上</td><td>—</td></tr>
+<tr><td>提案書の品質ばらつき</td><td>大きい（個人差）</td><td>小さい（底上げ）</td><td>—</td></tr>
+<tr><td>年間の工数削減（50件/年）</td><td>—</td><td>200〜300時間</td><td>—</td></tr>
+<tr><td>コスト換算（時給4,000円）</td><td>—</td><td><strong>80万〜120万円/年</strong></td><td>—</td></tr></tbody></table>
 <h2>導入ステップ</h2>
-<li><strong>過去3年分の提案書を収集</strong>（PC、共有ドライブ、メール添付を含む）</li>
-<li><strong>提案書のデジタル化</strong>（スキャン、フォーマット統一）</li>
-<li><strong>成約/失注タグの付与</strong></li>
-<li><strong>AIナレッジベースの構築</strong></li>
-<li><strong>成約パターン分析の実施</strong></li>
-<li><strong>下書き自動生成のテンプレート設計</strong></li>
-<h2>専門家に任せるべきポイント</h2>
-<p>提案書のデータベース設計、パターン分析モデルの構築、自動生成テンプレートの設計は専門家のサポートが効果的です。</p>
-<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/sales-proposal-ai">AIが提案書を作る時代の「3つの原則」</a> / <a href="/articles/ai-dx/sales-proposal-fatigue">「また提案書を一から作るのか…」提案疲れの構造的原因と解決策</a></blockquote>
+<table><thead><tr><th>ステップ</th><th>内容</th><th>期間</th></tr></thead><tbody><tr><td>1</td><td>過去3年分の提案書を収集（PC、共有ドライブ、退職者分も）</td><td>1〜2週間</td></tr>
+<tr><td>2</td><td>提案書のデジタル化・フォーマット統一</td><td>1週間</td></tr>
+<tr><td>3</td><td>成約/失注タグの付与</td><td>2〜3日</td></tr>
+<tr><td>4</td><td>AIナレッジベースの構築（RAG構成）</td><td>2〜4週間</td></tr>
+<tr><td>5</td><td>成約パターン分析の実施</td><td>1週間</td></tr>
+<tr><td>6</td><td>下書き自動生成テンプレートの設計</td><td>2週間</td></tr></tbody></table>
 <h2>まとめ</h2>
-<p>過去の提案書は「終わった仕事の記録」ではなく、<strong>未来の成約率を高める最大の資産</strong>です。AIがこの資産を掘り起こし、営業チーム全体の武器に変えます。</p>
+<p>過去の提案書は「終わった仕事の記録」ではなく、<strong>未来の成約率を高める最大の資産</strong>です。</p>
+<p>AIがこの「眠れる資産」を掘り起こし、営業チーム全体の武器に変えます。まずは過去3年分の提案書を1箇所に集めることから始めてください。</p>
 <hr/>
-<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
-<p><a href="/contact">無料で相談する →</a></p>8:["$","$L11",null,{"article":{"slug":"past-proposals-waste","title":"過去の提案書、眠らせていませんか？AI再活用の可能性","description":"社内に蓄積された過去の提案書をAIで再活用し、営業チームの武器にする方法を解説します。","date":"2026-03-09","category":"sales","tags":["提案書","ナレッジ活用","AI"],"author":"ProductX","content":"$12"},"relatedArticles":[{"slug":"ai-roleplay-sales","title":"AIロープレは営業研修を変えるか？効果と限界を検証","description":"AI商談ロープレの効果と限界を客観的に検証。従来のロープレと比較し、最適な研修設計を提案します。","date":"2026-03-09","category":"sales","tags":["AIロープレ","営業研修","商談練習"],"author":"ProductX"},{"slug":"ai-sales-forecast","title":"AI売上予測はどこまで当たるのか？導入前に知るべきこと","description":"AI売上予測の精度・限界・導入条件を客観的に解説。過度な期待を排し、現実的な活用法を提案します。","date":"2026-03-09","category":"sales","tags":["AI売上予測","精度","導入検討"],"author":"ProductX"},{"slug":"ai-secretary-boundaries","title":"AI秘書の「できること」と「任せてはいけないこと」の境界線","description":"AI秘書の能力範囲を明確にし、任せるべき業務と人間が判断すべき業務の境界線を実践的に解説します。","date":"2026-03-09","category":"sales","tags":["AI秘書","業務範囲","リスク管理"],"author":"ProductX"}],"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}]
+<p>📩 提案書のAI再活用について相談したい方へ</p>
+<p>ProductXでは、AI DXに関する無料相談を承っています。</p>
+<p><a href="/contact">無料で相談する →</a></p>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/sales-proposal-ai">AIが提案書を作る時代の「3つの原則」</a> / <a href="/articles/ai-dx/sales-proposal-fatigue">「また提案書を一から作るのか…」提案疲れの構造的原因と解決策</a> / <a href="/articles/ai-dx/what-is-ai-dx">AI DXとは？</a></blockquote>8:["$","$L11",null,{"article":{"slug":"past-proposals-waste","title":"過去の提案書、眠らせていませんか？AI再活用の可能性","description":"社内に蓄積された過去の提案書をAIで再活用し、営業チームの武器にする方法を解説します。","date":"2026-03-09","category":"sales","tags":["提案書","ナレッジ活用","AI"],"author":"ProductX","content":"$12"},"relatedArticles":[{"slug":"ai-roleplay-sales","title":"AIロールプレイで営業力を鍛える！実践トレーニング法","description":"AIをロールプレイ相手にした営業トレーニングの方法。場数を踏まずにスキルを向上させる手法を解説。","date":"2026-03-09","category":"sales","tags":["ロールプレイ","AIトレーニング","営業スキル"],"author":"ProductX"},{"slug":"ai-sales-forecast","title":"AI売上予測はどこまで当たるのか？導入前に知るべきこと","description":"AI売上予測の精度・限界・導入条件を客観的に解説。過度な期待を排し、現実的な活用法を提案します。","date":"2026-03-09","category":"sales","tags":["AI売上予測","精度","導入検討"],"author":"ProductX"},{"slug":"ai-secretary-boundaries","title":"AI秘書の「できること」と「任せてはいけないこと」の境界線","description":"AI秘書の能力範囲を明確にし、任せるべき業務と人間が判断すべき業務の境界線を実践的に解説します。","date":"2026-03-09","category":"sales","tags":["AI秘書","業務範囲","リスク管理"],"author":"ProductX"}],"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}]
 d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 13:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
 b:null

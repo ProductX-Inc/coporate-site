@@ -1,92 +1,98 @@
 1:"$Sreact.fragment"
-2:I[27423,["/_next/static/chunks/5db8a9a0bcc8f307.js","/_next/static/chunks/17cb6e905260b6d1.js"],"ThemeProvider"]
-3:I[67657,["/_next/static/chunks/5db8a9a0bcc8f307.js","/_next/static/chunks/17cb6e905260b6d1.js"],"LangProvider"]
-4:I[39417,["/_next/static/chunks/5db8a9a0bcc8f307.js","/_next/static/chunks/17cb6e905260b6d1.js"],"GlobalEffects"]
+2:I[27423,["/_next/static/chunks/1e0a18af7db781bb.js","/_next/static/chunks/3dc073bd7faba003.js"],"ThemeProvider"]
+3:I[67657,["/_next/static/chunks/1e0a18af7db781bb.js","/_next/static/chunks/3dc073bd7faba003.js"],"LangProvider"]
+4:I[39417,["/_next/static/chunks/1e0a18af7db781bb.js","/_next/static/chunks/3dc073bd7faba003.js"],"GlobalEffects"]
 5:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
 6:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
-7:I[29306,["/_next/static/chunks/5db8a9a0bcc8f307.js","/_next/static/chunks/17cb6e905260b6d1.js","/_next/static/chunks/d48290ec4685b833.js","/_next/static/chunks/175e8f6009e6f5b2.js"],"default"]
+7:I[29306,["/_next/static/chunks/1e0a18af7db781bb.js","/_next/static/chunks/3dc073bd7faba003.js","/_next/static/chunks/d48290ec4685b833.js","/_next/static/chunks/d91b331233d05ebe.js"],"default"]
 9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 a:"$Sreact.suspense"
 c:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
 e:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
 10:I[68027,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
-:HL["/_next/static/chunks/1a720890c7d3b836.css","style"]
-0:{"P":null,"b":"1BgHmcjdIYunxVrjx45w-","c":["","articles","ai-dx","sales-list-cost"],"q":"","i":false,"f":[[["",{"children":["articles",{"children":[["area","ai-dx","d"],{"children":[["slug","sales-list-cost","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1a720890c7d3b836.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/5db8a9a0bcc8f307.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/17cb6e905260b6d1.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#696CFF"}],["$","meta",null,{"name":"google-site-verification","content":"317UNan5UrUQVsmkdwwrteFnJAWBFx0ZHT8pSC2DvHY"}]]}],["$","body",null,{"children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"name\":\"株式会社ProductX\",\"alternateName\":\"ProductX Inc.\",\"url\":\"https://productx.jp\",\"logo\":\"https://productx.jp/images/logo.png\",\"description\":\"大手IT企業出身のエリートクリエイター集団によるプロダクト開発・DX支援会社\",\"foundingDate\":\"2025-03-14\",\"sameAs\":[]},{\"@type\":\"WebSite\",\"name\":\"ProductX\",\"url\":\"https://productx.jp\",\"inLanguage\":[\"ja\",\"en\"]}]}"}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js')}"}}],["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L7",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/_next/static/chunks/ff7be75a3203897d.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/175e8f6009e6f5b2.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},[["$","div","l",{"className":"fixed inset-0 z-[200] flex items-center justify-center bg-background","children":["$","div",null,{"className":"flex flex-col items-center gap-6","children":[["$","div",null,{"className":"relative","children":[["$","div",null,{"className":"w-12 h-12 rounded-2xl bg-gradient-to-br from-[var(--color-brand-active)] to-[var(--color-brand)] animate-pulse"}],["$","div",null,{"className":"absolute inset-0 w-12 h-12 rounded-2xl bg-gradient-to-br from-[var(--color-brand-active)] to-[var(--color-brand)] animate-ping opacity-20"}]]}],["$","div",null,{"className":"flex flex-col items-center gap-2","children":[["$","div",null,{"className":"h-2 w-32 rounded-full bg-muted animate-pulse"}],["$","div",null,{"className":"h-2 w-20 rounded-full bg-muted animate-pulse delay-75"}]]}]]}]}],[],[]],false,false],["$","$1","h",{"children":[null,["$","$Lc",null,{"children":"$Ld"}],["$","div",null,{"hidden":true,"children":["$","$Le",null,{"children":["$","$a",null,{"name":"Next.Metadata","children":"$Lf"}]}]}],null]}],false]],"m":"$undefined","G":["$10",[]],"S":true}
-11:I[2024,["/_next/static/chunks/5db8a9a0bcc8f307.js","/_next/static/chunks/17cb6e905260b6d1.js","/_next/static/chunks/ff7be75a3203897d.js","/_next/static/chunks/175e8f6009e6f5b2.js"],"ArticleDetailClient"]
-12:T1b61,<h2>はじめに</h2>
-<p>営業リスト作成の外注は、多くの中小企業が「手っ取り早い」と感じるソリューションです。しかし、外注を続ければ続けるほど<strong>コストは積み上がり、データは社外に流出</strong>します。</p>
-<p>一方、AI内製化は「初期投資が必要だが、長期的にはコストが逓減する」モデル。この記事では、両者のコスト構造を詳細に比較し、御社にとっての最適解を見つける判断基準を提示します。</p>
-<h2>外注のコスト構造</h2>
-<h3>リスト購入型（データベースサービス）</h3>
-<table><thead><tr><th>項目</th><th>コスト</th></tr></thead><tbody><tr><td>1回のリスト購入（1,000件）</td><td>5万〜15万円</td></tr>
-<tr><td>月額サービス利用料</td><td>3万〜10万円</td></tr>
-<tr><td>カスタマイズオプション</td><td>1万〜5万円/回</td></tr>
-<tr><td><strong>月額合計</strong></td><td><strong>8万〜30万円</strong></td></tr>
-<tr><td><strong>年間合計</strong></td><td><strong>96万〜360万円</strong></td></tr></tbody></table>
-<h3>リサーチ代行型（BPO）</h3>
-<table><thead><tr><th>項目</th><th>コスト</th></tr></thead><tbody><tr><td>リサーチャー人件費（1名）</td><td>20万〜40万円/月</td></tr>
-<tr><td>PM・管理費</td><td>5万〜10万円/月</td></tr>
-<tr><td>ツール利用料</td><td>3万〜5万円/月</td></tr>
-<tr><td><strong>月額合計</strong></td><td><strong>28万〜55万円</strong></td></tr>
-<tr><td><strong>年間合計</strong></td><td><strong>336万〜660万円</strong></td></tr></tbody></table>
-<h3>外注の隠れたコスト</h3>
-<p>上記の金額に加え、以下の「見えないコスト」があります：</p>
-<ul><li><strong>コミュニケーションコスト</strong>: 要件伝達、修正依頼に月5〜10時間</li>
-<li><strong>リスト精査コスト</strong>: 納品リストを社内で精査する工数</li>
-<li><strong>機会損失</strong>: リスト納品まで1〜2週間のタイムラグ</li>
-<li><strong>ノウハウの非蓄積</strong>: データと経験が社外にとどまる</li>
-</ul>
-<h2>AI内製化のコスト構造</h2>
-<table><thead><tr><th>項目</th><th>コスト</th></tr></thead><tbody><tr><td>初期設計・構築費</td><td>50万〜150万円（一括）</td></tr>
-<tr><td>月額ツール利用料</td><td>3万〜10万円</td></tr>
-<tr><td>月額運用サポート</td><td>3万〜5万円</td></tr>
-<tr><td><strong>月額合計</strong></td><td><strong>6万〜15万円</strong></td></tr>
-<tr><td><strong>年間合計（初年度）</strong></td><td><strong>122万〜330万円</strong></td></tr>
-<tr><td><strong>年間合計（2年目以降）</strong></td><td><strong>72万〜180万円</strong></td></tr></tbody></table>
-<h3>AI内製化の隠れたメリット</h3>
-<ul><li><strong>データが社内に蓄積</strong>: 使い続けるほどAIの精度が向上（成約パターンの学習）</li>
-<li><strong>リアルタイム更新</strong>: 情報の鮮度が常に最新</li>
-<li><strong>スケーラビリティ</strong>: リスト1,000件でも10,000件でもコスト変わらず</li>
-<li><strong>担当者の成長</strong>: 「リスト作成」から「リスト戦略立案」へ業務がレベルアップ</li>
-</ul>
-<h2>3年間のTCO（総保有コスト）比較</h2>
-<table><thead><tr><th>年</th><th>外注（購入型中程度）</th><th>AI内製化</th></tr></thead><tbody><tr><td>1年目</td><td>200万円</td><td>200万円</td></tr>
-<tr><td>2年目</td><td>200万円</td><td>120万円</td></tr>
-<tr><td>3年目</td><td>200万円</td><td>120万円</td></tr>
-<tr><td><strong>3年間合計</strong></td><td><strong>600万円</strong></td><td><strong>440万円</strong></td></tr>
-<tr><td><strong>累積差額</strong></td><td>—</td><td><strong>160万円の削減</strong></td></tr></tbody></table>
-<p>さらにAI内製化の場合、2年目以降はAIの精度向上により<strong>リストの質が上がり、成約率の向上</strong>も期待できます。この成約率の向上分を売上に換算すると、実質的なROIはさらに大きくなります。</p>
-<h2>どちらを選ぶべきか</h2>
-<h3>外注が向いている場合</h3>
-<ul><li><strong>AI内製化の初期投資が難しい</strong>場合</li>
-<li>新規市場の開拓で<strong>一時的に大量のリストが必要</strong>な場合</li>
-<li>自社に<strong>過去の成約データがほとんどない</strong>場合</li>
-<li><strong>事業の立ち上げ期</strong>で、ターゲット自体が不確定な場合</li>
-</ul>
-<h3>AI内製化が向いている場合</h3>
-<ul><li>営業リスト作成が<strong>継続的な業務</strong>である場合</li>
-<li>CRMに<strong>過去1年以上の成約データ</strong>がある場合</li>
-<li>月間のリスト作成コストが<strong>10万円以上</strong>の場合</li>
-<li>リストの質を<strong>継続的に改善したい</strong>場合</li>
-<li><strong>データの社内蓄積</strong>を重視する場合</li>
-</ul>
-<h3>ハイブリッドアプローチ</h3>
-<p>最も現実的な選択肢は、<strong>最初は外注で始め、データが蓄積したらAI内製化に移行</strong>するハイブリッドアプローチです。</p>
-<li>立ち上げ期（〜6ヶ月）：外注リストで営業活動を開始</li>
-<li>蓄積期（6ヶ月〜1年）：成約データを蓄積しながらAI導入を設計</li>
-<li>移行期（1年〜）：AI内製化を開始、段階的に外注を縮小</li>
-<li>運用期（1.5年〜）：完全AI内製化、外注はスポット利用のみ</li>
-<h2>専門家に任せるべきポイント</h2>
-<p>AI内製化の初期設計（成約パターン分析、スコアリングモデル構築、データソース連携）は専門家のサポートが効果的です。</p>
-<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/sales-list-automation">営業アタックリスト作成を自動化する方法｜手作業 vs AI</a> / <a href="/articles/ai-dx/sales-list-quality">営業リストの質を劇的に上げるAI活用の考え方</a> / <a href="/articles/ai-dx/sales-dx-roi">営業DXの費用対効果｜どの業務から始めるべきか</a></blockquote>
+:HL["/_next/static/chunks/00694b8bf36fd70d.css","style"]
+0:{"P":null,"b":"eGemitYi1duOdw0vNRg5g","c":["","articles","ai-dx","sales-list-cost"],"q":"","i":false,"f":[[["",{"children":["articles",{"children":[["area","ai-dx","d"],{"children":[["slug","sales-list-cost","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/00694b8bf36fd70d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/1e0a18af7db781bb.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/3dc073bd7faba003.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#696CFF"}],["$","meta",null,{"name":"google-site-verification","content":"317UNan5UrUQVsmkdwwrteFnJAWBFx0ZHT8pSC2DvHY"}]]}],["$","body",null,{"children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"name\":\"株式会社ProductX\",\"alternateName\":\"ProductX Inc.\",\"url\":\"https://productx.jp\",\"logo\":\"https://productx.jp/images/logo.png\",\"description\":\"大手IT企業出身のエリートクリエイター集団によるプロダクト開発・DX支援会社\",\"foundingDate\":\"2025-03-14\",\"sameAs\":[]},{\"@type\":\"WebSite\",\"name\":\"ProductX\",\"url\":\"https://productx.jp\",\"inLanguage\":[\"ja\",\"en\"]}]}"}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js')}"}}],["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L7",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/_next/static/chunks/ff7be75a3203897d.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/d91b331233d05ebe.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},[["$","div","l",{"className":"fixed inset-0 z-[200] flex items-center justify-center bg-background","children":["$","div",null,{"className":"flex flex-col items-center gap-6","children":[["$","div",null,{"className":"relative","children":[["$","div",null,{"className":"w-12 h-12 rounded-2xl bg-gradient-to-br from-[var(--color-brand-active)] to-[var(--color-brand)] animate-pulse"}],["$","div",null,{"className":"absolute inset-0 w-12 h-12 rounded-2xl bg-gradient-to-br from-[var(--color-brand-active)] to-[var(--color-brand)] animate-ping opacity-20"}]]}],["$","div",null,{"className":"flex flex-col items-center gap-2","children":[["$","div",null,{"className":"h-2 w-32 rounded-full bg-muted animate-pulse"}],["$","div",null,{"className":"h-2 w-20 rounded-full bg-muted animate-pulse delay-75"}]]}]]}]}],[],[]],false,false],["$","$1","h",{"children":[null,["$","$Lc",null,{"children":"$Ld"}],["$","div",null,{"hidden":true,"children":["$","$Le",null,{"children":["$","$a",null,{"name":"Next.Metadata","children":"$Lf"}]}]}],null]}],false]],"m":"$undefined","G":["$10",[]],"S":true}
+11:I[2024,["/_next/static/chunks/1e0a18af7db781bb.js","/_next/static/chunks/3dc073bd7faba003.js","/_next/static/chunks/ff7be75a3203897d.js","/_next/static/chunks/d91b331233d05ebe.js"],"ArticleDetailClient"]
+12:T259d,<h2>はじめに</h2>
+<img src="/articles/ai-dx/images/comparison-hero.webp" alt="比較分析" loading="lazy" />
+<p>営業リストの作成——自社でやるには時間がかかりすぎる。かといって外注すると品質にばらつきがある。<strong>AI代行</strong>という第三の選択肢が登場した今、どの方法が最もコスパが良いのでしょうか。</p>
+<p>この記事では、営業リスト作成の3つのアプローチ（<strong>自社作成・外注・AI代行</strong>）をコスト・品質・スピードの3軸で比較し、中小企業に最適な選択肢を提案します。</p>
+<h2>3つのアプローチの概要</h2>
+<table><thead><tr><th>アプローチ</th><th>概要</th><th>初期コスト</th></tr></thead><tbody><tr><td><strong>自社作成</strong></td><td>営業担当者がWeb検索、名簿、展示会リスト等から手作業で作成</td><td>0円（人件費のみ）</td></tr>
+<tr><td><strong>外注（リスト業者）</strong></td><td>リスト作成を専門業者に依頼。件数単位で課金</td><td>3万〜10万円</td></tr>
+<tr><td><strong>AI代行</strong></td><td>AIが条件に基づいてリストを自動生成。スコアリング付き</td><td>5万〜20万円（初期）+ 月額</td></tr></tbody></table>
+<h2>コスト比較——1,000件のリストを作る場合</h2>
+<table><thead><tr><th>コスト項目</th><th>自社作成</th><th>外注</th><th>AI代行</th></tr></thead><tbody><tr><td>1件あたりの取得コスト</td><td>100〜200円（人件費換算）</td><td>10〜50円</td><td>5〜20円</td></tr>
+<tr><td>1,000件のコスト</td><td><strong>10万〜20万円</strong></td><td><strong>1万〜5万円</strong></td><td><strong>0.5万〜2万円</strong></td></tr>
+<tr><td>月額固定費</td><td>0円</td><td>0円</td><td>3万〜10万円</td></tr>
+<tr><td>初期構築費</td><td>0円</td><td>0円</td><td>5万〜20万円</td></tr>
+<tr><td>所要時間</td><td>40〜80時間</td><td>3〜7日</td><td>数時間</td></tr></tbody></table>
+<h3>年間コスト比較（月1,000件×12ヶ月）</h3>
+<table><thead><tr><th>項目</th><th>自社作成</th><th>外注</th><th>AI代行</th></tr></thead><tbody><tr><td>リスト取得コスト</td><td>120万〜240万円</td><td>12万〜60万円</td><td>6万〜24万円</td></tr>
+<tr><td>固定費</td><td>0円</td><td>0円</td><td>36万〜120万円</td></tr>
+<tr><td>初期費</td><td>0円</td><td>0円</td><td>10万円（初年度のみ）</td></tr>
+<tr><td><strong>年間合計</strong></td><td><strong>120万〜240万円</strong></td><td><strong>12万〜60万円</strong></td><td><strong>52万〜154万円</strong></td></tr></tbody></table>
+<p>一見すると外注が最安ですが、<strong>品質とスピードを加味するとAI代行のコスパが最も高い</strong>ケースが多い。</p>
+<h2>品質比較——4つの観点</h2>
+<h3>観点1: 情報の正確性</h3>
+<table><thead><tr><th>項目</th><th>自社作成</th><th>外注</th><th>AI代行</th></tr></thead><tbody><tr><td>企業名の正確性</td><td>◎（目視確認）</td><td>○（業者の品質次第）</td><td>◎（データベース参照）</td></tr>
+<tr><td>連絡先の正確性</td><td>△（古い情報も含む）</td><td>△（データベースの鮮度次第）</td><td>○（定期的な自動更新）</td></tr>
+<tr><td>担当者名の有無</td><td>△（調べないことも多い）</td><td>△（オプション料金）</td><td>○（自動抽出可能）</td></tr>
+<tr><td><strong>不達率</strong></td><td><strong>10〜15%</strong></td><td><strong>8〜12%</strong></td><td><strong>3〜5%</strong></td></tr></tbody></table>
+<h3>観点2: ターゲットの精度</h3>
+<table><thead><tr><th>項目</th><th>自社作成</th><th>外注</th><th>AI代行</th></tr></thead><tbody><tr><td>セグメントの細かさ</td><td>○（手動で絞り込み可能）</td><td>△（業種・規模程度）</td><td>◎（複合条件で絞り込み）</td></tr>
+<tr><td>課題・ニーズの推定</td><td>△（営業の勘）</td><td>✕（できない）</td><td>◎（行動データ分析）</td></tr>
+<tr><td>成約可能性のスコアリング</td><td>✕</td><td>✕</td><td>◎（0〜100点で自動スコア）</td></tr>
+<tr><td><strong>商談化率</strong></td><td><strong>2〜3%</strong></td><td><strong>2〜4%</strong></td><td><strong>8〜12%</strong></td></tr></tbody></table>
+<h3>観点3: 鮮度の維持</h3>
+<table><thead><tr><th>項目</th><th>自社作成</th><th>外注</th><th>AI代行</th></tr></thead><tbody><tr><td>情報の更新頻度</td><td>手動（半年〜1年に1回）</td><td>なし（1回限り）</td><td><strong>リアルタイム（自動更新）</strong></td></tr>
+<tr><td>倒産・移転企業の除外</td><td>手動で気づいた時のみ</td><td>なし</td><td>自動検知・除外</td></tr>
+<tr><td>新規ターゲットの追加</td><td>手動</td><td>再発注が必要</td><td><strong>自動で追加</strong></td></tr></tbody></table>
+<h3>観点4: 付加価値</h3>
+<table><thead><tr><th>機能</th><th>自社作成</th><th>外注</th><th>AI代行</th></tr></thead><tbody><tr><td>スコアリング</td><td>✕</td><td>✕</td><td>◎</td></tr>
+<tr><td>タイミング検知</td><td>△（営業の勘）</td><td>✕</td><td>◎（ニュース・採用情報等を自動検知）</td></tr>
+<tr><td>成約パターン分析</td><td>✕</td><td>✕</td><td>◎</td></tr>
+<tr><td>CRM連携</td><td>手動入力</td><td>手動入力</td><td><strong>自動連携</strong></td></tr>
+<tr><td>レポート</td><td>✕</td><td>✕</td><td>◎（自動生成）</td></tr></tbody></table>
+<h2>スピード比較</h2>
+<table><thead><tr><th>規模</th><th>自社作成</th><th>外注</th><th>AI代行</th></tr></thead><tbody><tr><td>100件</td><td>4〜8時間</td><td>1〜2日</td><td><strong>数分</strong></td></tr>
+<tr><td>500件</td><td>20〜40時間</td><td>2〜5日</td><td><strong>数十分</strong></td></tr>
+<tr><td>1,000件</td><td>40〜80時間</td><td>3〜7日</td><td><strong>数時間</strong></td></tr>
+<tr><td>5,000件</td><td>200〜400時間（非現実的）</td><td>1〜2週間</td><td><strong>1日</strong></td></tr></tbody></table>
+<h2>どのアプローチを選ぶべきか</h2>
+<h3>外注が向いているケース</h3>
+<table><thead><tr><th>条件</th><th>理由</th></tr></thead><tbody><tr><td>スポットで1回だけ必要</td><td>月額費用が不要</td></tr>
+<tr><td>予算が非常に限られている</td><td>1万円から利用可能</td></tr>
+<tr><td>リストの精度にこだわらない</td><td>大量のリストを安く取得する場合</td></tr></tbody></table>
+<h3>AI代行が向いているケース</h3>
+<table><thead><tr><th>条件</th><th>理由</th></tr></thead><tbody><tr><td>継続的にリストが必要（月次）</td><td>月額費用のROIが出る</td></tr>
+<tr><td>アポ率・商談化率を上げたい</td><td>スコアリングで精度向上</td></tr>
+<tr><td>CRMと連携した運用をしたい</td><td>自動連携で手入力ゼロ</td></tr>
+<tr><td>営業チームが3名以上</td><td>リスト管理の属人化を防ぐ</td></tr></tbody></table>
+<h3>自社作成が向いているケース</h3>
+<table><thead><tr><th>条件</th><th>理由</th></tr></thead><tbody><tr><td>ニッチな業界で情報が限られている</td><td>業界の暗黙知が必要</td></tr>
+<tr><td>月10件以下の少量</td><td>ツール導入のコストが合わない</td></tr>
+<tr><td>既存の人脈からの紹介が中心</td><td>リストの重要度が低い</td></tr></tbody></table>
+<h2>ROI比較</h2>
+<p>年間12,000件のリストを使い、月間1,000件のアプローチを行う場合:</p>
+<table><thead><tr><th>項目</th><th>外注</th><th>AI代行</th></tr></thead><tbody><tr><td>年間リストコスト</td><td>36万円（@30円）</td><td>82万円（月額5万+@10円）</td></tr>
+<tr><td>商談化率</td><td>3%</td><td>10%</td></tr>
+<tr><td>年間商談数</td><td>360件</td><td><strong>1,200件</strong></td></tr>
+<tr><td>成約率</td><td>20%</td><td>20%</td></tr>
+<tr><td>年間成約数</td><td>72件</td><td><strong>240件</strong></td></tr>
+<tr><td>平均単価</td><td>50万円</td><td>50万円</td></tr>
+<tr><td><strong>年間売上</strong></td><td><strong>3,600万円</strong></td><td><strong>1億2,000万円</strong></td></tr>
+<tr><td><strong>リスト費用対売上比率</strong></td><td><strong>1.0%</strong></td><td><strong>0.7%</strong></td></tr></tbody></table>
+<p><strong>AI代行のリスト品質により、同じアプローチ数で売上が3.3倍に</strong>。</p>
 <h2>まとめ</h2>
-<p>営業リスト作成の外注とAI内製化は「どちらが正解か」ではなく、<strong>自社のフェーズ（立ち上げ期 vs 成長期）と累積データ量で最適解が変わる</strong>判断です。</p>
-<p>長期的にはAI内製化の方がコスト・質ともに有利ですが、<strong>データの蓄積がないうちは外注から始める</strong>のが現実的です。</p>
+<p>営業リスト作成は「安さ」だけで選ぶと、<strong>結局は商談化率の低さで損をする</strong>ケースが多い。</p>
+<p><strong>継続的に営業活動を行う企業にはAI代行が最もROIが高い選択肢</strong>です。まずは1ヶ月のトライアルで、既存リストとの商談化率を比較してみてください。</p>
 <hr/>
-<p>📩 <strong>御社の最適なリスト作成アプローチを一緒に設計します</strong></p>
+<p>📩 営業リストのAI化について相談したい方へ</p>
 <p>ProductXでは、AI DXに関する無料相談を承っています。</p>
-<p><a href="/contact">無料で相談する →</a></p>8:["$","$L11",null,{"article":{"slug":"sales-list-cost","title":"営業リスト作成の外注 vs AI代行｜コスト比較と選び方","description":"営業リスト作成の外注とAI内製化のコスト構造を比較。中小企業が選ぶべき最適解を具体的な数字で解説。","date":"2026-03-09","category":"sales","tags":["営業リスト","外注比較","コスト削減"],"author":"ProductX","content":"$12"},"relatedArticles":[{"slug":"ai-roleplay-sales","title":"AIロープレは営業研修を変えるか？効果と限界を検証","description":"AI商談ロープレの効果と限界を客観的に検証。従来のロープレと比較し、最適な研修設計を提案します。","date":"2026-03-09","category":"sales","tags":["AIロープレ","営業研修","商談練習"],"author":"ProductX"},{"slug":"ai-sales-forecast","title":"AI売上予測はどこまで当たるのか？導入前に知るべきこと","description":"AI売上予測の精度・限界・導入条件を客観的に解説。過度な期待を排し、現実的な活用法を提案します。","date":"2026-03-09","category":"sales","tags":["AI売上予測","精度","導入検討"],"author":"ProductX"},{"slug":"ai-secretary-boundaries","title":"AI秘書の「できること」と「任せてはいけないこと」の境界線","description":"AI秘書の能力範囲を明確にし、任せるべき業務と人間が判断すべき業務の境界線を実践的に解説します。","date":"2026-03-09","category":"sales","tags":["AI秘書","業務範囲","リスク管理"],"author":"ProductX"}],"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}]
+<p><a href="/contact">無料で相談する →</a></p>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/sales-list-quality">営業リストの質を劇的に上げるAI活用の考え方</a> / <a href="/articles/ai-dx/sales-list-automation">営業アタックリスト作成を自動化する方法｜手作業 vs AI</a> / <a href="/articles/ai-dx/what-is-ai-dx">AI DXとは？</a></blockquote>8:["$","$L11",null,{"article":{"slug":"sales-list-cost","title":"営業リスト作成の外注 vs AI代行｜コスト比較と選び方","description":"営業リスト作成の外注とAI代行を費用・品質・スピードで比較。中小企業の最適な選択肢を解説します。","date":"2026-03-09","category":"sales","tags":["営業リスト","外注","AI代行"],"author":"ProductX","content":"$12"},"relatedArticles":[{"slug":"ai-roleplay-sales","title":"AIロールプレイで営業力を鍛える！実践トレーニング法","description":"AIをロールプレイ相手にした営業トレーニングの方法。場数を踏まずにスキルを向上させる手法を解説。","date":"2026-03-09","category":"sales","tags":["ロールプレイ","AIトレーニング","営業スキル"],"author":"ProductX"},{"slug":"ai-sales-forecast","title":"AI売上予測はどこまで当たるのか？導入前に知るべきこと","description":"AI売上予測の精度・限界・導入条件を客観的に解説。過度な期待を排し、現実的な活用法を提案します。","date":"2026-03-09","category":"sales","tags":["AI売上予測","精度","導入検討"],"author":"ProductX"},{"slug":"ai-secretary-boundaries","title":"AI秘書の「できること」と「任せてはいけないこと」の境界線","description":"AI秘書の能力範囲を明確にし、任せるべき業務と人間が判断すべき業務の境界線を実践的に解説します。","date":"2026-03-09","category":"sales","tags":["AI秘書","業務範囲","リスク管理"],"author":"ProductX"}],"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}]
 d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 13:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
 b:null
-f:[["$","title","0",{"children":"営業リスト作成の外注 vs AI代行｜コスト比較と選び方 | ProductX"}],["$","meta","1",{"name":"description","content":"営業リスト作成の外注とAI内製化のコスト構造を比較。中小企業が選ぶべき最適解を具体的な数字で解説。"}],["$","link","2",{"rel":"manifest","href":"/manifest.json","crossOrigin":"$undefined"}],["$","meta","3",{"name":"robots","content":"index, follow"}],["$","meta","4",{"name":"googlebot","content":"index, follow"}],["$","link","5",{"rel":"canonical","href":"https://productx.jp"}],["$","meta","6",{"property":"og:title","content":"営業リスト作成の外注 vs AI代行｜コスト比較と選び方"}],["$","meta","7",{"property":"og:description","content":"営業リスト作成の外注とAI内製化のコスト構造を比較。中小企業が選ぶべき最適解を具体的な数字で解説。"}],["$","meta","8",{"property":"og:type","content":"article"}],["$","meta","9",{"property":"article:published_time","content":"2026-03-09"}],["$","meta","10",{"property":"article:tag","content":"営業リスト"}],["$","meta","11",{"property":"article:tag","content":"外注比較"}],["$","meta","12",{"property":"article:tag","content":"コスト削減"}],["$","meta","13",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","14",{"name":"twitter:title","content":"営業リスト作成の外注 vs AI代行｜コスト比較と選び方"}],["$","meta","15",{"name":"twitter:description","content":"営業リスト作成の外注とAI内製化のコスト構造を比較。中小企業が選ぶべき最適解を具体的な数字で解説。"}],["$","link","16",{"rel":"icon","href":"/favicon.ico","sizes":"48x48"}],["$","link","17",{"rel":"icon","href":"/favicon-16x16.png","sizes":"16x16","type":"image/png"}],["$","link","18",{"rel":"icon","href":"/favicon-32x32.png","sizes":"32x32","type":"image/png"}],["$","link","19",{"rel":"icon","href":"/favicon-192x192.png","sizes":"192x192","type":"image/png"}],["$","link","20",{"rel":"icon","href":"/favicon-512x512.png","sizes":"512x512","type":"image/png"}],["$","link","21",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L13","22",{}]]
+f:[["$","title","0",{"children":"営業リスト作成の外注 vs AI代行｜コスト比較と選び方 | ProductX"}],["$","meta","1",{"name":"description","content":"営業リスト作成の外注とAI代行を費用・品質・スピードで比較。中小企業の最適な選択肢を解説します。"}],["$","link","2",{"rel":"manifest","href":"/manifest.json","crossOrigin":"$undefined"}],["$","meta","3",{"name":"robots","content":"index, follow"}],["$","meta","4",{"name":"googlebot","content":"index, follow"}],["$","link","5",{"rel":"canonical","href":"https://productx.jp"}],["$","meta","6",{"property":"og:title","content":"営業リスト作成の外注 vs AI代行｜コスト比較と選び方"}],["$","meta","7",{"property":"og:description","content":"営業リスト作成の外注とAI代行を費用・品質・スピードで比較。中小企業の最適な選択肢を解説します。"}],["$","meta","8",{"property":"og:type","content":"article"}],["$","meta","9",{"property":"article:published_time","content":"2026-03-09"}],["$","meta","10",{"property":"article:tag","content":"営業リスト"}],["$","meta","11",{"property":"article:tag","content":"外注"}],["$","meta","12",{"property":"article:tag","content":"AI代行"}],["$","meta","13",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","14",{"name":"twitter:title","content":"営業リスト作成の外注 vs AI代行｜コスト比較と選び方"}],["$","meta","15",{"name":"twitter:description","content":"営業リスト作成の外注とAI代行を費用・品質・スピードで比較。中小企業の最適な選択肢を解説します。"}],["$","link","16",{"rel":"icon","href":"/favicon.ico","sizes":"48x48"}],["$","link","17",{"rel":"icon","href":"/favicon-16x16.png","sizes":"16x16","type":"image/png"}],["$","link","18",{"rel":"icon","href":"/favicon-32x32.png","sizes":"32x32","type":"image/png"}],["$","link","19",{"rel":"icon","href":"/favicon-192x192.png","sizes":"192x192","type":"image/png"}],["$","link","20",{"rel":"icon","href":"/favicon-512x512.png","sizes":"512x512","type":"image/png"}],["$","link","21",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L13","22",{}]]

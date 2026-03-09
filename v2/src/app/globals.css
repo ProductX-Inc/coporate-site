@@ -333,3 +333,30 @@
   margin: 1.5rem 0;
   border: 1px solid var(--border);
 }
+
+/* ===== Simulator Slider (Partner Page) ===== */
+.simulator-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 9999px;
+  background: var(--color-brand-active);
+  box-shadow: 0 4px 12px rgba(74, 72, 222, 0.35);
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+
+.simulator-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.1);
+}
+
+.simulator-slider::-moz-range-thumb {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 9999px;
+  background: var(--color-brand-active);
+  border: 0;
+  box-shadow: 0 4px 12px rgba(74, 72, 222, 0.35);
+  cursor: pointer;
+}

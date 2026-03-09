@@ -20,6 +20,7 @@ const translations: Record<string, Record<Locale, string>> = {
     "nav.articles": { ja: "Articles", en: "Articles" },
     "nav.news": { ja: "News", en: "News" },
     "nav.contact": { ja: "Contact", en: "Contact" },
+    "nav.partner": { ja: "Partner", en: "Partner" },
 
     // ===== Hero Section =====
     "hero.title": { ja: "Unleash Potential.", en: "Unleash Potential." },
