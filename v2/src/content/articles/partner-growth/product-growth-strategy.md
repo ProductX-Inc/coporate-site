@@ -1,7 +1,7 @@
 ---
 title: "プロダクトのグロース戦略｜PMFからスケールまでの全体像"
 description: "プロダクトのグロース戦略を、PMF達成からスケールまでのフェーズ別に解説。各フェーズで注力すべきKPIと施策の全体像。"
-date: "2026-03-10"
+date: "2026-03-03"
 category: "growth"
 tags: ["グロース戦略", "PMF", "プロダクト成長"]
 articleType: "howto"

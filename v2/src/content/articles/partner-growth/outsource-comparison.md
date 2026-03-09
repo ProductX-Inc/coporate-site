@@ -1,7 +1,7 @@
 ---
 title: "アプリ開発の外注先比較｜SIer vs フリーランス vs 開発パートナー"
 description: "アプリ開発の外注先をSIer・フリーランス・開発パートナーの3つの選択肢で比較。費用・品質・スピードの観点から最適な選び方を解説。"
-date: "2026-03-10"
+date: "2025-09-28"
 category: "product-dev"
 tags: ["アプリ開発", "外注", "開発会社比較"]
 articleType: "comparison"

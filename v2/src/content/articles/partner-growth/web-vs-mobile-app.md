@@ -1,7 +1,7 @@
 ---
 title: "Webアプリ vs モバイルアプリ｜事業フェーズ別の最適な選択"
 description: "Webアプリとモバイルアプリの違いを事業フェーズ別に比較。初期はWeb、成熟期はモバイルなど最適な選択の考え方を解説。"
-date: "2026-03-10"
+date: "2025-12-01"
 category: "product-dev"
 tags: ["Webアプリ", "モバイルアプリ", "事業フェーズ"]
 articleType: "comparison"

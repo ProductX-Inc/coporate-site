@@ -1,7 +1,7 @@
 ---
 title: "MVP開発の正しい進め方｜最小限の投資で最大の学びを得る方法"
 description: "MVP（Minimum Viable Product）開発の正しい進め方を解説。最小限の投資で市場を検証し、プロダクトを成功に導くための考え方。"
-date: "2026-03-10"
+date: "2025-10-10"
 category: "product-dev"
 tags: ["MVP", "プロダクト開発", "スタートアップ"]
 articleType: "howto"

@@ -1,7 +1,7 @@
 ---
 title: "UIを変えるだけでCVRが2倍に？デザイン投資の真の価値"
 description: "UIデザインの変更がCVRや売上に与えるインパクトを具体的な事例で解説。デザイン投資のROIを正しく理解するための考え方。"
-date: "2026-03-10"
+date: "2025-12-12"
 category: "ui-ux"
 tags: ["UI/UX", "CVR改善", "デザイン投資"]
 articleType: "awareness"

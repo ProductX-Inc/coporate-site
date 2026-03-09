@@ -1,7 +1,7 @@
 ---
 title: "CTOがいないスタートアップが直面する技術経営の3大リスク"
 description: "CTOがいないスタートアップが直面する3つの技術経営リスクと、それを乗り越えるためのアプローチを解説します。"
-date: "2026-03-10"
+date: "2026-02-18"
 category: "strategy"
 tags: ["CTO", "スタートアップ", "技術経営"]
 articleType: "awareness"
