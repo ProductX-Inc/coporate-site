@@ -1,45 +1,58 @@
 1:"$Sreact.fragment"
-2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/eb10afaa5b274c4e.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
 4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
-3:T9fa,<h2>はじめに</h2>
-<p>「AI DXは重要だが、どうスケジュールを組めばいいか分からない」——この記事では、中小企業が<strong>12ヶ月で具体的な成果を出すためのロードマップ</strong>を提示します。</p>
-<h2>12ヶ月ロードマップ</h2>
-<h3>Month 1-2：準備フェーズ</h3>
-<ul><li>業務の棚卸しとAI化の優先順位付け</li>
-<li>社内のデータ整備（必要最低限）</li>
-<li>AI DXパートナーの選定</li>
+6:"$Sreact.suspense"
+3:Tb80,<h2>はじめに</h2>
+<img src="/articles/ai-dx/images/dx-strategy-hero.webp" alt="ロードマップ" loading="lazy" />
+<p>「AI DXに取り組みたいが、何をいつやればいいか分からない」——この記事は、その疑問に<strong>6ヶ月間の具体的なロードマップ</strong>で答えます。</p>
+<h2>6ヶ月ロードマップ</h2>
+<h3>Month 1：現状分析と課題特定</h3>
+<ul><li>業務の棚卸しと時間計測</li>
+<li>AI化ポテンシャルの評価</li>
+<li>優先業務の選定</li>
 </ul>
-<h3>Month 3-4：パイロットフェーズ</h3>
-<ul><li>最もROIの高い1つの業務でAI導入</li>
-<li>効果測定の仕組み構築</li>
-<li>社内の成功体験づくり</li>
+<h3>Month 2：PoC実施</h3>
+<ul><li>最優先業務でAIツールのテスト</li>
+<li>50万〜100万円の小規模投資</li>
+<li>効果の定量計測</li>
 </ul>
-<h3>Month 5-8：拡大フェーズ</h3>
-<ul><li>パイロットの成果を基に2〜3つの業務にAI活用を拡大</li>
-<li>データの蓄積と精度向上</li>
-<li>社内アンバサダーの育成</li>
+<h3>Month 3：効果検証と本導入決定</h3>
+<ul><li>PoCの結果分析</li>
+<li>本導入のGo/No-Go判断</li>
+<li>導入計画の策定</li>
 </ul>
-<h3>Month 9-12：定着フェーズ</h3>
-<ul><li>AI活用が日常業務に定着</li>
-<li>定量的な成果レポートの作成</li>
-<li>次年度の計画策定</li>
+<h3>Month 4：本番導入</h3>
+<ul><li>ツールの本番設定</li>
+<li>業務フローの変更</li>
+<li>社員トレーニング</li>
 </ul>
-<h2>月別KPI例</h2>
-<table><thead><tr><th>期間</th><th>KPI</th></tr></thead><tbody><tr><td>Month 1-2</td><td>業務棚卸し完了、パートナー決定</td></tr>
-<tr><td>Month 3-4</td><td>パイロット業務の工数30%削減</td></tr>
-<tr><td>Month 5-8</td><td>3業務でAI活用、全体工数20%削減</td></tr>
-<tr><td>Month 9-12</td><td>AI活用の定常化、年間ROIの確認</td></tr></tbody></table>
-<h2>よくある失敗パターン</h2>
-<ul><li>❌ <strong>Month 1からツール導入</strong>: 業務の棚卸しなしにツールを入れると失敗する</li>
-<li>❌ <strong>全社一斉展開</strong>: 小さく始めて成功体験を作ることが重要</li>
-<li>❌ <strong>成果測定を後回し</strong>: 効果が見えないとモチベーションが下がる</li>
+<h3>Month 5：運用と改善</h3>
+<ul><li>本番運用の開始</li>
+<li>課題の洗い出しと改善</li>
+<li>AIの精度向上</li>
 </ul>
-<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/ai-introduction-steps">AI DX導入の最初のステップ｜何から始めるべきか</a> / <a href="/articles/ai-dx/choose-ai-dx-partner">AI DXパートナーの選び方</a></blockquote>
+<h3>Month 6：効果測定と次の計画</h3>
+<ul><li>導入効果の定量レポート</li>
+<li>ROIの算出</li>
+<li>次に取り組む業務の選定</li>
+</ul>
+<h2>月ごとの投資目安</h2>
+<table><thead><tr><th>月</th><th>活動</th><th>投資</th></tr></thead><tbody><tr><td>1ヶ月目</td><td>現状分析</td><td>0円（社内対応）</td></tr>
+<tr><td>2ヶ月目</td><td>PoC</td><td>50万〜100万円</td></tr>
+<tr><td>3ヶ月目</td><td>検証</td><td>0円</td></tr>
+<tr><td>4ヶ月目</td><td>本導入</td><td>100万〜200万円</td></tr>
+<tr><td>5-6ヶ月目</td><td>運用</td><td>月額3万〜10万円</td></tr>
+<tr><td><strong>6ヶ月合計</strong></td><td>—</td><td><strong>150万〜310万円</strong></td></tr></tbody></table>
+<h2>6ヶ月後の期待成果</h2>
+<table><thead><tr><th>指標</th><th>目標値</th></tr></thead><tbody><tr><td>対象業務の効率化率</td><td>50〜80%</td></tr>
+<tr><td>月間削減時間</td><td>40〜80時間</td></tr>
+<tr><td>年間ROI</td><td>150〜300%</td></tr>
+<tr><td>次のDXプロジェクトの計画完了</td><td>✓</td></tr></tbody></table>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/ai-introduction-steps">AI導入の具体的ステップ</a> / <a href="/articles/ai-dx/ai-cost-for-sme">中小企業のAI導入コスト</a> / <a href="/articles/ai-dx/sales-dx-roi">営業DXの費用対効果</a></blockquote>
 <h2>まとめ</h2>
-<p>12ヶ月のロードマップは「焦らず、しかし止まらず」が基本。着実に成果を積み上げていきましょう。</p>
+<p>6ヶ月で成果を出すAI DXは<strong>「現状分析→PoC→本導入→PDCA」</strong>の4フェーズ。投資は150万円から。このロードマップに沿えば、着実に成果を出せます。</p>
 <hr/>
-<p>📩 <strong>ロードマップの策定を無料でサポートします</strong></p>
-<p>ProductXでは、AI DXに関する無料相談を承っています。</p>
-<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"NAGk4sLYYFyKQV5DEXrbF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"sme-ai-dx-roadmap","title":"中小企業のAI DXロードマップ｜12ヶ月で成果を出す計画","description":"中小企業がAI DXで12ヶ月以内に成果を出すためのロードマップを月単位で解説します。","date":"2026-02-28","category":"trend","tags":["AI DX","ロードマップ","12ヶ月計画"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-security-minimum","title":"AIとセキュリティ｜中小企業が最低限押さえるべきリスク管理","description":"AI導入時に中小企業が最低限押さえるべきセキュリティリスクと対策をチェックリスト形式で解説します。","date":"2026-03-09","category":"trend","tags":["AIセキュリティ","リスク管理","中小企業"],"author":"ProductX"},{"slug":"chatgpt-company-governance","title":"ChatGPTを会社で使う際の注意点とガバナンス設計","description":"企業でChatGPTを業務利用する際のリスクと、適切なガバナンス設計の考え方を解説します。","date":"2026-03-09","category":"trend","tags":["ChatGPT","ガバナンス","セキュリティ"],"author":"ProductX"},{"slug":"choose-ai-dx-partner","title":"AI DXパートナーの選び方｜受託開発との違いと判断軸","description":"AI DXを支援するパートナーの選び方を、従来の受託開発との違いを踏まえて解説します。","date":"2026-03-09","category":"trend","tags":["AI DXパートナー","選び方","受託開発"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
-6:null
+<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"WRsYHjgf5A-onrl_494aO","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"sme-ai-dx-roadmap","title":"中小企業のAI DXロードマップ｜6ヶ月で成果を出す実践計画","description":"中小企業がAI DXで6ヶ月以内に成果を出すための具体的なロードマップを月ごとに解説します。","date":"2026-03-09","category":"trend","tags":["AI DX","ロードマップ","6ヶ月計画"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-agent-trend","title":"AIエージェント最前線｜2026年に中小企業が知るべきこと","description":"2026年のAIエージェント最新トレンドを解説し、中小企業への影響と活用可能性を考察します。","date":"2026-03-09","category":"trend","tags":["AIエージェント","2026年トレンド","自律AI"],"author":"ProductX"},{"slug":"ai-dx-success-culture","title":"AI DX推進に成功する組織の特徴｜文化づくりが鍵","description":"AI DXに成功する組織の共通点を分析し、推進のための組織文化づくりのポイントを解説します。","date":"2026-03-09","category":"trend","tags":["DX推進","組織文化","成功要因"],"author":"ProductX"},{"slug":"ai-project-no-rfp","title":"AIプロジェクトに提案依頼書(RFP)は不要？新しい発注の形","description":"従来のRFP方式が AIプロジェクトに適さない理由と、アジャイル型の新しい発注方式を提案します。","date":"2026-03-09","category":"trend","tags":["AIプロジェクト","RFP","発注方式"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L4",null,{"children":"$L5"}]]}],"loading":null,"isPartial":false}
+5:["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]
+7:null

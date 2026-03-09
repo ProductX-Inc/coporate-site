@@ -1,33 +1,30 @@
 1:"$Sreact.fragment"
-2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/eb10afaa5b274c4e.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
 4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 5:"$Sreact.suspense"
-3:T935,<h2>はじめに</h2>
-<p>ChatGPTやGeminiに質問しても、<strong>御社の社内ルールや商品情報については答えてくれません</strong>。それは当然——AIは御社のデータを知らないからです。</p>
-<p><strong>RAG（Retrieval-Augmented Generation：検索拡張生成）</strong>は、この問題を解決する技術です。</p>
-<h2>RAGの仕組み</h2>
-<li>ユーザーが質問する</li>
-<li>AIがまず<strong>自社のデータベースを検索</strong></li>
-<li>関連する情報を取得</li>
-<li>取得した情報を基にAIが<strong>回答を生成</strong></li>
-<p>つまり、AIの「知識」に<strong>御社固有の情報を追加する仕組み</strong>です。</p>
-<h2>RAGで実現できること</h2>
-<ul><li>社内マニュアルに基づいた<strong>正確な質問応答</strong></li>
-<li>商品データベースからの<strong>カスタマーサポート自動応答</strong></li>
-<li>過去の提案書を参照した<strong>新規提案書の下書き生成</strong></li>
-<li>社内規定に基づいた<strong>人事・総務の質問対応</strong></li>
-</ul>
-<h2>従来のファインチューニングとの違い</h2>
-<table><thead><tr><th>項目</th><th>RAG</th><th>ファインチューニング</th></tr></thead><tbody><tr><td>データ更新</td><td>即座に反映</td><td>再学習が必要</td></tr>
-<tr><td>コスト</td><td>低い</td><td>高い</td></tr>
-<tr><td>情報の正確性</td><td>◎（ソース参照可）</td><td>○</td></tr>
-<tr><td>導入難易度</td><td>中程度</td><td>高い</td></tr></tbody></table>
-<h2>専門家に任せるべきポイント</h2>
-<p>RAGの構築には、データの前処理、ベクトルデータベースの設計、検索精度チューニングの専門知識が必要です。</p>
-<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/custom-ai-assistant">御社専用AIアシスタントを導入する際の設計方針</a> / <a href="/articles/ai-dx/genai-business-guide-2026">生成AIのビジネス活用完全ガイド【2026年最新版】</a></blockquote>
+3:Ta73,<h2>はじめに</h2>
+<img src="/articles/ai-dx/images/dx-strategy-hero.webp" alt="AI技術解説" loading="lazy" />
+<p>RAG（Retrieval-Augmented Generation、検索拡張生成）は、<strong>社内データをAIが活用できるようにする技術</strong>です。ChatGPTは一般知識には強いですが、御社独自の情報（社内規程、製品情報、過去の議事録等）は知りません。RAGがこのギャップを埋めます。</p>
+<h2>RAGの仕組み（超シンプル版）</h2>
+<li>社員が質問する：「先月の売上ベスト3は？」</li>
+<li>AIが<strong>社内データベースを検索</strong>して関連情報を取得</li>
+<li>取得した情報をもとにAIが<strong>正確な回答を生成</strong></li>
+<p>つまりRAGは<strong>「AIに社内データのカンニングペーパーを持たせる」</strong>技術。</p>
+<h2>活用例</h2>
+<table><thead><tr><th>用途</th><th>活用する社内データ</th><th>効果</th></tr></thead><tbody><tr><td>社内FAQ</td><td>規程、マニュアル</td><td>問い合わせ削減</td></tr>
+<tr><td>営業支援</td><td>過去の提案書、成約事例</td><td>提案品質向上</td></tr>
+<tr><td>顧客対応</td><td>製品FAQデータ</td><td>回答速度向上</td></tr>
+<tr><td>新人教育</td><td>研修資料、業務手順書</td><td>独り立ちの早期化</td></tr></tbody></table>
+<h2>RAGと普通のChatGPTの違い</h2>
+<table><thead><tr><th>項目</th><th>普通のChatGPT</th><th>RAG搭載AI</th></tr></thead><tbody><tr><td>一般知識</td><td>◎</td><td>◎</td></tr>
+<tr><td>社内情報</td><td>✕</td><td>◎</td></tr>
+<tr><td>最新データへの対応</td><td>△</td><td>◎</td></tr>
+<tr><td>回答の根拠</td><td>不明確</td><td>出典を表示</td></tr>
+<tr><td>ハルシネーション</td><td>起きやすい</td><td>起きにくい</td></tr></tbody></table>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/ask-someone-culture">「あの人に聞かないと分からない」をAIで解消</a> / <a href="/articles/ai-dx/faq-bot-reality">社内FAQボットを導入したら問い合わせは本当に減るのか</a> / <a href="/articles/ai-dx/custom-ai-assistant">カスタムAIアシスタントの作り方</a></blockquote>
 <h2>まとめ</h2>
-<p>RAGは「汎用AIを御社専用AIに変える」技術です。</p>
+<p>RAGは<strong>「AIに社内の知識を持たせる」最も現実的な方法</strong>。社内FAQ、営業支援、顧客対応——様々な場面で活用でき、中小企業でも導入可能です。</p>
 <hr/>
 <p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
-<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"NAGk4sLYYFyKQV5DEXrbF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"rag-introduction","title":"RAG（検索拡張生成）入門｜自社データをAIに活かす仕組み","description":"RAG技術の概要と、自社データをAIに接続して回答精度を高める仕組みをわかりやすく解説します。","date":"2026-02-10","category":"trend","tags":["RAG","検索拡張生成","自社データ活用"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-security-minimum","title":"AIとセキュリティ｜中小企業が最低限押さえるべきリスク管理","description":"AI導入時に中小企業が最低限押さえるべきセキュリティリスクと対策をチェックリスト形式で解説します。","date":"2026-03-09","category":"trend","tags":["AIセキュリティ","リスク管理","中小企業"],"author":"ProductX"},{"slug":"chatgpt-company-governance","title":"ChatGPTを会社で使う際の注意点とガバナンス設計","description":"企業でChatGPTを業務利用する際のリスクと、適切なガバナンス設計の考え方を解説します。","date":"2026-03-09","category":"trend","tags":["ChatGPT","ガバナンス","セキュリティ"],"author":"ProductX"},{"slug":"choose-ai-dx-partner","title":"AI DXパートナーの選び方｜受託開発との違いと判断軸","description":"AI DXを支援するパートナーの選び方を、従来の受託開発との違いを踏まえて解説します。","date":"2026-03-09","category":"trend","tags":["AI DXパートナー","選び方","受託開発"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"WRsYHjgf5A-onrl_494aO","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"rag-introduction","title":"RAGとは何か？中小企業向けのわかりやすい入門解説","description":"RAG（検索拡張生成）の仕組みをわかりやすく解説。社内データを活用したAI構築のイメージが掴めます。","date":"2026-03-09","category":"trend","tags":["RAG","入門","社内AI"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-agent-trend","title":"AIエージェント最前線｜2026年に中小企業が知るべきこと","description":"2026年のAIエージェント最新トレンドを解説し、中小企業への影響と活用可能性を考察します。","date":"2026-03-09","category":"trend","tags":["AIエージェント","2026年トレンド","自律AI"],"author":"ProductX"},{"slug":"ai-dx-success-culture","title":"AI DX推進に成功する組織の特徴｜文化づくりが鍵","description":"AI DXに成功する組織の共通点を分析し、推進のための組織文化づくりのポイントを解説します。","date":"2026-03-09","category":"trend","tags":["DX推進","組織文化","成功要因"],"author":"ProductX"},{"slug":"ai-project-no-rfp","title":"AIプロジェクトに提案依頼書(RFP)は不要？新しい発注の形","description":"従来のRFP方式が AIプロジェクトに適さない理由と、アジャイル型の新しい発注方式を提案します。","date":"2026-03-09","category":"trend","tags":["AIプロジェクト","RFP","発注方式"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
 6:null

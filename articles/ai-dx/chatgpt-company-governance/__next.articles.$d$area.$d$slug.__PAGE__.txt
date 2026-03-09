@@ -1,29 +1,50 @@
 1:"$Sreact.fragment"
-2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
-4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
-3:T823,<h2>はじめに</h2>
-<p>ChatGPTの業務利用が急速に広がっていますが、<strong>適切なガバナンスなしに使うとセキュリティリスクや法的リスクを招く</strong>可能性があります。</p>
-<h2>注意すべき5つのリスク</h2>
-<h3>1. 機密情報の漏洩</h3>
-社内の機密情報をAIに入力すると、学習データに組み込まれるリスク。<strong>API版やEnterprise版を使う</strong>ことでリスクを低減できます。
-<h3>2. 著作権侵害</h3>
-AIの出力が他者の著作物に類似する可能性。生成コンテンツの<strong>最終チェックは人間が行う</strong>必要があります。
-<h3>3. 情報の正確性</h3>
-AIは「もっともらしい嘘」を生成することがあります。<strong>ファクトチェックは必須</strong>です。
-<h3>4. 社員のスキル低下</h3>
-AIに依存しすぎると、本来のスキルが退化するリスク。AIは「支援ツール」として位置づけます。
-<h3>5. 利用ルールの不在</h3>
-「使ってもいいのか、ダメなのか」が曖昧なまま放置されると、<strong>シャドーAI（許可なく個人で利用）</strong>が蔓延します。
-<h2>ガバナンス設計の4ステップ</h2>
-<li><strong>利用ポリシーの策定</strong>: 何を入力して良いか・ダメかの明確な基準</li>
-<li><strong>承認されたツールの指定</strong>: 会社として使用するAIツールを指定</li>
-<li><strong>教育</strong>: 全社員に適切な使い方とリスクを周知</li>
-<li><strong>モニタリング</strong>: 利用状況の定期的な確認</li>
-<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/genai-business-comparison">生成AI（ChatGPT / Gemini / Claude）の業務活用比較</a></blockquote>
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/eb10afaa5b274c4e.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+3:T103f,<h2>はじめに</h2>
+<img src="/articles/ai-dx/images/dx-strategy-hero.webp" alt="セキュリティ" loading="lazy" />
+<p>ChatGPTをはじめとする生成AIは、すでに多くの社員が<strong>「個人的に」業務に活用</strong>しています。問題は、その利用が<strong>組織として管理されていない</strong>こと。</p>
+<p>「社員が機密情報をChatGPTに入力していないか？」「お客様の個人情報が学習データに使われていないか？」——こうしたリスクを放置したまま生成AIを使い続けるのは危険です。</p>
+<h2>生成AI利用の3大リスク</h2>
+<h3>リスク1：機密情報の漏洩</h3>
+<p>社員がChatGPTに顧客リスト、財務データ、未発表の製品情報を入力。これらの情報がAIの<strong>学習データに使用される可能性</strong>。</p>
+<h3>リスク2：著作権・知的財産のリスク</h3>
+<p>AIが生成したコンテンツに、他社の著作物が含まれている可能性。そのまま使用すると<strong>著作権侵害のリスク</strong>。</p>
+<h3>リスク3：ハルシネーション（誤情報）</h3>
+<p>AIが事実と異なる情報を生成。それを確認せずに<strong>顧客への提案書や社外文書に使用</strong>すると、信頼を失う。</p>
+<h2>ガバナンスルールの設計</h2>
+<h3>ルール1：利用ポリシーの策定</h3>
+<table><thead><tr><th>項目</th><th>ルール</th></tr></thead><tbody><tr><td>入力禁止情報</td><td>顧客個人情報、財務データ、未公開情報、パスワード</td></tr>
+<tr><td>利用可能な用途</td><td>文書の下書き、アイデア出し、調査の補助</td></tr>
+<tr><td>出力の取り扱い</td><td>必ず人間がファクトチェック後に使用</td></tr>
+<tr><td>利用ツール</td><td>会社指定のツール・アカウントのみ</td></tr></tbody></table>
+<h3>ルール2：承認されたツールの指定</h3>
+<ul><li><strong>会社用のアカウント</strong>を用意し、API経由で利用</li>
+<li>個人のフリーアカウントでの業務利用は<strong>禁止</strong></li>
+<li>Enterprise版やAPIの利用で<strong>データの学習利用をオプトアウト</strong></li>
+</ul>
+<h3>ルール3：利用ログの管理</h3>
+<p>AIへの入力内容と出力内容をログとして記録。定期的なレビューで<strong>ポリシー違反がないか確認</strong>。</p>
+<h3>ルール4：教育・研修</h3>
+<p>全社員向けに生成AIの<strong>正しい使い方と禁止事項の研修</strong>を実施。最低年1回のリフレッシュ研修。</p>
+<h3>ルール5：定期的なルール見直し</h3>
+<p>AI技術は急速に進化するため、<strong>半年に1回ルールを見直し</strong>。新しいリスクや新しい活用法に対応。</p>
+<h2>すぐに使えるポリシーテンプレート</h2>
+<table><thead><tr><th>セクション</th><th>内容</th></tr></thead><tbody><tr><td>目的</td><td>生成AIの適切な利用による業務効率化</td></tr>
+<tr><td>対象</td><td>全社員</td></tr>
+<tr><td>利用可能ツール</td><td>[会社指定ツールを記載]</td></tr>
+<tr><td>入力禁止項目</td><td>個人情報、機密情報、未公開情報</td></tr>
+<tr><td>出力の取り扱い</td><td>必ず人間が確認・承認してから使用</td></tr>
+<tr><td>違反時の対応</td><td>[懲戒規定を記載]</td></tr>
+<tr><td>見直し頻度</td><td>半年に1回</td></tr></tbody></table>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/ai-security-minimum">AI活用時の最低限のセキュリティ対策</a> / <a href="/articles/ai-dx/ai-risk-and-mitigation">AIリスクと正しい対処法</a></blockquote>
 <h2>まとめ</h2>
-<p>「禁止」ではなく「ルールを作って活用」が正解です。</p>
+<p>生成AIの社内利用は<strong>「禁止」ではなく「ルールを決めて活用」</strong>が正解。ガバナンスルールを整備し、AIの恩恵を安全に享受してください。</p>
 <hr/>
 <p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
-<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"NAGk4sLYYFyKQV5DEXrbF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"chatgpt-company-governance","title":"ChatGPTを会社で使う際の注意点とガバナンス設計","description":"企業でChatGPTを業務利用する際のリスクと、適切なガバナンス設計の考え方を解説します。","date":"2026-03-09","category":"trend","tags":["ChatGPT","ガバナンス","セキュリティ"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-security-minimum","title":"AIとセキュリティ｜中小企業が最低限押さえるべきリスク管理","description":"AI導入時に中小企業が最低限押さえるべきセキュリティリスクと対策をチェックリスト形式で解説します。","date":"2026-03-09","category":"trend","tags":["AIセキュリティ","リスク管理","中小企業"],"author":"ProductX"},{"slug":"choose-ai-dx-partner","title":"AI DXパートナーの選び方｜受託開発との違いと判断軸","description":"AI DXを支援するパートナーの選び方を、従来の受託開発との違いを踏まえて解説します。","date":"2026-03-09","category":"trend","tags":["AI DXパートナー","選び方","受託開発"],"author":"ProductX"},{"slug":"cost-of-doing-nothing","title":"「AI導入を見送る」ことのコスト｜機会損失の正体","description":"AI導入を先送りにし続けることで生じる機会損失を、具体的な数字と事例で可視化します。","date":"2026-03-09","category":"trend","tags":["AI導入","機会損失","コスト"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
-6:null
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"WRsYHjgf5A-onrl_494aO","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"chatgpt-company-governance","title":"ChatGPTを社内で安全に使うためのガバナンスルール","description":"ChatGPTなど生成AIの社内利用における情報漏洩リスクと、安全に活用するためのガバナンスルールを解説。","date":"2026-03-09","category":"trend","tags":["ChatGPT","ガバナンス","情報セキュリティ"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-agent-trend","title":"AIエージェント最前線｜2026年に中小企業が知るべきこと","description":"2026年のAIエージェント最新トレンドを解説し、中小企業への影響と活用可能性を考察します。","date":"2026-03-09","category":"trend","tags":["AIエージェント","2026年トレンド","自律AI"],"author":"ProductX"},{"slug":"ai-dx-success-culture","title":"AI DX推進に成功する組織の特徴｜文化づくりが鍵","description":"AI DXに成功する組織の共通点を分析し、推進のための組織文化づくりのポイントを解説します。","date":"2026-03-09","category":"trend","tags":["DX推進","組織文化","成功要因"],"author":"ProductX"},{"slug":"ai-project-no-rfp","title":"AIプロジェクトに提案依頼書(RFP)は不要？新しい発注の形","description":"従来のRFP方式が AIプロジェクトに適さない理由と、アジャイル型の新しい発注方式を提案します。","date":"2026-03-09","category":"trend","tags":["AIプロジェクト","RFP","発注方式"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

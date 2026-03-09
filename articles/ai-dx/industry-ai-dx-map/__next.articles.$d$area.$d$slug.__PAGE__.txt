@@ -1,36 +1,30 @@
 1:"$Sreact.fragment"
-2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/eb10afaa5b274c4e.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
 4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 5:"$Sreact.suspense"
-3:Tb17,<h2>はじめに</h2>
-<p>「AI DXが重要なのは分かるが、<strong>うちの業界で具体的に何ができるのか</strong>が分からない」——業種ごとにAI DXの活用ポイントは異なります。主要な業種別に整理しました。</p>
-<h2>業種別AI DX活用マップ</h2>
-<h3>製造業</h3>
-<table><thead><tr><th>領域</th><th>AI活用例</th></tr></thead><tbody><tr><td>品質管理</td><td>画像認識による不良品検出</td></tr>
-<tr><td>生産計画</td><td>需要予測に基づく最適生産計画</td></tr>
-<tr><td>設備保全</td><td>予兆保全（故障前に検知）</td></tr>
-<tr><td>在庫管理</td><td>AI需要予測による最適在庫</td></tr></tbody></table>
-<h3>小売・EC</h3>
-<table><thead><tr><th>領域</th><th>AI活用例</th></tr></thead><tbody><tr><td>需要予測</td><td>売れ筋予測・発注最適化</td></tr>
-<tr><td>顧客分析</td><td>購買パターンに基づくレコメンド</td></tr>
-<tr><td>価格最適化</td><td>ダイナミックプライシング</td></tr>
-<tr><td>カスタマーサポート</td><td>チャットボットによる自動応答</td></tr></tbody></table>
-<h3>建設・不動産</h3>
-<table><thead><tr><th>領域</th><th>AI活用例</th></tr></thead><tbody><tr><td>見積もり</td><td>過去データに基づく見積もり精度向上</td></tr>
-<tr><td>安全管理</td><td>画像認識による危険検知</td></tr>
-<tr><td>業務効率化</td><td>書類作成・日報の自動化</td></tr></tbody></table>
-<h3>士業・コンサル</h3>
-<table><thead><tr><th>領域</th><th>AI活用例</th></tr></thead><tbody><tr><td>書類作成</td><td>契約書・申請書の下書き生成</td></tr>
-<tr><td>リサーチ</td><td>判例・法改正の自動調査</td></tr>
-<tr><td>顧客対応</td><td>定型質問のチャットボット対応</td></tr></tbody></table>
-<h3>飲食・サービス</h3>
-<table><thead><tr><th>領域</th><th>AI活用例</th></tr></thead><tbody><tr><td>シフト管理</td><td>来客予測に基づく最適配置</td></tr>
-<tr><td>集客</td><td>SNS運用・口コミ分析の自動化</td></tr>
-<tr><td>食材管理</td><td>発注最適化・廃棄ロス削減</td></tr></tbody></table>
-<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/what-is-ai-dx">AI DXとは何か？中小企業が今すぐ取り組むべき理由</a> / <a href="/articles/ai-dx/sme-ai-dx-roadmap">中小企業のAI DXロードマップ</a></blockquote>
+3:T97c,<h2>はじめに</h2>
+<img src="/articles/ai-dx/images/comparison-hero.webp" alt="業界マップ" loading="lazy" />
+<p>AI DXの進み具合は業界によって大きく異なります。自社の業界が<strong>どの領域でAI活用が進んでいるか</strong>を把握することで、競合に先んじた取り組みが可能になります。</p>
+<h2>業界別AI DX活用マップ</h2>
+<table><thead><tr><th>業界</th><th>営業</th><th>マーケ</th><th>バックオフィス</th><th>生産/サービス</th><th>先進度</th></tr></thead><tbody><tr><td>IT・Web</td><td>◎</td><td>◎</td><td>◎</td><td>◎</td><td>★★★★★</td></tr>
+<tr><td>金融</td><td>◎</td><td>○</td><td>◎</td><td>◎</td><td>★★★★</td></tr>
+<tr><td>製造業</td><td>○</td><td>△</td><td>○</td><td>◎</td><td>★★★</td></tr>
+<tr><td>小売・EC</td><td>○</td><td>◎</td><td>○</td><td>◎</td><td>★★★</td></tr>
+<tr><td>不動産</td><td>○</td><td>○</td><td>△</td><td>○</td><td>★★</td></tr>
+<tr><td>建設</td><td>△</td><td>△</td><td>△</td><td>○</td><td>★★</td></tr>
+<tr><td>医療</td><td>△</td><td>△</td><td>○</td><td>◎</td><td>★★★</td></tr>
+<tr><td>飲食</td><td>△</td><td>○</td><td>△</td><td>○</td><td>★★</td></tr>
+<tr><td>士業</td><td>△</td><td>△</td><td>○</td><td>○</td><td>★★</td></tr></tbody></table>
+<h2>業界共通のAI活用ホットスポット</h2>
+<table><thead><tr><th>領域</th><th>全業界で活用可能</th></tr></thead><tbody><tr><td>議事録の自動化</td><td>◎</td></tr>
+<tr><td>経理業務のAI化</td><td>◎</td></tr>
+<tr><td>コンテンツ生成</td><td>◎</td></tr>
+<tr><td>社内ナレッジ共有</td><td>◎</td></tr>
+<tr><td>広告最適化</td><td>○</td></tr></tbody></table>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/sme-ai-dx-roadmap">中小企業のAI DXロードマップ</a> / <a href="/articles/ai-dx/ai-dx-success-culture">AI DX推進に成功する組織の特徴</a></blockquote>
 <h2>まとめ</h2>
-<p>どの業種でもAI DXの活用余地はあります。まずは自社の業務の中から「最もROIが高い領域」を見つけてください。</p>
+<p>AI DXに「遅い業界」はあっても「関係ない業界」はありません。議事録・経理・コンテンツ生成は<strong>全業界共通のホットスポット</strong>です。</p>
 <hr/>
-<p>📩 ProductXでは、AI DXに関する無料相談を承っています。お気軽にどうぞ。</p>
-<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"NAGk4sLYYFyKQV5DEXrbF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"industry-ai-dx-map","title":"業種別AI DX活用マップ｜あなたの業界では何ができる？","description":"製造・小売・建設・医療・飲食など業種別のAI DX活用ポイントをマップ形式で整理します。","date":"2026-01-23","category":"trend","tags":["業種別","AI DX","活用マップ"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-security-minimum","title":"AIとセキュリティ｜中小企業が最低限押さえるべきリスク管理","description":"AI導入時に中小企業が最低限押さえるべきセキュリティリスクと対策をチェックリスト形式で解説します。","date":"2026-03-09","category":"trend","tags":["AIセキュリティ","リスク管理","中小企業"],"author":"ProductX"},{"slug":"chatgpt-company-governance","title":"ChatGPTを会社で使う際の注意点とガバナンス設計","description":"企業でChatGPTを業務利用する際のリスクと、適切なガバナンス設計の考え方を解説します。","date":"2026-03-09","category":"trend","tags":["ChatGPT","ガバナンス","セキュリティ"],"author":"ProductX"},{"slug":"choose-ai-dx-partner","title":"AI DXパートナーの選び方｜受託開発との違いと判断軸","description":"AI DXを支援するパートナーの選び方を、従来の受託開発との違いを踏まえて解説します。","date":"2026-03-09","category":"trend","tags":["AI DXパートナー","選び方","受託開発"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"WRsYHjgf5A-onrl_494aO","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"industry-ai-dx-map","title":"業界別AI DX活用マップ｜あなたの業界はどこまで進んでいるか","description":"主要業界ごとのAI DX活用状況をマッピングし、各業界のホットな活用領域を解説します。","date":"2026-03-09","category":"trend","tags":["業界別","AI活用マップ","DX動向"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-agent-trend","title":"AIエージェント最前線｜2026年に中小企業が知るべきこと","description":"2026年のAIエージェント最新トレンドを解説し、中小企業への影響と活用可能性を考察します。","date":"2026-03-09","category":"trend","tags":["AIエージェント","2026年トレンド","自律AI"],"author":"ProductX"},{"slug":"ai-dx-success-culture","title":"AI DX推進に成功する組織の特徴｜文化づくりが鍵","description":"AI DXに成功する組織の共通点を分析し、推進のための組織文化づくりのポイントを解説します。","date":"2026-03-09","category":"trend","tags":["DX推進","組織文化","成功要因"],"author":"ProductX"},{"slug":"ai-project-no-rfp","title":"AIプロジェクトに提案依頼書(RFP)は不要？新しい発注の形","description":"従来のRFP方式が AIプロジェクトに適さない理由と、アジャイル型の新しい発注方式を提案します。","date":"2026-03-09","category":"trend","tags":["AIプロジェクト","RFP","発注方式"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
 6:null

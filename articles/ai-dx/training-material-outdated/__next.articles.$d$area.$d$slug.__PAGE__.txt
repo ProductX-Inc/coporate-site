@@ -1,6 +1,28 @@
 1:"$Sreact.fragment"
-2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
-3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"buildId":"NAGk4sLYYFyKQV5DEXrbF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"training-material-outdated","title":"研修資料の更新が追いつかない組織の処方箋","description":"研修資料が古いまま放置される問題の構造的原因と、AI活用で解決するアプローチを解説します。","date":"2026-03-09","category":"dx-strategy","tags":["研修資料","更新","AI活用"],"author":"ProductX","content":"<h2>はじめに</h2>\n<p>「この研修資料、3年前のまま更新されていない」——よくある光景です。業務内容は変わったのに、研修の中身が追いついていない。新人は古い情報で教育され、現場で混乱する。</p>\n<h2>更新が追いつかない3つの原因</h2>\n<li><strong>誰の仕事か決まっていない</strong>: 作成者が異動して引き継がれない</li>\n<li><strong>更新のトリガーがない</strong>: 業務が変わっても自動的に更新される仕組みがない</li>\n<li><strong>更新コストが高い</strong>: 資料を作り直すのに膨大な時間がかかる</li>\n<h2>AIで解決する</h2>\n<ul><li><strong>変更検知</strong>: 業務マニュアルや規定の変更をAIが検知し、関連する研修資料の更新を提案</li>\n<li><strong>差分更新</strong>: 変更部分だけをAIが自動で更新案を生成（ゼロから書き直す必要なし）</li>\n<li><strong>鮮度管理</strong>: 最終更新日が古い資料をAIが自動でフラグ付け</li>\n</ul>\n<blockquote>💡 <strong>関連記事</strong>: <a href=\"/articles/ai-dx/training-content-ai\">AIで社内研修コンテンツを自動生成する発想</a></blockquote>\n<h2>まとめ</h2>\n<p>研修資料の鮮度管理は、仕組みで自動化すべきです。</p>\n<hr/>\n<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>\n<p><a href=\"/contact\">無料で相談する →</a></p>"},"relatedArticles":[{"slug":"ai-dx-without-engineers","title":"エンジニアがいなくてもAI DXは始められる","description":"社内にエンジニアがいない中小企業でもAI DXを始められる現実的なアプローチを解説します。","date":"2026-03-09","category":"dx-strategy","tags":["AI DX","ノンエンジニア","導入方法"],"author":"ProductX"},{"slug":"ai-introduction-steps","title":"AI DX導入の最初のステップ｜何から始めるべきか","description":"AI DX導入を検討する中小企業が最初に取るべきステップを、段階的に解説します。","date":"2026-03-09","category":"dx-strategy","tags":["AI導入","最初のステップ","中小企業"],"author":"ProductX"},{"slug":"chatbot-5-steps","title":"AIチャットボット導入の5ステップと成功条件","description":"AIチャットボットの導入を成功させるための5つのステップと、失敗を避けるためのポイントを解説します。","date":"2026-03-09","category":"dx-strategy","tags":["チャットボット","導入ステップ","成功条件"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
-5:null
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/eb10afaa5b274c4e.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T87f,<h2>はじめに</h2>
+<img src="/articles/ai-dx/images/team-knowledge-hero.webp" alt="研修課題" loading="lazy" />
+<p>「この研修資料、いつの情報？」——研修を受ける側が最もストレスを感じる瞬間です。製品がアップデートされても、業界のトレンドが変わっても、<strong>研修資料だけが時が止まっている</strong>。</p>
+<h2>陳腐化の3つの原因と対策</h2>
+<h3>原因1：更新作業のコストが高い</h3>
+<p>1つの研修資料の更新に5〜10時間。担当者は「本業」が忙しくて後回し。</p>
+<p>→ <strong>AIが変更点を自動検知し、該当箇所を自動更新</strong></p>
+<h3>原因2：更新すべき箇所が分からない</h3>
+<p>製品仕様の変更が研修のどの箇所に影響するか、全体を把握できていない。</p>
+<p>→ <strong>AIが製品情報と研修資料の関連をマッピング</strong></p>
+<h3>原因3：専任の担当者がいない</h3>
+<p>中小企業では研修担当が兼任。更新にかかる工数を確保できない。</p>
+<p>→ <strong>AIで自動化し、人間は最終確認のみ</strong></p>
+<h2>導入効果</h2>
+<table><thead><tr><th>指標</th><th>Before</th><th>After</th></tr></thead><tbody><tr><td>資料更新の頻度</td><td>年1回</td><td>リアルタイム</td></tr>
+<tr><td>更新にかかる時間</td><td>1回20時間</td><td>1回2時間</td></tr>
+<tr><td>情報の鮮度</td><td>半年〜1年遅れ</td><td>常に最新</td></tr></tbody></table>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/training-content-ai">研修コンテンツのAI自動生成</a> / <a href="/articles/ai-dx/ai-roleplay-sales">AIロールプレイで営業をトレーニング</a></blockquote>
+<h2>まとめ</h2>
+<p>研修資料の陳腐化は<strong>「仕組みの問題」であり「忽怠の問題」ではない</strong>。AIで自動更新の仕組みを構築し、常に最新の教育環境を維持してください。</p>
+<hr/>
+<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"WRsYHjgf5A-onrl_494aO","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"training-material-outdated","title":"研修資料が「作った瞬間に古くなる」問題の解決策","description":"研修資料が陳腐化する問題をAIで解決し、常に最新の教育コンテンツを維持する方法を解説します。","date":"2026-03-09","category":"dx-strategy","tags":["研修資料","陳腐化","自動更新"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-bot-slack-teams","title":"Slack/TeamsにAIボットを入れて業務を効率化する方法","description":"普段使いのSlack/TeamsにAIボットを導入し、社内問い合わせ対応や情報検索を効率化する方法。","date":"2026-03-09","category":"dx-strategy","tags":["Slack","Teams","AIボット"],"author":"ProductX"},{"slug":"ai-cost-for-sme","title":"中小企業のAI導入コスト｜本当はいくらかかるのか","description":"中小企業がAIを導入する際の実際のコスト構造を領域別に整理し、現実的な予算感を提供します。","date":"2026-03-09","category":"dx-strategy","tags":["AI導入コスト","中小企業","予算"],"author":"ProductX"},{"slug":"ai-dx-without-engineers","title":"エンジニアなしでAI DXを進める方法","description":"IT部門やエンジニアがいない中小企業でもAI DXを推進できる具体的なアプローチを解説します。","date":"2026-03-09","category":"dx-strategy","tags":["ノーコード","AI DX","非エンジニア"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

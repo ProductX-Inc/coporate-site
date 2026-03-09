@@ -1,26 +1,32 @@
 1:"$Sreact.fragment"
-2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/eb10afaa5b274c4e.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
 4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 5:"$Sreact.suspense"
-3:T7e4,<h2>はじめに</h2>
-<p>「AI導入はもう少し様子を見てから」——この判断自体にもコストが発生していることに気づいていますか？</p>
-<p>AI導入を<strong>1年先送り</strong>するたびに、競合との差は開き、蓄積すべきだったデータは失われ、効率化できたはずの数百時間が無駄になります。</p>
-<h2>先送りの3つのコスト</h2>
-<h3>1. 直接的な効率化の遅れ</h3>
-AI導入で年間500時間の工数削減が見込める場合、1年先送りは<strong>500時間×時給3,500円＝175万円の損失</strong>に相当します。
-<h3>2. データ蓄積の遅れ</h3>
-AIの精度はデータ量に比例します。今日から始めれば1年後に1年分のデータが蓄積。先送りすれば、その分だけAIの精度向上が遅れます。
-<h3>3. 競合との差の拡大</h3>
-業界内でAI活用が進む中、<strong>自社だけが取り残される</strong>リスク。顧客は、より効率的で迅速なサービスを提供する企業に流れていきます。
-<h2>試算：1年の先送りコスト</h2>
-<table><thead><tr><th>項目</th><th>金額/年</th></tr></thead><tbody><tr><td>工数削減の遅れ</td><td>175万円</td></tr>
-<tr><td>外注費の削減遅れ</td><td>120万円</td></tr>
-<tr><td>売上機会の逸失</td><td>200万円</td></tr>
-<tr><td><strong>合計</strong></td><td><strong>495万円</strong></td></tr></tbody></table>
-<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/what-is-ai-dx">AI DXとは何か？中小企業が今すぐ取り組むべき理由</a> / <a href="/articles/ai-dx/choose-ai-dx-partner">AI DXパートナーの選び方</a></blockquote>
+3:Tb34,<h2>はじめに</h2>
+<img src="/articles/ai-dx/images/roi-analysis-hero.webp" alt="コスト分析" loading="lazy" />
+<p>「来年から考えよう」「まだ早い」——DXの先送りは気持ちは楽ですが、実は<strong>毎月確実にコストが発生し続けている</strong>ことに気づいていますか？</p>
+<h2>「何もしない」の年間コスト</h2>
+<p>年商5億円・従業員50名の中小企業を想定：</p>
+<table><thead><tr><th>領域</th><th>現在のムダ</th><th>年間コスト</th></tr></thead><tbody><tr><td>営業（リスト作成・提案書）</td><td>2名×月20時間</td><td>168万円</td></tr>
+<tr><td>経理（手入力・月末集中）</td><td>1名×月30時間</td><td>126万円</td></tr>
+<tr><td>マーケ（レポート・コンテンツ）</td><td>1名×月25時間</td><td>105万円</td></tr>
+<tr><td>総務（問い合わせ対応）</td><td>0.5名×月25時間</td><td>53万円</td></tr>
+<tr><td>議事録</td><td>全員×月5時間</td><td>88万円</td></tr>
+<tr><td><strong>合計：人件費のムダ</strong></td><td>—</td><td><strong>540万円/年</strong></td></tr></tbody></table>
+<p>これに加えて<strong>機会損失</strong>（競合に流れた顧客、対応遅れによる失注）を加えると、<strong>年間1,000万円以上</strong>のコストを「何もしないこと」で支払っている計算。</p>
+<h2>1年先送りするとどうなるか</h2>
+<table><thead><tr><th>先送り期間</th><th>累積コスト</th></tr></thead><tbody><tr><td>半年</td><td>500万円</td></tr>
+<tr><td>1年</td><td>1,000万円</td></tr>
+<tr><td>2年</td><td>2,000万円</td></tr>
+<tr><td>3年</td><td>3,000万円＋競争力の低下</td></tr></tbody></table>
+<h2>今始めた場合の3年後</h2>
+<table><thead><tr><th>項目</th><th>何もしない</th><th>今すぐDXを始める</th></tr></thead><tbody><tr><td>3年間のムダなコスト</td><td>3,000万円</td><td>600万円（1年目のみ）</td></tr>
+<tr><td>DX投資額</td><td>0円</td><td>500万円</td></tr>
+<tr><td>差額</td><td>—</td><td><strong>1,900万円のプラス</strong></td></tr></tbody></table>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/sales-dx-roi">営業DXの費用対効果</a> / <a href="/articles/ai-dx/backoffice-dx-roi">バックオフィスDXの費用対効果</a> / <a href="/articles/ai-dx/ai-cost-for-sme">中小企業のAI導入コスト</a></blockquote>
 <h2>まとめ</h2>
-<p>「導入しない」「先送りにする」ことにもコストがあるという認識を持ってください。</p>
+<p>DXを先送りすることは<strong>「何もしていない」のではなく「年間1,000万円のコストを支払い続けている」</strong>のと同じ。今日から始めるのが、最もコストが低い選択です。</p>
 <hr/>
 <p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
-<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"NAGk4sLYYFyKQV5DEXrbF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"cost-of-doing-nothing","title":"「AI導入を見送る」ことのコスト｜機会損失の正体","description":"AI導入を先送りにし続けることで生じる機会損失を、具体的な数字と事例で可視化します。","date":"2026-03-09","category":"trend","tags":["AI導入","機会損失","コスト"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-security-minimum","title":"AIとセキュリティ｜中小企業が最低限押さえるべきリスク管理","description":"AI導入時に中小企業が最低限押さえるべきセキュリティリスクと対策をチェックリスト形式で解説します。","date":"2026-03-09","category":"trend","tags":["AIセキュリティ","リスク管理","中小企業"],"author":"ProductX"},{"slug":"chatgpt-company-governance","title":"ChatGPTを会社で使う際の注意点とガバナンス設計","description":"企業でChatGPTを業務利用する際のリスクと、適切なガバナンス設計の考え方を解説します。","date":"2026-03-09","category":"trend","tags":["ChatGPT","ガバナンス","セキュリティ"],"author":"ProductX"},{"slug":"choose-ai-dx-partner","title":"AI DXパートナーの選び方｜受託開発との違いと判断軸","description":"AI DXを支援するパートナーの選び方を、従来の受託開発との違いを踏まえて解説します。","date":"2026-03-09","category":"trend","tags":["AI DXパートナー","選び方","受託開発"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"WRsYHjgf5A-onrl_494aO","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"cost-of-doing-nothing","title":"「何もしない」コストは年間いくら？AI DXの機会損失を計算","description":"DXを先送りすることで失われるコストを定量化し、行動を起こすべき理由を数字で説明します。","date":"2026-03-09","category":"trend","tags":["機会損失","DXコスト","行動喚起"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-agent-trend","title":"AIエージェント最前線｜2026年に中小企業が知るべきこと","description":"2026年のAIエージェント最新トレンドを解説し、中小企業への影響と活用可能性を考察します。","date":"2026-03-09","category":"trend","tags":["AIエージェント","2026年トレンド","自律AI"],"author":"ProductX"},{"slug":"ai-dx-success-culture","title":"AI DX推進に成功する組織の特徴｜文化づくりが鍵","description":"AI DXに成功する組織の共通点を分析し、推進のための組織文化づくりのポイントを解説します。","date":"2026-03-09","category":"trend","tags":["DX推進","組織文化","成功要因"],"author":"ProductX"},{"slug":"ai-project-no-rfp","title":"AIプロジェクトに提案依頼書(RFP)は不要？新しい発注の形","description":"従来のRFP方式が AIプロジェクトに適さない理由と、アジャイル型の新しい発注方式を提案します。","date":"2026-03-09","category":"trend","tags":["AIプロジェクト","RFP","発注方式"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
 6:null

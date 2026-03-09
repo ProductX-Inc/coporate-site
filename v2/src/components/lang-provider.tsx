@@ -100,6 +100,22 @@ const translations: Record<string, Record<Locale, string>> = {
     "about.ceo.message": { ja: "「本当に価値あるプロダクトとは何か」——この問いと向き合い続けることが、ProductXの原点です。\n\n社会やビジネスの課題を深く理解し、その本質を見極めること。そこから生まれるプロダクト戦略こそが、人の行動を変え、新しい価値を創り出す力を持つと信じています。\n\n美しいデザインと堅牢な技術の融合。それは手段であり、目的ではありません。私たちが本当に届けたいのは、課題の発見から解決までを一気通貫で伴走し、プロダクトを通じてクライアントの事業を成長させること——そして、AIの力で企業の変革を加速させることです。\n\nさらに、クライアントワークで培った知見を自社プロダクトにも注ぎ込み、自ら市場に価値を問い続けます。作り手であり続けることが、最高のプロダクトパートナーであるための条件だと考えるからです。\n\nプロダクトの力で、まだ見ぬ未来を一緒に創りましょう。", en: "\"What does a truly valuable product look like?\" — Continuously confronting this question is the origin of ProductX.\n\nDeeply understanding the challenges of society and business, and discerning their essence. We believe that product strategy born from this understanding has the power to change human behavior and create new value.\n\nThe fusion of beautiful design and robust engineering is a means, not an end. What we truly want to deliver is end-to-end partnership — from discovering problems to solving them — growing our clients' businesses through products, and accelerating enterprise transformation with the power of AI.\n\nFurthermore, we pour the knowledge gained from client work into our own products, continuously challenging the market with our own creations. We believe that remaining a maker is a prerequisite for being the best product partner.\n\nLet's build the unseen future together, through the power of products." },
     "about.tech.label": { ja: "TECH STACK", en: "TECH STACK" },
 
+    // ===== CEO Career =====
+    "about.career.label": { ja: "CAREER", en: "CAREER" },
+    "about.career.title.ja": { ja: "代表の歩み", en: "CEO Career" },
+    "about.career.title.en": { ja: "Career History", en: "Career History" },
+    "about.career.1.org": { ja: "東北大学 理学部", en: "Tohoku University, Faculty of Science" },
+    "about.career.1.desc": { ja: "自然科学の本質を追求する学びの原点", en: "The starting point — pursuing the essence of natural science" },
+    "about.career.2.org": { ja: "株式会社サイバーエージェント", en: "CyberAgent, Inc." },
+    "about.career.2.desc": { ja: "インターネット産業の最前線で事業開発を経験", en: "Experienced business development at the forefront of the internet industry" },
+    "about.career.3.org": { ja: "株式会社MIXI", en: "MIXI, Inc." },
+    "about.career.3.desc": { ja: "大規模プロダクトの開発・運用を牽引", en: "Led development and operations of large-scale products" },
+    "about.career.4.org": { ja: "某スタートアップ / CPO", en: "Startup / Chief Product Officer" },
+    "about.career.4.desc": { ja: "プロダクト最高責任者として事業成長をリード", en: "Led business growth as Chief Product Officer" },
+    "about.career.5.org": { ja: "株式会社ProductX", en: "ProductX Inc." },
+    "about.career.5.desc": { ja: "プロダクトの力で、まだ見ぬ未来を創る", en: "Building unseen futures through the power of products" },
+    "about.career.5.role": { ja: "創業者 & 代表取締役 CEO", en: "Founder & CEO" },
+
     // ===== Services Page =====
     "services.label": { ja: "Services", en: "Services" },
     "services.title": { ja: "3つの事業で、可能性を解き放つ。", en: "Three pillars to unleash potential." },

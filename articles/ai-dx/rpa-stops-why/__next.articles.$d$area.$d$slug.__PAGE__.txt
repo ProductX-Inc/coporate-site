@@ -1,6 +1,55 @@
 1:"$Sreact.fragment"
-2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
-3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"buildId":"NAGk4sLYYFyKQV5DEXrbF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"rpa-stops-why","title":"RPAが「止まる」理由とAI連携で解決する方法","description":"RPAが頻繁に止まる構造的原因と、AIとの連携で安定稼働を実現するアプローチを解説します。","date":"2026-03-09","category":"backoffice","tags":["RPA","AI連携","自動化"],"author":"ProductX","content":"<h2>はじめに</h2>\n<p>「RPAを導入したのに、すぐ止まる」——これはRPA導入企業の<strong>6割以上</strong>が経験している問題です。毎回IT担当者が呼ばれて修正する状況では、本来の効率化効果は出ません。</p>\n<h2>RPAが止まる3つの理由</h2>\n<h3>1. 画面レイアウトの変更</h3>\nWebサイトやアプリの画面が更新されると、RPAが要素を見つけられなくなり停止します。\n<h3>2. 例外処理の不備</h3>\n想定外のデータ（空欄、形式違い、特殊文字等）が入力されるとエラーで停止。<strong>全ての例外パターンを事前に定義するのは不可能</strong>です。\n<h3>3. メンテナンス者の不在</h3>\nRPAを構築した担当者が異動・退職し、修正できる人がいなくなる「<strong>RPA属人化問題</strong>」。\n<h2>AI連携で解決するアプローチ</h2>\n<p>AIとRPAを連携させることで、RPAの弱点を補完できます：</p>\n<ul><li><strong>画像認識AI</strong>: 画面レイアウトが変わっても、AIが視覚的にボタンや入力欄を認識</li>\n<li><strong>自然言語処理AI</strong>: 非定型のテキストデータを理解し、適切な処理を判断</li>\n<li><strong>異常検知AI</strong>: エラーの予兆を検知し、停止前に対処</li>\n<li><strong>自己修復AI</strong>: 軽微なエラーをAIが自動修復</li>\n</ul>\n<blockquote>💡 <strong>関連記事</strong>: <a href=\"/articles/ai-dx/rpa-vs-ai-workflow\">経理・総務の定型業務自動化｜RPA vs AI連携ワークフロー</a></blockquote>\n<h2>まとめ</h2>\n<p>RPAの「止まる問題」は、AIとの連携で構造的に解決できます。</p>\n<hr/>\n<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>\n<p><a href=\"/contact\">無料で相談する →</a></p>"},"relatedArticles":[{"slug":"accounting-ai-cost-saving","title":"経理のAI活用で年間コストを削減する考え方","description":"経理業務のAI活用による年間コスト削減効果を試算し、投資判断の考え方を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理","コスト削減","AI活用"],"author":"ProductX"},{"slug":"accounting-month-end-hell","title":"経理部門の「月末地獄」を終わらせるAI活用の可能性","description":"経理の月末作業（請求書処理・仕訳・照合）を圧迫する構造的原因と、AI効率化の可能性を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理","月末作業","AI活用"],"author":"ProductX"},{"slug":"ask-someone-culture","title":"社内の「あの人に聞かないと分からない」を撲滅する方法","description":"業務知識の属人化を解消し、AIナレッジベースで「誰でも分かる」組織にする考え方を解説します。","date":"2026-03-09","category":"backoffice","tags":["属人化","ナレッジ共有","AI活用"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
-5:null
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/eb10afaa5b274c4e.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+3:T1103,<h2>はじめに</h2>
+<img src="/articles/ai-dx/images/comparison-hero.webp" alt="比較分析" loading="lazy" />
+<p>「RPAを導入したが、半年で止まってしまった」——こんな失敗談は珍しくありません。ある調査によると、RPA導入企業の<strong>約40%が1年以内に運用を停止</strong>しています。</p>
+<p>この記事では、RPAが止まる3つの構造的な理由と、AIワークフローによる解決策を比較解説します。</p>
+<h2>RPAが止まる3つの理由</h2>
+<h3>理由1：画面変更で壊れる</h3>
+<p>RPAは画面上のボタンの位置、メニューの構造などを<strong>座標やHTML要素で記録</strong>して動作します。システムのアップデートで画面が変わると<strong>即座に動かなくなる</strong>。</p>
+<p>修復には専門知識が必要で、1回の修復に<strong>数時間〜数日</strong>。年間で数十回のメンテナンスが発生するケースも。</p>
+<h3>理由2：例外処理に弱い</h3>
+<p>RPAは<strong>事前に定義されたルール通り</strong>にしか動けません。「いつもと違うフォーマットの請求書」「想定外のエラーメッセージ」が出ると停止。人間が介入して手動対応→元に戻す、の繰り返し。</p>
+<h3>理由3：スケールしない</h3>
+<p>1つの業務を自動化するためのRPAシナリオ作成に<strong>1〜3ヶ月</strong>。10業務を自動化するには10〜30ヶ月。しかもメンテナンスコストは業務数に比例して増大。</p>
+<h2>AIワークフローとの違い</h2>
+<table><thead><tr><th>項目</th><th>RPA</th><th>AIワークフロー</th></tr></thead><tbody><tr><td>動作原理</td><td>画面操作の記録・再生</td><td>データとルールに基づく判断</td></tr>
+<tr><td>画面変更への耐性</td><td>✕（壊れる）</td><td>◎（APIベースで影響なし）</td></tr>
+<tr><td>例外処理</td><td>✕（停止する）</td><td>○（AIが判断）</td></tr>
+<tr><td>学習機能</td><td>なし</td><td>あり（精度が向上）</td></tr>
+<tr><td>非定型業務</td><td>✕</td><td>○</td></tr>
+<tr><td>スケール</td><td>困難</td><td>容易</td></tr>
+<tr><td>メンテナンスコスト</td><td>高い</td><td>低い</td></tr>
+<tr><td>初期導入コスト</td><td>中程度</td><td>やや高め</td></tr></tbody></table>
+<h2>どちらを選ぶべきか</h2>
+<h3>RPAが向いている場合</h3>
+<ul><li>対象業務が<strong>完全に定型的</strong>で例外がない</li>
+<li>対象のシステムが<strong>長期間変更されない</strong></li>
+<li><strong>低コストで始めたい</strong></li>
+<li>自動化する業務が<strong>1〜3個に限られる</strong></li>
+</ul>
+<h3>AIワークフローが向いている場合</h3>
+<ul><li>業務に<strong>例外パターンが多い</strong></li>
+<li>対象システムが<strong>頻繁にアップデート</strong>される</li>
+<li><strong>5個以上の業務</strong>を自動化したい</li>
+<li>非定型的な判断（分類、抽出、要約等）が含まれる</li>
+<li>長期的にメンテナンスコストを抑えたい</li>
+</ul>
+<h2>RPAからAIワークフローへの移行ステップ</h2>
+<li>現在のRPAシナリオの<strong>棚卸し</strong>（動いているもの、止まっているもの）</li>
+<li>各業務の<strong>例外パターンの洗い出し</strong></li>
+<li>AIワークフローへの<strong>段階的な移行設計</strong></li>
+<li>RPAが止まった業務から<strong>優先的にAI化</strong></li>
+<li>成功した業務から水平展開</li>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/rpa-vs-ai-workflow">RPA vs AIワークフロー｜メンテナンスコストまで含めた比較</a> / <a href="/articles/ai-dx/backoffice-dx-roi">バックオフィスDXの費用対効果</a></blockquote>
+<h2>まとめ</h2>
+<p>RPAは「定型×安定」な業務に限れば有効ですが、現実の業務は「例外だらけ×変化が多い」。AIワークフローは、この現実に対応できる<strong>次世代の業務自動化アプローチ</strong>です。</p>
+<hr/>
+<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"WRsYHjgf5A-onrl_494aO","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"rpa-stops-why","title":"RPAが止まる3つの理由｜AIワークフローとの違いとは","description":"RPAプロジェクトが停止する構造的な理由と、AI ワークフローによる解決策を比較解説します。","date":"2026-03-09","category":"backoffice","tags":["RPA","AI比較","ワークフロー"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"accounting-ai-cost-saving","title":"経理業務のAI化はどこまでコスト削減できるか","description":"経理業務のAI化によるコスト削減効果を業務領域別に試算。投資対効果と導入優先順位を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理AI","コスト削減","業務効率化"],"author":"ProductX"},{"slug":"accounting-month-end-hell","title":"経理の月末地獄をAIで解消する具体的方法","description":"月末に集中する経理業務の負荷をAIで分散・自動化する具体的な方法とROI試算を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理","月末業務","AI自動化"],"author":"ProductX"},{"slug":"ask-someone-culture","title":"「あの人に聞かないと分からない」をゼロにするAI社内ナレッジ","description":"属人化した社内知識をAIでナレッジベース化し、「聞かないと分からない」状態を解消する方法を解説。","date":"2026-03-09","category":"backoffice","tags":["社内ナレッジ","属人化解消","AIチャットボット"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

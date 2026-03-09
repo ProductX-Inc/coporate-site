@@ -1,6 +1,29 @@
 1:"$Sreact.fragment"
-2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
-3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"buildId":"NAGk4sLYYFyKQV5DEXrbF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"custom-ai-assistant","title":"御社専用AIアシスタントを導入する際の設計方針","description":"自社専用AIアシスタントの設計方針と導入時の考え方を概念レベルで解説します。","date":"2026-03-09","category":"dx-strategy","tags":["AIアシスタント","設計方針","カスタマイズ"],"author":"ProductX","content":"<h2>はじめに</h2>\n<p>汎用のChatGPTやGeminiをそのまま業務で使っても、<strong>御社固有の情報やルールを知らないため、回答精度に限界</strong>があります。自社専用AIアシスタントは、御社のデータと業務知識を学習させることで、この課題を解決します。</p>\n<h2>設計の3原則</h2>\n<h3>1. 目的を絞る</h3>\n「何でも答えられるAI」ではなく「特定の業務を支援するAI」に設計します。範囲を絞ることで精度が上がります。\n<h3>2. 自社データを活用する</h3>\n社内マニュアル、FAQ、過去の提案書、顧客データ——自社固有のデータをAIに読み込ませることで、汎用AIにはない<strong>自社に特化した回答</strong>が可能になります。\n<h3>3. 人間との役割分担を明確にする</h3>\nAIに任せる範囲と人間が判断する範囲を明確に定義。<strong>AIの回答を鵜呑みにしない文化</strong>を同時に醸成します。\n<h2>活用シーン例</h2>\n<ul><li>社内規定・手続きの質問対応</li>\n<li>営業資料のドラフト生成</li>\n<li>技術的な問い合わせの一次回答</li>\n<li>新人研修のサポート</li>\n</ul>\n<blockquote>💡 <strong>関連記事</strong>: <a href=\"/articles/ai-dx/ai-dx-without-engineers\">エンジニアがいなくてもAI DXは始められる</a></blockquote>\n<h2>まとめ</h2>\n<p>専用AIアシスタントは「全部できるAI」ではなく「御社の業務を的確にサポートするAI」を目指してください。</p>\n<hr/>\n<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>\n<p><a href=\"/contact\">無料で相談する →</a></p>"},"relatedArticles":[{"slug":"ai-dx-without-engineers","title":"エンジニアがいなくてもAI DXは始められる","description":"社内にエンジニアがいない中小企業でもAI DXを始められる現実的なアプローチを解説します。","date":"2026-03-09","category":"dx-strategy","tags":["AI DX","ノンエンジニア","導入方法"],"author":"ProductX"},{"slug":"ai-introduction-steps","title":"AI DX導入の最初のステップ｜何から始めるべきか","description":"AI DX導入を検討する中小企業が最初に取るべきステップを、段階的に解説します。","date":"2026-03-09","category":"dx-strategy","tags":["AI導入","最初のステップ","中小企業"],"author":"ProductX"},{"slug":"chatbot-5-steps","title":"AIチャットボット導入の5ステップと成功条件","description":"AIチャットボットの導入を成功させるための5つのステップと、失敗を避けるためのポイントを解説します。","date":"2026-03-09","category":"dx-strategy","tags":["チャットボット","導入ステップ","成功条件"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
-5:null
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/eb10afaa5b274c4e.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T9a2,<h2>はじめに</h2>
+<img src="/articles/ai-dx/images/dx-strategy-hero.webp" alt="カスタムAI" loading="lazy" />
+<p>「自社専用のAIがあったらいいのに」——その夢、ノーコードで実現できます。社内の知識やデータを学習した<strong>御社だけのAIアシスタント</strong>を、プログラミングなしで構築する方法を解説します。</p>
+<h2>カスタムAIの4つの活用パターン</h2>
+<table><thead><tr><th>パターン</th><th>用途</th><th>学習データ</th></tr></thead><tbody><tr><td>社内FAQ AI</td><td>社員の質問対応</td><td>規程、マニュアル</td></tr>
+<tr><td>営業支援AI</td><td>提案書作成・市場分析</td><td>過去提案書、成約データ</td></tr>
+<tr><td>顧客対応AI</td><td>問い合わせ自動応答</td><td>製品FAQ、対応ログ</td></tr>
+<tr><td>研修AI</td><td>新人教育サポート</td><td>研修資料、業務手順書</td></tr></tbody></table>
+<h2>構築の5ステップ</h2>
+<h3>Step 1：用途と学習データを決める</h3>
+<h3>Step 2：ノーコードツールを選定（Dify、GPTs等）</h3>
+<h3>Step 3：データをアップロードして学習させる</h3>
+<h3>Step 4：テスト利用で精度を確認</h3>
+<h3>Step 5：本番公開（Slack/Teams等に設置）</h3>
+<h2>ノーコードで作れるAIアシスタントのレベル</h2>
+<table><thead><tr><th>レベル</th><th>できること</th><th>所要時間</th></tr></thead><tbody><tr><td>Level 1</td><td>FAQ回答（固定回答）</td><td>1日</td></tr>
+<tr><td>Level 2</td><td>社内データ検索＋回答生成</td><td>1週間</td></tr>
+<tr><td>Level 3</td><td>外部システム連携（CRM等）</td><td>2〜4週間</td></tr></tbody></table>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/nocode-ai-internal-app">ノーコードAIで社内アプリを作る方法</a> / <a href="/articles/ai-dx/rag-introduction">RAGとは何か？</a> / <a href="/articles/ai-dx/ai-dx-without-engineers">エンジニアなしでAI DXを進める方法</a></blockquote>
+<h2>まとめ</h2>
+<p>カスタムAIアシスタントは<strong>ノーコードで1日〜1週間</strong>で構築可能。まずはLevel 1（FAQ回答）から始めて、段階的にレベルアップしてください。</p>
+<hr/>
+<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"WRsYHjgf5A-onrl_494aO","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"custom-ai-assistant","title":"カスタムAIアシスタントの作り方｜ノーコードで始める","description":"ノーコードツールを使って自社専用のAIアシスタントを構築する方法をステップバイステップで解説。","date":"2026-03-09","category":"dx-strategy","tags":["カスタムAI","ノーコード","AIアシスタント"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-bot-slack-teams","title":"Slack/TeamsにAIボットを入れて業務を効率化する方法","description":"普段使いのSlack/TeamsにAIボットを導入し、社内問い合わせ対応や情報検索を効率化する方法。","date":"2026-03-09","category":"dx-strategy","tags":["Slack","Teams","AIボット"],"author":"ProductX"},{"slug":"ai-cost-for-sme","title":"中小企業のAI導入コスト｜本当はいくらかかるのか","description":"中小企業がAIを導入する際の実際のコスト構造を領域別に整理し、現実的な予算感を提供します。","date":"2026-03-09","category":"dx-strategy","tags":["AI導入コスト","中小企業","予算"],"author":"ProductX"},{"slug":"ai-dx-without-engineers","title":"エンジニアなしでAI DXを進める方法","description":"IT部門やエンジニアがいない中小企業でもAI DXを推進できる具体的なアプローチを解説します。","date":"2026-03-09","category":"dx-strategy","tags":["ノーコード","AI DX","非エンジニア"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

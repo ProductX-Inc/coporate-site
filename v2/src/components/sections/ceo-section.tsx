@@ -6,7 +6,12 @@ import { User, ArrowRight } from "lucide-react";
 import { useLang } from "@/components/lang-provider";
 import { fadeUp } from "@/lib/animations";
 
-
+const careerBadges = [
+    { ja: "東北大学", en: "Tohoku Univ." },
+    { ja: "CyberAgent", en: "CyberAgent" },
+    { ja: "MIXI", en: "MIXI" },
+    { ja: "CPO経験", en: "Ex-CPO" },
+];
 
 export function CeoSection() {
     const { t, locale } = useLang();
@@ -39,6 +44,16 @@ export function CeoSection() {
                         <div>
                             <p className="font-bold text-base tracking-tight">{t("about.ceo.name")}</p>
                             <p className="text-xs text-muted-foreground mt-0.5">{t("about.ceo.role")}</p>
+                            <div className="flex flex-wrap gap-1.5 mt-3">
+                                {careerBadges.map((badge) => (
+                                    <span
+                                        key={badge.en}
+                                        className="text-[10px] font-medium tracking-wide px-2 py-0.5 rounded-full border border-border bg-secondary/50 text-muted-foreground whitespace-nowrap"
+                                    >
+                                        {locale === "ja" ? badge.ja : badge.en}
+                                    </span>
+                                ))}
+                            </div>
                         </div>
                     </motion.div>
 

@@ -1,40 +1,51 @@
 1:"$Sreact.fragment"
-2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
-4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
-3:Ta61,<h2>はじめに</h2>
-<p>AI導入のコストが懸念材料になっている中小企業にとって、<strong>補助金の活用は非常に効果的</strong>なアプローチです。国や自治体が提供する各種補助金を活用することで、導入コストを<strong>最大75%まで圧縮</strong>できる場合があります。</p>
-<h2>主な補助金制度（2026年時点）</h2>
-<h3>IT導入補助金</h3>
-<ul><li><strong>対象</strong>: 中小企業・小規模事業者</li>
-<li><strong>補助率</strong>: 最大1/2〜3/4</li>
-<li><strong>補助上限</strong>: 450万円</li>
-<li><strong>対象経費</strong>: ITツールの導入費用（SaaS利用料を含む）</li>
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/eb10afaa5b274c4e.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:Td62,<h2>はじめに</h2>
+<img src="/articles/ai-dx/images/roi-analysis-hero.webp" alt="補助金活用" loading="lazy" />
+<p>AIの導入には費用がかかりますが、<strong>国や自治体の補助金を活用すれば最大75%のコスト削減</strong>が可能です。知らずに全額自己負担で導入するのは非常にもったいない。</p>
+<h2>活用できる主な補助金</h2>
+<table><thead><tr><th>補助金</th><th>補助率</th><th>上限額</th><th>AI導入の適用</th></tr></thead><tbody><tr><td>IT導入補助金（通常枠）</td><td>1/2</td><td>450万円</td><td>○</td></tr>
+<tr><td>IT導入補助金（デジタル化基盤枠）</td><td>2/3〜3/4</td><td>350万円</td><td>◎</td></tr>
+<tr><td>ものづくり補助金</td><td>1/2〜2/3</td><td>1,250万円</td><td>○</td></tr>
+<tr><td>事業再構築補助金</td><td>1/2〜3/4</td><td>1,500万円</td><td>○</td></tr>
+<tr><td>小規模事業者持続化補助金</td><td>2/3</td><td>200万円</td><td>△</td></tr></tbody></table>
+<h2>IT導入補助金の活用法</h2>
+<h3>対象</h3>
+<p>AIツールの導入費用（ソフトウェア、クラウド利用料、導入サポート費用等）。</p>
+<h3>補助率</h3>
+<p>最大<strong>75%</strong>（デジタル化基盤枠の場合）。</p>
+<h3>申請のポイント</h3>
+<li>IT導入支援事業者（ベンダー）と<strong>一緒に申請</strong>する</li>
+<li>導入するツールが補助金の対象として登録されているか確認</li>
+<li>導入効果の<strong>数値目標</strong>を具体的に記載</li>
+<li>申請期限に余裕を持って準備</li>
+<h3>注意点</h3>
+<ul><li>採択前に契約・発注すると<strong>対象外</strong>になる</li>
+<li><strong>事後報告</strong>（効果測定レポート）が必要</li>
+<li>採択率は50〜70%程度（年度や枠による）</li>
 </ul>
-<h3>ものづくり・商業・サービス補助金</h3>
-<ul><li><strong>対象</strong>: 中小企業・小規模事業者</li>
-<li><strong>補助率</strong>: 最大2/3</li>
-<li><strong>補助上限</strong>: 1,250万円</li>
-<li><strong>対象経費</strong>: AI導入を含む設備投資、システム開発</li>
-</ul>
-<h3>事業再構築補助金</h3>
-<ul><li><strong>対象</strong>: コロナ後に事業転換を行う企業</li>
-<li><strong>補助率</strong>: 最大3/4</li>
-<li><strong>補助上限</strong>: 1,500万円</li>
-<li><strong>対象経費</strong>: AIを活用した新事業の開発</li>
-</ul>
-<blockquote>⚠️ 補助金制度は年度ごとに内容が変更されます。最新情報は各制度の公式サイトでご確認ください。</blockquote>
-<h2>申請のポイント</h2>
-<ul><li>✅ <strong>「AI導入そのもの」ではなく「業務課題の解決」を申請書に書く</strong></li>
-<li>✅ <strong>具体的なROI試算を盛り込む</strong>（削減時間、コスト削減額）</li>
-<li>✅ <strong>認定支援機関と連携</strong>すると採択率が上がる</li>
-<li>⚠️ <strong>申請から採択まで2〜3ヶ月</strong>かかるため、早めに動き始める</li>
-</ul>
-<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/cost-of-doing-nothing">「AI導入を見送る」ことのコスト｜機会損失の正体</a> / <a href="/articles/ai-dx/ai-introduction-steps">AI DX導入の最初のステップ</a></blockquote>
+<h2>補助金活用の具体例</h2>
+<h3>例：経理AI化（請求書処理 + 経費精算）</h3>
+<table><thead><tr><th>項目</th><th>金額</th></tr></thead><tbody><tr><td>AIツール導入費</td><td>200万円</td></tr>
+<tr><td>補助金（IT導入補助金 2/3）</td><td>−133万円</td></tr>
+<tr><td><strong>自己負担額</strong></td><td><strong>67万円</strong></td></tr></tbody></table>
+<p>200万円の導入が<strong>67万円で実現</strong>。</p>
+<h2>申請のステップ</h2>
+<li><strong>補助金の種類と申請期限を確認</strong></li>
+<li>IT導入支援事業者（ベンダー）を選定</li>
+<li>補助金の事前準備（GビズIDの取得等）</li>
+<li>申請書の作成（ベンダーと共同）</li>
+<li>採択通知を待つ（1〜2ヶ月）</li>
+<li>採択後に契約・導入開始</li>
+<li>事後報告の提出</li>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/ai-cost-for-sme">中小企業のAI導入コスト｜本当はいくらかかるのか</a> / <a href="/articles/ai-dx/cost-of-doing-nothing">「何もしない」コストは年間いくら？</a></blockquote>
 <h2>まとめ</h2>
-<p>補助金を活用すれば、AI導入の初期コストを大幅に抑えられます。「コストが心配」は、もはやAI導入を見送る理由にはなりません。</p>
+<p>補助金を活用すれば、AI導入コストは<strong>最大75%削減</strong>。「予算がないからAIは無理」ではなく、<strong>「補助金を使えば始められる」</strong>が正解です。</p>
 <hr/>
-<p>📩 <strong>補助金活用のご相談もお受けしています</strong></p>
-<p>ProductXでは、AI DXに関する無料相談を承っています。</p>
-<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"NAGk4sLYYFyKQV5DEXrbF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"dx-subsidy-ai","title":"DX補助金・IT導入補助金でAI導入コストを抑える方法","description":"中小企業がAI導入に活用できるDX補助金・IT導入補助金の概要と申請のポイントを解説します。","date":"2026-03-09","category":"trend","tags":["DX補助金","IT導入補助金","コスト削減"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-security-minimum","title":"AIとセキュリティ｜中小企業が最低限押さえるべきリスク管理","description":"AI導入時に中小企業が最低限押さえるべきセキュリティリスクと対策をチェックリスト形式で解説します。","date":"2026-03-09","category":"trend","tags":["AIセキュリティ","リスク管理","中小企業"],"author":"ProductX"},{"slug":"chatgpt-company-governance","title":"ChatGPTを会社で使う際の注意点とガバナンス設計","description":"企業でChatGPTを業務利用する際のリスクと、適切なガバナンス設計の考え方を解説します。","date":"2026-03-09","category":"trend","tags":["ChatGPT","ガバナンス","セキュリティ"],"author":"ProductX"},{"slug":"choose-ai-dx-partner","title":"AI DXパートナーの選び方｜受託開発との違いと判断軸","description":"AI DXを支援するパートナーの選び方を、従来の受託開発との違いを踏まえて解説します。","date":"2026-03-09","category":"trend","tags":["AI DXパートナー","選び方","受託開発"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
-6:null
+<p>📩 <strong>補助金を活用したAI導入のご相談も承っています</strong></p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"WRsYHjgf5A-onrl_494aO","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"dx-subsidy-ai","title":"DX補助金でAI導入のコストを抑える方法","description":"IT導入補助金やものづくり補助金を活用してAI導入コストを最大75%削減する方法を解説します。","date":"2026-03-09","category":"trend","tags":["DX補助金","IT導入補助金","コスト削減"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-agent-trend","title":"AIエージェント最前線｜2026年に中小企業が知るべきこと","description":"2026年のAIエージェント最新トレンドを解説し、中小企業への影響と活用可能性を考察します。","date":"2026-03-09","category":"trend","tags":["AIエージェント","2026年トレンド","自律AI"],"author":"ProductX"},{"slug":"ai-dx-success-culture","title":"AI DX推進に成功する組織の特徴｜文化づくりが鍵","description":"AI DXに成功する組織の共通点を分析し、推進のための組織文化づくりのポイントを解説します。","date":"2026-03-09","category":"trend","tags":["DX推進","組織文化","成功要因"],"author":"ProductX"},{"slug":"ai-project-no-rfp","title":"AIプロジェクトに提案依頼書(RFP)は不要？新しい発注の形","description":"従来のRFP方式が AIプロジェクトに適さない理由と、アジャイル型の新しい発注方式を提案します。","date":"2026-03-09","category":"trend","tags":["AIプロジェクト","RFP","発注方式"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],"$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

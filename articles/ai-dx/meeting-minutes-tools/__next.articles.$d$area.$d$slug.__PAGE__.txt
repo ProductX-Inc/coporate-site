@@ -1,36 +1,55 @@
 1:"$Sreact.fragment"
-2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
-4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
-3:T823,<h2>はじめに</h2>
-<p>AI議事録ツールは選択肢が急増しています。無料ツールから有料サービス、自社向けカスタマイズまで、<strong>「何を選べば良いのか」</strong>の判断基準を整理します。</p>
-<h2>3つのレベルを比較</h2>
-<table><thead><tr><th>項目</th><th>無料ツール</th><th>有料SaaS</th><th>カスタム導入</th></tr></thead><tbody><tr><td>月額コスト</td><td>0円</td><td>1万〜5万円</td><td>要見積もり</td></tr>
-<tr><td>文字起こし精度</td><td>△</td><td>○</td><td>◎</td></tr>
-<tr><td>発話者識別</td><td>△</td><td>○</td><td>◎</td></tr>
-<tr><td>要約生成</td><td>△</td><td>◎</td><td>◎</td></tr>
-<tr><td>セキュリティ</td><td>△</td><td>○</td><td>◎</td></tr>
-<tr><td>カスタマイズ性</td><td>✕</td><td>△</td><td>◎</td></tr>
-<tr><td>社内連携</td><td>✕</td><td>△</td><td>◎</td></tr></tbody></table>
-<h3>無料ツールが向いている場合</h3>
-<ul><li>まずは試してみたい段階</li>
-<li>機密性の低い社内会議のみ</li>
-<li>少人数チーム</li>
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/eb10afaa5b274c4e.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+3:T10c3,<h2>はじめに</h2>
+<img src="/articles/ai-dx/images/comparison-hero.webp" alt="ツール比較" loading="lazy" />
+<p>AI議事録ツールは数多く存在し、「どれを選べばいいか分からない」というのが中小企業の本音でしょう。機能も価格も様々で、<strong>自社のニーズに合ったツールを選ぶ</strong>ことが成功の鍵です。</p>
+<p>この記事では、AI議事録ツールを機能・価格・精度で比較し、目的別の最適解を提案します。</p>
+<h2>AI議事録ツールの3つのタイプ</h2>
+<h3>タイプ1：文字起こし特化型</h3>
+<p>音声をテキストに変換することに特化。議事録としての構造化は人間が行う。</p>
+<ul><li>メリット：安価、シンプル、高精度</li>
+<li>デメリット：要約やアクションアイテム抽出は手動</li>
 </ul>
-<h3>有料SaaSが向いている場合</h3>
-<ul><li>定期的に使いたい</li>
-<li>複数チームで利用</li>
-<li>ある程度のセキュリティが必要</li>
+<h3>タイプ2：要約・構造化型</h3>
+<p>文字起こしに加え、AI要約、決定事項の自動抽出、アクションアイテムの特定まで自動で行う。</p>
+<ul><li>メリット：議事録としての完成度が高い</li>
+<li>デメリット：タイプ1より高価</li>
 </ul>
-<h3>カスタム導入が向いている場合</h3>
-<ul><li>社内システム（CRM・SFA等）との連携が必須</li>
-<li>高いセキュリティ要件</li>
-<li>業界専門用語への対応が必要</li>
+<h3>タイプ3：統合プラットフォーム型</h3>
+<p>議事録に加え、タスク管理、プロジェクト管理、ナレッジベースまで統合。会議の成果を組織全体で活用。</p>
+<ul><li>メリット：会議の「次のアクション」まで一気通貫</li>
+<li>デメリット：導入コストと学習コストが高い</li>
 </ul>
-<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/meeting-minutes-ai-steps">AI議事録自動化の導入ステップと成功のコツ</a> / <a href="/articles/ai-dx/meeting-minutes-roi">議事録自動化の費用対効果を数字で理解する</a></blockquote>
+<h2>3タイプの比較表</h2>
+<table><thead><tr><th>項目</th><th>文字起こし特化</th><th>要約・構造化</th><th>統合プラットフォーム</th></tr></thead><tbody><tr><td>月額</td><td>1,000〜3,000円</td><td>5,000〜15,000円</td><td>20,000〜50,000円</td></tr>
+<tr><td>文字起こし精度</td><td>◎</td><td>◎</td><td>○</td></tr>
+<tr><td>要約機能</td><td>✕</td><td>◎</td><td>◎</td></tr>
+<tr><td>アクションアイテム抽出</td><td>✕</td><td>○</td><td>◎</td></tr>
+<tr><td>タスク管理連携</td><td>✕</td><td>△</td><td>◎</td></tr>
+<tr><td>導入の手軽さ</td><td>◎</td><td>○</td><td>△</td></tr>
+<tr><td>カスタマイズ性</td><td>△</td><td>○</td><td>◎</td></tr></tbody></table>
+<h2>目的別おすすめ</h2>
+<h3>「まず議事録の手間を減らしたい」</h3>
+<p>→ <strong>タイプ1（文字起こし特化型）</strong>から始める。月額1,000〜3,000円でリスクも低い。</p>
+<h3>「議事録の品質と速度を両立したい」</h3>
+<p>→ <strong>タイプ2（要約・構造化型）</strong>。AI要約で議事録の完成度が格段に上がる。</p>
+<h3>「会議の成果を組織の資産にしたい」</h3>
+<p>→ <strong>タイプ3（統合プラットフォーム型）</strong>。議事録→タスク→進捗管理まで一気通貫。</p>
+<h2>選定時のチェックポイント</h2>
+<table><thead><tr><th>チェック項目</th><th>確認すべきこと</th></tr></thead><tbody><tr><td>日本語精度</td><td>日本語の文字起こし精度は十分か</td></tr>
+<tr><td>オンライン会議連携</td><td>Zoom/Teams/Meetとの連携は可能か</td></tr>
+<tr><td>セキュリティ</td><td>データの保管場所、暗号化の有無</td></tr>
+<tr><td>無料トライアル</td><td>試してから契約できるか</td></tr>
+<tr><td>API連携</td><td>Slack、Notion等との連携は可能か</td></tr></tbody></table>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/meeting-minutes-manual">議事録を手動で書く時代は終わりました</a> / <a href="/articles/ai-dx/meeting-minutes-ai-steps">AI議事録の導入手順と運用のコツ</a> / <a href="/articles/ai-dx/meeting-minutes-roi">議事録自動化のROI</a></blockquote>
 <h2>まとめ</h2>
-<p>選び方の基本は「まず無料で試し、効果を確認してから有料に移行」です。</p>
+<p>AI議事録ツールは「機能が多いほど良い」ではなく、<strong>「自社の目的に合ったタイプを選ぶ」</strong>ことが重要。まずはタイプ1から試し、必要に応じてステップアップしていくのが現実的です。</p>
 <hr/>
 <p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
-<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"NAGk4sLYYFyKQV5DEXrbF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"meeting-minutes-tools","title":"AI議事録ツールの選び方｜無料 vs 有料 vs プロ導入","description":"AI議事録ツールを無料・有料・専用導入の3レベルで比較し、御社に最適な選択肢を提示します。","date":"2026-03-09","category":"backoffice","tags":["AI議事録","ツール比較","選び方"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"accounting-ai-cost-saving","title":"経理のAI活用で年間コストを削減する考え方","description":"経理業務のAI活用による年間コスト削減効果を試算し、投資判断の考え方を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理","コスト削減","AI活用"],"author":"ProductX"},{"slug":"accounting-month-end-hell","title":"経理部門の「月末地獄」を終わらせるAI活用の可能性","description":"経理の月末作業（請求書処理・仕訳・照合）を圧迫する構造的原因と、AI効率化の可能性を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理","月末作業","AI活用"],"author":"ProductX"},{"slug":"ask-someone-culture","title":"社内の「あの人に聞かないと分からない」を撲滅する方法","description":"業務知識の属人化を解消し、AIナレッジベースで「誰でも分かる」組織にする考え方を解説します。","date":"2026-03-09","category":"backoffice","tags":["属人化","ナレッジ共有","AI活用"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
-6:null
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"WRsYHjgf5A-onrl_494aO","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"meeting-minutes-tools","title":"議事録ツール比較｜目的別に選ぶAI議事録サービス","description":"AI議事録ツールを機能・価格・精度で比較し、中小企業のニーズ別に最適なサービスを提案します。","date":"2026-03-09","category":"backoffice","tags":["議事録ツール","比較","AI議事録"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"accounting-ai-cost-saving","title":"経理業務のAI化はどこまでコスト削減できるか","description":"経理業務のAI化によるコスト削減効果を業務領域別に試算。投資対効果と導入優先順位を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理AI","コスト削減","業務効率化"],"author":"ProductX"},{"slug":"accounting-month-end-hell","title":"経理の月末地獄をAIで解消する具体的方法","description":"月末に集中する経理業務の負荷をAIで分散・自動化する具体的な方法とROI試算を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理","月末業務","AI自動化"],"author":"ProductX"},{"slug":"ask-someone-culture","title":"「あの人に聞かないと分からない」をゼロにするAI社内ナレッジ","description":"属人化した社内知識をAIでナレッジベース化し、「聞かないと分からない」状態を解消する方法を解説。","date":"2026-03-09","category":"backoffice","tags":["社内ナレッジ","属人化解消","AIチャットボット"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

@@ -1,29 +1,48 @@
 1:"$Sreact.fragment"
-2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
-4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
-3:T7e4,<h2>はじめに</h2>
-<p>「その件は○○さんに聞いて」——この言葉が社内で頻繁に飛び交っているなら、<strong>業務知識の危険な属人化</strong>が進んでいる証拠です。</p>
-<p>○○さんが休暇・退職した瞬間に、その業務は止まります。</p>
-<h2>属人化が起きる3つの原因</h2>
-<li><strong>ドキュメントが整備されていない</strong>: 手順書がない、または古い</li>
-<li><strong>暗黙知が多い</strong>: 「やり方は頭の中にある」状態</li>
-<li><strong>共有のインセンティブがない</strong>: 知識を持つことが「自分の価値」になっている</li>
-<h2>AIナレッジベースで解決する</h2>
-<p>AIを活用したナレッジベースは、従来のマニュアルやWikiとは異なります：</p>
-<ul><li><strong>自然言語で検索</strong>: 「出張精算の手順は？」と聞くだけで回答が得られる</li>
-<li><strong>自動更新</strong>: 業務の変更に合わせてAIが自動でナレッジを更新</li>
-<li><strong>質問ログの分析</strong>: 「何が分からないか」のデータが蓄積し、不足しているナレッジを特定</li>
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/eb10afaa5b274c4e.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+3:T1020,<h2>はじめに</h2>
+<img src="/articles/ai-dx/images/team-knowledge-hero.webp" alt="ナレッジ共有" loading="lazy" />
+<p>「それは○○さんに聞いて」——この言葉が頻繁に飛び交う組織は、<strong>属人化の罠</strong>にはまっています。</p>
+<p>○○さんが休んだら業務が止まる。○○さんが退職したらノウハウが消える。○○さんに質問が集中して本来の業務ができない——。</p>
+<p>AIを活用した社内ナレッジベースは、この問題を構造的に解消します。</p>
+<h2>属人化の3つのコスト</h2>
+<h3>コスト1：質問対応の時間ロス</h3>
+<p>質問する側：「○○さん忙しそうだな…」と気を遣い、質問を後回し→業務の遅延。質問される側：1回5分の質問が1日10回 = <strong>1日50分が他人の質問への回答</strong>に消える。</p>
+<h3>コスト2：退職リスク</h3>
+<p>「○○さんにしか分からない」業務が、退職と同時に組織からロスト。引き継ぎ期間が不十分だった場合、<strong>数ヶ月の混乱と品質低下</strong>。</p>
+<h3>コスト3：新人教育コスト</h3>
+<p>新人は先輩に質問して学ぶしかない。先輩の時間を使い、何度も同じ質問に回答する非効率。</p>
+<h2>AI社内ナレッジベースの仕組み</h2>
+<h3>構築ステップ</h3>
+<li>社内の既存ドキュメント（マニュアル、規程、FAQ、議事録）をAIに読み込み</li>
+<li>AIが内容を理解し、<strong>自然言語で質問できるチャットボット</strong>として展開</li>
+<li>Slack/TeamsにAIチャットボットを設置</li>
+<li>社員が質問→AIが即回答</li>
+<h3>活用シーン</h3>
+<table><thead><tr><th>シーン</th><th>質問例</th><th>AIの回答</th></tr></thead><tbody><tr><td>手続き</td><td>「出張申請の方法は？」</td><td>申請手順を回答+申請フォームのリンク</td></tr>
+<tr><td>規程</td><td>「リモートワークは週何日OK？」</td><td>就業規則から該当箇所を引用して回答</td></tr>
+<tr><td>業務</td><td>「月末の仕入先への支払い手順は？」</td><td>業務マニュアルから手順を回答</td></tr>
+<tr><td>IT</td><td>「VPNの接続方法は？」</td><td>IT手順書から手順を回答</td></tr></tbody></table>
+<h2>導入効果</h2>
+<table><thead><tr><th>指標</th><th>Before</th><th>After</th></tr></thead><tbody><tr><td>社内問い合わせ対応時間/月</td><td>40時間</td><td>12時間</td></tr>
+<tr><td>新人が独り立ちするまでの期間</td><td>3ヶ月</td><td>1.5ヶ月</td></tr>
+<tr><td>「あの人に聞かないと」の発生</td><td>日常的</td><td>月1〜2回</td></tr>
+<tr><td>退職時のナレッジ喪失リスク</td><td>高い</td><td>低い</td></tr></tbody></table>
+<h2>導入のコツ</h2>
+<ul><li>✅ まず<strong>1つの部門</strong>（総務や情シス）から始める</li>
+<li>✅ 既存のドキュメントが不十分なら、<strong>よくある質問トップ30</strong>から手動で登録</li>
+<li>✅ AIが答えられなかった質問を<strong>定期的にレビュー</strong>し、ナレッジを追加</li>
+<li>❌ 完璧な状態を目指さない（60%の回答率でも十分に価値がある）</li>
 </ul>
-<h2>導入ステップ</h2>
-<li><strong>まず「よくある質問」トップ30を整備</strong></li>
-<li><strong>AIチャットボットとして社内展開</strong></li>
-<li><strong>質問ログを分析して追加ナレッジを整備</strong></li>
-<li><strong>段階的にカバー領域を拡大</strong></li>
-<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/faq-bot-reality">社内FAQボットの導入｜何ができて、何ができないのか</a></blockquote>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/hidden-cost-general-affairs">総務の「見えないコスト」を可視化する</a> / <a href="/articles/ai-dx/faq-bot-reality">社内FAQボットを導入したら問い合わせは本当に減るのか</a> / <a href="/articles/ai-dx/backoffice-dx-roi">バックオフィスDXの費用対効果</a></blockquote>
 <h2>まとめ</h2>
-<p>「あの人に聞かないと」は、組織の脆弱性そのものです。今すぐ仕組みで解決しましょう。</p>
+<p>「あの人に聞かないと分からない」は<strong>組織の脆弱性</strong>です。AI社内ナレッジベースで、誰でもいつでも必要な情報にアクセスできる環境を構築してください。</p>
 <hr/>
 <p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
-<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"NAGk4sLYYFyKQV5DEXrbF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"ask-someone-culture","title":"社内の「あの人に聞かないと分からない」を撲滅する方法","description":"業務知識の属人化を解消し、AIナレッジベースで「誰でも分かる」組織にする考え方を解説します。","date":"2026-03-09","category":"backoffice","tags":["属人化","ナレッジ共有","AI活用"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"accounting-ai-cost-saving","title":"経理のAI活用で年間コストを削減する考え方","description":"経理業務のAI活用による年間コスト削減効果を試算し、投資判断の考え方を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理","コスト削減","AI活用"],"author":"ProductX"},{"slug":"accounting-month-end-hell","title":"経理部門の「月末地獄」を終わらせるAI活用の可能性","description":"経理の月末作業（請求書処理・仕訳・照合）を圧迫する構造的原因と、AI効率化の可能性を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理","月末作業","AI活用"],"author":"ProductX"},{"slug":"backoffice-dx-roi","title":"バックオフィスDXの投資対効果と判断基準","description":"バックオフィスDXの各領域のROIを分析し、中小企業が投資判断する際の基準を整理します。","date":"2026-03-09","category":"backoffice","tags":["バックオフィスDX","ROI","投資判断"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
-6:null
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"WRsYHjgf5A-onrl_494aO","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"ask-someone-culture","title":"「あの人に聞かないと分からない」をゼロにするAI社内ナレッジ","description":"属人化した社内知識をAIでナレッジベース化し、「聞かないと分からない」状態を解消する方法を解説。","date":"2026-03-09","category":"backoffice","tags":["社内ナレッジ","属人化解消","AIチャットボット"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"accounting-ai-cost-saving","title":"経理業務のAI化はどこまでコスト削減できるか","description":"経理業務のAI化によるコスト削減効果を業務領域別に試算。投資対効果と導入優先順位を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理AI","コスト削減","業務効率化"],"author":"ProductX"},{"slug":"accounting-month-end-hell","title":"経理の月末地獄をAIで解消する具体的方法","description":"月末に集中する経理業務の負荷をAIで分散・自動化する具体的な方法とROI試算を解説します。","date":"2026-03-09","category":"backoffice","tags":["経理","月末業務","AI自動化"],"author":"ProductX"},{"slug":"backoffice-dx-roi","title":"バックオフィスDXの費用対効果｜投資判断のための完全マップ","description":"バックオフィスDXの各施策をROIで評価し、中小企業が最も効果的に投資する優先順位を提案します。","date":"2026-03-09","category":"backoffice","tags":["バックオフィスDX","ROI","投資判断"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

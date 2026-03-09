@@ -1,6 +1,30 @@
 1:"$Sreact.fragment"
-2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/3fcdaf47477c724b.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
-3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"buildId":"NAGk4sLYYFyKQV5DEXrbF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"inquiry-automation-overview","title":"問い合わせ対応を自動化する仕組みの全体像","description":"問い合わせ受付から対応完了までの自動化フローをAIで構築するアプローチの全体像を解説します。","date":"2026-03-09","category":"dx-strategy","tags":["問い合わせ自動化","AI","カスタマーサポート"],"author":"ProductX","content":"<h2>はじめに</h2>\n<p>問い合わせ対応は、多くの企業で<strong>最も工数がかかる業務の一つ</strong>です。受付→分類→担当者割り当て→回答→フォローアップ——このフロー全体をAIで自動化する仕組みの全体像を解説します。</p>\n<h2>自動化の4ステップ</h2>\n<h3>ステップ1：受付の自動化</h3>\nWebフォーム、メール、電話、SNS——複数チャネルからの問い合わせをAIが自動で一元管理します。\n<h3>ステップ2：分類と優先度判定</h3>\nAIが問い合わせ内容を自動分類（FAQ系/技術的/クレーム等）し、緊急度を判定。適切な担当者に自動割り当てします。\n<h3>ステップ3：FAQ系の自動回答</h3>\n定型的な質問にはAIチャットボットが即座に自動回答。回答精度が低い場合は人間にエスカレーションします。\n<h3>ステップ4：フォローアップの自動化</h3>\n対応完了後の満足度調査、未解決案件のリマインダー、対応データの蓄積と分析を自動で行います。\n<blockquote>💡 <strong>関連記事</strong>: <a href=\"/articles/ai-dx/cs-80-percent-automatable\">カスタマーサポートの問い合わせ対応、8割は自動化できる</a> / <a href=\"/articles/ai-dx/chatbot-5-steps\">AIチャットボット導入の5ステップ</a></blockquote>\n<h2>まとめ</h2>\n<p>問い合わせ対応の自動化は、顧客体験の向上と社内工数の削減を同時に実現します。</p>\n<hr/>\n<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>\n<p><a href=\"/contact\">無料で相談する →</a></p>"},"relatedArticles":[{"slug":"ai-dx-without-engineers","title":"エンジニアがいなくてもAI DXは始められる","description":"社内にエンジニアがいない中小企業でもAI DXを始められる現実的なアプローチを解説します。","date":"2026-03-09","category":"dx-strategy","tags":["AI DX","ノンエンジニア","導入方法"],"author":"ProductX"},{"slug":"ai-introduction-steps","title":"AI DX導入の最初のステップ｜何から始めるべきか","description":"AI DX導入を検討する中小企業が最初に取るべきステップを、段階的に解説します。","date":"2026-03-09","category":"dx-strategy","tags":["AI導入","最初のステップ","中小企業"],"author":"ProductX"},{"slug":"chatbot-5-steps","title":"AIチャットボット導入の5ステップと成功条件","description":"AIチャットボットの導入を成功させるための5つのステップと、失敗を避けるためのポイントを解説します。","date":"2026-03-09","category":"dx-strategy","tags":["チャットボット","導入ステップ","成功条件"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
-5:null
+2:I[2024,["/_next/static/chunks/0bbd53e9667d0b48.js","/_next/static/chunks/eb10afaa5b274c4e.js","/_next/static/chunks/1e0f1c41d13027d4.js","/_next/static/chunks/20a484244321cee9.js"],"ArticleDetailClient"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T93e,<h2>はじめに</h2>
+<img src="/articles/ai-dx/images/backoffice-ai-hero.webp" alt="問い合わせ自動化" loading="lazy" />
+<p>「営業時間外に問い合わせがあったが対応できなかった」「月曜の朝、メールの返信だけで午前中が終わった」——問い合わせ対応はAI自動化で<strong>24時間対応、即時レスポンス</strong>が可能です。</p>
+<h2>3つのチャネル別アプローチ</h2>
+<table><thead><tr><th>チャネル</th><th>AI自動化方法</th><th>自動化率</th></tr></thead><tbody><tr><td>Web/チャット</td><td>AIチャットボット</td><td>70〜80%</td></tr>
+<tr><td>メール</td><td>AI自動分類＋テンプレート返信</td><td>50〜60%</td></tr>
+<tr><td>電話</td><td>AI音声応答（IVR+AI）</td><td>30〜40%</td></tr></tbody></table>
+<h2>統合的な問い合わせ管理フロー</h2>
+<li>全チャネルの問い合わせを<strong>一元管理</strong> </li>
+<li>AIが内容を自動分類（FAQ/注文/クレーム/その他）</li>
+<li>FAQ → <strong>AI自動回答</strong></li>
+<li>注文関連 → <strong>システム連携で自動回答</strong></li>
+<li>クレーム → <strong>人間にエスカレーション</strong></li>
+<li>その他 → <strong>AIが下書き → 人間が確認・送信</strong></li>
+<h2>導入効果</h2>
+<table><thead><tr><th>指標</th><th>Before</th><th>After</th></tr></thead><tbody><tr><td>対応スピード</td><td>平均4時間</td><td>平均5分</td></tr>
+<tr><td>営業時間外の対応</td><td>不可</td><td>24時間対応</td></tr>
+<tr><td>月間対応工数</td><td>80時間</td><td>20時間</td></tr>
+<tr><td>顧客満足度(CSAT)</td><td>70%</td><td>88%</td></tr></tbody></table>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/cs-80-percent-automatable">カスタマーサポートの80%はAIで自動化できる</a> / <a href="/articles/ai-dx/chatbot-5-steps">チャットボット導入の5ステップ</a></blockquote>
+<h2>まとめ</h2>
+<p>問い合わせ対応の自動化は、<strong>顧客満足度向上とコスト削減を同時に実現</strong>するDX施策。まずはWebチャットボットから始めてください。</p>
+<hr/>
+<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
+<p><a href="/contact">無料で相談する →</a></p>0:{"buildId":"WRsYHjgf5A-onrl_494aO","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"inquiry-automation-overview","title":"問い合わせ対応の自動化全体像｜AIで24時間対応を実現する","description":"顧客問い合わせ対応のAI自動化の全体像を解説。チャットボット、メール、電話それぞれのアプローチ。","date":"2026-03-09","category":"dx-strategy","tags":["問い合わせ自動化","AI対応","24時間体制"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"ai-bot-slack-teams","title":"Slack/TeamsにAIボットを入れて業務を効率化する方法","description":"普段使いのSlack/TeamsにAIボットを導入し、社内問い合わせ対応や情報検索を効率化する方法。","date":"2026-03-09","category":"dx-strategy","tags":["Slack","Teams","AIボット"],"author":"ProductX"},{"slug":"ai-cost-for-sme","title":"中小企業のAI導入コスト｜本当はいくらかかるのか","description":"中小企業がAIを導入する際の実際のコスト構造を領域別に整理し、現実的な予算感を提供します。","date":"2026-03-09","category":"dx-strategy","tags":["AI導入コスト","中小企業","予算"],"author":"ProductX"},{"slug":"ai-dx-without-engineers","title":"エンジニアなしでAI DXを進める方法","description":"IT部門やエンジニアがいない中小企業でもAI DXを推進できる具体的なアプローチを解説します。","date":"2026-03-09","category":"dx-strategy","tags":["ノーコード","AI DX","非エンジニア"],"author":"ProductX"}],"categoryLabels":{"sales":{"ja":"営業・セールス","en":"Sales"},"marketing":{"ja":"マーケティング・広報","en":"Marketing"},"backoffice":{"ja":"バックオフィス・管理","en":"Back Office"},"dx-strategy":{"ja":"全社DX戦略","en":"DX Strategy"},"trend":{"ja":"AI DXトレンド","en":"AI DX Trends"}},"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}],[["$","script","script-0",{"src":"/_next/static/chunks/1e0f1c41d13027d4.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20a484244321cee9.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null
