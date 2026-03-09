@@ -196,7 +196,7 @@ export default function PartnerPage() {
                     </div>
 
                     {/* Max scenario card */}
-                    <motion.div className="mt-8 p-6 rounded-xl border border-[var(--color-brand-gold)]/30 bg-[var(--color-brand-gold)]/5" {...MV} custom={2}>
+                    <motion.div className="mt-8 p-6 rounded-xl border border-[var(--color-brand-gold)]/40 bg-[var(--color-brand-gold)]/5" {...MV} custom={2}>
                         <p className="text-sm font-semibold mb-2">
                             💰 {l(locale, { ja: "最大シナリオ例", en: "Maximum Scenario Example" })}
                         </p>
@@ -213,9 +213,11 @@ export default function PartnerPage() {
 
                 {/* Simulator */}
                 <Section bg={BG_A} id="simulator">
-                    <SectionHeader locale={locale}
-                        label={{ ja: "報酬シミュレーター", en: "Reward Simulator" }}
-                        title={{ ja: "あなたの報酬を試算する。", en: "Calculate your rewards." }} />
+                    <div className="text-center">
+                        <SectionHeader locale={locale}
+                            label={{ ja: "報酬シミュレーター", en: "Reward Simulator" }}
+                            title={{ ja: "あなたの報酬を試算する。", en: "Calculate your rewards." }} />
+                    </div>
 
                     <motion.div className="max-w-2xl mx-auto" {...MV} custom={1}>
                         <div className="p-8 md:p-12 rounded-2xl border border-border bg-card">
@@ -296,7 +298,7 @@ export default function PartnerPage() {
                     <SectionHeader locale={locale}
                         label={{ ja: "FAQ", en: "FAQ" }}
                         title={{ ja: "よくあるご質問", en: "Frequently Asked Questions" }} />
-                    <div className="space-y-4 max-w-3xl">
+                    <div className="space-y-4 max-w-3xl mx-auto">
                         {faqs.map((item, i) => (
                             <motion.details key={i} className="group rounded-xl border border-border bg-card overflow-hidden"
                                 {...MV} custom={i * 0.08 + 0.3}>
