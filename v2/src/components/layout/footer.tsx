@@ -12,7 +12,7 @@ export function Footer() {
                     <Link href="/" className="text-foreground dark:text-white font-bold text-lg tracking-tight">
                         ProductX
                     </Link>
-                    <nav className="flex items-center gap-6" aria-label="フッターナビゲーション">
+                    <nav className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2" aria-label="フッターナビゲーション">
                         {[
                             { href: "/about", key: "nav.about" },
                             { href: "/services", key: "nav.services" },
