@@ -192,6 +192,21 @@ const translations: Record<string, Record<Locale, string>> = {
 
     // ===== Privacy / Terms Common =====
     "legal.toc": { ja: "目次", en: "Table of Contents" },
+
+    // ===== Articles Section =====
+    "articles.label": { ja: "ARTICLES", en: "ARTICLES" },
+    "articles.title": { ja: "Insights & Knowledge", en: "Insights & Knowledge" },
+    "articles.desc": { ja: "プロダクト開発・AI DXに関する最新のナレッジをお届けします。", en: "Latest insights on product development and AI DX." },
+    "articles.viewAll": { ja: "すべての記事を見る", en: "View All Articles" },
+    "articles.preparing": { ja: "記事を準備中です。お楽しみに！", en: "Articles coming soon. Stay tuned!" },
+    "articles.back": { ja: "Articles トップに戻る", en: "Back to Articles" },
+    "articles.filter.all": { ja: "すべて", en: "All" },
+    "articles.noCategory": { ja: "このカテゴリの記事はまだありません。", en: "No articles in this category yet." },
+    "articles.cta.title": { ja: "📩 この記事の内容について詳しく知りたい方へ", en: "📩 Want to learn more about this topic?" },
+    "articles.cta.body": { ja: "ProductXでは、AI DXに関する無料相談を承っています。「うちの業務にAIは使えるのか？」という段階からお気軽にどうぞ。", en: "ProductX offers free consultations on AI DX. Feel free to reach out, even if you're just wondering whether AI can help your business." },
+    "articles.cta.btn": { ja: "無料で相談する", en: "Get Free Consultation" },
+    "articles.related": { ja: "関連記事", en: "Related Articles" },
+    "articles.insights": { ja: "Insights", en: "Insights" },
 };
 
 export function LangProvider({ children }: { children: ReactNode }) {

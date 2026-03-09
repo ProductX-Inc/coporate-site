@@ -6,6 +6,7 @@ import { Calendar, Tag, ArrowRight } from "lucide-react";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { Badge } from "@/components/ui/badge";
+import { useLang } from "@/components/lang-provider";
 import { fadeUp } from "@/lib/animations";
 import { categoryColors } from "@/lib/articles-constants";
 import type { Article, ArticleMeta, ServiceAreaInfo } from "@/lib/articles-constants";
@@ -18,6 +19,8 @@ interface Props {
 }
 
 export function ArticleDetailClient({ article, relatedArticles, categoryLabels, area }: Props) {
+    const { t, locale } = useLang();
+
     return (
         <>
             <Header />
@@ -37,13 +40,13 @@ export function ArticleDetailClient({ article, relatedArticles, categoryLabels, 
                             <Link href="/articles" className="hover:text-white/80 transition-colors">Articles</Link>
                             <span>/</span>
                             <Link href={`/articles/${area.key}`} className="hover:text-white/80 transition-colors">
-                                {area.label.ja}
+                                {area.label[locale]}
                             </Link>
                         </div>
 
                         <div className="flex items-center gap-3 mb-4">
                             <Badge variant="outline" className={`text-xs ${categoryColors[article.category] || ""}`}>
-                                {categoryLabels[article.category]?.ja || article.category}
+                                {categoryLabels[article.category]?.[locale] || article.category}
                             </Badge>
                             <span className="flex items-center gap-1 text-xs text-white/50">
                                 <Calendar className="w-3 h-3" />
@@ -88,15 +91,15 @@ export function ArticleDetailClient({ article, relatedArticles, categoryLabels, 
                             viewport={{ once: true }}
                             variants={fadeUp}
                         >
-                            <h3 className="text-lg font-bold mb-2">📩 この記事の内容について詳しく知りたい方へ</h3>
+                            <h3 className="text-lg font-bold mb-2">{t("articles.cta.title")}</h3>
                             <p className="text-muted-foreground mb-6 text-sm leading-relaxed">
-                                ProductXでは、AI DXに関する無料相談を承っています。「うちの業務にAIは使えるのか？」という段階からお気軽にどうぞ。
+                                {t("articles.cta.body")}
                             </p>
                             <Link
                                 href="/contact"
                                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[var(--color-brand)] text-white font-medium text-sm hover:bg-[var(--color-brand-active)] transition-colors"
                             >
-                                無料で相談する
+                                {t("articles.cta.btn")}
                                 <ArrowRight className="w-4 h-4" />
                             </Link>
                         </motion.div>
@@ -107,7 +110,7 @@ export function ArticleDetailClient({ article, relatedArticles, categoryLabels, 
                 {relatedArticles.length > 0 && (
                     <section className="py-16 md:py-20 bg-muted/30 border-t border-border">
                         <div className="mx-auto max-w-[1280px] px-6">
-                            <h2 className="text-xl font-bold mb-8">関連記事</h2>
+                            <h2 className="text-xl font-bold mb-8">{t("articles.related")}</h2>
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                                 {relatedArticles.map((related) => (
                                     <Link

@@ -12,6 +12,7 @@ import { fadeUp } from "@/lib/animations";
 import {
     ArrowRight, Zap, Settings, Code, Clock, TrendingUp,
     ChevronRight, Rocket, Target, Lightbulb, HandshakeIcon,
+    Shield, Users, BarChart3, BadgeCheck, Coins, Building2, CheckCircle2,
 } from "lucide-react";
 
 /* ── helpers ── */
@@ -29,6 +30,29 @@ function SectionHeader({ label, title, locale, custom0 = 0 }: { label: I18n; tit
             <motion.h2 className="text-2xl md:text-4xl font-bold tracking-tight mb-12"
                 {...MOTION_VIEW} custom={custom0 + 0.5}>{l(locale, title)}</motion.h2>
         </>
+    );
+}
+
+function IconCardGrid({ items, locale, cols = "md:grid-cols-4" }: {
+    items: { icon: React.ElementType; title: I18n; desc: I18n; color?: string; bg?: string }[];
+    locale: Locale;
+    cols?: string;
+}) {
+    return (
+        <div className={`grid grid-cols-1 sm:grid-cols-2 ${cols} gap-4`}>
+            {items.map((item, i) => {
+                const Icon = item.icon;
+                return (
+                    <motion.div key={i} className="p-6 rounded-xl border border-border bg-card" {...MOTION_VIEW} custom={i * 0.15 + 0.3}>
+                        <div className={`w-10 h-10 rounded-lg ${item.bg ?? "bg-emerald-500/10"} flex items-center justify-center mb-3`}>
+                            <Icon size={20} className={item.color ?? "text-emerald-400"} />
+                        </div>
+                        <h3 className="text-sm font-bold mb-1">{l(locale, item.title)}</h3>
+                        <p className="text-xs text-muted-foreground leading-relaxed">{l(locale, item.desc)}</p>
+                    </motion.div>
+                );
+            })}
+        </div>
     );
 }
 
@@ -134,11 +158,11 @@ const competitors = [
     { name: { ja: "他のDX支援業者", en: "Other DX Firms" }, weakness: { ja: "AI専門性が低い", en: "Low AI expertise" }, advantage: { ja: "ProductXのAI技術の深さ＋実物を見せる体験設計", en: "Deep AI expertise + experience-driven demo approach" } },
 ];
 
-const industries: I18n[] = [
-    { ja: "🏭 製造・メーカー", en: "🏭 Manufacturing" }, { ja: "🏢 不動産", en: "🏢 Real Estate" },
-    { ja: "👥 人材・HR", en: "👥 HR & Recruiting" }, { ja: "🚚 物流・サプライチェーン", en: "🚚 Logistics" },
-    { ja: "🏦 金融・保険", en: "🏦 Finance & Insurance" }, { ja: "🛍️ 小売・サービス", en: "🛍️ Retail & Services" },
-    { ja: "🎬 エンタメ・メディア", en: "🎬 Entertainment" }, { ja: "💼 SaaS・B2B", en: "💼 SaaS & B2B" },
+const upsellSteps = [
+    { label: { ja: "無料サンプル", en: "Free Sample" }, sub: { ja: "0円", en: "¥0" } },
+    { label: { ja: "🟢 梅", en: "🟢 Basic" }, sub: { ja: "月3〜10万", en: "¥30-100K/mo" } },
+    { label: { ja: "🟡 竹", en: "🟡 Standard" }, sub: { ja: "月5〜15万", en: "¥50-150K/mo" } },
+    { label: { ja: "🔴 松", en: "🔴 Premium" }, sub: { ja: "100〜500万", en: "¥1-5M" } },
 ];
 
 const faqs: { q: I18n; a: I18n }[] = [
@@ -147,9 +171,50 @@ const faqs: { q: I18n; a: I18n }[] = [
     { q: { ja: "トライアル期間中に効果が出なかった場合は？", en: "What if we don't see results during the trial?" }, a: { ja: "トライアル開始前にKPIを書面で合意します。基準未達の場合は無料ですので、リスクゼロでお試しいただけます。", en: "We agree on KPIs in writing before the trial. If targets aren't met, it's free — zero risk." } },
     { q: { ja: "機密データを渡しても大丈夫ですか？", en: "Is it safe to share confidential data?" }, a: { ja: "はい、NDA（秘密保持契約）の締結が可能です。また、エンタープライズ環境ではデータがAI学習に使われないため安心です。", en: "Yes, we can sign NDAs. Enterprise environments ensure your data is never used for AI training." } },
     { q: { ja: "導入後のサポートはありますか？", en: "Is post-deployment support available?" }, a: { ja: "はい、月次数値レポートの自動送付・四半期ごとのレビュー会・新ユースケースの提案など、継続的なサポートを提供します。", en: "Yes — monthly metrics reports, quarterly reviews, and new use case proposals." } },
+    { q: { ja: "補助金は使えますか？", en: "Can we use government subsidies?" }, a: { ja: "はい、デジタル化・AI導入補助金（最大450万円）やものづくり補助金（最大1,250万円）が利用可能です。申請サポートも行っております。", en: "Yes, subsidies such as the Digitalization & AI Adoption Subsidy (up to ¥4.5M) and Manufacturing Subsidy (up to ¥12.5M) are available. We also offer application support." } },
 ];
 
-/* ── sub-components ── */
+const marketStats = [
+    { value: "96%", label: { ja: "中小企業のAI未導入率", en: "SMBs without AI" }, sub: { ja: "10人未満企業は導入率10%以下", en: "Under 10% for companies with <10 employees" } },
+    { value: "68%", label: { ja: "人手不足を感じる中小企業", en: "SMBs facing labor shortage" }, sub: { ja: "AIによる省力化の需要が急増", en: "Surging demand for AI-driven efficiency" } },
+    { value: "3,900億", label: { ja: "中小企業AI活用DX市場", en: "SMB AI DX market (JPY)" }, sub: { ja: "国内DX市場6.5兆円の中のAI領域", en: "AI segment of JPY 6.5T domestic DX market" } },
+    { value: "最大450万", label: { ja: "補助金で実質コスト削減", en: "Max subsidy available (JPY)" }, sub: { ja: "デジタル化・AI導入補助金", en: "Digitalization & AI adoption subsidy" } },
+];
+
+const personas = [
+    { icon: Target, role: { ja: "営業組織の経営者", en: "Sales-Driven CEO" }, pain: { ja: "「SIerに見積もりを依頼したら500万円から。AIで何かできるはずだけど、何から始めれば…」", en: "\"The SIer quoted ¥5M. There must be an AI way, but where do we start?\"" }, solution: { ja: "アタックリスト自動生成 → 営業資料ドラフト → CRM自動化へ", en: "Auto target lists → Sales draft → CRM automation" }, color: "border-emerald-500/40" },
+    { icon: BarChart3, role: { ja: "バックオフィス部門長", en: "Back-Office Manager" }, pain: { ja: "「月末の請求書処理に3日かかる。転記ミスで差戻し多発、経理2名が残業常態化…」", en: "\"Invoice processing takes 3 days. Transcription errors cause rework, 2 accountants constantly overtime...\"" }, solution: { ja: "請求書デジタル化 → 仕訳完全自動化へ", en: "Invoice digitization → Fully automated journal entries" }, color: "border-sky-500/40" },
+    { icon: Lightbulb, role: { ja: "DX推進担当", en: "DX Lead" }, pain: { ja: "「社長から『AI使え』と言われたけど、何をすればいいか分からない。予算は年100万…」", en: "\"The CEO said 'use AI' but I have no idea what to do. Budget: ¥1M/year...\"" }, solution: { ja: "社内FAQボット → 全社AI活用へ横展開", en: "Internal FAQ bot → Company-wide AI expansion" }, color: "border-violet-500/40" },
+];
+
+const subsidies = [
+    { name: { ja: "デジタル化・AI導入補助金", en: "Digitalization & AI Subsidy" }, max: { ja: "最大450万円", en: "Up to ¥4.5M" }, rate: { ja: "1/2〜4/5", en: "50-80%" }, target: { ja: "竹・松プランのITツール導入", en: "Standard & Premium plan IT tools" } },
+    { name: { ja: "ものづくり補助金", en: "Manufacturing Subsidy" }, max: { ja: "最大1,250万円", en: "Up to ¥12.5M" }, rate: { ja: "1/2〜2/3", en: "50-67%" }, target: { ja: "松プランのシステム開発", en: "Premium plan system development" } },
+    { name: { ja: "中小企業省力化投資補助金", en: "SMB Labor-Saving Subsidy" }, max: { ja: "最大1,500万円", en: "Up to ¥15M" }, rate: { ja: "1/2", en: "50%" }, target: { ja: "AI活用の省力化投資全般", en: "General AI labor-saving investments" } },
+];
+
+const securityItems = [
+    { icon: Shield, title: { ja: "データ学習に不使用", en: "No Data Training" }, desc: { ja: "顧客データはAIモデルの学習に使用しません（エンタープライズ環境利用）", en: "Customer data is never used for AI model training (enterprise environment)" } },
+    { icon: BadgeCheck, title: { ja: "NDA締結対応", en: "NDA Ready" }, desc: { ja: "契約前にNDA（秘密保持契約）を締結。個人情報は匿名化処理を基本とします", en: "NDA signed before contract. Personal data anonymized by default" } },
+    { icon: Shield, title: { ja: "データ保管ポリシー", en: "Data Retention Policy" }, desc: { ja: "納品後のデータは30日以内に削除。長期保管が必要な場合は別途契約", en: "Data deleted within 30 days after delivery. Extended retention available" } },
+    { icon: CheckCircle2, title: { ja: "ISMS取得計画", en: "ISMS Certification Plan" }, desc: { ja: "ISO 27001の取得を計画中。当面はGoogleのSOC 2準拠環境を利用", en: "ISO 27001 certification planned. Currently using Google's SOC 2 compliant environment" } },
+];
+
+const whyUsStrengths = [
+    { icon: Code, title: { ja: "AI実装力", en: "AI Expertise" }, desc: { ja: "Gemini / GPT / Claude等の最新AIを即座に業務に組み込む技術力", en: "Technical ability to instantly integrate latest AI (Gemini/GPT/Claude) into operations" }, color: "text-violet-400", bg: "bg-violet-500/10" },
+    { icon: Zap, title: { ja: "爆速デリバリー", en: "Lightning Delivery" }, desc: { ja: "従来SIerの1/10のコスト、10倍のスピードでAIソリューションを提供", en: "AI solutions at 1/10th the cost and 10x the speed of traditional SIers" }, color: "text-amber-400", bg: "bg-amber-500/10" },
+    { icon: Users, title: { ja: "中小企業の痛みの理解", en: "SMB Pain Understanding" }, desc: { ja: "「何から始めればいいか」から伴走し、小さく始めて大きく育てる体験設計", en: "Walk alongside from 'where to start' — designed to start small and scale" }, color: "text-emerald-400", bg: "bg-emerald-500/10" },
+    { icon: Building2, title: { ja: "パートナーネットワーク", en: "Partner Network" }, desc: { ja: "営業会社の既存顧客基盤を活用し、信頼関係をベースに導入できる販路", en: "Leverage partner sales networks for trust-based introductions" }, color: "text-sky-400", bg: "bg-sky-500/10" },
+];
+
+const industryDetails: { name: I18n; uc: I18n; next: I18n }[] = [
+    { name: { ja: "🏢 不動産", en: "🏢 Real Estate" }, uc: { ja: "営業アタックリスト自動生成", en: "Auto target list generation" }, next: { ja: "物件情報の自動レポート化", en: "Auto property reports" } },
+    { name: { ja: "👥 人材・HR", en: "👥 HR" }, uc: { ja: "レジュメスクリーニング", en: "Resume screening" }, next: { ja: "候補者ナレッジ検索", en: "Candidate knowledge search" } },
+    { name: { ja: "🏭 製造・メーカー", en: "🏭 Manufacturing" }, uc: { ja: "請求書デジタル化", en: "Invoice digitization" }, next: { ja: "請求書→仕訳の完全自動化", en: "Full invoice-to-journal automation" } },
+    { name: { ja: "🎬 広告・メディア", en: "🎬 Advertising" }, uc: { ja: "広告クリエイティブ量産", en: "Mass creative production" }, next: { ja: "運用レポート自動化", en: "Auto performance reports" } },
+    { name: { ja: "💼 士業", en: "💼 Professional Services" }, uc: { ja: "オンライン秘書業務", en: "AI online secretary" }, next: { ja: "社内FAQボット", en: "Internal FAQ bot" } },
+    { name: { ja: "🖥️ IT・Web", en: "🖥️ IT/Web" }, uc: { ja: "議事録自動化", en: "Auto meeting minutes" }, next: { ja: "AIデータ分析環境", en: "AI data analysis environment" } },
+];
 
 function UseCaseCard({ uc, locale, index }: { uc: UseCase; locale: Locale; index: number }) {
     return (
@@ -192,6 +257,61 @@ export default function AiDxPage() {
                     title={l(locale, { ja: "AI × DXで、日常業務を変革する。", en: "Transform Daily Operations with AI × DX." })}
                     description={l(locale, { ja: "中小企業のための実践型AIソリューション。代行・導入・開発の3つのアプローチで、業務効率の飛躍的改善を実現します。", en: "Practical AI solutions for SMBs. Three approaches — Execution, Integration, and Engineering — to dramatically improve efficiency." })} />
 
+                {/* Market Stats */}
+                <section className="py-24 md:py-32 bg-secondary/30 dark:bg-card/30 bg-dot-pattern">
+                    <div className="mx-auto max-w-[1280px] px-6">
+                        <SectionHeader locale={locale}
+                            label={{ ja: "数字で知る", en: "By The Numbers" }}
+                            title={{ ja: "なぜ今、AI DXなのか。", en: "Why AI DX, why now." }} />
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+                            {marketStats.map((stat, i) => (
+                                <motion.div key={i} className="p-6 rounded-2xl border border-border bg-card text-center"
+                                    {...MOTION_VIEW} custom={i * 0.15 + 0.3}>
+                                    <p className="text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-[var(--color-brand)] to-[var(--color-brand-gold)] bg-clip-text text-transparent mb-2">{stat.value}</p>
+                                    <p className="text-sm font-semibold mb-1">{l(locale, stat.label)}</p>
+                                    <p className="text-xs text-muted-foreground">{l(locale, stat.sub)}</p>
+                                </motion.div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+
+                <GradientDivider />
+
+                {/* Personas */}
+                <section className="py-24 md:py-32 bg-background bg-dot-pattern">
+                    <div className="mx-auto max-w-[1280px] px-6">
+                        <SectionHeader locale={locale}
+                            label={{ ja: "こんなお悩みありませんか？", en: "Sound Familiar?" }}
+                            title={{ ja: "あなたの課題、AIで解決できます。", en: "Your challenges, solved with AI." }} />
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            {personas.map((p, i) => {
+                                const Icon = p.icon;
+                                return (
+                                    <motion.div key={i} className={`p-8 rounded-2xl border-2 ${p.color} bg-card`}
+                                        {...MOTION_VIEW} custom={i + 1}>
+                                        <div className="flex items-center gap-3 mb-4">
+                                            <div className="w-10 h-10 rounded-lg bg-[var(--color-brand)]/10 flex items-center justify-center">
+                                                <Icon size={20} className="text-[var(--color-brand)]" />
+                                            </div>
+                                            <span className="text-sm font-bold">{l(locale, p.role)}</span>
+                                        </div>
+                                        <blockquote className="text-sm text-muted-foreground leading-relaxed mb-4 border-l-2 border-[var(--color-brand-gold)] pl-3 italic">
+                                            {l(locale, p.pain)}
+                                        </blockquote>
+                                        <div className="flex items-center gap-2 text-sm font-semibold text-[var(--color-brand)]">
+                                            <ArrowRight size={14} />
+                                            <span>{l(locale, p.solution)}</span>
+                                        </div>
+                                    </motion.div>
+                                );
+                            })}
+                        </div>
+                    </div>
+                </section>
+
+                <GradientDivider />
+
                 {/* 3 Categories */}
                 <section className="py-24 md:py-32 bg-background bg-dot-pattern">
                     <div className="mx-auto max-w-[1280px] px-6">
@@ -209,7 +329,7 @@ export default function AiDxPage() {
                                         </div>
                                         <h3 className="text-lg font-bold mb-2">{l(locale, item.label)}</h3>
                                         <p className="text-sm text-muted-foreground leading-relaxed mb-4">{l(locale, item.desc)}</p>
-                                        <Badge variant="secondary" className="text-xs">{item.count} {locale === "ja" ? "件のユースケース" : "use cases"}</Badge>
+                                        <Badge variant="secondary" className="text-xs">{item.count} {l(locale, { ja: "件のユースケース", en: "use cases" })}</Badge>
                                     </motion.div>
                                 );
                             })}
@@ -263,21 +383,81 @@ export default function AiDxPage() {
                                     {...MOTION_VIEW} custom={i + 1} whileHover={{ y: -4 }}>
                                     {plan.popular && (
                                         <span className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-[var(--color-brand)] text-white text-xs font-bold tracking-wide">
-                                            {locale === "ja" ? "おすすめ" : "Recommended"}
+                                            {l(locale, { ja: "おすすめ", en: "Recommended" })}
                                         </span>
                                     )}
                                     <span className={`inline-block px-3 py-1 rounded-full text-xs font-bold mb-4 ${plan.badge}`}>{l(locale, plan.name)}</span>
                                     <p className="text-2xl font-bold mb-3">{l(locale, plan.price)}</p>
                                     <p className="text-sm text-muted-foreground leading-relaxed mb-6">{l(locale, plan.desc)}</p>
                                     <Link href="/contact" className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--color-brand)] hover:gap-3 transition-all">
-                                        {locale === "ja" ? "お問い合わせ" : "Contact Us"} <ArrowRight size={16} />
+                                        {l(locale, { ja: "お問い合わせ", en: "Contact Us" })} <ArrowRight size={16} />
                                     </Link>
                                 </motion.div>
                             ))}
                         </div>
-                        <motion.p className="text-center text-sm text-muted-foreground mt-8" {...MOTION_VIEW} custom={4}>
-                            {l(locale, { ja: "梅で「AIの凄さ」を実感 → 竹で仕組み化・定着 → 松で業務の深部に入り込む", en: "Start with Basic to experience AI → Standard to systematize → Premium to transform core operations" })}
-                        </motion.p>
+
+                        {/* Starter Pack highlight */}
+                        <motion.div className="mt-10 p-6 md:p-8 rounded-2xl border border-[var(--color-brand)]/30 bg-[var(--color-brand)]/5" {...MOTION_VIEW} custom={4}>
+                            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                                <div>
+                                    <span className="inline-block px-3 py-1 rounded-full text-xs font-bold bg-[var(--color-brand)]/15 text-[var(--color-brand)] mb-2">
+                                        {l(locale, { ja: "🎯 推奨入口商品", en: "🎯 Recommended Starter" })}
+                                    </span>
+                                    <h3 className="text-lg font-bold mb-1">{l(locale, { ja: "AI導入スターターパック", en: "AI Starter Pack" })}</h3>
+                                    <p className="text-sm text-muted-foreground">{l(locale, { ja: "アタックリスト・営業資料・オンライン秘書・議事録自動化をまとめて体験", en: "Experience target lists, sales docs, AI secretary & meeting minutes in one pack" })}</p>
+                                </div>
+                                <div className="text-right shrink-0">
+                                    <p className="text-2xl font-bold">{l(locale, { ja: "初期0円＋月額10万円〜", en: "¥0 setup + ¥100K/mo" })}</p>
+                                    <p className="text-xs text-muted-foreground">{l(locale, { ja: "成果保証型：KPI未達なら無料", en: "Performance guaranteed: free if KPIs not met" })}</p>
+                                </div>
+                            </div>
+                        </motion.div>
+
+                        {/* Upsell flow */}
+                        <motion.div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-sm" {...MOTION_VIEW} custom={5}>
+                            {upsellSteps.map((step, i, arr) => (
+                                <span key={i} className="flex items-center gap-2 sm:gap-4">
+                                    <span className="text-center">
+                                        <span className="font-semibold block">{l(locale, step.label)}</span>
+                                        <span className="text-xs text-muted-foreground">{l(locale, step.sub)}</span>
+                                    </span>
+                                    {i < arr.length - 1 && <ArrowRight size={14} className="text-muted-foreground/50" />}
+                                </span>
+                            ))}
+                        </motion.div>
+                    </div>
+                </section>
+
+                <GradientDivider />
+
+                {/* Subsidies */}
+                <section className="py-24 md:py-32 bg-secondary/30 dark:bg-card/30 bg-dot-pattern">
+                    <div className="mx-auto max-w-[1280px] px-6">
+                        <SectionHeader locale={locale}
+                            label={{ ja: "補助金活用", en: "Subsidies" }}
+                            title={{ ja: "補助金で、実質コストを大幅削減。", en: "Significantly reduce costs with subsidies." }} />
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                            {subsidies.map((s, i) => (
+                                <motion.div key={i} className="p-6 rounded-2xl border border-border bg-card"
+                                    {...MOTION_VIEW} custom={i + 1}>
+                                    <div className="flex items-center gap-2 mb-3">
+                                        <Coins size={18} className="text-[var(--color-brand-gold)]" />
+                                        <h3 className="text-sm font-bold">{l(locale, s.name)}</h3>
+                                    </div>
+                                    <p className="text-2xl font-bold text-[var(--color-brand)] mb-2">{l(locale, s.max)}</p>
+                                    <div className="flex justify-between text-xs text-muted-foreground">
+                                        <span>{l(locale, { ja: "補助率", en: "Rate" })}: {l(locale, s.rate)}</span>
+                                        <span>{l(locale, s.target)}</span>
+                                    </div>
+                                </motion.div>
+                            ))}
+                        </div>
+                        <motion.div className="p-5 rounded-xl bg-[var(--color-brand-gold)]/10 border border-[var(--color-brand-gold)]/30" {...MOTION_VIEW} custom={4}>
+                            <p className="text-sm font-medium">
+                                <span className="font-bold">{l(locale, { ja: "💡 例：", en: "💡 Example:" })}</span>
+                                {l(locale, { ja: " 竹プラン（初期50万＋月額10万）に補助率2/3を適用 → 実質 初期17万＋月額3.3万で導入可能。申請サポートも行います。", en: " Standard Plan (¥500K setup + ¥100K/mo) with 67% subsidy → effective ¥170K setup + ¥33K/mo. We also support the application process." })}
+                            </p>
+                        </motion.div>
                     </div>
                 </section>
 
@@ -317,13 +497,20 @@ export default function AiDxPage() {
                         <SectionHeader locale={locale}
                             label={{ ja: "なぜProductXか", en: "Why ProductX" }}
                             title={{ ja: "他社との違い。", en: "What sets us apart." }} />
+
+                        {/* 4 Strengths */}
+                        <div className="mb-12">
+                            <IconCardGrid items={whyUsStrengths} locale={locale} />
+                        </div>
+
+                        {/* Competitor table */}
                         <div className="overflow-x-auto">
                             <motion.table className="w-full min-w-[600px] text-sm" {...MOTION_VIEW} custom={1}>
                                 <thead>
                                     <tr className="border-b border-border">
-                                        <th className="text-left py-3 px-4 font-semibold text-muted-foreground">{locale === "ja" ? "競合" : "Competitor"}</th>
-                                        <th className="text-left py-3 px-4 font-semibold text-muted-foreground">{locale === "ja" ? "弱点" : "Weakness"}</th>
-                                        <th className="text-left py-3 px-4 font-semibold text-[var(--color-brand)]">{locale === "ja" ? "ProductXの優位性" : "ProductX Advantage"}</th>
+                                        <th className="text-left py-3 px-4 font-semibold text-muted-foreground">{l(locale, { ja: "競合", en: "Competitor" })}</th>
+                                        <th className="text-left py-3 px-4 font-semibold text-muted-foreground">{l(locale, { ja: "弱点", en: "Weakness" })}</th>
+                                        <th className="text-left py-3 px-4 font-semibold text-[var(--color-brand)]">{l(locale, { ja: "ProductXの優位性", en: "ProductX Advantage" })}</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -347,11 +534,29 @@ export default function AiDxPage() {
                     <div className="mx-auto max-w-[1280px] px-6">
                         <SectionHeader locale={locale}
                             label={{ ja: "対応業界", en: "Industries" }}
-                            title={{ ja: "幅広い業界に対応。", en: "Supporting diverse industries." }} />
-                        <div className="flex flex-wrap gap-3 -mt-4">
-                            {industries.map((item, i) => (
-                                <motion.span key={i} className="px-5 py-3 rounded-full border border-border bg-card text-sm font-medium hover:border-[var(--color-brand)]/30 transition-colors"
-                                    {...MOTION_VIEW} custom={i * 0.08 + 0.3}>{l(locale, item)}</motion.span>
+                            title={{ ja: "業界別おすすめユースケース。", en: "Recommended use cases by industry." }} />
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                            {industryDetails.map((ind, i) => (
+                                <motion.div key={i} className="p-5 rounded-xl border border-border bg-card hover:border-[var(--color-brand)]/30 transition-colors"
+                                    {...MOTION_VIEW} custom={i * 0.1 + 0.3}>
+                                    <h3 className="text-base font-bold mb-3">{l(locale, ind.name)}</h3>
+                                    <div className="space-y-2 text-sm">
+                                        <div className="flex items-start gap-2">
+                                            <span className="text-emerald-500 mt-0.5">●</span>
+                                            <div>
+                                                <span className="text-xs text-muted-foreground">{l(locale, { ja: "最優先", en: "Priority" })}</span>
+                                                <p className="font-medium">{l(locale, ind.uc)}</p>
+                                            </div>
+                                        </div>
+                                        <div className="flex items-start gap-2">
+                                            <span className="text-sky-500 mt-0.5">●</span>
+                                            <div>
+                                                <span className="text-xs text-muted-foreground">{l(locale, { ja: "次の一手", en: "Next Step" })}</span>
+                                                <p className="font-medium">{l(locale, ind.next)}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </motion.div>
                             ))}
                         </div>
                     </div>
@@ -382,6 +587,18 @@ export default function AiDxPage() {
 
                 <GradientDivider />
 
+                {/* Security */}
+                <section className="py-24 md:py-32 bg-secondary/30 dark:bg-card/30 bg-dot-pattern">
+                    <div className="mx-auto max-w-[1280px] px-6">
+                        <SectionHeader locale={locale}
+                            label={{ ja: "セキュリティ・安心", en: "Security & Trust" }}
+                            title={{ ja: "大切なデータを、しっかり守ります。", en: "Your data, safely protected." }} />
+                        <IconCardGrid items={securityItems} locale={locale} />
+                    </div>
+                </section>
+
+                <GradientDivider />
+
                 {/* CTA */}
                 <section className="py-24 md:py-32 bg-background">
                     <div className="mx-auto max-w-[800px] px-6 text-center">
@@ -394,10 +611,10 @@ export default function AiDxPage() {
                         <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-4" {...MOTION_VIEW} custom={1}>
                             <Link href="/contact" className="group relative inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[var(--color-brand-active)] text-white font-semibold hover:bg-[var(--color-brand)] transition-all shadow-lg hover:shadow-[0_10px_40px_rgba(105,108,255,0.35),0_0_60px_rgba(254,198,101,0.15)] overflow-hidden">
                                 <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
-                                <span className="relative z-10 flex items-center gap-2">{locale === "ja" ? "無料AI診断を申し込む" : "Request Free AI Diagnosis"} <ArrowRight size={18} /></span>
+                                <span className="relative z-10 flex items-center gap-2">{l(locale, { ja: "無料AI診断を申し込む", en: "Request Free AI Diagnosis" })} <ArrowRight size={18} /></span>
                             </Link>
                             <Link href="/articles" className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--color-brand)] hover:gap-3 transition-all">
-                                {locale === "ja" ? "AI DXの記事を読む" : "Read AI DX Articles"} <ArrowRight size={16} />
+                                {l(locale, { ja: "AI DXの記事を読む", en: "Read AI DX Articles" })} <ArrowRight size={16} />
                             </Link>
                         </motion.div>
                     </div>

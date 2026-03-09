@@ -101,8 +101,8 @@ export default function ServicesPage() {
                                                 Coming Soon
                                             </Badge>
                                         )}
-                                        {service.id === "ai-dx" && (
-                                            <Link href="/services/ai-dx" className="mt-6 inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/10 hover:bg-white/20 text-white text-sm font-semibold transition-all hover:gap-3">
+                                        {(service.id === "ai-dx" || service.id === "partner-growth") && (
+                                            <Link href={`/services/${service.id}`} className="mt-6 inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/10 hover:bg-white/20 text-white text-sm font-semibold transition-all hover:gap-3">
                                                 {locale === "ja" ? "サービス詳細を見る" : "View Service Details"} <ArrowRight size={16} />
                                             </Link>
                                         )}

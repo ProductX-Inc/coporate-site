@@ -7,6 +7,7 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { PageHero } from "@/components/shared/page-hero";
 import { Badge } from "@/components/ui/badge";
+import { useLang } from "@/components/lang-provider";
 import { categoryColors } from "@/lib/articles-constants";
 import type { ArticleMeta, ServiceAreaInfo } from "@/lib/articles-constants";
 
@@ -17,6 +18,7 @@ interface Props {
 }
 
 export function AreaArticlesClient({ area, articles, categoryLabels }: Props) {
+    const { t, locale } = useLang();
     const [activeCategory, setActiveCategory] = useState("all");
 
     const relevantCategories = useMemo(
@@ -35,8 +37,8 @@ export function AreaArticlesClient({ area, articles, categoryLabels }: Props) {
             <main>
                 <PageHero
                     label={area.label.en.toUpperCase()}
-                    title={`${area.label.ja} Insights`}
-                    description={area.description.ja}
+                    title={`${area.label[locale]} ${t("articles.insights")}`}
+                    description={area.description[locale]}
                 />
 
                 <section className="py-16 md:py-24 bg-background">
@@ -46,7 +48,7 @@ export function AreaArticlesClient({ area, articles, categoryLabels }: Props) {
                             className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors mb-8"
                         >
                             <ArrowLeft className="w-4 h-4" />
-                            Articles トップに戻る
+                            {t("articles.back")}
                         </Link>
 
                         {/* Category Filter */}
@@ -55,14 +57,14 @@ export function AreaArticlesClient({ area, articles, categoryLabels }: Props) {
                                 <FilterButton
                                     active={activeCategory === "all"}
                                     onClick={() => setActiveCategory("all")}
-                                    label={`すべて (${articles.length})`}
+                                    label={`${t("articles.filter.all")} (${articles.length})`}
                                 />
                                 {relevantCategories.map((cat) => (
                                     <FilterButton
                                         key={cat}
                                         active={activeCategory === cat}
                                         onClick={() => setActiveCategory(cat)}
-                                        label={`${categoryLabels[cat]?.ja || cat} (${articles.filter((a) => a.category === cat).length})`}
+                                        label={`${categoryLabels[cat]?.[locale] || cat} (${articles.filter((a) => a.category === cat).length})`}
                                     />
                                 ))}
                             </div>
@@ -81,7 +83,7 @@ export function AreaArticlesClient({ area, articles, categoryLabels }: Props) {
                                             variant="outline"
                                             className={`text-xs ${categoryColors[article.category] || ""}`}
                                         >
-                                            {categoryLabels[article.category]?.ja || article.category}
+                                            {categoryLabels[article.category]?.[locale] || article.category}
                                         </Badge>
                                         <time className="text-xs text-[var(--color-brand-gold)]">
                                             {article.date}
@@ -109,7 +111,7 @@ export function AreaArticlesClient({ area, articles, categoryLabels }: Props) {
 
                         {filtered.length === 0 && (
                             <div className="text-center py-20 text-muted-foreground">
-                                このカテゴリの記事はまだありません。
+                                {t("articles.noCategory")}
                             </div>
                         )}
                     </div>

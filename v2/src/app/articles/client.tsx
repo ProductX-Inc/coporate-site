@@ -6,6 +6,7 @@ import { ArrowRight } from "lucide-react";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { PageHero } from "@/components/shared/page-hero";
+import { useLang } from "@/components/lang-provider";
 import { fadeUp } from "@/lib/animations";
 import type { ArticleMeta, ServiceAreaInfo } from "@/lib/articles-constants";
 
@@ -14,14 +15,16 @@ interface Props {
 }
 
 export function ArticlesLandingClient({ areas }: Props) {
+    const { t, locale } = useLang();
+
     return (
         <>
             <Header />
             <main>
                 <PageHero
-                    label="ARTICLES"
-                    title="Insights & Knowledge"
-                    description="プロダクト開発・AI DXに関する最新のナレッジをお届けします。"
+                    label={t("articles.label")}
+                    title={t("articles.title")}
+                    description={t("articles.desc")}
                 />
 
                 <section className="py-16 md:py-24 bg-background">
@@ -39,10 +42,10 @@ export function ArticlesLandingClient({ areas }: Props) {
                                     <div>
                                         <h2 className="text-2xl font-bold flex items-center gap-3">
                                             <span className={`inline-block w-1 h-7 rounded-full bg-gradient-to-b ${area.color}`} />
-                                            {area.label.ja}
+                                            {area.label[locale]}
                                         </h2>
                                         <p className="text-sm text-muted-foreground mt-1.5">
-                                            {area.description.ja}
+                                            {area.description[locale]}
                                         </p>
                                     </div>
                                     {area.articles.length > 0 && (
@@ -50,7 +53,7 @@ export function ArticlesLandingClient({ areas }: Props) {
                                             href={`/articles/${area.key}`}
                                             className="hidden md:inline-flex items-center gap-1.5 text-sm font-medium text-[var(--color-brand)] hover:text-[var(--color-brand-active)] transition-colors"
                                         >
-                                            すべての記事を見る
+                                            {t("articles.viewAll")}
                                             <ArrowRight className="w-4 h-4" />
                                         </Link>
                                     )}
@@ -82,14 +85,14 @@ export function ArticlesLandingClient({ areas }: Props) {
                                                 href={`/articles/${area.key}`}
                                                 className="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--color-brand)]"
                                             >
-                                                すべての記事を見る
+                                                {t("articles.viewAll")}
                                                 <ArrowRight className="w-4 h-4" />
                                             </Link>
                                         </div>
                                     </>
                                 ) : (
                                     <div className="p-12 rounded-xl border border-dashed border-border text-center">
-                                        <p className="text-muted-foreground">記事を準備中です。お楽しみに！</p>
+                                        <p className="text-muted-foreground">{t("articles.preparing")}</p>
                                     </div>
                                 )}
                             </motion.div>
