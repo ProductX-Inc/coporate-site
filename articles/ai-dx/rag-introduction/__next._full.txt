@@ -10,34 +10,83 @@ a:"$Sreact.suspense"
 c:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
 e:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
 10:I[68027,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
-:HL["/_next/static/chunks/e74cddfdcddd4519.css","style"]
-0:{"P":null,"b":"p1-UyDeVtEClr44xaVWax","c":["","articles","ai-dx","rag-introduction"],"q":"","i":false,"f":[[["",{"children":["articles",{"children":[["area","ai-dx","d"],{"children":[["slug","rag-introduction","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/e74cddfdcddd4519.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/5db8a9a0bcc8f307.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/17cb6e905260b6d1.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#696CFF"}],["$","meta",null,{"name":"google-site-verification","content":"317UNan5UrUQVsmkdwwrteFnJAWBFx0ZHT8pSC2DvHY"}]]}],["$","body",null,{"children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"name\":\"株式会社ProductX\",\"alternateName\":\"ProductX Inc.\",\"url\":\"https://productx.jp\",\"logo\":\"https://productx.jp/images/logo.png\",\"description\":\"大手IT企業出身のエリートクリエイター集団によるプロダクト開発・DX支援会社\",\"foundingDate\":\"2025-03-14\",\"sameAs\":[]},{\"@type\":\"WebSite\",\"name\":\"ProductX\",\"url\":\"https://productx.jp\",\"inLanguage\":[\"ja\",\"en\"]}]}"}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js')}"}}],["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L7",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/_next/static/chunks/6abbc0266d16cd94.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/260c067b64c56a6c.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},[["$","div","l",{"className":"fixed inset-0 z-[200] flex items-center justify-center bg-background","children":["$","div",null,{"className":"flex flex-col items-center gap-6","children":[["$","div",null,{"className":"relative","children":[["$","div",null,{"className":"w-12 h-12 rounded-2xl bg-gradient-to-br from-[var(--color-brand-active)] to-[var(--color-brand)] animate-pulse"}],["$","div",null,{"className":"absolute inset-0 w-12 h-12 rounded-2xl bg-gradient-to-br from-[var(--color-brand-active)] to-[var(--color-brand)] animate-ping opacity-20"}]]}],["$","div",null,{"className":"flex flex-col items-center gap-2","children":[["$","div",null,{"className":"h-2 w-32 rounded-full bg-muted animate-pulse"}],["$","div",null,{"className":"h-2 w-20 rounded-full bg-muted animate-pulse delay-75"}]]}]]}]}],[],[]],false,false],["$","$1","h",{"children":[null,["$","$Lc",null,{"children":"$Ld"}],["$","div",null,{"hidden":true,"children":["$","$Le",null,{"children":["$","$a",null,{"name":"Next.Metadata","children":"$Lf"}]}]}],null]}],false]],"m":"$undefined","G":["$10",[]],"S":true}
+:HL["/_next/static/chunks/de69c309fdb97bf9.css","style"]
+0:{"P":null,"b":"bfMciHDPNABr0ymtoL4Dh","c":["","articles","ai-dx","rag-introduction"],"q":"","i":false,"f":[[["",{"children":["articles",{"children":[["area","ai-dx","d"],{"children":[["slug","rag-introduction","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/de69c309fdb97bf9.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/5db8a9a0bcc8f307.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/17cb6e905260b6d1.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#696CFF"}],["$","meta",null,{"name":"google-site-verification","content":"317UNan5UrUQVsmkdwwrteFnJAWBFx0ZHT8pSC2DvHY"}]]}],["$","body",null,{"children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"name\":\"株式会社ProductX\",\"alternateName\":\"ProductX Inc.\",\"url\":\"https://productx.jp\",\"logo\":\"https://productx.jp/images/logo.png\",\"description\":\"大手IT企業出身のエリートクリエイター集団によるプロダクト開発・DX支援会社\",\"foundingDate\":\"2025-03-14\",\"sameAs\":[]},{\"@type\":\"WebSite\",\"name\":\"ProductX\",\"url\":\"https://productx.jp\",\"inLanguage\":[\"ja\",\"en\"]}]}"}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js')}"}}],["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L7",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/_next/static/chunks/6abbc0266d16cd94.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/260c067b64c56a6c.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},[["$","div","l",{"className":"fixed inset-0 z-[200] flex items-center justify-center bg-background","children":["$","div",null,{"className":"flex flex-col items-center gap-6","children":[["$","div",null,{"className":"relative","children":[["$","div",null,{"className":"w-12 h-12 rounded-2xl bg-gradient-to-br from-[var(--color-brand-active)] to-[var(--color-brand)] animate-pulse"}],["$","div",null,{"className":"absolute inset-0 w-12 h-12 rounded-2xl bg-gradient-to-br from-[var(--color-brand-active)] to-[var(--color-brand)] animate-ping opacity-20"}]]}],["$","div",null,{"className":"flex flex-col items-center gap-2","children":[["$","div",null,{"className":"h-2 w-32 rounded-full bg-muted animate-pulse"}],["$","div",null,{"className":"h-2 w-20 rounded-full bg-muted animate-pulse delay-75"}]]}]]}]}],[],[]],false,false],["$","$1","h",{"children":[null,["$","$Lc",null,{"children":"$Ld"}],["$","div",null,{"hidden":true,"children":["$","$Le",null,{"children":["$","$a",null,{"name":"Next.Metadata","children":"$Lf"}]}]}],null]}],false]],"m":"$undefined","G":["$10",[]],"S":true}
 11:I[2024,["/_next/static/chunks/5db8a9a0bcc8f307.js","/_next/static/chunks/17cb6e905260b6d1.js","/_next/static/chunks/6abbc0266d16cd94.js","/_next/static/chunks/260c067b64c56a6c.js"],"ArticleDetailClient"]
-12:Ta73,<h2>はじめに</h2>
+12:T2970,<h2>はじめに</h2>
 <img src="/articles/ai-dx/images/dx-strategy-hero.webp" alt="AI技術解説" loading="lazy" />
-<p>RAG（Retrieval-Augmented Generation、検索拡張生成）は、<strong>社内データをAIが活用できるようにする技術</strong>です。ChatGPTは一般知識には強いですが、御社独自の情報（社内規程、製品情報、過去の議事録等）は知りません。RAGがこのギャップを埋めます。</p>
-<h2>RAGの仕組み（超シンプル版）</h2>
+<p>ChatGPTは確かに便利ですが、こんな経験はありませんか。</p>
+<p>「先月の売上ベスト3の商品を教えて」→ 一般的な売れ筋商品の話をされる（自社のことは知らない）<br/>「出張精算の方法を教えて」→ 一般的な手順は教えてくれるが、自社のルールとは違う</p>
+<p>これは当然です。ChatGPTやGeminiなどの汎用AIは、インターネット上の一般情報で学習しているだけで、<strong>御社独自の情報（社内規程、製品情報、売上データ、過去の議事録）は何も知りません</strong>。</p>
+<p>この「AIが自社の情報を知らない問題」を解決する技術が<strong>RAG（Retrieval-Augmented Generation、検索拡張生成）</strong>です。この記事では、専門用語をなるべく使わず、RAGの仕組みと活用可能性をわかりやすく解説します。</p>
+<h2>RAGの仕組み——超シンプルに解説</h2>
+<p>RAGの仕組みは、一言で言えば<strong>「AIに社内データのカンニングペーパーを持たせる」</strong>技術です。</p>
+<h3>通常のAI（RAGなし）の場合</h3>
 <li>社員が質問する：「先月の売上ベスト3は？」</li>
-<li>AIが<strong>社内データベースを検索</strong>して関連情報を取得</li>
-<li>取得した情報をもとにAIが<strong>正確な回答を生成</strong></li>
-<p>つまりRAGは<strong>「AIに社内データのカンニングペーパーを持たせる」</strong>技術。</p>
-<h2>活用例</h2>
-<table><thead><tr><th>用途</th><th>活用する社内データ</th><th>効果</th></tr></thead><tbody><tr><td>社内FAQ</td><td>規程、マニュアル</td><td>問い合わせ削減</td></tr>
-<tr><td>営業支援</td><td>過去の提案書、成約事例</td><td>提案品質向上</td></tr>
-<tr><td>顧客対応</td><td>製品FAQデータ</td><td>回答速度向上</td></tr>
-<tr><td>新人教育</td><td>研修資料、業務手順書</td><td>独り立ちの早期化</td></tr></tbody></table>
+<li>AIは<strong>学習済みの一般知識だけ</strong>で回答</li>
+<li>結果：自社のデータとは無関係な一般的な回答 ❌</li>
+<h3>RAG搭載AIの場合</h3>
+<li>社員が質問する：「先月の売上ベスト3は？」</li>
+<li>AIが<strong>社内データベースを検索</strong>して関連情報を取得 📂</li>
+<li>取得した情報をもとにAIが<strong>正確な回答を生成</strong> ✅</li>
+<li>結果：「先月の売上ベスト3は、①○○（売上120万円）②△△（売上95万円）③□□（売上80万円）です」</li>
+<p>RAGの重要なポイントは、AIそのものに社内データを「暗記」させるのではなく、<strong>質問のたびにデータベースから必要な情報を「検索」して回答する</strong>という点です。これにより、データが更新されるたびにAIの回答も自動的に最新の内容になります。</p>
 <h2>RAGと普通のChatGPTの違い</h2>
-<table><thead><tr><th>項目</th><th>普通のChatGPT</th><th>RAG搭載AI</th></tr></thead><tbody><tr><td>一般知識</td><td>◎</td><td>◎</td></tr>
-<tr><td>社内情報</td><td>✕</td><td>◎</td></tr>
-<tr><td>最新データへの対応</td><td>△</td><td>◎</td></tr>
-<tr><td>回答の根拠</td><td>不明確</td><td>出典を表示</td></tr>
-<tr><td>ハルシネーション</td><td>起きやすい</td><td>起きにくい</td></tr></tbody></table>
-<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/ask-someone-culture">「あの人に聞かないと分からない」をAIで解消</a> / <a href="/articles/ai-dx/faq-bot-reality">社内FAQボットを導入したら問い合わせは本当に減るのか</a> / <a href="/articles/ai-dx/custom-ai-assistant">カスタムAIアシスタントの作り方</a></blockquote>
+<table><thead><tr><th>項目</th><th>普通のChatGPT</th><th>RAG搭載AI</th></tr></thead><tbody><tr><td>一般知識</td><td>◎ 幅広い一般知識</td><td>◎ 一般知識も使える</td></tr>
+<tr><td>社内情報</td><td>✕ 知らない</td><td>◎ 社内データから回答</td></tr>
+<tr><td>最新データ</td><td>△ 学習時点の情報のみ</td><td>◎ 常に最新のデータを参照</td></tr>
+<tr><td>回答の根拠</td><td>不明確（何に基づいているか不明）</td><td>出典ありで回答可能</td></tr>
+<tr><td>ハルシネーション</td><td>起きやすい（自信満々にウソをつく）</td><td>起きにくい（データに基づく）</td></tr>
+<tr><td>セキュリティ</td><td>外部に情報を送信</td><td>自社の管理下で運用可能</td></tr></tbody></table>
+<h3>「ハルシネーション」とは</h3>
+<p>AIが<strong>「もっともらしいウソ」を自信満々に回答する</strong>現象です。通常のChatGPTに社内の情報を質問すると、知らないにもかかわらず「それっぽい回答」を生成してしまうことがあります。RAGは<strong>データベースから実際の情報を取得</strong>してから回答するため、ハルシネーションのリスクが大幅に低減します。</p>
+<h2>具体的な活用例</h2>
+<p>RAGは中小企業のさまざまな業務で活用できます。</p>
+<h3>活用例1: 社内FAQ + AIチャットボット</h3>
+<table><thead><tr><th>質問</th><th>AIの回答（社内規程に基づく）</th></tr></thead><tbody><tr><td>「出張精算の方法は？」</td><td>「出張精算は、当社の規程に従い、○○フォームに記入し、領収書を添付して総務部門に提出してください。提出期限は出張返却後5営業日以内です」</td></tr>
+<tr><td>「リモートワークは週何日まで？」</td><td>「当社の就業規則第○条により、リモートワークは週3日まで可能です。事前に上長への申請が必要です」</td></tr>
+<tr><td>「有給休暇の残日数は？」</td><td>「人事システムとの連携が必要です。現時点では人事部にご確認ください」（※システム連携時は自動回答可能）</td></tr></tbody></table>
+<h3>活用例2: 営業支援AI</h3>
+<table><thead><tr><th>質問</th><th>AIの回答（営業データに基づく）</th></tr></thead><tbody><tr><td>「A社向けの提案書のドラフトを作って」</td><td>過去のA社向け提案書と類似業界の成功事例を参照して、ドラフトを自動生成</td></tr>
+<tr><td>「先月の成約率は？」</td><td>CRMデータから算出し、前月比・前年比も合わせて回答</td></tr>
+<tr><td>「競合B社との違いは？」</td><td>競合分析資料から差別化ポイントを要約して回答</td></tr></tbody></table>
+<h3>活用例3: 顧客対応AI</h3>
+<table><thead><tr><th>質問</th><th>AIの回答（製品情報に基づく）</th></tr></thead><tbody><tr><td>「商品○○の特徴は？」</td><td>製品カタログから特徴・スペック・価格を回答</td></tr>
+<tr><td>「返品手順を教えて」</td><td>返品ポリシーに基づいて手順を説明</td></tr>
+<tr><td>「○○と△△の違いは？」</td><td>製品比較表から違いを説明</td></tr></tbody></table>
+<h3>活用例4: 新人教育AI</h3>
+<table><thead><tr><th>質問</th><th>AIの回答（研修資料に基づく）</th></tr></thead><tbody><tr><td>「受注処理の手順は？」</td><td>業務マニュアルから手順を説明</td></tr>
+<tr><td>「○○システムの操作方法は？」</td><td>操作マニュアルから手順を説明</td></tr>
+<tr><td>「業界用語○○の意味は？」</td><td>社内用語集から意味を説明</td></tr></tbody></table>
+<h2>RAGの構築に必要なもの</h2>
+<p>RAG搭載AIを構築するために必要なものを整理します。</p>
+<h3>必要なもの</h3>
+<table><thead><tr><th>項目</th><th>説明</th><th>具体例</th></tr></thead><tbody><tr><td>学習させたいデータ</td><td>社内の既存ドキュメント</td><td>マニュアル、規程、FAQ、議事録、製品資料</td></tr>
+<tr><td>AIプラットフォーム</td><td>RAGの仕組みを提供するツール</td><td>Dify、GPTs、Azure AI Search</td></tr>
+<tr><td>設置先</td><td>AIを利用するインターフェース</td><td>Slack、Teams、Webサイト</td></tr></tbody></table>
+<h3>データの準備が最も重要</h3>
+<p>RAGの性能は<strong>「どんなデータを読み込ませるか」で8割決まる</strong>と言っても過言ではありません。データの品質が高ければ回答精度が高く、データが貧弱なら回答も貧弱になります。</p>
+<p><strong>良いデータの条件</strong>:<br/><ul><li>最新の状態に更新されている</li><br/><li>情報が正確で矛盾がない</li><br/><li>網羅性がある（よくある質問がカバーされている）</li><br/><li>構造化されている（見出し、項目の整理がされている）</li><br/></ul><br/><h2>導入のハードルは高いのか</h2></p>
+<p>「RAG」という技術名は難しそうに聞こえますが、<strong>導入のハードルは確実に下がっています</strong>。</p>
+<table><thead><tr><th>方法</th><th>技術的難易度</th><th>コスト</th><th>所要期間</th></tr></thead><tbody><tr><td>GPTsで構築</td><td>★☆☆（簡単）</td><td>月$20</td><td>1日</td></tr>
+<tr><td>Difyで構築</td><td>★★☆（中程度）</td><td>無料〜月$59</td><td>1週間</td></tr>
+<tr><td>専門家に依頼</td><td>★☆☆（自社作業なし）</td><td>30万〜100万円</td><td>2〜4週間</td></tr></tbody></table>
+<p><strong>GPTs</strong>を使えば、PDFファイルをアップロードするだけでRAGの基本的な仕組みが動きます。技術的な知識は一切不要です。</p>
+<h2>よくある疑問</h2>
+<h3>「データが少なくても使えるの？」</h3>
+<p>使えます。FAQ30〜50件分のデータがあれば、実用的なRAG搭載AIは構築可能です。まずは手元のデータで始めて、運用しながらデータを追加していくのがおすすめです。</p>
+<h3>「社内の機密データをAIに読み込ませて大丈夫？」</h3>
+<p>セキュリティが心配な場合は、<strong>自社サーバーにデプロイ可能なオープンソースのDify</strong>を使うか、データの取扱いが明確なエンタープライズプランを利用してください。GPTsを使う場合は、OpenAIのデータ利用ポリシーを事前に確認しましょう。</p>
+<h3>「RAGを入れればAIの回答は100%正確になるの？」</h3>
+<p>100%ではありません。現実的な精度は<strong>85〜95%</strong>です。データの品質と、AIへの指示（プロンプト）の設計で精度は変わります。重要な回答には人間のレビューを組み込むことをおすすめします。</p>
 <h2>まとめ</h2>
-<p>RAGは<strong>「AIに社内の知識を持たせる」最も現実的な方法</strong>。社内FAQ、営業支援、顧客対応——様々な場面で活用でき、中小企業でも導入可能です。</p>
+<p>RAGは<strong>「AIに社内の知識を持たせる」最も現実的で、最もコスパの良い方法</strong>です。自社の情報を学習したAIが、社内FAQ、営業支援、顧客対応、新人教育——あらゆる場面で活躍します。</p>
+<p>まずは1つの業務（社内FAQ対応がおすすめ）で、RAG搭載AIを試してみてください。</p>
 <hr/>
-<p>📩 ProductXでは、AI DXに関する無料相談を承っています。</p>
-<p><a href="/contact">無料で相談する →</a></p>8:["$","$L11",null,{"article":{"slug":"rag-introduction","title":"RAGとは何か？中小企業向けのわかりやすい入門解説","description":"RAG（検索拡張生成）の仕組みをわかりやすく解説。社内データを活用したAI構築のイメージが掴めます。","date":"2026-03-09","category":"trend","tags":["RAG","入門","社内AI"],"author":"ProductX","content":"$12"},"relatedArticles":[{"slug":"ai-agent-trend","title":"AIエージェント最前線｜2026年に中小企業が知るべきこと","description":"2026年のAIエージェント最新トレンドを解説し、中小企業への影響と活用可能性を考察します。","date":"2026-03-09","category":"trend","tags":["AIエージェント","2026年トレンド","自律AI"],"author":"ProductX"},{"slug":"ai-dx-success-culture","title":"AI DX推進に成功する組織の特徴｜文化づくりが鍵","description":"AI DXに成功する組織の共通点を分析し、推進のための組織文化づくりのポイントを解説します。","date":"2026-03-09","category":"trend","tags":["DX推進","組織文化","成功要因"],"author":"ProductX"},{"slug":"ai-project-no-rfp","title":"AIプロジェクトに提案依頼書(RFP)は不要？新しい発注の形","description":"従来のRFP方式が AIプロジェクトに適さない理由と、アジャイル型の新しい発注方式を提案します。","date":"2026-03-09","category":"trend","tags":["AIプロジェクト","RFP","発注方式"],"author":"ProductX"}],"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}]
+<p>📩 RAGを活用した社内AIの構築について相談したい方へ</p>
+<p>ProductXでは、AI DXに関する無料相談を承っています。御社のデータを活かしたAI構築をご提案します。</p>
+<p><a href="/contact">無料で相談する →</a></p>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/ai-dx/custom-ai-assistant">カスタムAIアシスタントの作り方｜ノーコードで始める</a> / <a href="/articles/ai-dx/ask-someone-culture">「あの人に聞かないと分からない」をAIで解消する方法</a> / <a href="/articles/ai-dx/faq-bot-reality">社内FAQボットの導入で問い合わせは本当に減るのか</a> / <a href="/articles/ai-dx/what-is-ai-dx">AI DXとは？</a></blockquote>8:["$","$L11",null,{"article":{"slug":"rag-introduction","title":"RAGとは何か？中小企業向けのわかりやすい入門解説","description":"RAG（検索拡張生成）の仕組みをわかりやすく解説。社内データを活用したAI構築のイメージが掴めます。","date":"2026-03-09","category":"trend","tags":["RAG","入門","社内AI"],"author":"ProductX","content":"$12"},"relatedArticles":[{"slug":"ai-agent-trend","title":"AIエージェント最前線｜2026年に中小企業が知るべきこと","description":"2026年のAIエージェント最新トレンドを解説し、中小企業への影響と活用可能性を考察します。","date":"2026-03-09","category":"trend","tags":["AIエージェント","2026年トレンド","自律AI"],"author":"ProductX"},{"slug":"ai-dx-success-culture","title":"AI DX推進に成功する組織の特徴｜文化づくりが鍵","description":"AI DXに成功する組織の共通点を分析し、推進のための組織文化づくりのポイントを解説します。","date":"2026-03-09","category":"trend","tags":["DX推進","組織文化","成功要因"],"author":"ProductX"},{"slug":"ai-project-no-rfp","title":"AIプロジェクトに提案依頼書(RFP)は不要？新しい発注の形","description":"従来のRFP方式が AIプロジェクトに適さない理由と、アジャイル型の新しい発注方式を提案します。","date":"2026-03-09","category":"trend","tags":["AIプロジェクト","RFP","発注方式"],"author":"ProductX"}],"area":{"key":"ai-dx","label":{"ja":"AI DX","en":"AI DX"},"description":{"ja":"AI・生成AIを活用した業務効率化やDX推進に関するナレッジをお届けします。","en":"Insights on leveraging AI and generative AI for business efficiency and DX."},"color":"from-[#696CFF] to-[#4A48DE]"}}]
 d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 13:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
 b:null

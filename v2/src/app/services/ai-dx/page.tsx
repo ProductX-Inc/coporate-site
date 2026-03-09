@@ -11,8 +11,8 @@ import { useLang, type Locale } from "@/components/lang-provider";
 import { fadeUp } from "@/lib/animations";
 import {
     ArrowRight, Zap, Settings, Code, Clock, TrendingUp,
-    ChevronRight, Rocket, Target, Lightbulb, HandshakeIcon,
-    Shield, Users, BarChart3, BadgeCheck, Coins, Building2, CheckCircle2,
+    ChevronRight, Target, Lightbulb, HandshakeIcon,
+    Shield, Users, BarChart3, BadgeCheck, Coins,
 } from "lucide-react";
 
 /* ── helpers ── */
@@ -144,8 +144,7 @@ const plans = [
 ];
 
 const journeySteps = [
-    { icon: Lightbulb, title: { ja: "無料AI診断", en: "Free AI Diagnosis" }, desc: { ja: "5分のヒアリングで最適なAIソリューションを3つ提案。サンプル成果物も無料で納品。", en: "5-minute hearing to propose 3 optimal AI solutions with free sample deliverables." } },
-    { icon: Rocket, title: { ja: "ライブデモ", en: "Live Demo" }, desc: { ja: "御社の実業務データでAIの成果物をリアルタイム生成。目の前で「衝撃」をお見せします。", en: "We generate AI outputs using your real business data in real-time." } },
+    { icon: Lightbulb, title: { ja: "無料AI診断", en: "Free AI Diagnosis" }, desc: { ja: "30分のヒアリングで最適なAIソリューションを3つ提案。サンプル成果物も無料で納品。", en: "30-minute hearing to propose 3 optimal AI solutions with free sample deliverables." } },
     { icon: Target, title: { ja: "1ヶ月トライアル", en: "1-Month Trial" }, desc: { ja: "成果保証型のトライアル。Before/After数値レポートで費用対効果を可視化。", en: "Performance-guaranteed trial with Before/After metrics report." } },
     { icon: TrendingUp, title: { ja: "本契約＆拡大", en: "Contract & Scale" }, desc: { ja: "成功体験から月額契約へ。他部門への横展開やアップセルで効果を最大化。", en: "From success to subscription. Maximize impact with cross-department expansion." } },
     { icon: HandshakeIcon, title: { ja: "事例化＆紹介", en: "Case Study & Referral" }, desc: { ja: "導入企業のビフォーアフター事例をコンテンツ化。次の商談の最強の証拠に。", en: "Your Before/After story becomes the strongest proof for future deals." } },
@@ -197,14 +196,12 @@ const securityItems = [
     { icon: Shield, title: { ja: "データ学習に不使用", en: "No Data Training" }, desc: { ja: "顧客データはAIモデルの学習に使用しません（エンタープライズ環境利用）", en: "Customer data is never used for AI model training (enterprise environment)" } },
     { icon: BadgeCheck, title: { ja: "NDA締結対応", en: "NDA Ready" }, desc: { ja: "契約前にNDA（秘密保持契約）を締結。個人情報は匿名化処理を基本とします", en: "NDA signed before contract. Personal data anonymized by default" } },
     { icon: Shield, title: { ja: "データ保管ポリシー", en: "Data Retention Policy" }, desc: { ja: "納品後のデータは30日以内に削除。長期保管が必要な場合は別途契約", en: "Data deleted within 30 days after delivery. Extended retention available" } },
-    { icon: CheckCircle2, title: { ja: "ISMS取得計画", en: "ISMS Certification Plan" }, desc: { ja: "ISO 27001の取得を計画中。当面はGoogleのSOC 2準拠環境を利用", en: "ISO 27001 certification planned. Currently using Google's SOC 2 compliant environment" } },
 ];
 
 const whyUsStrengths = [
     { icon: Code, title: { ja: "AI実装力", en: "AI Expertise" }, desc: { ja: "Gemini / GPT / Claude等の最新AIを即座に業務に組み込む技術力", en: "Technical ability to instantly integrate latest AI (Gemini/GPT/Claude) into operations" }, color: "text-violet-400", bg: "bg-violet-500/10" },
     { icon: Zap, title: { ja: "爆速デリバリー", en: "Lightning Delivery" }, desc: { ja: "従来SIerの1/10のコスト、10倍のスピードでAIソリューションを提供", en: "AI solutions at 1/10th the cost and 10x the speed of traditional SIers" }, color: "text-amber-400", bg: "bg-amber-500/10" },
     { icon: Users, title: { ja: "中小企業の痛みの理解", en: "SMB Pain Understanding" }, desc: { ja: "「何から始めればいいか」から伴走し、小さく始めて大きく育てる体験設計", en: "Walk alongside from 'where to start' — designed to start small and scale" }, color: "text-emerald-400", bg: "bg-emerald-500/10" },
-    { icon: Building2, title: { ja: "パートナーネットワーク", en: "Partner Network" }, desc: { ja: "営業会社の既存顧客基盤を活用し、信頼関係をベースに導入できる販路", en: "Leverage partner sales networks for trust-based introductions" }, color: "text-sky-400", bg: "bg-sky-500/10" },
 ];
 
 const industryDetails: { name: I18n; uc: I18n; next: I18n }[] = [
@@ -396,22 +393,6 @@ export default function AiDxPage() {
                             ))}
                         </div>
 
-                        {/* Starter Pack highlight */}
-                        <motion.div className="mt-10 p-6 md:p-8 rounded-2xl border border-[var(--color-brand)]/30 bg-[var(--color-brand)]/5" {...MOTION_VIEW} custom={4}>
-                            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                                <div>
-                                    <span className="inline-block px-3 py-1 rounded-full text-xs font-bold bg-[var(--color-brand)]/15 text-[var(--color-brand)] mb-2">
-                                        {l(locale, { ja: "🎯 推奨入口商品", en: "🎯 Recommended Starter" })}
-                                    </span>
-                                    <h3 className="text-lg font-bold mb-1">{l(locale, { ja: "AI導入スターターパック", en: "AI Starter Pack" })}</h3>
-                                    <p className="text-sm text-muted-foreground">{l(locale, { ja: "アタックリスト・営業資料・オンライン秘書・議事録自動化をまとめて体験", en: "Experience target lists, sales docs, AI secretary & meeting minutes in one pack" })}</p>
-                                </div>
-                                <div className="text-right shrink-0">
-                                    <p className="text-2xl font-bold">{l(locale, { ja: "初期0円＋月額10万円〜", en: "¥0 setup + ¥100K/mo" })}</p>
-                                    <p className="text-xs text-muted-foreground">{l(locale, { ja: "成果保証型：KPI未達なら無料", en: "Performance guaranteed: free if KPIs not met" })}</p>
-                                </div>
-                            </div>
-                        </motion.div>
 
                         {/* Upsell flow */}
                         <motion.div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-sm" {...MOTION_VIEW} custom={5}>
@@ -455,7 +436,7 @@ export default function AiDxPage() {
                         <motion.div className="p-5 rounded-xl bg-[var(--color-brand-gold)]/10 border border-[var(--color-brand-gold)]/30" {...MOTION_VIEW} custom={4}>
                             <p className="text-sm font-medium">
                                 <span className="font-bold">{l(locale, { ja: "💡 例：", en: "💡 Example:" })}</span>
-                                {l(locale, { ja: " 竹プラン（初期50万＋月額10万）に補助率2/3を適用 → 実質 初期17万＋月額3.3万で導入可能。申請サポートも行います。", en: " Standard Plan (¥500K setup + ¥100K/mo) with 67% subsidy → effective ¥170K setup + ¥33K/mo. We also support the application process." })}
+                                {l(locale, { ja: " 竹プラン（初期50万＋月額10万）に補助率2/3を適用 → 実質 初期17万＋月額3.3万で導入可能。", en: " Standard Plan (¥500K setup + ¥100K/mo) with 67% subsidy → effective ¥170K setup + ¥33K/mo." })}
                             </p>
                         </motion.div>
                     </div>
@@ -469,7 +450,7 @@ export default function AiDxPage() {
                         <SectionHeader locale={locale}
                             label={{ ja: "導入の流れ", en: "How It Works" }}
                             title={{ ja: "まずは無料体験から。", en: "Start with a free experience." }} />
-                        <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
+                        <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                             {journeySteps.map((step, i) => {
                                 const Icon = step.icon;
                                 return (
@@ -606,7 +587,7 @@ export default function AiDxPage() {
                             {l(locale, { ja: "まずは無料AI診断から。", en: "Start with a free AI diagnosis." })}
                         </motion.h2>
                         <motion.p className="text-muted-foreground mb-8" {...MOTION_VIEW} custom={0.5}>
-                            {l(locale, { ja: "5分のヒアリングで最適なAIソリューションをご提案。サンプル成果物も無料でお渡しします。", en: "A 5-minute hearing to propose optimal AI solutions. Free sample deliverables included." })}
+                            {l(locale, { ja: "30分のヒアリングで最適なAIソリューションをご提案。サンプル成果物も無料でお渡しします。", en: "A 30-minute hearing to propose optimal AI solutions. Free sample deliverables included." })}
                         </motion.p>
                         <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-4" {...MOTION_VIEW} custom={1}>
                             <Link href="/contact" className="group relative inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[var(--color-brand-active)] text-white font-semibold hover:bg-[var(--color-brand)] transition-all shadow-lg hover:shadow-[0_10px_40px_rgba(105,108,255,0.35),0_0_60px_rgba(254,198,101,0.15)] overflow-hidden">
