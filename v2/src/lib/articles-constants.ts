@@ -56,6 +56,10 @@ export const categoryLabels: Record<string, { ja: string; en: string }> = {
     backoffice: { ja: "バックオフィス・管理", en: "Back Office" },
     "dx-strategy": { ja: "全社DX戦略", en: "DX Strategy" },
     trend: { ja: "AI DXトレンド", en: "AI DX Trends" },
+    "product-dev": { ja: "プロダクト開発", en: "Product Development" },
+    "ui-ux": { ja: "UI/UXデザイン", en: "UI/UX Design" },
+    growth: { ja: "グロース", en: "Growth" },
+    strategy: { ja: "戦略・コンサル", en: "Strategy & Consulting" },
 };
 
 export const categoryColors: Record<string, string> = {
@@ -64,4 +68,8 @@ export const categoryColors: Record<string, string> = {
     backoffice: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
     "dx-strategy": "bg-amber-500/10 text-amber-400 border-amber-500/20",
     trend: "bg-rose-500/10 text-rose-400 border-rose-500/20",
+    "product-dev": "bg-cyan-500/10 text-cyan-400 border-cyan-500/20",
+    "ui-ux": "bg-pink-500/10 text-pink-400 border-pink-500/20",
+    growth: "bg-orange-500/10 text-orange-400 border-orange-500/20",
+    strategy: "bg-indigo-500/10 text-indigo-400 border-indigo-500/20",
 };

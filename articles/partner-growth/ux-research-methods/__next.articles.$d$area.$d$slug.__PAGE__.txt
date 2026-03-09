@@ -1,0 +1,93 @@
+1:"$Sreact.fragment"
+2:I[2024,["/_next/static/chunks/5db8a9a0bcc8f307.js","/_next/static/chunks/17cb6e905260b6d1.js","/_next/static/chunks/ff7be75a3203897d.js","/_next/static/chunks/175e8f6009e6f5b2.js"],"ArticleDetailClient"]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+3:T290f,<h2>はじめに</h2>
+<img src="/articles/partner-growth/images/ui-ux-hero.webp" alt="UI/UXデザインのイメージ" loading="lazy" />
+<p>「ユーザーが何を求めているのか分からない」——プロダクト改善において、最も難しく、最も重要な問いです。</p>
+<p>多くの企業は、ユーザーの声を「問い合わせ内容」や「アンケート結果」だけで把握しようとしますが、それだけでは不十分です。ユーザーが<strong>本当に感じていること</strong>は、言葉にされないことの方が多いからです。</p>
+<p>UXリサーチは、ユーザーの<strong>行動・感情・動機</strong>を体系的に理解するための手法です。この記事では、プロダクト改善に効果的な5つのUXリサーチ手法と、その進め方を概念レベルで解説します。</p>
+<h2>なぜ今、UXリサーチが注目されているのか</h2>
+<p>デジタルプロダクトの競争が激化する中、<strong>「機能の差」だけでは競合優位を保てない時代</strong>になっています。ユーザーは「機能が多いサービス」ではなく、「<strong>自分の課題を最も簡単に解決してくれるサービス</strong>」を選びます。</p>
+<p>Forrester Researchの調査では、UXに投資した企業は、そうでない企業と比較して<strong>収益が最大400%向上</strong>したという結果も報告されています。UXリサーチは、この投資の方向性を正しく定めるための羅針盤です。</p>
+<h2>5つのUXリサーチ手法</h2>
+<h3>手法1: ユーザーインタビュー</h3>
+<p><strong>定性的・探索的なリサーチの王道</strong>です。ターゲットユーザーと対面（オンライン可）で対話し、課題・ニーズ・行動パターンを深掘りします。</p>
+<table><thead><tr><th>項目</th><th>内容</th></tr></thead><tbody><tr><td>目的</td><td>ユーザーのニーズ・課題・動機の理解</td></tr>
+<tr><td>対象人数</td><td>5〜10人（同じパターンが出始める人数）</td></tr>
+<tr><td>所要時間</td><td>1人あたり30〜60分</td></tr>
+<tr><td>適したフェーズ</td><td>プロダクト企画段階、大幅なリニューアル前</td></tr>
+<tr><td>アウトプット</td><td>ペルソナ、カスタマージャーニーマップ</td></tr></tbody></table>
+<blockquote>💡 <strong>重要なポイント</strong>: インタビューでは「どんな機能が欲しいですか？」と聞くのではなく、「<strong>普段その業務をどうやっていますか？</strong>」「<strong>最後にイライラしたのはどんな場面ですか？</strong>」と行動ベースの質問をすることが重要です。</blockquote>
+<h3>手法2: ユーザビリティテスト</h3>
+<p>ユーザーに実際にプロダクトを操作してもらい、<strong>使いやすさの問題点を発見</strong>する手法です。</p>
+<table><thead><tr><th>項目</th><th>内容</th></tr></thead><tbody><tr><td>目的</td><td>操作上の課題・離脱ポイントの特定</td></tr>
+<tr><td>対象人数</td><td>5〜8人（5人で問題の約85%を発見できる）</td></tr>
+<tr><td>所要時間</td><td>1人あたり30〜45分</td></tr>
+<tr><td>適したフェーズ</td><td>プロトタイプ完成後、リリース前</td></tr>
+<tr><td>アウトプット</td><td>エラー発生箇所、操作完了率、改善優先度</td></tr></tbody></table>
+<p>ユーザビリティテストの鍵は、<strong>ユーザーに操作方法を教えない</strong>ことです。「会員登録をしてください」とだけ伝え、どこで迷い、どこで間違え、どこで離脱するかを観察します。</p>
+<h3>手法3: ヒートマップ・行動分析</h3>
+<p>ユーザーの<strong>クリック位置、スクロール深度、マウスの動き</strong>を可視化する手法です。大量のユーザーデータを定量的に分析できます。</p>
+<table><thead><tr><th>項目</th><th>内容</th></tr></thead><tbody><tr><td>目的</td><td>ページ内の注目ポイント・離脱ポイントの発見</td></tr>
+<tr><td>対象人数</td><td>1,000人以上のトラフィックが理想</td></tr>
+<tr><td>所要時間</td><td>1〜2週間のデータ収集</td></tr>
+<tr><td>適したフェーズ</td><td>リリース後のCVR改善</td></tr>
+<tr><td>アウトプット</td><td>ヒートマップ、スクロールマップ、クリックマップ</td></tr></tbody></table>
+<p>ヒートマップ分析で分かることの例:</p>
+<ul><li>❌ CTAボタンの位置がスクロール深度50%の箇所にあり、60%のユーザーが見る前に離脱している</li>
+<li>❌ 重要な情報がファーストビュー外にあり、認知されていない</li>
+<li>✅ 特定のコンテンツブロックに異常にクリックが集中している（ユーザーの関心が高い）</li>
+</ul>
+<h3>手法4: A/Bテスト</h3>
+<p>UIの2つのバリエーション（A案とB案）を同時にリリースし、<strong>どちらが良い成果を出すかをデータで検証</strong>する手法です。</p>
+<table><thead><tr><th>項目</th><th>内容</th></tr></thead><tbody><tr><td>目的</td><td>UI変更の効果を統計的に検証</td></tr>
+<tr><td>必要なトラフィック</td><td>各バリエーションに1,000PV以上</td></tr>
+<tr><td>所要時間</td><td>1〜4週間</td></tr>
+<tr><td>適したフェーズ</td><td>CVR改善、ランディングページ最適化</td></tr>
+<tr><td>アウトプット</td><td>統計的に有意な勝者パターン</td></tr></tbody></table>
+<p>A/Bテストで検証する要素の例:</p>
+<ul><li>CTAボタンの文言（「無料で始める」vs「今すぐ登録」）</li>
+<li>フォームの入力ステップ数（1ステップ vs 3ステップ）</li>
+<li>ファーストビューのレイアウト</li>
+<li>価格表示の方法</li>
+</ul>
+<h3>手法5: アンケート・サーベイ</h3>
+<p>大量のユーザーから<strong>定量的なデータ</strong>を短期間で収集できる手法です。</p>
+<table><thead><tr><th>項目</th><th>内容</th></tr></thead><tbody><tr><td>目的</td><td>ユーザー満足度、ニーズの優先順位の把握</td></tr>
+<tr><td>対象人数</td><td>100人以上が統計的に有意</td></tr>
+<tr><td>所要時間</td><td>設計1週間、収集1〜2週間</td></tr>
+<tr><td>適したフェーズ</td><td>機能追加の優先順位決定、満足度調査</td></tr>
+<tr><td>アウトプット</td><td>NPS、CSAT、SUS（システムユーザビリティスケール）</td></tr></tbody></table>
+<blockquote>💡 <strong>注意</strong>: アンケートは「ユーザーが言っていること」は分かりますが、「<strong>ユーザーが実際にやっていること</strong>」は分かりません。インタビューやユーザビリティテストと組み合わせて使うことが重要です。</blockquote>
+<h2>UXリサーチの進め方（4ステップ）</h2>
+<h3>ステップ1: リサーチの目的を定義する</h3>
+<p>「ユーザーのことをもっと知りたい」という漠然とした目的では、有効なリサーチはできません。<strong>具体的な問い</strong>を設定しましょう。</p>
+<ul><li>✅ 「なぜ会員登録の完了率が30%しかないのか？」</li>
+<li>✅ 「ダッシュボードで最も使われている機能と使われていない機能は何か？」</li>
+<li>❌ 「ユーザーの満足度を上げたい」（曖昧すぎる）</li>
+</ul>
+<h3>ステップ2: 適切な手法を選ぶ</h3>
+<p>目的に応じて手法を選びます。「なぜ」を知りたいなら定性的手法（インタビュー、ユーザビリティテスト）、「何が」「どのくらい」を知りたいなら定量的手法（ヒートマップ、A/Bテスト、アンケート）が適しています。</p>
+<h3>ステップ3: リサーチを実施する</h3>
+<p>計画に基づいてリサーチを実施し、データを収集します。最も重要なのは、<strong>先入観を持たずにデータを観察する</strong>ことです。</p>
+<h3>ステップ4: インサイトを行動に変える</h3>
+<p>リサーチの結果を<strong>具体的な改善アクション</strong>に変換します。優先度を「インパクト × 実装容易性」で評価し、最も効果が高く取り組みやすい施策から実行します。</p>
+<h2>専門家に任せるべきポイント</h2>
+<p>UXリサーチの概念は理解できても、<strong>実際に意味のあるインサイトを引き出すには経験とスキル</strong>が必要です。</p>
+<ul><li><strong>インタビュー設計</strong>: バイアスのない質問設計は、経験がないと「誘導質問」になりがち</li>
+<li><strong>データの解釈</strong>: 数字の裏にある<strong>因果関係</strong>を正しく読み解く力</li>
+<li><strong>インサイトの優先順位付け</strong>: 大量の発見事項から、事業インパクトの大きい改善項目を選別する判断力</li>
+</ul>
+<h2>まとめ</h2>
+<p>UXリサーチは、「ユーザーの声を聞く」ことではなく、「<strong>ユーザーの行動から真のニーズを発見する</strong>」ことです。</p>
+<p>まずは自社プロダクトの<strong>離脱率が最も高いページ</strong>を1つ特定し、そのページについてユーザー5人に操作してもらうことから始めてみてください。</p>
+<hr/>
+<p>📩 UXリサーチについてお悩みの方へ</p>
+<p>ProductXでは、ユーザビリティテスト・UXリサーチから改善提案まで一気通貫で支援しています。<br/>「なぜユーザーが離脱するのか」をデータで明確にします。</p>
+<p><a href="/contact">無料で相談する →</a></p>
+<blockquote>💡 <strong>関連記事</strong>: <a href="/articles/partner-growth/design-investment-value">UIを変えるだけでCVRが2倍に？デザイン投資の真の価値</a> / <a href="/articles/partner-growth/ui-renewal-approach">UIリニューアルの進め方｜段階的改善 vs フルリデザイン</a> / <a href="/articles/partner-growth/ui-ux-renewal-roi">システムUI/UX刷新の費用対効果</a> / <a href="/articles/partner-growth/legacy-ui-churn">レガシーUIがユーザー離脱を招く3つの理由と対策</a></blockquote>0:{"buildId":"sZDGX9a8thsMx4xI3uXsI","rsc":["$","$1","c",{"children":[["$","$L2",null,{"article":{"slug":"ux-research-methods","title":"UXリサーチの進め方｜ユーザーの本音を引き出す5つの手法","description":"UXリサーチの代表的な5つの手法を解説。ユーザーの本当のニーズを把握し、プロダクト改善に活かすための進め方を紹介。","date":"2026-03-10","category":"ui-ux","tags":["UXリサーチ","ユーザーインタビュー","ユーザビリティ"],"author":"ProductX","content":"$3"},"relatedArticles":[{"slug":"design-investment-value","title":"UIを変えるだけでCVRが2倍に？デザイン投資の真の価値","description":"UIデザインの変更がCVRや売上に与えるインパクトを具体的な事例で解説。デザイン投資のROIを正しく理解するための考え方。","date":"2026-03-10","category":"ui-ux","tags":["UI/UX","CVR改善","デザイン投資"],"author":"ProductX"},{"slug":"frontend-modernization","title":"フロントエンド技術負債の解消アプローチ｜モダン化の全体像","description":"フロントエンドの技術負債を段階的に解消するためのアプローチを解説。レガシーコードからモダンフレームワークへの移行戦略。","date":"2026-03-10","category":"ui-ux","tags":["フロントエンド","技術負債","モダン化"],"author":"ProductX"},{"slug":"legacy-ui-churn","title":"レガシーUIがユーザー離脱を招く3つの理由と対策","description":"古いUIデザインがユーザーの離脱を招く3つの構造的理由と、段階的に改善するためのアプローチを解説します。","date":"2026-03-10","category":"ui-ux","tags":["レガシーUI","ユーザー離脱","UI改善"],"author":"ProductX"}],"area":{"key":"partner-growth","label":{"ja":"Partner Growth","en":"Partner Growth"},"description":{"ja":"プロダクト開発・グロース支援に関するナレッジをお届けします。","en":"Insights on product development and growth support."},"color":"from-[#FEC665] to-[#E5A844]"}}],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/_next/static/chunks/ff7be75a3203897d.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/175e8f6009e6f5b2.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null
