@@ -174,22 +174,28 @@ export default function CompanyDeckPage() {
             >
                 {/* ── Top bar (non-fullscreen) ── */}
                 {!isFullscreen && (
-                    <div className="mx-auto max-w-[1280px] px-6 mb-6">
+                    <div className="mx-auto max-w-[1280px] px-4 md:px-6 mb-4 md:mb-6">
                         <div className="flex items-center justify-between">
-                            <Link href="/resources" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors">
-                                <ArrowLeft size={16} />
+                            <Link href="/resources" className="flex items-center gap-1.5 text-xs md:text-sm text-muted-foreground hover:text-foreground transition-colors">
+                                <ArrowLeft size={14} />
                                 <span>Resources</span>
                             </Link>
-                            <div className="flex items-center gap-4">
-                                <span className="text-sm text-muted-foreground font-medium tabular-nums">
+                            <div className="flex items-center gap-2 md:gap-4">
+                                <span className="text-xs md:text-sm text-muted-foreground font-medium tabular-nums">
                                     {current + 1} / {total}
                                 </span>
                                 <button
                                     onClick={toggleFullscreen}
-                                    className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium border border-border hover:border-[var(--color-brand)]/40 hover:bg-[var(--color-brand)]/5 transition-all"
+                                    className="hidden md:flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium border border-border hover:border-[var(--color-brand)]/40 hover:bg-[var(--color-brand)]/5 transition-all"
                                 >
                                     <Maximize size={14} />
                                     {ja ? "プレゼン" : "Present"}
+                                </button>
+                                <button
+                                    onClick={toggleFullscreen}
+                                    className="md:hidden w-8 h-8 rounded-lg flex items-center justify-center border border-border text-muted-foreground"
+                                >
+                                    <Maximize size={14} />
                                 </button>
                             </div>
                         </div>
@@ -198,7 +204,7 @@ export default function CompanyDeckPage() {
 
                 {/* ── ACT Indicator ── */}
                 {(!isFullscreen || uiVisible) && (
-                    <div className={`flex items-center justify-center gap-1 mb-4 ${isFullscreen ? "absolute top-6 left-1/2 -translate-x-1/2 z-20" : "mx-auto max-w-[1280px] px-6"}`}
+                    <div className={`flex flex-wrap items-center justify-center gap-1 mb-4 ${isFullscreen ? "absolute top-6 left-1/2 -translate-x-1/2 z-20" : "mx-auto max-w-[1280px] px-4 md:px-6"}`}
                         style={fsOpacity(uiVisible)}
                     >
                         {acts.map((a, i) => {
@@ -207,7 +213,7 @@ export default function CompanyDeckPage() {
                                 <button
                                     key={a.id}
                                     onClick={() => goTo(a.startSlide)}
-                                    className={`relative px-3 py-1.5 text-xs font-semibold tracking-wider rounded-lg transition-all duration-300 ${isActive
+                                    className={`relative px-2.5 py-1 md:px-3 md:py-1.5 text-[10px] md:text-xs font-semibold tracking-wider rounded-lg transition-all duration-300 ${isActive
                                         ? `bg-gradient-to-r ${a.color} text-white shadow-md`
                                         : isFullscreen
                                             ? "text-white/40 hover:text-white/70"
@@ -222,7 +228,7 @@ export default function CompanyDeckPage() {
                 )}
 
                 {/* ── Slide Area ── */}
-                <div className={`relative ${isFullscreen ? "w-full max-w-[90vw] max-h-[80vh]" : "mx-auto max-w-[1280px] px-6"}`}>
+                <div className={`relative ${isFullscreen ? "w-full max-w-[90vw] max-h-[80vh]" : "mx-auto max-w-[1280px] px-4 md:px-6"}`}>
                     {/* Vignette in fullscreen */}
                     {isFullscreen && (
                         <div className="fixed inset-0 pointer-events-none z-10"
@@ -259,14 +265,14 @@ export default function CompanyDeckPage() {
                 </div>
 
                 {/* ── Bottom bar ── */}
-                <div className={`mt-4 flex items-center justify-between ${isFullscreen
+                <div className={`mt-3 md:mt-4 flex items-center justify-between ${isFullscreen
                     ? "absolute bottom-6 left-1/2 -translate-x-1/2 w-[80vw] z-20"
-                    : "mx-auto max-w-[1280px] px-6"
+                    : "mx-auto max-w-[1280px] px-4 md:px-6"
                     }`}
                     style={fsOpacity(uiVisible)}
                 >
                     {/* Dot indicators */}
-                    <div className="flex items-center gap-1">
+                    <div className="flex items-center gap-0.5 md:gap-1 overflow-x-auto scrollbar-none">
                         {slides.map((s, i) => {
                             const sAct = getActForSlide(i);
                             const isActStart = i === acts.find(a => a.id === sAct.id)?.startSlide;
@@ -274,12 +280,12 @@ export default function CompanyDeckPage() {
                                 <button
                                     key={i}
                                     onClick={() => goTo(i)}
-                                    className={`transition-all duration-300 rounded-full ${i === current
-                                        ? "w-3 h-3 bg-[var(--color-brand)] scale-125"
+                                    className={`transition-all duration-300 rounded-full shrink-0 ${i === current
+                                        ? "w-2.5 h-2.5 md:w-3 md:h-3 bg-[var(--color-brand)] scale-125"
                                         : isFullscreen
                                             ? "w-2 h-2 bg-white/30 hover:bg-white/60"
                                             : "w-2 h-2 bg-border hover:bg-muted-foreground/50"
-                                        } ${isActStart && i > 0 ? "ml-2" : ""}`}
+                                        } ${isActStart && i > 0 ? "ml-1 md:ml-2" : ""}`}
                                 />
                             );
                         })}
@@ -298,7 +304,7 @@ export default function CompanyDeckPage() {
                         ) : (
                             <button
                                 onClick={() => setDlOpen(true)}
-                                className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium border border-[var(--color-brand-gold)]/30 text-[var(--color-brand-gold)] hover:border-[var(--color-brand-gold)]/60 hover:shadow-[0_0_20px_rgba(254,198,101,0.15)] transition-all"
+                                className="flex items-center gap-2 px-3 py-1.5 md:px-4 md:py-2 rounded-xl text-xs md:text-sm font-medium border border-[var(--color-brand-gold)]/30 text-[var(--color-brand-gold)] hover:border-[var(--color-brand-gold)]/60 hover:shadow-[0_0_20px_rgba(254,198,101,0.15)] transition-all shrink-0"
                             >
                                 <Download size={14} />
                                 PDF
@@ -339,13 +345,13 @@ function NavArrow({ dir, onClick, show, isFullscreen, style }: {
     return (
         <button
             onClick={onClick}
-            className={`absolute top-1/2 -translate-y-1/2 z-20 w-10 h-10 rounded-full flex items-center justify-center transition-all duration-200 active:scale-95 ${isFullscreen
+            className={`absolute top-1/2 -translate-y-1/2 z-20 w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center transition-all duration-200 active:scale-95 ${isFullscreen
                 ? `${isPrev ? "-left-16" : "-right-16"} bg-white/10 hover:bg-white/20 text-white/70 hover:text-white`
-                : `${isPrev ? "-left-5 md:-left-14" : "-right-5 md:-right-14"} bg-card border border-border hover:border-[var(--color-brand)]/40 text-muted-foreground hover:text-foreground shadow-lg hover:shadow-xl`
+                : `${isPrev ? "left-2 md:-left-14" : "right-2 md:-right-14"} bg-card/80 md:bg-card border border-border hover:border-[var(--color-brand)]/40 text-muted-foreground hover:text-foreground shadow-lg hover:shadow-xl backdrop-blur-sm md:backdrop-blur-none`
                 }`}
             style={style}
         >
-            {isPrev ? <ChevronLeft size={20} /> : <ChevronRight size={20} />}
+            {isPrev ? <ChevronLeft size={18} /> : <ChevronRight size={18} />}
         </button>
     );
 }
