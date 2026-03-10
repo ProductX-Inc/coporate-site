@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { CheckCircle, ChevronRight, ArrowLeft, ArrowRight } from "lucide-react";
 import { useLang, type Locale } from "@/components/lang-provider";
+import { PrimaryCTA } from "@/components/shared/primary-cta";
 import { fadeUp } from "@/lib/animations";
 
 /* ── i18n helpers ── */
@@ -113,9 +114,8 @@ export function StepNav({ step, lastStep, canProceed, goBack, goNext, lastLabel 
     );
 }
 
-/* ── primary CTA button (import from shared, re-export for consumers) ── */
+/* ── primary CTA button (re-exported from shared) ── */
 
-import { PrimaryCTA } from "@/components/shared/primary-cta";
 export { PrimaryCTA };
 
 /* ── secondary link ── */

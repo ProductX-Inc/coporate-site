@@ -4,7 +4,6 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { AuroraMesh } from "@/components/sections/aurora-mesh";
 import { PrimaryCTA } from "@/components/shared/primary-cta";
-import { ArrowRight } from "lucide-react";
 import { useLang } from "@/components/lang-provider";
 import { fadeUp } from "@/lib/animations";
 

@@ -5,7 +5,6 @@ import { LangProvider } from "@/components/lang-provider";
 import { GlobalEffects } from "@/components/ui/global-effects";
 import "./globals.css";
 
-/* ── Fonts: self-hosted via next/font (no external blocking request) ── */
 const inter = Inter({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
@@ -18,9 +17,8 @@ const notoSansJP = Noto_Sans_JP({
   weight: ["300", "400", "500", "700"],
   display: "swap",
   variable: "--font-noto",
-  preload: false,  // Japanese subset is large; load on demand
+  preload: false,
 });
-
 
 const GA_ID = "G-958FQBMXHB";
 
@@ -32,23 +30,15 @@ export const metadata: Metadata = {
   description:
     "株式会社ProductX（プロダクトエックス）は、大手IT企業出身のエリートクリエイター集団によるプロダクト開発・DX支援会社です。",
   metadataBase: new URL("https://productx.jp"),
-  alternates: {
-    canonical: "https://productx.jp",
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: { index: true, follow: true },
-  },
+  alternates: { canonical: "https://productx.jp" },
+  robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     type: "website",
     locale: "ja_JP",
     siteName: "ProductX",
     images: ["/images/ogp.png"],
   },
-  twitter: {
-    card: "summary_large_image",
-  },
+  twitter: { card: "summary_large_image" },
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "48x48" },
@@ -89,7 +79,6 @@ const jsonLd = {
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Partner Growth — プロダクト開発・グロース支援", url: "https://productx.jp/services/partner-growth" } },
         ],
       },
-      sameAs: [],
     },
     {
       "@type": "WebSite",
@@ -100,11 +89,19 @@ const jsonLd = {
   ],
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+/* Deferred GA + SW script (runs after page load) */
+const DEFERRED_SCRIPT = [
+  `window.addEventListener('load',function(){`,
+  `var s=document.createElement('script');s.async=true;`,
+  `s.src='https://www.googletagmanager.com/gtag/js?id=${GA_ID}';`,
+  `document.head.appendChild(s);`,
+  `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}`,
+  `gtag('js',new Date());gtag('config','${GA_ID}');`,
+  `if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js')}`,
+  `})`,
+].join("");
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja" suppressHydrationWarning className={`${inter.variable} ${notoSansJP.variable}`}>
       <head>
@@ -112,31 +109,11 @@ export default function RootLayout({
         <meta name="google-site-verification" content="317UNan5UrUQVsmkdwwrteFnJAWBFx0ZHT8pSC2DvHY" />
       </head>
       <body>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-        {/* GA & SW — deferred to after page load to avoid blocking render */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.addEventListener('load',function(){` +
-              `var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=${GA_ID}';document.head.appendChild(s);` +
-              `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA_ID}');` +
-              `if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js')}` +
-              `})`,
-          }}
-        />
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
-        >
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <script dangerouslySetInnerHTML={{ __html: DEFERRED_SCRIPT }} />
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <LangProvider>
-            <GlobalEffects>
-              {children}
-            </GlobalEffects>
-
+            <GlobalEffects>{children}</GlobalEffects>
           </LangProvider>
         </ThemeProvider>
       </body>

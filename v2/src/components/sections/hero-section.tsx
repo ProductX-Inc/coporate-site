@@ -1,11 +1,9 @@
 "use client";
 
-import Link from "next/link";
 import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
 import { useRef, useState, useEffect, useMemo } from "react";
 import { AuroraMesh } from "@/components/sections/aurora-mesh";
 import { PrimaryCTA } from "@/components/shared/primary-cta";
-import { ArrowRight } from "lucide-react";
 import { useLang } from "@/components/lang-provider";
 
 const springPop = { type: "spring" as const, damping: 18, stiffness: 90 };
