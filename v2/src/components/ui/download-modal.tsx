@@ -52,11 +52,9 @@ export function DownloadModal({ isOpen, onClose }: DownloadModalProps) {
             return;
         }
 
-        // Success — trigger PDF download placeholder
+        // Success — redirect to export mode
         setState("success");
-        // In production, this would point to a real PDF file
-        // For now, show success and auto-close
-        setTimeout(() => onClose(), 1500);
+        window.location.href = "/resources/company-deck?export=true";
     };
 
     const remaining = MAX_ATTEMPTS - attempts;
@@ -141,10 +139,10 @@ export function DownloadModal({ isOpen, onClose }: DownloadModalProps) {
                                         disabled={state === "locked"}
                                         placeholder={ja ? "パスワード" : "Password"}
                                         className={`w-full px-4 py-3 rounded-xl border text-sm transition-all duration-300 bg-background outline-none ${state === "error"
-                                                ? "border-destructive focus:ring-2 focus:ring-destructive/20"
-                                                : state === "locked"
-                                                    ? "border-border bg-muted cursor-not-allowed"
-                                                    : "border-border focus:border-[var(--color-brand)] focus:ring-2 focus:ring-[var(--color-brand)]/20"
+                                            ? "border-destructive focus:ring-2 focus:ring-destructive/20"
+                                            : state === "locked"
+                                                ? "border-border bg-muted cursor-not-allowed"
+                                                : "border-border focus:border-[var(--color-brand)] focus:ring-2 focus:ring-[var(--color-brand)]/20"
                                             }`}
                                     />
                                 </motion.div>
@@ -171,8 +169,8 @@ export function DownloadModal({ isOpen, onClose }: DownloadModalProps) {
                                     type="submit"
                                     disabled={!password || state === "locked"}
                                     className={`w-full mt-4 py-3 rounded-xl text-sm font-semibold transition-all duration-300 flex items-center justify-center gap-2 ${!password || state === "locked"
-                                            ? "bg-muted text-muted-foreground cursor-not-allowed"
-                                            : "bg-[var(--color-brand-active)] hover:bg-[var(--color-brand)] text-white shadow-md hover:shadow-[0_8px_30px_rgba(105,108,255,0.35)]"
+                                        ? "bg-muted text-muted-foreground cursor-not-allowed"
+                                        : "bg-[var(--color-brand-active)] hover:bg-[var(--color-brand)] text-white shadow-md hover:shadow-[0_8px_30px_rgba(105,108,255,0.35)]"
                                         }`}
                                 >
                                     <Download size={16} />
