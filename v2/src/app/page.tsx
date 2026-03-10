@@ -10,9 +10,15 @@ import { FaqSection } from "@/components/sections/faq-section";
 import { InviteSection } from "@/components/sections/invite-section";
 import { GradientDivider } from "@/components/ui/gradient-divider";
 import { getAllArticles, serviceAreas } from "@/lib/articles";
+import { buildFaqJsonLd } from "@/lib/seo";
+
+const faqJsonLd = buildFaqJsonLd([
+  { q: "開発だけでなく、企画・戦略から相談できますか？", a: "もちろんです。ProductXの強みは上流のプロダクト戦略から実装・グロースまで一気通貫で支援できることです。「何を作るべきか」の段階からご相談いただけます。" },
+  { q: "AI DXは技術的な知識がなくても依頼できますか？", a: "はい、技術的な知識は不要です。課題のヒアリングから最適なAIソリューションのご提案まで、わかりやすくご説明しながら進めます。「AIで何ができるか分からない」という段階でもお気軽にご相談ください。" },
+  { q: "リモートでの対応は可能ですか？", a: "はい、フルリモートでの対応が可能です。オンラインミーティングやチャットツールを活用し、場所を問わずスムーズなコミュニケーションを実現します。必要に応じて対面でのミーティングも対応いたします。" },
+]);
 
 export default function Home() {
-  // Gather latest 3 articles across all service areas
   const latestArticles = serviceAreas
     .flatMap((area) =>
       getAllArticles(area.key).map((a) => ({ ...a, area: area.key }))
@@ -20,79 +26,25 @@ export default function Home() {
     .sort((a, b) => (a.date > b.date ? -1 : 1))
     .slice(0, 3);
 
-  const faqJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "開発だけでなく、企画・戦略から相談できますか？",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "もちろんです。ProductXの強みは上流のプロダクト戦略から実装・グロースまで一気通貫で支援できることです。「何を作るべきか」の段階からご相談いただけます。",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "AI DXは技術的な知識がなくても依頼できますか？",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "はい、技術的な知識は不要です。課題のヒアリングから最適なAIソリューションのご提案まで、わかりやすくご説明しながら進めます。「AIで何ができるか分からない」という段階でもお気軽にご相談ください。",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "リモートでの対応は可能ですか？",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "はい、フルリモートでの対応が可能です。オンラインミーティングやチャットツールを活用し、場所を問わずスムーズなコミュニケーションを実現します。必要に応じて対面でのミーティングも対応いたします。",
-        },
-      },
-    ],
-  };
-
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Header />
       <main>
-        {/* Act 1: OPEN — Full-screen Aurora Mesh Hero */}
         <HeroSection />
-
-        {/* Act 2: PROOF — Why ProductX */}
         <ProofSection />
-
         <GradientDivider />
-
-        {/* Act 3: STATS — Numbers at a Glance */}
         <StatsSection />
-
         <GradientDivider />
-
-        {/* Act 4: CRAFT — Bento Grid Services */}
         <CraftSection />
-
         <GradientDivider />
-
-        {/* Act 5: MESSAGE — CEO Quote */}
         <CeoSection />
-
         <GradientDivider />
-
-        {/* Act 6: PULSE — News Marquee Band */}
         <PulseSection />
-
         <GradientDivider />
-
-        {/* Act 7: ARTICLES — Latest Insights */}
         <ArticlesSection articles={latestArticles} />
-
         <GradientDivider />
-
-        {/* Act 8: FAQ — Frequently Asked Questions */}
         <FaqSection />
-
-        {/* Act 9: INVITE — CTA + Footer */}
         <InviteSection />
       </main>
     </>
