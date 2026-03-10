@@ -1,12 +1,16 @@
 ---
-title: "在庫管理をAIに任せる｜需要予測で欠品ゼロを目指す"
-description: "AIによる需要予測で在庫管理を最適化し、欠品と過剰在庫を同時に解消する方法を解説します。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["在庫管理", "AI需要予測", "最適化"]
-articleType: "howto"
-relatedServices: ["04"]
-author: "ProductX"
+title: 在庫管理をAIに任せる｜需要予測で欠品ゼロを目指す
+description: AIによる需要予測で在庫管理を最適化し、欠品と過剰在庫を同時に解消する方法を解説します。在庫管理には、すべての企業に共通する永遠のジレンマがあります。
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - 在庫管理
+  - AI需要予測
+  - 最適化
+articleType: howto
+relatedServices:
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

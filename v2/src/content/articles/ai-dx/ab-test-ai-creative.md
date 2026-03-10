@@ -1,12 +1,17 @@
 ---
-title: "広告クリエイティブのA/BテストをAIで自動化する方法"
-description: "広告クリエイティブのA/Bテストの課題をAIで解決。効率的なテスト設計と自動最適化の手法を解説します。"
-date: "2026-03-09"
-category: "marketing"
-tags: ["A/Bテスト", "広告クリエイティブ", "AI最適化"]
-articleType: "howto"
-relatedServices: ["07"]
-author: "ProductX"
+title: 広告クリエイティブのA/BテストをAIで自動化する方法
+description: >-
+  広告クリエイティブのA/Bテストの課題をAIで解決。効率的なテスト設計と自動最適化の手法を解説します。広告のパフォーマンスを左右する最大の要素はクリエイティブです。
+date: '2026-03-09'
+category: marketing
+tags:
+  - A/Bテスト
+  - 広告クリエイティブ
+  - AI最適化
+articleType: howto
+relatedServices:
+  - '07'
+author: ProductX
 ---
 
 ## はじめに

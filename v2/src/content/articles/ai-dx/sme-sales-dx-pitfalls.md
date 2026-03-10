@@ -1,12 +1,17 @@
 ---
-title: "中小企業の営業DXでありがちな5つの失敗パターン"
-description: "中小企業が営業DXで陥りやすい5つの失敗パターンを分析し、成功に導くためのアプローチを解説します。"
-date: "2026-03-09"
-category: "sales"
-tags: ["営業DX", "失敗パターン", "中小企業"]
-articleType: "awareness"
-relatedServices: ["01"]
-author: "ProductX"
+title: 中小企業の営業DXでありがちな5つの失敗パターン
+description: >-
+  中小企業が営業DXで陥りやすい5つの失敗パターンを分析し、成功に導くためのアプローチを解説します。「営業DXに取り組んだが、うまくいかなかった」——こんな声をよく耳にします。
+date: '2026-03-09'
+category: sales
+tags:
+  - 営業DX
+  - 失敗パターン
+  - 中小企業
+articleType: awareness
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

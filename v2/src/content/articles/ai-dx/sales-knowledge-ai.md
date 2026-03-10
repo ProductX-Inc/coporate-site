@@ -1,12 +1,18 @@
 ---
-title: "営業ナレッジをAIで構造化する方法"
-description: "散在する営業ナレッジをAIで構造化し、チーム全体の成約率を向上させる具体的な手法を解説します。"
-date: "2026-03-09"
-category: "sales"
-tags: ["ナレッジ構造化", "AI活用", "営業組織"]
-articleType: "howto"
-relatedServices: ["07", "08"]
-author: "ProductX"
+title: 営業ナレッジをAIで構造化する方法
+description: >-
+  散在する営業ナレッジをAIで構造化し、チーム全体の成約率を向上させる具体的な手法を解説します。営業のナレッジは「人の頭の中」「CRMの備忘録」「共有フォルダの提案書」「メールの履歴」「Slackの雑談」——あちこちに散在しています。
+date: '2026-03-09'
+category: sales
+tags:
+  - ナレッジ構造化
+  - AI活用
+  - 営業組織
+articleType: howto
+relatedServices:
+  - '07'
+  - 08
+author: ProductX
 ---
 
 ## はじめに

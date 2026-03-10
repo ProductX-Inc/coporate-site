@@ -1,12 +1,16 @@
 ---
-title: "AIプロジェクトに提案依頼書(RFP)は不要？新しい発注の形"
-description: "従来のRFP方式が AIプロジェクトに適さない理由と、アジャイル型の新しい発注方式を提案します。"
-date: "2026-03-09"
-category: "trend"
-tags: ["AIプロジェクト", "RFP", "発注方式"]
-articleType: "awareness"
-relatedServices: ["01"]
-author: "ProductX"
+title: AIプロジェクトに提案依頼書(RFP)は不要？新しい発注の形
+description: 従来のRFP方式が AIプロジェクトに適さない理由と、アジャイル型の新しい発注方式を提案します。「AIを導入したい。
+date: '2026-03-09'
+category: trend
+tags:
+  - AIプロジェクト
+  - RFP
+  - 発注方式
+articleType: awareness
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

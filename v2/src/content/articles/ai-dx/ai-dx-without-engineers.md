@@ -1,12 +1,18 @@
 ---
-title: "エンジニアなしでAI DXを進める方法"
-description: "IT部門やエンジニアがいない中小企業でもAI DXを推進できる具体的なアプローチを解説します。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["ノーコード", "AI DX", "非エンジニア"]
-articleType: "howto"
-relatedServices: ["01"]
-author: "ProductX"
+title: エンジニアなしでAI DXを進める方法
+description: >-
+  IT部門やエンジニアがいない中小企業でもAI
+  DXを推進できる具体的なアプローチを解説します。「うちにはエンジニアがいないからAIは無理」——この考えは5年前なら正しかったですが、2026年の今は完全に間違っています。
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - ノーコード
+  - AI DX
+  - 非エンジニア
+articleType: howto
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

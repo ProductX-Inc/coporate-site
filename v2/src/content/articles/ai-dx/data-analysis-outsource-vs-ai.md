@@ -1,12 +1,17 @@
 ---
-title: "データ分析の外注 vs AI内製化｜コストと柔軟性で比較"
-description: "データ分析の外注とAI内製化を、コスト・スピード・柔軟性の観点で比較し最適な選択を提案します。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["データ分析", "外注", "内製化"]
-articleType: "comparison"
-relatedServices: ["04"]
-author: "ProductX"
+title: データ分析の外注 vs AI内製化｜コストと柔軟性で比較
+description: >-
+  データ分析の外注とAI内製化を、コスト・スピード・柔軟性の観点で比較し最適な選択を提案します。「売上データをもっと活用したい」「マーケティングの意思決定を数字で裏付けたい」——こうしたニーズは多くの中小企業で高まっています。
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - データ分析
+  - 外注
+  - 内製化
+articleType: comparison
+relatedServices:
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

@@ -1,12 +1,17 @@
 ---
-title: "バックオフィスDXの費用対効果｜投資判断のための完全マップ"
-description: "バックオフィスDXの各施策をROIで評価し、中小企業が最も効果的に投資する優先順位を提案します。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["バックオフィスDX", "ROI", "投資判断"]
-articleType: "roi"
-relatedServices: ["04"]
-author: "ProductX"
+title: バックオフィスDXの費用対効果｜投資判断のための完全マップ
+description: >-
+  バックオフィスDXの各施策をROIで評価し、中小企業が最も効果的に投資する優先順位を提案します。バックオフィス業務のDXは地味だが、全社の生産性を底上げする基盤です。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - バックオフィスDX
+  - ROI
+  - 投資判断
+articleType: roi
+relatedServices:
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

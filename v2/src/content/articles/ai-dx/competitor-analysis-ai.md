@@ -1,12 +1,18 @@
 ---
-title: "競合分析をAIで自動化する5つのアプローチ"
-description: "手動で膨大な時間がかかる競合分析をAIで効率化する5つの方法を解説。常に最新の競合情報を把握する仕組みを提案。"
-date: "2026-03-09"
-category: "marketing"
-tags: ["競合分析", "AI自動化", "マーケティング戦略"]
-articleType: "howto"
-relatedServices: ["07", "08"]
-author: "ProductX"
+title: 競合分析をAIで自動化する5つのアプローチ
+description: >-
+  手動で膨大な時間がかかる競合分析をAIで効率化する5つの方法を解説。常に最新の競合情報を把握する仕組みを提案。「競合他社が何をしているか、把握していますか？」——多くの中小企業の答えは「たぶん、なんとなく」。
+date: '2026-03-09'
+category: marketing
+tags:
+  - 競合分析
+  - AI自動化
+  - マーケティング戦略
+articleType: howto
+relatedServices:
+  - '07'
+  - 08
+author: ProductX
 ---
 
 ## はじめに

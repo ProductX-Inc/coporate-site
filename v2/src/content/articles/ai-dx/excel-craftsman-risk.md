@@ -1,12 +1,17 @@
 ---
-title: "「Excelの達人」に依存する組織のリスク"
-description: "特定のExcel達人に業務が集中する属人化リスクと、AIによる脱属人化のアプローチを解説します。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["Excel", "属人化", "脱属人化"]
-articleType: "awareness"
-relatedServices: ["04"]
-author: "ProductX"
+title: 「Excelの達人」に依存する組織のリスク
+description: >-
+  特定のExcel達人に業務が集中する属人化リスクと、AIによる脱属人化のアプローチを解説します。「あの集計表は○○さんのExcelでしか作れない」「○○さんが作ったマクロが動かなくなった」「○○さんが休むと月次レポートが出せない」——御社にも心当たりはあ...
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - Excel
+  - 属人化
+  - 脱属人化
+articleType: awareness
+relatedServices:
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

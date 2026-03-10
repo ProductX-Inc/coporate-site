@@ -1,12 +1,18 @@
 ---
-title: "RPAが止まる本当の理由と、AIで乗り越える方法"
-description: "RPAの停止率が高い原因を構造的に分析し、AIとの組み合わせで持続可能な自動化を実現する方法を解説。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["RPA", "停止", "AI連携"]
-articleType: "awareness"
-relatedServices: ["03", "04"]
-author: "ProductX"
+title: RPAが止まる本当の理由と、AIで乗り越える方法
+description: >-
+  RPAの停止率が高い原因を構造的に分析し、AIとの組み合わせで持続可能な自動化を実現する方法を解説。「RPAを導入したが、半年後には使われなくなった」——RPA導入企業の約50%が経験する現実です。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - RPA
+  - 停止
+  - AI連携
+articleType: awareness
+relatedServices:
+  - '03'
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

@@ -1,12 +1,17 @@
 ---
-title: "請求書AI処理の全体像｜中小企業が知っておくべき基本"
-description: "請求書処理のAI活用について、仕組み・メリット・導入ステップを中小企業向けにわかりやすく解説。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["請求書", "AI処理", "ペーパーレス"]
-articleType: "awareness"
-relatedServices: ["04"]
-author: "ProductX"
+title: 請求書AI処理の全体像｜中小企業が知っておくべき基本
+description: >-
+  請求書処理のAI活用について、仕組み・メリット・導入ステップを中小企業向けにわかりやすく解説。電子帳簿保存法の改正、インボイス制度の開始——請求書を取り巻く環境は大きく変わっています。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - 請求書
+  - AI処理
+  - ペーパーレス
+articleType: awareness
+relatedServices:
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

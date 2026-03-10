@@ -1,12 +1,17 @@
 ---
-title: "営業チームにAIを導入する際の判断チェックリスト"
-description: "営業チームへのAI導入を判断するための実践的チェックリスト。投資対効果と優先順位を明確にします。"
-date: "2026-03-09"
-category: "sales"
-tags: ["AI導入", "チェックリスト", "営業チーム"]
-articleType: "howto"
-relatedServices: ["01"]
-author: "ProductX"
+title: 営業チームにAIを導入する際の判断チェックリスト
+description: >-
+  営業チームへのAI導入を判断するための実践的チェックリスト。投資対効果と優先順位を明確にします。「営業チームにAIを導入したいが、何から手をつければいいか分からない」——これは中小企業の経営者から最も多く寄せられる相談です。
+date: '2026-03-09'
+category: sales
+tags:
+  - AI導入
+  - チェックリスト
+  - 営業チーム
+articleType: howto
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

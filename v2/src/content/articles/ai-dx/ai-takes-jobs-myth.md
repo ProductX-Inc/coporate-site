@@ -1,12 +1,17 @@
 ---
-title: "「AIに仕事を奪われる」は本当か？中小企業経営者が知るべき現実"
-description: "AIが雇用に与える影響を客観的に分析し、中小企業経営者が取るべきアクションを提案します。"
-date: "2026-03-09"
-category: "trend"
-tags: ["AI雇用", "仕事の未来", "経営者向け"]
-articleType: "awareness"
-relatedServices: ["01"]
-author: "ProductX"
+title: 「AIに仕事を奪われる」は本当か？中小企業経営者が知るべき現実
+description: >-
+  AIが雇用に与える影響を客観的に分析し、中小企業経営者が取るべきアクションを提案します。「AIが仕事を奪う」——メディアでは毎日のように報じられ、社員からも「AIが入ったらクビになるんですか？」と聞かれる。
+date: '2026-03-09'
+category: trend
+tags:
+  - AI雇用
+  - 仕事の未来
+  - 経営者向け
+articleType: awareness
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

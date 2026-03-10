@@ -1,12 +1,18 @@
 ---
-title: "生成AIサービス比較｜中小企業が選ぶべきはどれか"
-description: "生成AIサービスを中小企業の業務ニーズとコスト感で比較し、目的別の最適な選択肢を提案。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["生成AI", "サービス比較", "中小企業"]
-articleType: "comparison"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: 生成AIサービス比較｜中小企業が選ぶべきはどれか
+description: >-
+  生成AIサービスを中小企業の業務ニーズとコスト感で比較し、目的別の最適な選択肢を提案。「生成AIのサービスが多すぎて、どれを選べばいいか分からない」——中小企業の担当者なら誰もが感じる悩みです。
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - 生成AI
+  - サービス比較
+  - 中小企業
+articleType: comparison
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

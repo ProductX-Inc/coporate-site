@@ -1,12 +1,18 @@
 ---
-title: "VoC分析（顧客の声）をAIで自動化｜口コミから見える改善点"
-description: "顧客の声（VoC）をAIで自動収集・分析するアプローチと、従来の手作業との違いを比較解説します。"
-date: "2026-03-09"
-category: "marketing"
-tags: ["VoC分析", "口コミ", "AI自動化"]
-articleType: "comparison"
-relatedServices: ["01"]
-author: "ProductX"
+title: VoC分析（顧客の声）をAIで自動化｜口コミから見える改善点
+description: >-
+  顧客の声（VoC）をAIで自動収集・分析するアプローチと、従来の手作業との違いを比較解説します。顧客の声（VoC: Voice of
+  Customer）は、商品改善やサービス向上において最も信頼性の高いインプットです。
+date: '2026-03-09'
+category: marketing
+tags:
+  - VoC分析
+  - 口コミ
+  - AI自動化
+articleType: comparison
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

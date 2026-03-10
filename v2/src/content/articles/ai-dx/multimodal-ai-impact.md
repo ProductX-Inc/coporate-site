@@ -1,12 +1,17 @@
 ---
-title: "マルチモーダルAIが中小企業にもたらすインパクト"
-description: "テキスト・画像・音声・動画を統合処理するマルチモーダルAIの中小企業への影響と活用可能性。"
-date: "2026-03-09"
-category: "trend"
-tags: ["マルチモーダルAI", "最新トレンド", "中小企業"]
-articleType: "awareness"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: マルチモーダルAIが中小企業にもたらすインパクト
+description: テキスト・画像・音声・動画を統合処理するマルチモーダルAIの中小企業への影響と活用可能性。「マルチモーダルAI」という言葉をご存知でしょうか。
+date: '2026-03-09'
+category: trend
+tags:
+  - マルチモーダルAI
+  - 最新トレンド
+  - 中小企業
+articleType: awareness
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

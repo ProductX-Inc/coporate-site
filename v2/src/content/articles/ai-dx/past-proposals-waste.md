@@ -1,12 +1,18 @@
 ---
-title: "過去の提案書、眠らせていませんか？AI再活用の可能性"
-description: "社内に蓄積された過去の提案書をAIで再活用し、営業チームの武器にする方法を解説します。"
-date: "2026-03-09"
-category: "sales"
-tags: ["提案書", "ナレッジ活用", "AI"]
-articleType: "awareness"
-relatedServices: ["07", "08"]
-author: "ProductX"
+title: 過去の提案書、眠らせていませんか？AI再活用の可能性
+description: >-
+  社内に蓄積された過去の提案書をAIで再活用し、営業チームの武器にする方法を解説します。御社には、過去3年間で何件の提案書が作成されましたか？50件？100件？200件？。
+date: '2026-03-09'
+category: sales
+tags:
+  - 提案書
+  - ナレッジ活用
+  - AI
+articleType: awareness
+relatedServices:
+  - '07'
+  - 08
+author: ProductX
 ---
 
 ## はじめに

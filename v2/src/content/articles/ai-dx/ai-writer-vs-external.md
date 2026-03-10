@@ -1,12 +1,18 @@
 ---
-title: "AIライター vs 外注ライター｜コスト・品質を徹底比較"
-description: "AIライターと外注ライターのコスト・品質・スピードを多角的に比較。最適な選択とハイブリッド活用を提案。"
-date: "2026-03-09"
-category: "marketing"
-tags: ["AIライター", "外注ライター", "コスト比較"]
-articleType: "comparison"
-relatedServices: ["07", "08"]
-author: "ProductX"
+title: AIライター vs 外注ライター｜コスト・品質を徹底比較
+description: >-
+  AIライターと外注ライターのコスト・品質・スピードを多角的に比較。最適な選択とハイブリッド活用を提案。コンテンツ制作は「自分で書くか、外注するか」の二択でした。
+date: '2026-03-09'
+category: marketing
+tags:
+  - AIライター
+  - 外注ライター
+  - コスト比較
+articleType: comparison
+relatedServices:
+  - '07'
+  - 08
+author: ProductX
 ---
 
 ## はじめに

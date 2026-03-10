@@ -1,12 +1,18 @@
 ---
-title: "「あの人に聞かないと分からない」をゼロにするAI社内ナレッジ"
-description: "属人化した社内知識をAIでナレッジベース化し、「聞かないと分からない」状態を解消する方法を解説。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["社内ナレッジ", "属人化解消", "AIチャットボット"]
-articleType: "awareness"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: 「あの人に聞かないと分からない」をゼロにするAI社内ナレッジ
+description: >-
+  属人化した社内知識をAIでナレッジベース化し、「聞かないと分からない」状態を解消する方法を解説。「それは○○さんに聞いて」——この言葉が頻繁に飛び交う組織は、属人化の罠にはまっています。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - 社内ナレッジ
+  - 属人化解消
+  - AIチャットボット
+articleType: awareness
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

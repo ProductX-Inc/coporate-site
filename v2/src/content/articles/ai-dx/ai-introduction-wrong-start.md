@@ -1,12 +1,17 @@
 ---
-title: "「AI導入の間違った始め方」5パターン｜失敗から学ぶ"
-description: "AI導入でよくある5つの間違ったアプローチを分析し、正しい始め方を具体的に提案します。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["AI導入", "失敗パターン", "正しい始め方"]
-articleType: "awareness"
-relatedServices: ["01"]
-author: "ProductX"
+title: 「AI導入の間違った始め方」5パターン｜失敗から学ぶ
+description: >-
+  AI導入でよくある5つの間違ったアプローチを分析し、正しい始め方を具体的に提案します。「AIを導入したいが、何から始めればいいか分からない」——この悩みの結果、多くの中小企業が間違ったスタートを切って、時間とお金を失い、「やっぱりAIは使えない」と誤った...
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - AI導入
+  - 失敗パターン
+  - 正しい始め方
+articleType: awareness
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

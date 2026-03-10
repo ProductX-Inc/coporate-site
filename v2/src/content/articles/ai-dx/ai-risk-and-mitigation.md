@@ -1,12 +1,17 @@
 ---
-title: "AIリスクと正しい対処法｜過剰な不安を手放す"
-description: "AI導入のリスクを客観的に整理し、過剰な不安を解消しつつ正しく対処する方法を解説します。"
-date: "2026-03-09"
-category: "trend"
-tags: ["AIリスク", "対処法", "リスク管理"]
-articleType: "awareness"
-relatedServices: ["01"]
-author: "ProductX"
+title: AIリスクと正しい対処法｜過剰な不安を手放す
+description: >-
+  AI導入のリスクを客観的に整理し、過剰な不安を解消しつつ正しく対処する方法を解説します。「AIは情報漏洩するんじゃないか」「精度が信用できない」「法的なリスクが怖い」——AI導入をためらう企業の多くは、リスクを「漠然と」恐れています。
+date: '2026-03-09'
+category: trend
+tags:
+  - AIリスク
+  - 対処法
+  - リスク管理
+articleType: awareness
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

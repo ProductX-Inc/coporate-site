@@ -1,12 +1,17 @@
 ---
-title: "移動時間を学習時間に変えるAI音声活用法"
-description: "営業の移動時間をAI音声で有効活用する考え方を解説。隙間時間を学習・情報収集に変える方法とは。"
-date: "2026-03-09"
-category: "sales"
-tags: ["AI音声", "移動時間", "営業学習"]
-articleType: "howto"
-relatedServices: ["11"]
-author: "ProductX"
+title: 移動時間を学習時間に変えるAI音声活用法
+description: >-
+  営業の移動時間をAI音声で有効活用する考え方を解説。隙間時間を学習・情報収集に変える方法とは。外回りの営業担当者にとって、移動時間は「どうしようもない空白の時間」になりがちです。
+date: '2026-03-09'
+category: sales
+tags:
+  - AI音声
+  - 移動時間
+  - 営業学習
+articleType: howto
+relatedServices:
+  - '11'
+author: ProductX
 ---
 
 ## はじめに

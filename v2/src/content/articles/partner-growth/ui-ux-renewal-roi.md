@@ -1,12 +1,18 @@
 ---
-title: "システムUI/UX刷新の費用対効果｜投資判断の3つのポイント"
-description: "システムのUI/UX刷新にかかる費用と得られる効果を具体的に試算。投資判断を支える3つのポイントを解説します。"
-date: "2026-01-20"
-category: "ui-ux"
-tags: ["UI/UX", "費用対効果", "システム刷新"]
-articleType: "roi"
-relatedServices: ["05", "06", "07"]
-author: "ProductX"
+title: システムUI/UX刷新の費用対効果｜投資判断の3つのポイント
+description: システムのUI/UX刷新にかかる費用と得られる効果を具体的に試算。投資判断を支える3つのポイントを解説します。「UIが古いのは分かっている。
+date: '2026-01-20'
+category: ui-ux
+tags:
+  - UI/UX
+  - 費用対効果
+  - システム刷新
+articleType: roi
+relatedServices:
+  - '05'
+  - '06'
+  - '07'
+author: ProductX
 ---
 
 ## はじめに

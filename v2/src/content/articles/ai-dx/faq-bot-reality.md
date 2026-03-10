@@ -1,12 +1,18 @@
 ---
-title: "社内FAQボットを導入したら問い合わせは本当に減るのか"
-description: "社内FAQボット導入の実際の効果と限界を検証し、成功のための設計ポイントを解説します。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["FAQボット", "チャットボット", "社内DX"]
-articleType: "awareness"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: 社内FAQボットを導入したら問い合わせは本当に減るのか
+description: >-
+  社内FAQボット導入の実際の効果と限界を検証し、成功のための設計ポイントを解説します。社内FAQボットは「導入すれば問い合わせが減る」と期待されがちですが、実態はそう単純ではありません。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - FAQボット
+  - チャットボット
+  - 社内DX
+articleType: awareness
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

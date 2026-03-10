@@ -1,12 +1,17 @@
 ---
-title: "スタートアップの技術顧問の選び方と活用法"
-description: "技術顧問をスタートアップが活用するための選び方、費用、活用法を解説。CTO採用前の技術経営の空白を埋めるアプローチ。"
-date: "2026-02-25"
-category: "strategy"
-tags: ["技術顧問", "スタートアップ", "CTO"]
-articleType: "howto"
-relatedServices: ["08"]
-author: "ProductX"
+title: スタートアップの技術顧問の選び方と活用法
+description: >-
+  技術顧問をスタートアップが活用するための選び方、費用、活用法を解説。CTO採用前の技術経営の空白を埋めるアプローチ。CTOを採用できないスタートアップの現実的な解決策として注目されているのが、「技術顧問」の活用です。
+date: '2026-02-25'
+category: strategy
+tags:
+  - 技術顧問
+  - スタートアップ
+  - CTO
+articleType: howto
+relatedServices:
+  - 08
+author: ProductX
 ---
 
 ## はじめに

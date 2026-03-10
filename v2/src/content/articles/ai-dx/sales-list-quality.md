@@ -1,12 +1,16 @@
 ---
-title: "営業リストの質を劇的に上げるAI活用の考え方"
-description: "営業リストの「量より質」を実現するAI活用アプローチ。スコアリングと動的更新で成約率を向上させる方法。"
-date: "2026-03-09"
-category: "sales"
-tags: ["営業リスト", "リスト品質", "AIスコアリング"]
-articleType: "howto"
-relatedServices: ["01"]
-author: "ProductX"
+title: 営業リストの質を劇的に上げるAI活用の考え方
+description: 営業リストの「量より質」を実現するAI活用アプローチ。スコアリングと動的更新で成約率を向上させる方法。営業リストの数は十分なのに、商談化率が低い。
+date: '2026-03-09'
+category: sales
+tags:
+  - 営業リスト
+  - リスト品質
+  - AIスコアリング
+articleType: howto
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

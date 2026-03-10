@@ -1,12 +1,18 @@
 ---
-title: "問い合わせ対応の自動化全体像｜AIで24時間対応を実現する"
-description: "顧客問い合わせ対応のAI自動化の全体像を解説。チャットボット、メール、電話それぞれのアプローチ。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["問い合わせ自動化", "AI対応", "24時間体制"]
-articleType: "awareness"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: 問い合わせ対応の自動化全体像｜AIで24時間対応を実現する
+description: >-
+  顧客問い合わせ対応のAI自動化の全体像を解説。チャットボット、メール、電話それぞれのアプローチ。「営業時間外に問い合わせが来たが対応できなかった」「月曜の朝、メールの返信だけで午前中が終わった」「電話が立て込んで、既存顧客からの問い合わせを取れなかった」...
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - 問い合わせ自動化
+  - AI対応
+  - 24時間体制
+articleType: awareness
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

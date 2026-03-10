@@ -1,12 +1,18 @@
 ---
-title: "経営者のための「AI秘書」という選択肢"
-description: "多忙な経営者の時間を取り戻すAI秘書の可能性と活用法を、具体的なユースケースと効果試算で解説します。"
-date: "2026-03-09"
-category: "sales"
-tags: ["AI秘書", "経営者", "時間管理"]
-articleType: "awareness"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: 経営者のための「AI秘書」という選択肢
+description: >-
+  多忙な経営者の時間を取り戻すAI秘書の可能性と活用法を、具体的なユースケースと効果試算で解説します。中小企業の経営者は、1日のうち何時間を「経営」に使えているでしょうか。
+date: '2026-03-09'
+category: sales
+tags:
+  - AI秘書
+  - 経営者
+  - 時間管理
+articleType: awareness
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

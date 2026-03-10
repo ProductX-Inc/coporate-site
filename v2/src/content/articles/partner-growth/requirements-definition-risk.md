@@ -1,12 +1,17 @@
 ---
-title: "「要件定義」の曖昧さがプロジェクトを崩壊させるメカニズム"
-description: "要件定義の曖昧さがプロジェクト失敗の最大原因である理由と、その構造的メカニズムを解説します。"
-date: "2025-11-05"
-category: "product-dev"
-tags: ["要件定義", "プロジェクト管理", "開発失敗"]
-articleType: "awareness"
-relatedServices: ["01"]
-author: "ProductX"
+title: 「要件定義」の曖昧さがプロジェクトを崩壊させるメカニズム
+description: >-
+  要件定義の曖昧さがプロジェクト失敗の最大原因である理由と、その構造的メカニズムを解説します。「開発は順調に進んでいたはずなのに、完成品が全然イメージと違った」——システム開発の外注における最も典型的な失敗ストーリーです。
+date: '2025-11-05'
+category: product-dev
+tags:
+  - 要件定義
+  - プロジェクト管理
+  - 開発失敗
+articleType: awareness
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

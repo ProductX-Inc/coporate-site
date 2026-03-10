@@ -1,12 +1,16 @@
 ---
-title: "CRM×AI連携で実現する問い合わせ→成約の自動化フロー"
-description: "CRMとAIを連携させ、問い合わせ受付から商談・成約までのプロセスを自動化するアプローチを解説。"
-date: "2026-03-09"
-category: "sales"
-tags: ["CRM", "AI連携", "セールスオートメーション"]
-articleType: "howto"
-relatedServices: ["01"]
-author: "ProductX"
+title: CRM×AI連携で実現する問い合わせ→成約の自動化フロー
+description: CRMとAIを連携させ、問い合わせ受付から商談・成約までのプロセスを自動化するアプローチを解説。Webサイトからの問い合わせ。
+date: '2026-03-09'
+category: sales
+tags:
+  - CRM
+  - AI連携
+  - セールスオートメーション
+articleType: howto
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

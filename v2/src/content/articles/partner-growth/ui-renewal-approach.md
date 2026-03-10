@@ -1,12 +1,17 @@
 ---
-title: "UIリニューアルの進め方｜段階的改善 vs フルリデザイン"
-description: "UIリニューアルの2つのアプローチを比較。段階的改善とフルリデザインのメリット・デメリットや選び方を解説します。"
-date: "2026-01-08"
-category: "ui-ux"
-tags: ["UIリニューアル", "リデザイン", "UX改善"]
-articleType: "comparison"
-relatedServices: ["06", "07"]
-author: "ProductX"
+title: UIリニューアルの進め方｜段階的改善 vs フルリデザイン
+description: UIリニューアルの2つのアプローチを比較。段階的改善とフルリデザインのメリット・デメリットや選び方を解説します。「UIが古くなってきた。
+date: '2026-01-08'
+category: ui-ux
+tags:
+  - UIリニューアル
+  - リデザイン
+  - UX改善
+articleType: comparison
+relatedServices:
+  - '06'
+  - '07'
+author: ProductX
 ---
 
 ## はじめに

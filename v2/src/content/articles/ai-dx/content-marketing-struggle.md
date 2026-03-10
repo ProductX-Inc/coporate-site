@@ -1,12 +1,18 @@
 ---
-title: "中小企業のコンテンツマーケティングが続かない本当の理由"
-description: "中小企業がコンテンツマーケティングを続けられない構造的原因を分析し、AIで持続可能にする方法を解説。"
-date: "2026-03-09"
-category: "marketing"
-tags: ["コンテンツマーケティング", "継続", "中小企業"]
-articleType: "awareness"
-relatedServices: ["07", "08"]
-author: "ProductX"
+title: 中小企業のコンテンツマーケティングが続かない本当の理由
+description: >-
+  中小企業がコンテンツマーケティングを続けられない構造的原因を分析し、AIで持続可能にする方法を解説。「コンテンツマーケティングを始めたがすぐに止まってしまった」——これは中小企業のマーケティングで最も多い相談内容です。
+date: '2026-03-09'
+category: marketing
+tags:
+  - コンテンツマーケティング
+  - 継続
+  - 中小企業
+articleType: awareness
+relatedServices:
+  - '07'
+  - 08
+author: ProductX
 ---
 
 ## はじめに

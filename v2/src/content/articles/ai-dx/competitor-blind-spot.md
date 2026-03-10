@@ -1,12 +1,18 @@
 ---
-title: "競合の動きを見逃していませんか？AI監視が必要な理由"
-description: "競合動向の見逃しが企業にもたらすリスクと、AIリアルタイム監視の仕組みと効果を解説します。"
-date: "2026-03-09"
-category: "marketing"
-tags: ["競合監視", "リスク管理", "AIモニタリング"]
-articleType: "awareness"
-relatedServices: ["07", "08"]
-author: "ProductX"
+title: 競合の動きを見逃していませんか？AI監視が必要な理由
+description: >-
+  競合動向の見逃しが企業にもたらすリスクと、AIリアルタイム監視の仕組みと効果を解説します。御社の最大の競合が、先月から新しいAIサービスの提供を始めていたことに気づいていますか？競合が半年前から進めていた価格改定の影響で、御社の見込み客が流出していることは？。
+date: '2026-03-09'
+category: marketing
+tags:
+  - 競合監視
+  - リスク管理
+  - AIモニタリング
+articleType: awareness
+relatedServices:
+  - '07'
+  - 08
+author: ProductX
 ---
 
 ## はじめに

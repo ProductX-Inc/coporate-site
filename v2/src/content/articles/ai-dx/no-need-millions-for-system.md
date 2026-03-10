@@ -1,12 +1,17 @@
 ---
-title: "「数百万円のシステム開発」はもう必要ない"
-description: "従来のシステム開発に数百万円かけていた業務改善が、AIとノーコードで数万円から実現できる時代を解説。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["システム開発", "コスト削減", "ノーコード"]
-articleType: "awareness"
-relatedServices: ["01"]
-author: "ProductX"
+title: 「数百万円のシステム開発」はもう必要ない
+description: >-
+  従来のシステム開発に数百万円かけていた業務改善が、AIとノーコードで数万円から実現できる時代を解説。「業務を効率化するシステムが欲しい」——そう考えてSIerに見積もりを取ったら500万円。
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - システム開発
+  - コスト削減
+  - ノーコード
+articleType: awareness
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

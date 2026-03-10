@@ -1,12 +1,17 @@
 ---
-title: "顧客の声をリアルタイムで拾い上げるAI活用の全体像"
-description: "VoCデータのリアルタイム収集・分析・活用をAIで実現するアプローチの全体像を解説します。"
-date: "2026-03-09"
-category: "marketing"
-tags: ["VoC", "リアルタイム分析", "AI活用"]
-articleType: "howto"
-relatedServices: ["01"]
-author: "ProductX"
+title: 顧客の声をリアルタイムで拾い上げるAI活用の全体像
+description: >-
+  VoCデータのリアルタイム収集・分析・活用をAIで実現するアプローチの全体像を解説します。顧客が今、御社のサービスについて何を感じているか——それをリアルタイムで把握できている企業はどれだけあるでしょうか。
+date: '2026-03-09'
+category: marketing
+tags:
+  - VoC
+  - リアルタイム分析
+  - AI活用
+articleType: howto
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

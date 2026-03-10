@@ -1,12 +1,18 @@
 ---
-title: "AI秘書の「できること」と「任せてはいけないこと」の境界線"
-description: "AI秘書の能力範囲を明確にし、任せるべき業務と人間が判断すべき業務の境界線を実践的に解説します。"
-date: "2026-03-09"
-category: "sales"
-tags: ["AI秘書", "業務範囲", "リスク管理"]
-articleType: "howto"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: AI秘書の「できること」と「任せてはいけないこと」の境界線
+description: >-
+  AI秘書の能力範囲を明確にし、任せるべき業務と人間が判断すべき業務の境界線を実践的に解説します。AI秘書への期待が高まる一方で、「AIに任せて大丈夫なのか」「どこまでが任せられる範囲なのか」という不安も根強くあります。
+date: '2026-03-09'
+category: sales
+tags:
+  - AI秘書
+  - 業務範囲
+  - リスク管理
+articleType: howto
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

@@ -1,12 +1,17 @@
 ---
-title: "法務チェック外注のコスト構造と削減ポイント"
-description: "法務チェック外注のコスト構造を分析し、AI活用やハイブリッドモデルでの削減ポイントを解説。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["法務外注", "コスト削減", "AI法務"]
-articleType: "roi"
-relatedServices: ["04"]
-author: "ProductX"
+title: 法務チェック外注のコスト構造と削減ポイント
+description: >-
+  法務チェック外注のコスト構造を分析し、AI活用やハイブリッドモデルでの削減ポイントを解説。中小企業の法務チェックは、多くが顧問弁護士への外注で成り立っています。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - 法務外注
+  - コスト削減
+  - AI法務
+articleType: roi
+relatedServices:
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

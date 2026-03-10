@@ -1,12 +1,16 @@
 ---
-title: "AI成功事例 vs 失敗事例｜何が明暗を分けたのか"
-description: "AI導入の成功事例と失敗事例を比較分析し、成否を分ける5つの要因を抽出します。"
-date: "2026-03-09"
-category: "trend"
-tags: ["AI成功事例", "失敗事例", "比較分析"]
-articleType: "awareness"
-relatedServices: ["01"]
-author: "ProductX"
+title: AI成功事例 vs 失敗事例｜何が明暗を分けたのか
+description: AI導入の成功事例と失敗事例を比較分析し、成否を分ける5つの要因を抽出します。AI導入の成功率は約50%と言われています。
+date: '2026-03-09'
+category: trend
+tags:
+  - AI成功事例
+  - 失敗事例
+  - 比較分析
+articleType: awareness
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

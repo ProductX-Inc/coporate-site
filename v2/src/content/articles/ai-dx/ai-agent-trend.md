@@ -1,12 +1,18 @@
 ---
-title: "AIエージェント最前線｜2026年に中小企業が知るべきこと"
-description: "2026年のAIエージェント最新トレンドを解説し、中小企業への影響と活用可能性を考察します。"
-date: "2026-03-09"
-category: "trend"
-tags: ["AIエージェント", "2026年トレンド", "自律AI"]
-articleType: "awareness"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: AIエージェント最前線｜2026年に中小企業が知るべきこと
+description: >-
+  2026年のAIエージェント最新トレンドを解説し、中小企業への影響と活用可能性を考察します。「AIに指示を出す」——2025年まで、AIの使い方は基本的にこのスタイルでした。
+date: '2026-03-09'
+category: trend
+tags:
+  - AIエージェント
+  - 2026年トレンド
+  - 自律AI
+articleType: awareness
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

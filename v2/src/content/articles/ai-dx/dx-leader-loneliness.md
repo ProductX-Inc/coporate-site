@@ -1,12 +1,17 @@
 ---
-title: "DX推進リーダーの孤独とその乗り越え方"
-description: "中小企業のDX推進担当者が直面する孤独と葛藤、その乗り越え方を経験者の視点で解説します。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["DXリーダー", "組織変革", "孤独"]
-articleType: "awareness"
-relatedServices: ["01"]
-author: "ProductX"
+title: DX推進リーダーの孤独とその乗り越え方
+description: >-
+  中小企業のDX推進担当者が直面する孤独と葛藤、その乗り越え方を経験者の視点で解説します。「DXを進めてくれ」と社長に言われて奮起したものの、「で、具体的に何をすればいいの？」「予算もないのにどうしろと？」「現場は興味なさそうだし…」——DX推進担当者の多...
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - DXリーダー
+  - 組織変革
+  - 孤独
+articleType: awareness
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

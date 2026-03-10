@@ -1,12 +1,17 @@
 ---
-title: "在庫管理のAI導入で押さえるべき判断基準"
-description: "在庫管理へのAI導入を判断するための基準を、業種・規模・データ量の観点から解説します。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["在庫管理", "AI導入判断", "基準"]
-articleType: "awareness"
-relatedServices: ["04"]
-author: "ProductX"
+title: 在庫管理のAI導入で押さえるべき判断基準
+description: >-
+  在庫管理へのAI導入を判断するための基準を、業種・規模・データ量の観点から解説します。「在庫管理にAIを入れるべきか？」——この問いに対する答えは、すべての企業で同じではありません。
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - 在庫管理
+  - AI導入判断
+  - 基準
+articleType: awareness
+relatedServices:
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

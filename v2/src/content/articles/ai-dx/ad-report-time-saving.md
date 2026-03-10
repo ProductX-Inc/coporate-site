@@ -1,12 +1,17 @@
 ---
-title: "広告レポート作成に費やす時間を80%削減するAI活用法"
-description: "広告レポート作成を80%削減するAI活用法。データ収集から分析・レポートまでの自動化ステップを解説。"
-date: "2026-03-09"
-category: "marketing"
-tags: ["広告レポート", "時間削減", "AI"]
-articleType: "howto"
-relatedServices: ["07"]
-author: "ProductX"
+title: 広告レポート作成に費やす時間を80%削減するAI活用法
+description: >-
+  広告レポート作成を80%削減するAI活用法。データ収集から分析・レポートまでの自動化ステップを解説。広告レポート作成は「作業」であって「戦略」ではありません。
+date: '2026-03-09'
+category: marketing
+tags:
+  - 広告レポート
+  - 時間削減
+  - AI
+articleType: howto
+relatedServices:
+  - '07'
+author: ProductX
 ---
 
 ## はじめに

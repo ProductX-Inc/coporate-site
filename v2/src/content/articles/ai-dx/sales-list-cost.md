@@ -1,12 +1,16 @@
 ---
-title: "営業リスト作成の外注 vs AI代行｜コスト比較と選び方"
-description: "営業リスト作成の外注とAI代行を費用・品質・スピードで比較。中小企業の最適な選択肢を解説します。"
-date: "2026-03-09"
-category: "sales"
-tags: ["営業リスト", "外注", "AI代行"]
-articleType: "comparison"
-relatedServices: ["01"]
-author: "ProductX"
+title: 営業リスト作成の外注 vs AI代行｜コスト比較と選び方
+description: 営業リスト作成の外注とAI代行を費用・品質・スピードで比較。中小企業の最適な選択肢を解説します。営業リストの作成——自社でやるには時間がかかりすぎる。
+date: '2026-03-09'
+category: sales
+tags:
+  - 営業リスト
+  - 外注
+  - AI代行
+articleType: comparison
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

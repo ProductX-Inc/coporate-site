@@ -1,12 +1,17 @@
 ---
-title: "AIスクリーニングのバイアス問題と対策"
-description: "AI採用スクリーニングに潜むバイアスの実態と、公平な採用を実現するための対策を解説します。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["AIバイアス", "採用", "公平性"]
-articleType: "awareness"
-relatedServices: ["04"]
-author: "ProductX"
+title: AIスクリーニングのバイアス問題と対策
+description: >-
+  AI採用スクリーニングに潜むバイアスの実態と、公平な採用を実現するための対策を解説します。AIは「公平で客観的」なイメージがありますが、実は学習データに含まれるバイアスを増幅するリスクを持っています。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - AIバイアス
+  - 採用
+  - 公平性
+articleType: awareness
+relatedServices:
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

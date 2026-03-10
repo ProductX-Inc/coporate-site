@@ -1,12 +1,18 @@
 ---
-title: "カスタマーサポートの80%はAIで自動化できる"
-description: "カスタマーサポート業務の80%がAI自動化可能な理由と、具体的な自動化アプローチを解説します。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["カスタマーサポート", "AI自動化", "効率化"]
-articleType: "awareness"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: カスタマーサポートの80%はAIで自動化できる
+description: >-
+  カスタマーサポート業務の80%がAI自動化可能な理由と、具体的な自動化アプローチを解説します。カスタマーサポート部門は、多くの中小企業で最もリソースが逼迫している部門の一つです。
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - カスタマーサポート
+  - AI自動化
+  - 効率化
+articleType: awareness
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

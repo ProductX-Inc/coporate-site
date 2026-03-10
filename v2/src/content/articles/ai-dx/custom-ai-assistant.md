@@ -1,12 +1,18 @@
 ---
-title: "カスタムAIアシスタントの作り方｜ノーコードで始める"
-description: "ノーコードツールを使って自社専用のAIアシスタントを構築する方法をステップバイステップで解説。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["カスタムAI", "ノーコード", "AIアシスタント"]
-articleType: "howto"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: カスタムAIアシスタントの作り方｜ノーコードで始める
+description: >-
+  ノーコードツールを使って自社専用のAIアシスタントを構築する方法をステップバイステップで解説。「ChatGPTは便利だけど、うちの業務に特化した回答はしてくれない」——そう感じたことはありませんか。
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - カスタムAI
+  - ノーコード
+  - AIアシスタント
+articleType: howto
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

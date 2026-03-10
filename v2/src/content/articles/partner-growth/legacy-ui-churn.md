@@ -1,12 +1,17 @@
 ---
-title: "レガシーUIがユーザー離脱を招く3つの理由と対策"
-description: "古いUIデザインがユーザーの離脱を招く3つの構造的理由と、段階的に改善するためのアプローチを解説します。"
-date: "2026-01-31"
-category: "ui-ux"
-tags: ["レガシーUI", "ユーザー離脱", "UI改善"]
-articleType: "awareness"
-relatedServices: ["06", "07"]
-author: "ProductX"
+title: レガシーUIがユーザー離脱を招く3つの理由と対策
+description: 古いUIデザインがユーザーの離脱を招く3つの構造的理由と、段階的に改善するためのアプローチを解説します。「機能には自信がある。
+date: '2026-01-31'
+category: ui-ux
+tags:
+  - レガシーUI
+  - ユーザー離脱
+  - UI改善
+articleType: awareness
+relatedServices:
+  - '06'
+  - '07'
+author: ProductX
 ---
 
 ## はじめに

@@ -1,12 +1,17 @@
 ---
-title: "履歴書スクリーニングにAIは使えるのか？精度と限界を検証"
-description: "採用プロセスの第一関門である履歴書スクリーニングにAIを活用する方法と、精度・限界を客観的に検証。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["採用", "AIスクリーニング", "履歴書"]
-articleType: "awareness"
-relatedServices: ["04"]
-author: "ProductX"
+title: 履歴書スクリーニングにAIは使えるのか？精度と限界を検証
+description: >-
+  採用プロセスの第一関門である履歴書スクリーニングにAIを活用する方法と、精度・限界を客観的に検証。中途採用で1つのポジションに50〜100件の応募がくることは珍しくありません。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - 採用
+  - AIスクリーニング
+  - 履歴書
+articleType: awareness
+relatedServices:
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

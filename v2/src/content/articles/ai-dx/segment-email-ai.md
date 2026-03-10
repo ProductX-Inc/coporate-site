@@ -1,12 +1,17 @@
 ---
-title: "AIでセグメント別メール配信を効率化する方法"
-description: "セグメント別メール配信にかかる手間をAIで大幅削減。パーソナライズの自動化手法を解説します。"
-date: "2026-03-09"
-category: "marketing"
-tags: ["セグメントメール", "AI配信", "メール自動化"]
-articleType: "howto"
-relatedServices: ["01"]
-author: "ProductX"
+title: AIでセグメント別メール配信を効率化する方法
+description: >-
+  セグメント別メール配信にかかる手間をAIで大幅削減。パーソナライズの自動化手法を解説します。「全員に同じメルマガを送っている」——これは多くの中小企業の実態であり、同時に最大の機会損失でもあります。
+date: '2026-03-09'
+category: marketing
+tags:
+  - セグメントメール
+  - AI配信
+  - メール自動化
+articleType: howto
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

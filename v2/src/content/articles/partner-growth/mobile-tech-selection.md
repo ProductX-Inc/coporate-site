@@ -1,12 +1,17 @@
 ---
-title: "モバイルアプリ開発の技術選定ガイド｜ネイティブ vs クロスプラットフォーム"
-description: "モバイルアプリの技術選定で迷ったら。ネイティブ開発とクロスプラットフォーム開発の違いを費用・品質・開発速度で徹底比較。"
-date: "2025-11-18"
-category: "product-dev"
-tags: ["モバイルアプリ", "技術選定", "Flutter"]
-articleType: "howto"
-relatedServices: ["04"]
-author: "ProductX"
+title: モバイルアプリ開発の技術選定ガイド｜ネイティブ vs クロスプラットフォーム
+description: >-
+  モバイルアプリの技術選定で迷ったら。ネイティブ開発とクロスプラットフォーム開発の違いを費用・品質・開発速度で徹底比較。モバイルアプリの開発を検討する際、最初に直面する技術的な選択肢が「ネイティブ開発にするか、クロスプラットフォーム開発にするか」という問題です。
+date: '2025-11-18'
+category: product-dev
+tags:
+  - モバイルアプリ
+  - 技術選定
+  - Flutter
+articleType: howto
+relatedServices:
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

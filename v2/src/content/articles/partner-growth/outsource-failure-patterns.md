@@ -1,12 +1,18 @@
 ---
-title: "スタートアップが開発外注で失敗する5つの共通パターン"
-description: "アプリ開発の外注で失敗するスタートアップに共通する5つのパターンと、それを回避するための考え方を解説します。"
-date: "2025-09-15"
-category: "product-dev"
-tags: ["アプリ開発", "外注", "スタートアップ"]
-articleType: "awareness"
-relatedServices: ["01", "03", "04"]
-author: "ProductX"
+title: スタートアップが開発外注で失敗する5つの共通パターン
+description: アプリ開発の外注で失敗するスタートアップに共通する5つのパターンと、それを回避するための考え方を解説します。「アプリを作りたい。
+date: '2025-09-15'
+category: product-dev
+tags:
+  - アプリ開発
+  - 外注
+  - スタートアップ
+articleType: awareness
+relatedServices:
+  - '01'
+  - '03'
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

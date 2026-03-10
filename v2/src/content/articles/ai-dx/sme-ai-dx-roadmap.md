@@ -1,12 +1,18 @@
 ---
-title: "中小企業のAI DXロードマップ｜6ヶ月で成果を出す実践計画"
-description: "中小企業がAI DXで6ヶ月以内に成果を出すための具体的なロードマップを月ごとに解説します。"
-date: "2026-03-09"
-category: "trend"
-tags: ["AI DX", "ロードマップ", "6ヶ月計画"]
-articleType: "howto"
-relatedServices: ["01"]
-author: "ProductX"
+title: 中小企業のAI DXロードマップ｜6ヶ月で成果を出す実践計画
+description: >-
+  中小企業がAI DXで6ヶ月以内に成果を出すための具体的なロードマップを月ごとに解説します。「AI
+  DXに取り組みたいが、何をいつやればいいか分からない」——中小企業のDX推進で最も多い悩みです。
+date: '2026-03-09'
+category: trend
+tags:
+  - AI DX
+  - ロードマップ
+  - 6ヶ月計画
+articleType: howto
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

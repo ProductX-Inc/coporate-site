@@ -1,12 +1,18 @@
 ---
-title: "生成AIの業務活用ガイド2026｜ChatGPT・Gemini・Claude比較"
-description: "主要な生成AI（ChatGPT、Gemini、Claude）の特徴を業務用途別に比較し、最適な選択を提案。"
-date: "2026-03-09"
-category: "trend"
-tags: ["生成AI", "比較", "2026年版"]
-articleType: "comparison"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: 生成AIの業務活用ガイド2026｜ChatGPT・Gemini・Claude比較
+description: >-
+  主要な生成AI（ChatGPT、Gemini、Claude）の特徴を業務用途別に比較し、最適な選択を提案。「ChatGPT、Gemini、Claude——結局どれを使えばいいの？」。
+date: '2026-03-09'
+category: trend
+tags:
+  - 生成AI
+  - 比較
+  - 2026年版
+articleType: comparison
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

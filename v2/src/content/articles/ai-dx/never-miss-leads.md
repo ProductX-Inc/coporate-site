@@ -1,12 +1,16 @@
 ---
-title: "「問い合わせが来たのに対応できなかった」を撲滅する方法"
-description: "問い合わせの取りこぼしによる機会損失を定量化し、AIで自動フォローアップする仕組みを解説します。"
-date: "2026-03-09"
-category: "sales"
-tags: ["リード対応", "機会損失", "自動フォロー"]
-articleType: "roi"
-relatedServices: ["01"]
-author: "ProductX"
+title: 「問い合わせが来たのに対応できなかった」を撲滅する方法
+description: 問い合わせの取りこぼしによる機会損失を定量化し、AIで自動フォローアップする仕組みを解説します。Webサイトからの問い合わせが来た。
+date: '2026-03-09'
+category: sales
+tags:
+  - リード対応
+  - 機会損失
+  - 自動フォロー
+articleType: roi
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

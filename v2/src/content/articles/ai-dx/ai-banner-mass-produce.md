@@ -1,12 +1,17 @@
 ---
-title: "AI広告バナーの大量生成で成果を出す方法"
-description: "AIで広告バナーを大量生成し、A/Bテストを加速させる手法と、品質を維持しながらスケールさせるコツを解説。"
-date: "2026-03-09"
-category: "marketing"
-tags: ["広告バナー", "AI生成", "大量生産"]
-articleType: "howto"
-relatedServices: ["07"]
-author: "ProductX"
+title: AI広告バナーの大量生成で成果を出す方法
+description: >-
+  AIで広告バナーを大量生成し、A/Bテストを加速させる手法と、品質を維持しながらスケールさせるコツを解説。広告のパフォーマンスはクリエイティブの数に比例します。
+date: '2026-03-09'
+category: marketing
+tags:
+  - 広告バナー
+  - AI生成
+  - 大量生産
+articleType: howto
+relatedServices:
+  - '07'
+author: ProductX
 ---
 
 ## はじめに

@@ -1,12 +1,18 @@
 ---
-title: "SNSの投稿ネタを無限に生み出すAI活用フレームワーク"
-description: "SNS投稿のネタ切れを解消するAI活用フレームワーク。1テーマから10投稿を生む仕組みを解説。"
-date: "2026-03-09"
-category: "marketing"
-tags: ["SNS投稿", "ネタ生成", "AIフレームワーク"]
-articleType: "howto"
-relatedServices: ["07", "08"]
-author: "ProductX"
+title: SNSの投稿ネタを無限に生み出すAI活用フレームワーク
+description: >-
+  SNS投稿のネタ切れを解消するAI活用フレームワーク。1テーマから10投稿を生む仕組みを解説。「今日は何を投稿しよう…」——この問いと毎日格闘しているSNS運用担当者は多いでしょう。
+date: '2026-03-09'
+category: marketing
+tags:
+  - SNS投稿
+  - ネタ生成
+  - AIフレームワーク
+articleType: howto
+relatedServices:
+  - '07'
+  - 08
+author: ProductX
 ---
 
 ## はじめに

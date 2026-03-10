@@ -1,12 +1,18 @@
 ---
-title: "AI活用時の最低限のセキュリティ対策"
-description: "中小企業がAIを安全に活用するための最低限のセキュリティ対策をチェックリスト形式で解説します。"
-date: "2026-03-09"
-category: "trend"
-tags: ["AIセキュリティ", "最低限対策", "チェックリスト"]
-articleType: "howto"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: AI活用時の最低限のセキュリティ対策
+description: >-
+  中小企業がAIを安全に活用するための最低限のセキュリティ対策をチェックリスト形式で解説します。AIの活用を始めたいが、セキュリティが心配——中小企業の経営者やDX担当者から最も多い相談です。
+date: '2026-03-09'
+category: trend
+tags:
+  - AIセキュリティ
+  - 最低限対策
+  - チェックリスト
+articleType: howto
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

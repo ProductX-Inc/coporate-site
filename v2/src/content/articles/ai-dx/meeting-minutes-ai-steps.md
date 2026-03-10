@@ -1,12 +1,18 @@
 ---
-title: "AI議事録の導入手順と運用のコツ"
-description: "AI議事録ツールの導入から定着までの具体的な手順と、効果を最大化する運用のコツを解説します。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["AI議事録", "導入手順", "運用コツ"]
-articleType: "howto"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: AI議事録の導入手順と運用のコツ
+description: >-
+  AI議事録ツールの導入から定着までの具体的な手順と、効果を最大化する運用のコツを解説します。AI議事録ツールを導入したものの、「精度がいまいち」「使い方が定着しない」「結局手動で修正している時間が長い」と感じている企業は少なくありません。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - AI議事録
+  - 導入手順
+  - 運用コツ
+articleType: howto
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

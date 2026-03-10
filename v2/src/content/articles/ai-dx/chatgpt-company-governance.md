@@ -1,12 +1,18 @@
 ---
-title: "ChatGPTを社内で安全に使うためのガバナンスルール"
-description: "ChatGPTなど生成AIの社内利用における情報漏洩リスクと、安全に活用するためのガバナンスルールを解説。"
-date: "2026-03-09"
-category: "trend"
-tags: ["ChatGPT", "ガバナンス", "情報セキュリティ"]
-articleType: "howto"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: ChatGPTを社内で安全に使うためのガバナンスルール
+description: >-
+  ChatGPTなど生成AIの社内利用における情報漏洩リスクと、安全に活用するためのガバナンスルールを解説。ChatGPTをはじめとする生成AIは、すでに多くの社員が「個人的に」業務に活用しています。
+date: '2026-03-09'
+category: trend
+tags:
+  - ChatGPT
+  - ガバナンス
+  - 情報セキュリティ
+articleType: howto
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

@@ -1,12 +1,18 @@
 ---
-title: "アプリ開発の費用相場と期間｜Web・モバイル・規模別の目安"
-description: "アプリ開発の費用相場を規模別・種類別に徹底解説。Web・モバイル・ハイブリッド開発の期間と費用の目安を公開します。"
-date: "2025-10-22"
-category: "product-dev"
-tags: ["アプリ開発", "費用相場", "開発期間"]
-articleType: "roi"
-relatedServices: ["03", "04"]
-author: "ProductX"
+title: アプリ開発の費用相場と期間｜Web・モバイル・規模別の目安
+description: >-
+  アプリ開発の費用相場を規模別・種類別に徹底解説。Web・モバイル・ハイブリッド開発の期間と費用の目安を公開します。「アプリを作りたいけど、いくらかかるか分からない」——これは、プロダクト開発を検討する企業が最初に直面する不安です。
+date: '2025-10-22'
+category: product-dev
+tags:
+  - アプリ開発
+  - 費用相場
+  - 開発期間
+articleType: roi
+relatedServices:
+  - '03'
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

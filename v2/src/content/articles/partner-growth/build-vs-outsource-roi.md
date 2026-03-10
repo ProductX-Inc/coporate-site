@@ -1,12 +1,19 @@
 ---
-title: "開発パートナーへの投資対効果｜内製 vs 外注の判断基準"
-description: "開発パートナーへの外注と内製チームのコスト・品質・スピードを比較。投資対効果で正しく判断するための基準を解説。"
-date: "2026-03-05"
-category: "strategy"
-tags: ["内製", "外注", "投資対効果"]
-articleType: "roi"
-relatedServices: ["01", "03", "04"]
-author: "ProductX"
+title: 開発パートナーへの投資対効果｜内製 vs 外注の判断基準
+description: >-
+  開発パートナーへの外注と内製チームのコスト・品質・スピードを比較。投資対効果で正しく判断するための基準を解説。「開発チームを社内に持つべきか、外部パートナーに任せるべきか」——プロダクトの成長に伴い、必ず訪れる意思決定です。
+date: '2026-03-05'
+category: strategy
+tags:
+  - 内製
+  - 外注
+  - 投資対効果
+articleType: roi
+relatedServices:
+  - '01'
+  - '03'
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

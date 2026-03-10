@@ -1,12 +1,17 @@
 ---
-title: "AI広告クリエイティブの自動化は怖くない｜設計パターン紹介"
-description: "広告クリエイティブのAI自動化に不安を持つ企業向けに、実践的な設計パターンとリスク管理方法を解説。"
-date: "2026-03-09"
-category: "marketing"
-tags: ["広告自動化", "AI設計", "リスク管理"]
-articleType: "howto"
-relatedServices: ["07"]
-author: "ProductX"
+title: AI広告クリエイティブの自動化は怖くない｜設計パターン紹介
+description: >-
+  広告クリエイティブのAI自動化に不安を持つ企業向けに、実践的な設計パターンとリスク管理方法を解説。「AIに広告クリエイティブを任せたら、ブランドイメージが崩れるのでは？」「変な広告が配信されたらどうしよう？」——こうした不安から、AI活用に踏み切れないマ...
+date: '2026-03-09'
+category: marketing
+tags:
+  - 広告自動化
+  - AI設計
+  - リスク管理
+articleType: howto
+relatedServices:
+  - '07'
+author: ProductX
 ---
 
 ## はじめに

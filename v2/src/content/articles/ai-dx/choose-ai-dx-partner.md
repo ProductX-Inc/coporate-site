@@ -1,12 +1,18 @@
 ---
-title: "AI DXパートナーの正しい選び方｜5つの判断基準"
-description: "AI DXの外部パートナー選定で失敗しないための5つの判断基準と、NGパートナーの見分け方を解説。"
-date: "2026-03-09"
-category: "trend"
-tags: ["AI DXパートナー", "選び方", "判断基準"]
-articleType: "howto"
-relatedServices: ["01"]
-author: "ProductX"
+title: AI DXパートナーの正しい選び方｜5つの判断基準
+description: >-
+  AI DXの外部パートナー選定で失敗しないための5つの判断基準と、NGパートナーの見分け方を解説。AI
+  DXの領域は専門性が高く、中小企業が自社だけで推進するのは困難です。
+date: '2026-03-09'
+category: trend
+tags:
+  - AI DXパートナー
+  - 選び方
+  - 判断基準
+articleType: howto
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

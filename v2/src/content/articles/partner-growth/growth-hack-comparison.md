@@ -1,12 +1,17 @@
 ---
-title: "グロースハックの手法比較｜データドリブン vs 直感的改善"
-description: "プロダクトグロースの2つのアプローチを比較。データドリブンと直感的改善のメリット・デメリット、最適な使い分けを解説。"
-date: "2026-03-01"
-category: "growth"
-tags: ["グロースハック", "A/Bテスト", "データドリブン"]
-articleType: "comparison"
-relatedServices: ["09"]
-author: "ProductX"
+title: グロースハックの手法比較｜データドリブン vs 直感的改善
+description: >-
+  プロダクトグロースの2つのアプローチを比較。データドリブンと直感的改善のメリット・デメリット、最適な使い分けを解説。プロダクトをリリースした後、次のステージは「グロース（成長）」です。
+date: '2026-03-01'
+category: growth
+tags:
+  - グロースハック
+  - A/Bテスト
+  - データドリブン
+articleType: comparison
+relatedServices:
+  - 09
+author: ProductX
 ---
 
 ## はじめに

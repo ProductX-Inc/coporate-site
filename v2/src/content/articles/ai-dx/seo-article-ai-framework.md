@@ -1,12 +1,17 @@
 ---
-title: "SEO記事を高速生産するAI活用フレームワーク"
-description: "SEO記事の企画から公開までを高速化するAIフレームワーク。品質を保ちながら月8本以上を実現する方法。"
-date: "2026-03-09"
-category: "marketing"
-tags: ["SEO", "AI記事作成", "コンテンツ制作"]
-articleType: "howto"
-relatedServices: ["07", "08"]
-author: "ProductX"
+title: SEO記事を高速生産するAI活用フレームワーク
+description: SEO記事の企画から公開までを高速化するAIフレームワーク。品質を保ちながら月8本以上を実現する方法。SEO記事の制作は「量と質のジレンマ」です。
+date: '2026-03-09'
+category: marketing
+tags:
+  - SEO
+  - AI記事作成
+  - コンテンツ制作
+articleType: howto
+relatedServices:
+  - '07'
+  - 08
+author: ProductX
 ---
 
 ## はじめに

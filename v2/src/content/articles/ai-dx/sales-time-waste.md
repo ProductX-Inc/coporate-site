@@ -1,12 +1,16 @@
 ---
-title: "営業マンが「売る」以外に費やしている時間の正体"
-description: "営業担当者の業務時間の内訳を分析し、AIで解決できる非効率を明らかにします。生産性向上のヒントをお届け。"
-date: "2026-03-09"
-category: "sales"
-tags: ["営業効率化", "時間管理", "AI活用"]
-articleType: "awareness"
-relatedServices: ["01"]
-author: "ProductX"
+title: 営業マンが「売る」以外に費やしている時間の正体
+description: 営業担当者の業務時間の内訳を分析し、AIで解決できる非効率を明らかにします。生産性向上のヒントをお届け。「うちの営業は頑張っている。
+date: '2026-03-09'
+category: sales
+tags:
+  - 営業効率化
+  - 時間管理
+  - AI活用
+articleType: awareness
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

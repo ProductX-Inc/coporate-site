@@ -1,12 +1,17 @@
 ---
-title: "スカウトメールの返信率をAIで上げる戦略"
-description: "採用のスカウトメール返信率が低い原因を分析し、AIパーソナライズで改善する具体的手法を解説。"
-date: "2026-03-09"
-category: "sales"
-tags: ["スカウトメール", "採用", "AIパーソナライズ"]
-articleType: "howto"
-relatedServices: ["01"]
-author: "ProductX"
+title: スカウトメールの返信率をAIで上げる戦略
+description: >-
+  採用のスカウトメール返信率が低い原因を分析し、AIパーソナライズで改善する具体的手法を解説。「スカウトメールを100通送って返信が5通」——採用担当者なら嫌というほど経験しているでしょう。
+date: '2026-03-09'
+category: sales
+tags:
+  - スカウトメール
+  - 採用
+  - AIパーソナライズ
+articleType: howto
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

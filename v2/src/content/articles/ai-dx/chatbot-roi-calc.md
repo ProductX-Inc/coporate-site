@@ -1,12 +1,19 @@
 ---
-title: "チャットボットの費用対効果を正確に算出する方法"
-description: "チャットボット導入のROIを正確に算出するための計算式とシミュレーション方法を解説します。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["チャットボット", "ROI", "費用対効果"]
-articleType: "roi"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: チャットボットの費用対効果を正確に算出する方法
+description: >-
+  チャットボット導入のROIを正確に算出するための計算式とシミュレーション方法を解説します。「チャットボットって本当に元が取れるの？」——AI
+  DXの投資判断で最も多い質問です。
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - チャットボット
+  - ROI
+  - 費用対効果
+articleType: roi
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

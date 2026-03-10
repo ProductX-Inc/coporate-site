@@ -1,12 +1,18 @@
 ---
-title: "研修コンテンツのAI自動生成｜教育コストを1/3にする方法"
-description: "研修資料をAIで自動生成し、教育コストを大幅削減しながら品質を向上させる方法を解説します。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["研修", "AI自動生成", "教育コスト"]
-articleType: "howto"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: 研修コンテンツのAI自動生成｜教育コストを1/3にする方法
+description: >-
+  研修資料をAIで自動生成し、教育コストを大幅削減しながら品質を向上させる方法を解説します。研修資料の作成は、多くの企業で「時間をかけて作ったのに、半年で陳腐化する」という悩みの種になっています。
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - 研修
+  - AI自動生成
+  - 教育コスト
+articleType: howto
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

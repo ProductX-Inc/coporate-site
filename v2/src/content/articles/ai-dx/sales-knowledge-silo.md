@@ -1,12 +1,18 @@
 ---
-title: "営業ナレッジが属人化する本当の理由と解決策"
-description: "営業ナレッジの属人化が起きる構造的原因を分析し、AIで組織知に変える方法を解説します。"
-date: "2026-03-09"
-category: "sales"
-tags: ["ナレッジ管理", "属人化", "組織知"]
-articleType: "awareness"
-relatedServices: ["07", "08"]
-author: "ProductX"
+title: 営業ナレッジが属人化する本当の理由と解決策
+description: >-
+  営業ナレッジの属人化が起きる構造的原因を分析し、AIで組織知に変える方法を解説します。「○○さんに聞かないと分からない」「△△さんのやり方を真似したいけど、何をしているか分からない」——営業チームでよく聞くフレーズです。
+date: '2026-03-09'
+category: sales
+tags:
+  - ナレッジ管理
+  - 属人化
+  - 組織知
+articleType: awareness
+relatedServices:
+  - '07'
+  - 08
+author: ProductX
 ---
 
 ## はじめに

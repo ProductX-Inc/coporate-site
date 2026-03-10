@@ -1,12 +1,18 @@
 ---
-title: "議事録を手動で書く時代は終わりました"
-description: "手動の議事録作成に費やされている時間を可視化し、AI議事録の仕組みと効果を解説します。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["議事録", "AI自動化", "会議効率化"]
-articleType: "awareness"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: 議事録を手動で書く時代は終わりました
+description: >-
+  手動の議事録作成に費やされている時間を可視化し、AI議事録の仕組みと効果を解説します。「あの会議の議事録、まだ出てないの？」——議事録の遅延は、組織の生産性を静かに蝕むボトルネックです。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - 議事録
+  - AI自動化
+  - 会議効率化
+articleType: awareness
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

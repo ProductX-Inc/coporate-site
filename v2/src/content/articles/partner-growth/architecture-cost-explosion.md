@@ -1,12 +1,17 @@
 ---
-title: "システムアーキテクチャの設計ミスが招く「将来のコスト爆発」"
-description: "初期のアーキテクチャ設計ミスが将来のコスト爆発を招くメカニズムと、回避するための考え方を解説します。"
-date: "2026-03-07"
-category: "strategy"
-tags: ["システムアーキテクチャ", "技術負債", "設計"]
-articleType: "awareness"
-relatedServices: ["10"]
-author: "ProductX"
+title: システムアーキテクチャの設計ミスが招く「将来のコスト爆発」
+description: >-
+  初期のアーキテクチャ設計ミスが将来のコスト爆発を招くメカニズムと、回避するための考え方を解説します。「リリース時は完璧に動いていたシステムが、1年後には毎週のように障害を起こしている」——これは、初期のアーキテクチャ設計ミスが招く典型的な結末です。
+date: '2026-03-07'
+category: strategy
+tags:
+  - システムアーキテクチャ
+  - 技術負債
+  - 設計
+articleType: awareness
+relatedServices:
+  - '10'
+author: ProductX
 ---
 
 ## はじめに

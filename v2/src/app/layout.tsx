@@ -54,8 +54,24 @@ const jsonLd = {
       alternateName: "ProductX Inc.",
       url: "https://productx.jp",
       logo: "https://productx.jp/images/logo.png",
-      description: "大手IT企業出身のエリートクリエイター集団によるプロダクト開発・DX支援会社",
+      description: "大手IT企業出身のエリートクリエイター集団によるプロダクト開発・DX支援会社。AI DXと Partner Growth の2つの事業で、中小企業のデジタル変革を支援します。",
       foundingDate: "2025-03-14",
+      contactPoint: {
+        "@type": "ContactPoint",
+        contactType: "customer service",
+        url: "https://productx.jp/contact",
+        availableLanguage: ["Japanese", "English"],
+      },
+      areaServed: "JP",
+      knowsAbout: ["AI DX", "プロダクト開発", "UI/UXデザイン", "業務効率化AI", "DX支援"],
+      hasOfferCatalog: {
+        "@type": "OfferCatalog",
+        name: "ProductX サービス",
+        itemListElement: [
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "AI DX — AI業務代行・導入・開発", url: "https://productx.jp/services/ai-dx" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Partner Growth — プロダクト開発・グロース支援", url: "https://productx.jp/services/partner-growth" } },
+        ],
+      },
       sameAs: [],
     },
     {

@@ -1,12 +1,17 @@
 ---
-title: "「広告AI最適化」とは？中小企業が使える設定のしかた"
-description: "広告プラットフォームのAI最適化機能を中小企業の予算でも効果的に活用するための設定方法を解説。"
-date: "2026-03-09"
-category: "marketing"
-tags: ["広告最適化", "AI", "中小企業"]
-articleType: "howto"
-relatedServices: ["07"]
-author: "ProductX"
+title: 「広告AI最適化」とは？中小企業が使える設定のしかた
+description: >-
+  広告プラットフォームのAI最適化機能を中小企業の予算でも効果的に活用するための設定方法を解説。Google広告やMeta広告には、すでに強力なAI最適化機能が搭載されています。
+date: '2026-03-09'
+category: marketing
+tags:
+  - 広告最適化
+  - AI
+  - 中小企業
+articleType: howto
+relatedServices:
+  - '07'
+author: ProductX
 ---
 
 ## はじめに

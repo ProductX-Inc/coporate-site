@@ -1,12 +1,17 @@
 ---
-title: "総務の「見えないコスト」を可視化する｜AI活用で年間200時間を取り戻す"
-description: "総務業務の隠れたコストを可視化し、AIで解消する方法を解説。年間200時間の削減効果を試算。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["総務", "見えないコスト", "AI活用"]
-articleType: "awareness"
-relatedServices: ["04"]
-author: "ProductX"
+title: 総務の「見えないコスト」を可視化する｜AI活用で年間200時間を取り戻す
+description: >-
+  総務業務の隠れたコストを可視化し、AIで解消する方法を解説。年間200時間の削減効果を試算。「総務って何してるの？」——他部署からこう思われがちですが、実は総務は会社の見えないインフラを支えています。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - 総務
+  - 見えないコスト
+  - AI活用
+articleType: awareness
+relatedServices:
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

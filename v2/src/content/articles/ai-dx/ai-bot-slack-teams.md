@@ -1,12 +1,17 @@
 ---
-title: "Slack/TeamsにAIボットを入れて業務を効率化する方法"
-description: "普段使いのSlack/TeamsにAIボットを導入し、社内問い合わせ対応や情報検索を効率化する方法。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["Slack", "Teams", "AIボット"]
-articleType: "howto"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: Slack/TeamsにAIボットを入れて業務を効率化する方法
+description: 普段使いのSlack/TeamsにAIボットを導入し、社内問い合わせ対応や情報検索を効率化する方法。社員が毎日使っているSlackやTeams。
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - Slack
+  - Teams
+  - AIボット
+articleType: howto
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

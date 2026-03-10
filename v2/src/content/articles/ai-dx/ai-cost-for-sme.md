@@ -1,12 +1,17 @@
 ---
-title: "中小企業のAI導入コスト｜本当はいくらかかるのか"
-description: "中小企業がAIを導入する際の実際のコスト構造を領域別に整理し、現実的な予算感を提供します。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["AI導入コスト", "中小企業", "予算"]
-articleType: "roi"
-relatedServices: ["01"]
-author: "ProductX"
+title: 中小企業のAI導入コスト｜本当はいくらかかるのか
+description: >-
+  中小企業がAIを導入する際の実際のコスト構造を領域別に整理し、現実的な予算感を提供します。「AIの導入には何千万円もかかるのでは？」——これは中小企業の経営者から最も多く聞く誤解です。
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - AI導入コスト
+  - 中小企業
+  - 予算
+articleType: roi
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

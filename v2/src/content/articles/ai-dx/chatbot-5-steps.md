@@ -1,12 +1,18 @@
 ---
-title: "チャットボット導入の5ステップ｜失敗しない進め方"
-description: "チャットボット導入を成功させる5ステップと各段階のポイントを具体的に解説します。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["チャットボット", "導入ステップ", "成功法"]
-articleType: "howto"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: チャットボット導入の5ステップ｜失敗しない進め方
+description: >-
+  チャットボット導入を成功させる5ステップと各段階のポイントを具体的に解説します。チャットボットの導入は「簡単そうに見えて意外と難しい」——これは多くの企業が経験する現実です。
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - チャットボット
+  - 導入ステップ
+  - 成功法
+articleType: howto
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

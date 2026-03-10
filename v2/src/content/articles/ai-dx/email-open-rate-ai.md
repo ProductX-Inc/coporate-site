@@ -1,12 +1,17 @@
 ---
-title: "メール開封率を3倍にする！AIパーソナライズ件名の作り方"
-description: "メルマガの開封率をAIパーソナライズで大幅に向上させる具体的手法と件名設計のポイントを解説。"
-date: "2026-03-09"
-category: "marketing"
-tags: ["メルマガ", "開封率", "AIパーソナライズ"]
-articleType: "howto"
-relatedServices: ["01"]
-author: "ProductX"
+title: メール開封率を3倍にする！AIパーソナライズ件名の作り方
+description: >-
+  メルマガの開封率をAIパーソナライズで大幅に向上させる具体的手法と件名設計のポイントを解説。メルマガの開封率、御社ではどのくらいですか？BtoBメルマガの平均開封率は約20%。
+date: '2026-03-09'
+category: marketing
+tags:
+  - メルマガ
+  - 開封率
+  - AIパーソナライズ
+articleType: howto
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

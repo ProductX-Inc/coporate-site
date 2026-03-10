@@ -1,12 +1,17 @@
 ---
-title: "契約書レビューのAI活用｜法務コストを半減させる方法"
-description: "契約書レビューにかかる時間と外部法務費用をAIで削減する方法を解説。リスク管理との両立も。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["契約書レビュー", "法務AI", "コスト削減"]
-articleType: "howto"
-relatedServices: ["04"]
-author: "ProductX"
+title: 契約書レビューのAI活用｜法務コストを半減させる方法
+description: >-
+  契約書レビューにかかる時間と外部法務費用をAIで削減する方法を解説。リスク管理との両立も。中小企業の契約書レビューは、「社長が読んでハンコを押す」か「顧問弁護士に送って数日待つ」の二択になりがちです。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - 契約書レビュー
+  - 法務AI
+  - コスト削減
+articleType: howto
+relatedServices:
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

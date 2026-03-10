@@ -1,12 +1,18 @@
 ---
-title: "人間のオンライン秘書 vs AI秘書｜どちらを選ぶべきか"
-description: "人間のオンライン秘書とAI秘書を7つの軸で比較。経営者のタイプ別に最適な選択肢を提案します。"
-date: "2026-03-09"
-category: "sales"
-tags: ["オンライン秘書", "AI秘書", "比較"]
-articleType: "comparison"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: 人間のオンライン秘書 vs AI秘書｜どちらを選ぶべきか
+description: >-
+  人間のオンライン秘書とAI秘書を7つの軸で比較。経営者のタイプ別に最適な選択肢を提案します。経営者の時間を取り戻す選択肢として、「人間のオンライン秘書」と「AI秘書」の2つがあります。
+date: '2026-03-09'
+category: sales
+tags:
+  - オンライン秘書
+  - AI秘書
+  - 比較
+articleType: comparison
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

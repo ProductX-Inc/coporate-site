@@ -1,12 +1,17 @@
 ---
-title: "BtoB営業の「初動の遅さ」が案件を殺している"
-description: "問い合わせから初回対応までのスピードが成約率に与える影響と、AI自動化で初動を加速させる考え方を解説。"
-date: "2026-03-09"
-category: "sales"
-tags: ["BtoB営業", "初動対応", "スピード"]
-articleType: "awareness"
-relatedServices: ["27"]
-author: "ProductX"
+title: BtoB営業の「初動の遅さ」が案件を殺している
+description: >-
+  問い合わせから初回対応までのスピードが成約率に与える影響と、AI自動化で初動を加速させる考え方を解説。BtoB営業で成約率を左右する最大の要因は何でしょうか。
+date: '2026-03-09'
+category: sales
+tags:
+  - BtoB営業
+  - 初動対応
+  - スピード
+articleType: awareness
+relatedServices:
+  - '27'
+author: ProductX
 ---
 
 ## はじめに

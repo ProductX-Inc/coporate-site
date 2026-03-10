@@ -1,12 +1,17 @@
 ---
-title: "中小企業の営業チームが抱える5つの生産性キラー"
-description: "中小企業の営業組織に共通する生産性低下の原因5つを分析。限られたリソースで最大の成果を出す考え方を解説。"
-date: "2026-03-09"
-category: "sales"
-tags: ["営業生産性", "中小企業", "業務改善"]
-articleType: "awareness"
-relatedServices: ["01"]
-author: "ProductX"
+title: 中小企業の営業チームが抱える5つの生産性キラー
+description: >-
+  中小企業の営業組織に共通する生産性低下の原因5つを分析。限られたリソースで最大の成果を出す考え方を解説。中小企業の営業チームは、大企業に比べて少数精鋭で運営されるケースがほとんどです。
+date: '2026-03-09'
+category: sales
+tags:
+  - 営業生産性
+  - 中小企業
+  - 業務改善
+articleType: awareness
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

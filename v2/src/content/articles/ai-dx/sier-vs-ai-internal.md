@@ -1,12 +1,17 @@
 ---
-title: "SIerに頼む前に検討すべきAI内製化の選択肢"
-description: "SIerへの外注前に検討すべきAI内製化の選択肢と判断基準を解説。コストと柔軟性のバランスを分析。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["SIer", "内製化", "AI開発"]
-articleType: "comparison"
-relatedServices: ["01"]
-author: "ProductX"
+title: SIerに頼む前に検討すべきAI内製化の選択肢
+description: >-
+  SIerへの外注前に検討すべきAI内製化の選択肢と判断基準を解説。コストと柔軟性のバランスを分析。「AIを使った業務改善システムを作りたい」と考えた時、最初に思い浮かぶのはSIer（システムインテグレーター）への発注ではないでしょうか。
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - SIer
+  - 内製化
+  - AI開発
+articleType: comparison
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

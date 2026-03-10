@@ -1,12 +1,17 @@
 ---
-title: "「何もしない」コストは年間いくら？AI DXの機会損失を計算"
-description: "DXを先送りすることで失われるコストを定量化し、行動を起こすべき理由を数字で説明します。"
-date: "2026-03-09"
-category: "trend"
-tags: ["機会損失", "DXコスト", "行動喚起"]
-articleType: "roi"
-relatedServices: ["01"]
-author: "ProductX"
+title: 「何もしない」コストは年間いくら？AI DXの機会損失を計算
+description: >-
+  DXを先送りすることで失われるコストを定量化し、行動を起こすべき理由を数字で説明します。「来年から考えよう」「今は忙しいから」「まだ早い」——DXの先送りは、その瞬間は気持ちが楽になります。
+date: '2026-03-09'
+category: trend
+tags:
+  - 機会損失
+  - DXコスト
+  - 行動喚起
+articleType: roi
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

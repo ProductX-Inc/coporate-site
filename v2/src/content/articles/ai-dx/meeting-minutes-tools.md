@@ -1,12 +1,18 @@
 ---
-title: "議事録ツール比較｜目的別に選ぶAI議事録サービス"
-description: "AI議事録ツールを機能・価格・精度で比較し、中小企業のニーズ別に最適なサービスを提案します。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["議事録ツール", "比較", "AI議事録"]
-articleType: "comparison"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: 議事録ツール比較｜目的別に選ぶAI議事録サービス
+description: >-
+  AI議事録ツールを機能・価格・精度で比較し、中小企業のニーズ別に最適なサービスを提案します。AI議事録ツールは急速に選択肢が増えており、「結局どれを選べばいいか分からない」というのが中小企業の本音でしょう。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - 議事録ツール
+  - 比較
+  - AI議事録
+articleType: comparison
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

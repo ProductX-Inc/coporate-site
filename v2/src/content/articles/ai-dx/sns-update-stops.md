@@ -1,12 +1,18 @@
 ---
-title: "会社のSNS、なぜ止まるのか？AI活用で継続的に発信する方法"
-description: "企業SNS運用が停止する構造的原因と、AIによる持続的な発信体制の構築方法を解説します。"
-date: "2026-03-09"
-category: "marketing"
-tags: ["SNS運用", "継続的発信", "AI活用"]
-articleType: "awareness"
-relatedServices: ["07", "08"]
-author: "ProductX"
+title: 会社のSNS、なぜ止まるのか？AI活用で継続的に発信する方法
+description: >-
+  企業SNS運用が停止する構造的原因と、AIによる持続的な発信体制の構築方法を解説します。「SNSの更新が止まっている企業アカウント」——見覚えはありませんか？最後の投稿が3ヶ月前。
+date: '2026-03-09'
+category: marketing
+tags:
+  - SNS運用
+  - 継続的発信
+  - AI活用
+articleType: awareness
+relatedServices:
+  - '07'
+  - 08
+author: ProductX
 ---
 
 ## はじめに

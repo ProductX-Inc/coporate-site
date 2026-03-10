@@ -1,12 +1,17 @@
 ---
-title: "AI導入の具体的ステップ｜中小企業向け実践ガイド"
-description: "中小企業がAIを導入するための具体的な7ステップと、各段階で押さえるべきポイントを解説します。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["AI導入", "ステップ", "実践ガイド"]
-articleType: "howto"
-relatedServices: ["01"]
-author: "ProductX"
+title: AI導入の具体的ステップ｜中小企業向け実践ガイド
+description: >-
+  中小企業がAIを導入するための具体的な7ステップと、各段階で押さえるべきポイントを解説します。「AI導入に興味はあるけど、何から始めればいいか分からない」——中小企業の経営者やDX推進担当者から最も多い相談です。
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - AI導入
+  - ステップ
+  - 実践ガイド
+articleType: howto
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

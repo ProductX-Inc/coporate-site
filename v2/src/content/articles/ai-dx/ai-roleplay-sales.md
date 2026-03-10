@@ -1,12 +1,17 @@
 ---
-title: "AIロールプレイで営業力を鍛える！実践トレーニング法"
-description: "AIをロールプレイ相手にした営業トレーニングの方法。場数を踏まずにスキルを向上させる手法を解説。"
-date: "2026-03-09"
-category: "sales"
-tags: ["ロールプレイ", "AIトレーニング", "営業スキル"]
-articleType: "howto"
-relatedServices: ["01"]
-author: "ProductX"
+title: AIロールプレイで営業力を鍛える！実践トレーニング法
+description: >-
+  AIをロールプレイ相手にした営業トレーニングの方法。場数を踏まずにスキルを向上させる手法を解説。営業スキルを上げる最も効果的な方法は「場数を踏むこと」——これは事実です。
+date: '2026-03-09'
+category: sales
+tags:
+  - ロールプレイ
+  - AIトレーニング
+  - 営業スキル
+articleType: howto
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

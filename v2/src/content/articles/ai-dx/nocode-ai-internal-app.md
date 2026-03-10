@@ -1,12 +1,18 @@
 ---
-title: "ノーコードAIで社内アプリを作る方法"
-description: "ノーコードプラットフォームを使って社内業務アプリをAIで構築する方法を解説します。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["ノーコード", "社内アプリ", "AI構築"]
-articleType: "howto"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: ノーコードAIで社内アプリを作る方法
+description: >-
+  ノーコードプラットフォームを使って社内業務アプリをAIで構築する方法を解説します。「社内に便利なアプリが欲しいが、開発するための予算も人材もない」——中小企業にとって、社内システムの構築は長年の悩みでした。
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - ノーコード
+  - 社内アプリ
+  - AI構築
+articleType: howto
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

@@ -1,12 +1,17 @@
 ---
-title: "経理の月末地獄をAIで解消する具体的方法"
-description: "月末に集中する経理業務の負荷をAIで分散・自動化する具体的な方法とROI試算を解説します。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["経理", "月末業務", "AI自動化"]
-articleType: "howto"
-relatedServices: ["04"]
-author: "ProductX"
+title: 経理の月末地獄をAIで解消する具体的方法
+description: >-
+  月末に集中する経理業務の負荷をAIで分散・自動化する具体的な方法とROI試算を解説します。「月末は毎月残業」「25日を過ぎるとピリピリした空気」「月末の3日間は電話もメールも後回し」——中小企業の経理担当者なら、深く共感するはずです。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - 経理
+  - 月末業務
+  - AI自動化
+articleType: howto
+relatedServices:
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

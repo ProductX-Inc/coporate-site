@@ -1,12 +1,18 @@
 ---
-title: "AIが提案書を作る時代の「3つの原則」"
-description: "AIを活用した提案書作成の3つの原則と、人間の介在が不可欠なポイントを実践的に解説します。"
-date: "2026-03-09"
-category: "sales"
-tags: ["提案書", "AI活用", "営業ツール"]
-articleType: "howto"
-relatedServices: ["07", "08"]
-author: "ProductX"
+title: AIが提案書を作る時代の「3つの原則」
+description: >-
+  AIを活用した提案書作成の3つの原則と、人間の介在が不可欠なポイントを実践的に解説します。「AIが提案書を自動で作ってくれる」——この言葉を聞いて、期待する人と不安を感じる人がいるでしょう。
+date: '2026-03-09'
+category: sales
+tags:
+  - 提案書
+  - AI活用
+  - 営業ツール
+articleType: howto
+relatedServices:
+  - '07'
+  - 08
+author: ProductX
 ---
 
 ## はじめに

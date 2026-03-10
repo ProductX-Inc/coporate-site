@@ -1,12 +1,18 @@
 ---
-title: "RAGとは何か？中小企業向けのわかりやすい入門解説"
-description: "RAG（検索拡張生成）の仕組みをわかりやすく解説。社内データを活用したAI構築のイメージが掴めます。"
-date: "2026-03-09"
-category: "trend"
-tags: ["RAG", "入門", "社内AI"]
-articleType: "awareness"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: RAGとは何か？中小企業向けのわかりやすい入門解説
+description: >-
+  RAG（検索拡張生成）の仕組みをわかりやすく解説。社内データを活用したAI構築のイメージが掴めます。ChatGPTは確かに便利ですが、こんな経験はありませんか。
+date: '2026-03-09'
+category: trend
+tags:
+  - RAG
+  - 入門
+  - 社内AI
+articleType: awareness
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

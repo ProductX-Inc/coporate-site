@@ -1,12 +1,17 @@
 ---
-title: "広告レポート自動化のROI｜手動レポートにかけている時間を計算してみた"
-description: "広告レポートの手動作成にかかっている隠れたコストを定量化し、AI自動化のROIを算出します。"
-date: "2026-03-09"
-category: "marketing"
-tags: ["広告レポート", "自動化", "ROI"]
-articleType: "roi"
-relatedServices: ["07"]
-author: "ProductX"
+title: 広告レポート自動化のROI｜手動レポートにかけている時間を計算してみた
+description: >-
+  広告レポートの手動作成にかかっている隠れたコストを定量化し、AI自動化のROIを算出します。「広告レポートは毎週作っています」——では、その作成に何時間かかっているか正確に把握していますか？。
+date: '2026-03-09'
+category: marketing
+tags:
+  - 広告レポート
+  - 自動化
+  - ROI
+articleType: roi
+relatedServices:
+  - '07'
+author: ProductX
 ---
 
 ## はじめに

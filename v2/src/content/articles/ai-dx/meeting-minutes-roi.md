@@ -1,12 +1,18 @@
 ---
-title: "議事録自動化のROI｜年間どれだけの時間を取り戻せるか"
-description: "議事録自動化の投資対効果を定量分析。導入コスト・削減時間・回収期間を具体的に算出します。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["議事録", "ROI", "自動化効果"]
-articleType: "roi"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: 議事録自動化のROI｜年間どれだけの時間を取り戻せるか
+description: >-
+  議事録自動化の投資対効果を定量分析。導入コスト・削減時間・回収期間を具体的に算出します。「議事録の自動化は便利そうだけど、本当に投資する価値があるの？」——この疑問に、この記事では具体的な数字で答えます。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - 議事録
+  - ROI
+  - 自動化効果
+articleType: roi
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

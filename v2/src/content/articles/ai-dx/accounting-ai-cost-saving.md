@@ -1,12 +1,17 @@
 ---
-title: "経理業務のAI化はどこまでコスト削減できるか"
-description: "経理業務のAI化によるコスト削減効果を業務領域別に試算。投資対効果と導入優先順位を解説します。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["経理AI", "コスト削減", "業務効率化"]
-articleType: "roi"
-relatedServices: ["04"]
-author: "ProductX"
+title: 経理業務のAI化はどこまでコスト削減できるか
+description: >-
+  経理業務のAI化によるコスト削減効果を業務領域別に試算。投資対効果と導入優先順位を解説します。「経理のAI化でコスト削減できる」とはよく聞くものの、具体的にいくら削減できるのかを定量化している企業はほとんどありません。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - 経理AI
+  - コスト削減
+  - 業務効率化
+articleType: roi
+relatedServices:
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

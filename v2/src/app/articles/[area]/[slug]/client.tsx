@@ -275,15 +275,24 @@ export function ArticleDetailClient({ article, relatedArticles, area }: Props) {
                                             : "Want to discuss these ideas further or explore AI strategy for your business? We'd love to chat.")
                                         : t("articles.cta.body")}
                                 </p>
-                                <Link
-                                    href="/contact"
-                                    className={`inline-flex items-center gap-2 px-6 py-3 rounded-full text-white font-medium text-sm transition-colors ${isCeo
-                                        ? "bg-gradient-to-r from-[var(--color-brand-gold)] to-[var(--color-brand-active)] hover:opacity-90"
-                                        : "bg-[var(--color-brand)] hover:bg-[var(--color-brand-active)]"}`}
-                                >
-                                    {isCeo ? (locale === "ja" ? "無料で相談する" : "Book a free consultation") : t("articles.cta.btn")}
-                                    <ArrowRight className="w-4 h-4" />
-                                </Link>
+                                <div className="flex flex-wrap items-center gap-3">
+                                    <Link
+                                        href="/contact"
+                                        className={`inline-flex items-center gap-2 px-6 py-3 rounded-full text-white font-medium text-sm transition-colors ${isCeo
+                                            ? "bg-gradient-to-r from-[var(--color-brand-gold)] to-[var(--color-brand-active)] hover:opacity-90"
+                                            : "bg-[var(--color-brand)] hover:bg-[var(--color-brand-active)]"}`}
+                                    >
+                                        {isCeo ? (locale === "ja" ? "無料で相談する" : "Book a free consultation") : t("articles.cta.btn")}
+                                        <ArrowRight className="w-4 h-4" />
+                                    </Link>
+                                    <Link
+                                        href={`/services/${area.key === "ai-dx" ? "ai-dx" : "partner-growth"}`}
+                                        className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--color-brand)] hover:gap-3 transition-all"
+                                    >
+                                        {locale === "ja" ? `${area.label.ja}サービスを詳しく見る` : `Learn more about ${area.label.en}`}
+                                        <ArrowRight className="w-4 h-4" />
+                                    </Link>
+                                </div>
                             </motion.div>
                         </div>
                     </div>

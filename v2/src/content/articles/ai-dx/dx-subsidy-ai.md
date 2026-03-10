@@ -1,12 +1,17 @@
 ---
-title: "DX補助金でAI導入のコストを抑える方法"
-description: "IT導入補助金やものづくり補助金を活用してAI導入コストを最大75%削減する方法を解説します。"
-date: "2026-03-09"
-category: "trend"
-tags: ["DX補助金", "IT導入補助金", "コスト削減"]
-articleType: "howto"
-relatedServices: ["01"]
-author: "ProductX"
+title: DX補助金でAI導入のコストを抑える方法
+description: >-
+  IT導入補助金やものづくり補助金を活用してAI導入コストを最大75%削減する方法を解説します。「AIを導入したいが、予算が厳しい」——中小企業の経営者やDX推進担当者が最も多く口にする課題です。
+date: '2026-03-09'
+category: trend
+tags:
+  - DX補助金
+  - IT導入補助金
+  - コスト削減
+articleType: howto
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

@@ -1,12 +1,18 @@
 ---
-title: "「発信したいのに時間がない」を解決するAI活用術"
-description: "忙しい中小企業の担当者が継続的にコンテンツを発信するための、AI活用による仕組みづくりを解説します。"
-date: "2026-03-09"
-category: "marketing"
-tags: ["コンテンツ発信", "時間不足", "AI活用"]
-articleType: "howto"
-relatedServices: ["07", "08"]
-author: "ProductX"
+title: 「発信したいのに時間がない」を解決するAI活用術
+description: >-
+  忙しい中小企業の担当者が継続的にコンテンツを発信するための、AI活用による仕組みづくりを解説します。「ブログを書きたいのに時間がない」「SNSを更新したいのに余裕がない」——中小企業のマーケティング担当者から最も多く聞く悩みです。
+date: '2026-03-09'
+category: marketing
+tags:
+  - コンテンツ発信
+  - 時間不足
+  - AI活用
+articleType: howto
+relatedServices:
+  - '07'
+  - 08
+author: ProductX
 ---
 
 ## はじめに

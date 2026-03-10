@@ -1,12 +1,17 @@
 ---
-title: "請求書AIの選び方｜OCR型 vs AI-OCR型の違い"
-description: "請求書処理ツールのOCR型とAI-OCR型の違い、中小企業が選ぶべきポイントを比較解説します。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["請求書", "OCR", "AI-OCR比較"]
-articleType: "comparison"
-relatedServices: ["04"]
-author: "ProductX"
+title: 請求書AIの選び方｜OCR型 vs AI-OCR型の違い
+description: >-
+  請求書処理ツールのOCR型とAI-OCR型の違い、中小企業が選ぶべきポイントを比較解説します。請求書の自動処理ツールを探すと、「OCR」と「AI-OCR」の2種類に出会います。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - 請求書
+  - OCR
+  - AI-OCR比較
+articleType: comparison
+relatedServices:
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

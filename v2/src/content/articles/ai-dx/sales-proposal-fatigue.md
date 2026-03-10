@@ -1,12 +1,18 @@
 ---
-title: "「また提案書を一から作るのか…」提案疲れの構造的原因と解決策"
-description: "営業チームの提案疲れを分析し、AIで提案書作成の工数を劇的に削減するアプローチを解説します。"
-date: "2026-03-09"
-category: "sales"
-tags: ["提案書", "営業効率", "提案疲れ"]
-articleType: "awareness"
-relatedServices: ["07", "08"]
-author: "ProductX"
+title: 「また提案書を一から作るのか…」提案疲れの構造的原因と解決策
+description: >-
+  営業チームの提案疲れを分析し、AIで提案書作成の工数を劇的に削減するアプローチを解説します。「また提案書を一から作るのか…」——営業マンが金曜日の夜に呟くこのフレーズに、御社の営業チームは共感するでしょうか。
+date: '2026-03-09'
+category: sales
+tags:
+  - 提案書
+  - 営業効率
+  - 提案疲れ
+articleType: awareness
+relatedServices:
+  - '07'
+  - 08
+author: ProductX
 ---
 
 ## はじめに

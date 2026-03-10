@@ -1,12 +1,17 @@
 ---
-title: "UXリサーチの進め方｜ユーザーの本音を引き出す5つの手法"
-description: "UXリサーチの代表的な5つの手法を解説。ユーザーの本当のニーズを把握し、プロダクト改善に活かすための進め方を紹介。"
-date: "2025-12-25"
-category: "ui-ux"
-tags: ["UXリサーチ", "ユーザーインタビュー", "ユーザビリティ"]
-articleType: "howto"
-relatedServices: ["05"]
-author: "ProductX"
+title: UXリサーチの進め方｜ユーザーの本音を引き出す5つの手法
+description: >-
+  UXリサーチの代表的な5つの手法を解説。ユーザーの本当のニーズを把握し、プロダクト改善に活かすための進め方を紹介。「ユーザーが何を求めているのか分からない」——プロダクト改善において、最も難しく、最も重要な問いです。
+date: '2025-12-25'
+category: ui-ux
+tags:
+  - UXリサーチ
+  - ユーザーインタビュー
+  - ユーザビリティ
+articleType: howto
+relatedServices:
+  - '05'
+author: ProductX
 ---
 
 ## はじめに

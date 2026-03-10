@@ -1,12 +1,17 @@
 ---
-title: "売上予測ツール比較｜AI vs Excel vs 勘"
-description: "売上予測の3つのアプローチ（AI・Excel・勘）を定量的に比較し、中小企業に最適な選択肢を探ります。"
-date: "2026-03-09"
-category: "sales"
-tags: ["売上予測", "AI", "Excel比較"]
-articleType: "comparison"
-relatedServices: ["01"]
-author: "ProductX"
+title: 売上予測ツール比較｜AI vs Excel vs 勘
+description: >-
+  売上予測の3つのアプローチ（AI・Excel・勘）を定量的に比較し、中小企業に最適な選択肢を探ります。「来月の売上見込みは？」——この質問に対する回答の精度が、経営判断の質を左右します。
+date: '2026-03-09'
+category: sales
+tags:
+  - 売上予測
+  - AI
+  - Excel比較
+articleType: comparison
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

@@ -1,12 +1,17 @@
 ---
-title: "スケーラブルなシステム設計の基本原則｜将来の成長に備える"
-description: "スケーラブルなシステム設計の基本原則を解説。将来のユーザー増加に耐えるアーキテクチャの考え方を概念レベルで紹介。"
-date: "2026-03-09"
-category: "strategy"
-tags: ["システム設計", "スケーラビリティ", "アーキテクチャ"]
-articleType: "howto"
-relatedServices: ["10"]
-author: "ProductX"
+title: スケーラブルなシステム設計の基本原則｜将来の成長に備える
+description: >-
+  スケーラブルなシステム設計の基本原則を解説。将来のユーザー増加に耐えるアーキテクチャの考え方を概念レベルで紹介。「今は100人のユーザーで問題なく動いている。
+date: '2026-03-09'
+category: strategy
+tags:
+  - システム設計
+  - スケーラビリティ
+  - アーキテクチャ
+articleType: howto
+relatedServices:
+  - '10'
+author: ProductX
 ---
 
 ## はじめに

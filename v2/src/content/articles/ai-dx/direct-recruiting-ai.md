@@ -1,12 +1,17 @@
 ---
-title: "ダイレクトリクルーティング×AIで採用を変える"
-description: "ダイレクトリクルーティングにAIを活用し、候補者の発見からアプローチまでを効率化する方法を解説。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["ダイレクトリクルーティング", "AI採用", "スカウト"]
-articleType: "howto"
-relatedServices: ["04"]
-author: "ProductX"
+title: ダイレクトリクルーティング×AIで採用を変える
+description: >-
+  ダイレクトリクルーティングにAIを活用し、候補者の発見からアプローチまでを効率化する方法を解説。「求人を出しても応募が来ない」——中小企業の採用市場は、待っているだけでは人材が集まらない時代に突入しています。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - ダイレクトリクルーティング
+  - AI採用
+  - スカウト
+articleType: howto
+relatedServices:
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

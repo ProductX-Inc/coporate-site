@@ -1,12 +1,17 @@
 ---
-title: "営業DXの費用対効果｜どの業務から始めるべきか"
-description: "営業DXの各施策のROIを定量比較し、中小企業が最も効果的に投資できる領域と優先順位を解説します。"
-date: "2026-03-09"
-category: "sales"
-tags: ["営業DX", "費用対効果", "優先順位"]
-articleType: "roi"
-relatedServices: ["01"]
-author: "ProductX"
+title: 営業DXの費用対効果｜どの業務から始めるべきか
+description: >-
+  営業DXの各施策のROIを定量比較し、中小企業が最も効果的に投資できる領域と優先順位を解説します。「営業DXに投資したいが、効果が見えない」「どこから始めれば最もリターンが大きいのか分からない」——中小企業の経営者が営業DXに踏み切れない最大の理由は、投...
+date: '2026-03-09'
+category: sales
+tags:
+  - 営業DX
+  - 費用対効果
+  - 優先順位
+articleType: roi
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

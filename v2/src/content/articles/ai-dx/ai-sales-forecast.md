@@ -1,12 +1,17 @@
 ---
-title: "AI売上予測はどこまで当たるのか？導入前に知るべきこと"
-description: "AI売上予測の精度・限界・導入条件を客観的に解説。過度な期待を排し、現実的な活用法を提案します。"
-date: "2026-03-09"
-category: "sales"
-tags: ["AI売上予測", "精度", "導入検討"]
-articleType: "awareness"
-relatedServices: ["01"]
-author: "ProductX"
+title: AI売上予測はどこまで当たるのか？導入前に知るべきこと
+description: >-
+  AI売上予測の精度・限界・導入条件を客観的に解説。過度な期待を排し、現実的な活用法を提案します。「AIで売上予測の精度が劇的に向上する」——こうした期待でAI予測ツールを導入したものの、「思ったほど当たらない」と失望するケースは少なくありません。
+date: '2026-03-09'
+category: sales
+tags:
+  - AI売上予測
+  - 精度
+  - 導入検討
+articleType: awareness
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

@@ -1,12 +1,17 @@
 ---
-title: "スプレッドシート×AIで実現する「誰でもデータ分析」"
-description: "GoogleスプレッドシートやExcelとAIを組み合わせて、非エンジニアでもデータ分析できる方法を解説。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["スプレッドシート", "データ分析", "AI活用"]
-articleType: "howto"
-relatedServices: ["04"]
-author: "ProductX"
+title: スプレッドシート×AIで実現する「誰でもデータ分析」
+description: >-
+  GoogleスプレッドシートやExcelとAIを組み合わせて、非エンジニアでもデータ分析できる方法を解説。「データ分析は専門家の仕事」——その常識はAIの登場によって大きく変わり始めています。
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - スプレッドシート
+  - データ分析
+  - AI活用
+articleType: howto
+relatedServices:
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

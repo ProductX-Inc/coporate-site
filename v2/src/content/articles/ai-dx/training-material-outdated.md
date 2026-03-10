@@ -1,12 +1,18 @@
 ---
-title: "研修資料が「作った瞬間に古くなる」問題の解決策"
-description: "研修資料が陳腐化する問題をAIで解決し、常に最新の教育コンテンツを維持する方法を解説します。"
-date: "2026-03-09"
-category: "dx-strategy"
-tags: ["研修資料", "陳腐化", "自動更新"]
-articleType: "awareness"
-relatedServices: ["05", "06"]
-author: "ProductX"
+title: 研修資料が「作った瞬間に古くなる」問題の解決策
+description: >-
+  研修資料が陳腐化する問題をAIで解決し、常に最新の教育コンテンツを維持する方法を解説します。「この研修資料、いつの情報？」——研修を受ける側が最もストレスを感じる瞬間です。
+date: '2026-03-09'
+category: dx-strategy
+tags:
+  - 研修資料
+  - 陳腐化
+  - 自動更新
+articleType: awareness
+relatedServices:
+  - '05'
+  - '06'
+author: ProductX
 ---
 
 ## はじめに

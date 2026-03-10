@@ -1,12 +1,17 @@
 ---
-title: "RPA vs AIワークフロー｜メンテナンスコストまで含めた比較"
-description: "RPAとAIワークフローの3年間のTCO（総保有コスト）を比較し、中小企業に最適な選択を提案します。"
-date: "2026-03-09"
-category: "backoffice"
-tags: ["RPA", "AIワークフロー", "TCO比較"]
-articleType: "comparison"
-relatedServices: ["04"]
-author: "ProductX"
+title: RPA vs AIワークフロー｜メンテナンスコストまで含めた比較
+description: >-
+  RPAとAIワークフローの3年間のTCO（総保有コスト）を比較し、中小企業に最適な選択を提案します。「業務の自動化にはRPA」——数年前まではそれが常識でした。
+date: '2026-03-09'
+category: backoffice
+tags:
+  - RPA
+  - AIワークフロー
+  - TCO比較
+articleType: comparison
+relatedServices:
+  - '04'
+author: ProductX
 ---
 
 ## はじめに

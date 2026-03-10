@@ -1,12 +1,18 @@
 ---
-title: "AI DX推進に成功する組織の特徴｜文化づくりが鍵"
-description: "AI DXに成功する組織の共通点を分析し、推進のための組織文化づくりのポイントを解説します。"
-date: "2026-03-09"
-category: "trend"
-tags: ["DX推進", "組織文化", "成功要因"]
-articleType: "awareness"
-relatedServices: ["01"]
-author: "ProductX"
+title: AI DX推進に成功する組織の特徴｜文化づくりが鍵
+description: >-
+  AI DXに成功する組織の共通点を分析し、推進のための組織文化づくりのポイントを解説します。AI
+  DXの成否は「技術」ではなく「組織文化」で80%決まると言われています。
+date: '2026-03-09'
+category: trend
+tags:
+  - DX推進
+  - 組織文化
+  - 成功要因
+articleType: awareness
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに

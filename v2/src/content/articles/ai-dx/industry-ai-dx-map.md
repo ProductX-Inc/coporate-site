@@ -1,12 +1,18 @@
 ---
-title: "業界別AI DX活用マップ｜あなたの業界はどこまで進んでいるか"
-description: "主要業界ごとのAI DX活用状況をマッピングし、各業界のホットな活用領域を解説します。"
-date: "2026-03-09"
-category: "trend"
-tags: ["業界別", "AI活用マップ", "DX動向"]
-articleType: "awareness"
-relatedServices: ["01"]
-author: "ProductX"
+title: 業界別AI DX活用マップ｜あなたの業界はどこまで進んでいるか
+description: >-
+  主要業界ごとのAI DX活用状況をマッピングし、各業界のホットな活用領域を解説します。「AI
+  DXって、うちの業界でも進んでいるの？」——この疑問を持つ中小企業の経営者は少なくありません。
+date: '2026-03-09'
+category: trend
+tags:
+  - 業界別
+  - AI活用マップ
+  - DX動向
+articleType: awareness
+relatedServices:
+  - '01'
+author: ProductX
 ---
 
 ## はじめに
