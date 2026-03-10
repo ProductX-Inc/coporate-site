@@ -15,6 +15,7 @@ import {
     Monitor, Smartphone, ShoppingCart, CreditCard, Video,
     MessageSquare, Bell, Mic, BarChart3, Gift,
 } from "lucide-react";
+import { PrimaryCTA } from "@/components/shared/primary-cta";
 
 /* ── helpers ── */
 
@@ -421,10 +422,7 @@ export default function PartnerGrowthPage() {
                             {l(locale, { ja: "御社のプロダクトの課題をヒアリングし、最適なアプローチをご提案します。まずはお気軽にご相談ください。", en: "We'll listen to your product challenges and propose the optimal approach. Feel free to reach out." })}
                         </motion.p>
                         <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-4" {...MV} custom={1}>
-                            <Link href="/contact" className="group relative inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[var(--color-brand-active)] text-white font-semibold hover:bg-[var(--color-brand)] transition-all shadow-lg hover:shadow-[0_10px_40px_rgba(105,108,255,0.35),0_0_60px_rgba(254,198,101,0.15)] overflow-hidden">
-                                <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
-                                <span className="relative z-10 flex items-center gap-2">{l(locale, { ja: "無料ヒアリングを申し込む", en: "Request Free Consultation" })} <ArrowRight size={18} /></span>
-                            </Link>
+                            <PrimaryCTA href="/contact">{l(locale, { ja: "無料ヒアリングを申し込む", en: "Request Free Consultation" })}</PrimaryCTA>
                             <Link href="/services" className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--color-brand)] hover:gap-3 transition-all">
                                 {l(locale, { ja: "サービス一覧に戻る", en: "Back to Services" })} <ArrowRight size={16} />
                             </Link>

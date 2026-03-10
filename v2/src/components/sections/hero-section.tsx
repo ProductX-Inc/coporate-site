@@ -4,7 +4,7 @@ import Link from "next/link";
 import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
 import { useRef, useState, useEffect, useMemo } from "react";
 import { AuroraMesh } from "@/components/sections/aurora-mesh";
-import { MagneticButton } from "@/components/shared/magnetic-button";
+import { PrimaryCTA } from "@/components/shared/primary-cta";
 import { ArrowRight } from "lucide-react";
 import { useLang } from "@/components/lang-provider";
 
@@ -283,14 +283,7 @@ export function HeroSection() {
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     transition={{ delay: 2.2, ...springPop }}
                 >
-                    <Link href="/contact">
-                        <MagneticButton className="group relative inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[var(--color-brand-active)] text-white font-semibold text-base hover:bg-[var(--color-brand)] transition-colors duration-300 shadow-lg hover:shadow-[0_10px_40px_rgba(105,108,255,0.35),0_0_60px_rgba(254,198,101,0.15)] overflow-hidden">
-                            <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
-                            <span className="relative z-10 flex items-center gap-2">
-                                {t("hero.cta")} <ArrowRight size={18} />
-                            </span>
-                        </MagneticButton>
-                    </Link>
+                    <PrimaryCTA href="/contact" magnetic>{t("hero.cta")}</PrimaryCTA>
                 </motion.div>
             </motion.div>
 

@@ -14,6 +14,7 @@ import {
     ChevronRight, Target, Lightbulb, HandshakeIcon,
     Shield, Users, BarChart3, BadgeCheck, Coins,
 } from "lucide-react";
+import { PrimaryCTA } from "@/components/shared/primary-cta";
 
 /* ── helpers ── */
 
@@ -579,10 +580,7 @@ export default function AiDxPage() {
                             {l(locale, { ja: "30分のヒアリングで最適なAIソリューションをご提案。サンプル成果物も無料でお渡しします。", en: "A 30-minute hearing to propose optimal AI solutions. Free sample deliverables included." })}
                         </motion.p>
                         <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-4" {...MOTION_VIEW} custom={1}>
-                            <Link href="/contact" className="group relative inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[var(--color-brand-active)] text-white font-semibold hover:bg-[var(--color-brand)] transition-all shadow-lg hover:shadow-[0_10px_40px_rgba(105,108,255,0.35),0_0_60px_rgba(254,198,101,0.15)] overflow-hidden">
-                                <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
-                                <span className="relative z-10 flex items-center gap-2">{l(locale, { ja: "無料AI診断を申し込む", en: "Request Free AI Diagnosis" })} <ArrowRight size={18} /></span>
-                            </Link>
+                            <PrimaryCTA href="/contact">{l(locale, { ja: "無料AI診断を申し込む", en: "Request Free AI Diagnosis" })}</PrimaryCTA>
                             <Link href="/articles" className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--color-brand)] hover:gap-3 transition-all">
                                 {l(locale, { ja: "AI DXの記事を読む", en: "Read AI DX Articles" })} <ArrowRight size={16} />
                             </Link>

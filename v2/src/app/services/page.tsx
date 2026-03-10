@@ -7,7 +7,8 @@ import { Footer } from "@/components/layout/footer";
 import { PageHero } from "@/components/shared/page-hero";
 import { Badge } from "@/components/ui/badge";
 import { GradientDivider } from "@/components/ui/gradient-divider";
-import { ArrowRight, Award, Layers, BookOpen, Zap, Settings, Code } from "lucide-react";
+import { Award, Layers, BookOpen, Zap, Settings, Code, ArrowRight } from "lucide-react";
+import { PrimaryCTA } from "@/components/shared/primary-cta";
 import { useLang } from "@/components/lang-provider";
 import { fadeUp } from "@/lib/animations";
 
@@ -345,10 +346,7 @@ export default function ServicesPage() {
                             initial="hidden" whileInView="visible" viewport={{ once: true }}
                             custom={1} variants={fadeUp}
                         >
-                            <Link href="/contact" className="group relative inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[var(--color-brand-active)] text-white font-semibold hover:bg-[var(--color-brand)] transition-all shadow-lg hover:shadow-[0_10px_40px_rgba(105,108,255,0.35),0_0_60px_rgba(254,198,101,0.15)] overflow-hidden">
-                                <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
-                                <span className="relative z-10 flex items-center gap-2">{t("services.cta.btn")} <ArrowRight size={18} /></span>
-                            </Link>
+                            <PrimaryCTA href="/contact">{t("services.cta.btn")}</PrimaryCTA>
                         </motion.div>
                     </div>
                 </section>

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { AuroraMesh } from "@/components/sections/aurora-mesh";
-import { MagneticButton } from "@/components/shared/magnetic-button";
+import { PrimaryCTA } from "@/components/shared/primary-cta";
 import { ArrowRight } from "lucide-react";
 import { useLang } from "@/components/lang-provider";
 import { fadeUp } from "@/lib/animations";
@@ -49,11 +49,7 @@ export function InviteSection() {
                     custom={1}
                     variants={fadeUp}
                 >
-                    <Link href="/contact">
-                        <MagneticButton className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[var(--color-brand-active)] text-white font-semibold text-base hover:bg-[var(--color-brand)] transition-colors duration-300 shadow-lg hover:shadow-[0_10px_40px_rgba(105,108,255,0.35),0_0_60px_rgba(254,198,101,0.15)]">
-                            {t("invite.cta")} <ArrowRight size={18} />
-                        </MagneticButton>
-                    </Link>
+                    <PrimaryCTA href="/contact" magnetic>{t("invite.cta")}</PrimaryCTA>
                 </motion.div>
             </div>
 
@@ -69,7 +65,8 @@ export function InviteSection() {
                             {[
                                 { href: "/about", key: "nav.about" },
                                 { href: "/services", key: "nav.services" },
-                                { href: "/resources", label: "Resources" },
+                                { href: "/resources", key: "nav.resources" },
+                                { href: "/articles", key: "nav.articles" },
                                 { href: "/news", key: "nav.news" },
                                 { href: "/partner", key: "nav.partner" },
                                 { href: "/contact", key: "nav.contact" },
@@ -79,7 +76,7 @@ export function InviteSection() {
                                     href={item.href}
                                     className="text-white/50 hover:text-white/80 text-sm transition-colors"
                                 >
-                                    {"key" in item && item.key ? t(item.key) : item.label}
+                                    {t(item.key)}
                                 </Link>
                             ))}
                         </nav>

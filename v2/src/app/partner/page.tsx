@@ -13,6 +13,7 @@ import {
     ArrowRight, Gift, Zap, Shield, Users,
     Handshake, BadgeDollarSign, TrendingUp, ChevronDown,
 } from "lucide-react";
+import { PrimaryCTA } from "@/components/shared/primary-cta";
 
 /* ── helpers ── */
 
@@ -353,10 +354,7 @@ export default function PartnerPage() {
                             {l(locale, { ja: "まずはお気軽にお問い合わせください。パートナープログラムの詳細をご説明いたします。", en: "Feel free to reach out. We'll explain the details of our Partner Program." })}
                         </motion.p>
                         <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-4" {...MV} custom={1}>
-                            <Link href="/contact?ref=partner" className="group relative inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[var(--color-brand-active)] text-white font-semibold hover:bg-[var(--color-brand)] transition-all shadow-lg hover:shadow-[0_10px_40px_rgba(105,108,255,0.35),0_0_60px_rgba(254,198,101,0.15)] overflow-hidden">
-                                <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
-                                <span className="relative z-10 flex items-center gap-2">{l(locale, { ja: "パートナーとして申し込む", en: "Apply as a Partner" })} <ArrowRight size={18} /></span>
-                            </Link>
+                            <PrimaryCTA href="/contact?ref=partner">{l(locale, { ja: "パートナーとして申し込む", en: "Apply as a Partner" })}</PrimaryCTA>
                             <Link href="/services" className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--color-brand)] hover:gap-3 transition-all">
                                 {l(locale, { ja: "サービス一覧を見る", en: "View Our Services" })} <ArrowRight size={16} />
                             </Link>

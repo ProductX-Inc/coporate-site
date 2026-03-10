@@ -1,9 +1,26 @@
 import type { Metadata } from "next";
+import { Inter, Noto_Sans_JP } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { LangProvider } from "@/components/lang-provider";
 import { GlobalEffects } from "@/components/ui/global-effects";
-import { AiChatbot } from "@/components/ui/ai-chatbot";
 import "./globals.css";
+
+/* ── Fonts: self-hosted via next/font (no external blocking request) ── */
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  display: "swap",
+  variable: "--font-inter",
+});
+
+const notoSansJP = Noto_Sans_JP({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "700"],
+  display: "swap",
+  variable: "--font-noto",
+  preload: false,  // Japanese subset is large; load on demand
+});
+
 
 const GA_ID = "G-958FQBMXHB";
 
@@ -89,21 +106,24 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ja" suppressHydrationWarning>
+    <html lang="ja" suppressHydrationWarning className={`${inter.variable} ${notoSansJP.variable}`}>
       <head>
         <meta name="theme-color" content="#696CFF" />
         <meta name="google-site-verification" content="317UNan5UrUQVsmkdwwrteFnJAWBFx0ZHT8pSC2DvHY" />
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
-        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA_ID}')` }} />
       </head>
       <body>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        {/* GA & SW — deferred to after page load to avoid blocking render */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js')}`,
+            __html: `window.addEventListener('load',function(){` +
+              `var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=${GA_ID}';document.head.appendChild(s);` +
+              `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA_ID}');` +
+              `if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js')}` +
+              `})`,
           }}
         />
         <ThemeProvider
@@ -116,7 +136,7 @@ export default function RootLayout({
             <GlobalEffects>
               {children}
             </GlobalEffects>
-            <AiChatbot />
+
           </LangProvider>
         </ThemeProvider>
       </body>

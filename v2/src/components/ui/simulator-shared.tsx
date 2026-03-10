@@ -113,17 +113,10 @@ export function StepNav({ step, lastStep, canProceed, goBack, goNext, lastLabel 
     );
 }
 
-/* ── primary CTA button ── */
+/* ── primary CTA button (import from shared, re-export for consumers) ── */
 
-export function PrimaryCTA({ href, children }: { href: string; children: React.ReactNode }) {
-    return (
-        <Link href={href}
-            className="group relative inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[var(--color-brand-active)] text-white font-semibold hover:bg-[var(--color-brand)] transition-all shadow-lg hover:shadow-[0_10px_40px_rgba(105,108,255,0.35),0_0_60px_rgba(254,198,101,0.15)] overflow-hidden">
-            <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
-            <span className="relative z-10 flex items-center gap-2">{children} <ArrowRight size={18} /></span>
-        </Link>
-    );
-}
+import { PrimaryCTA } from "@/components/shared/primary-cta";
+export { PrimaryCTA };
 
 /* ── secondary link ── */
 
